@@ -70,6 +70,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  letter-spacing: 0 !important;
+  word-spacing: 0;
 }
 
 html {
@@ -108,7 +110,7 @@ h4,
 h5 {
   font-family: var(--font-display);
   font-weight: 800;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
   line-height: 1.05;
   margin: 0;
 }
