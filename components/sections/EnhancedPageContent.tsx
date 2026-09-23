@@ -410,6 +410,7 @@ export function hasPageEnhancement(slug: string) {
 export default function EnhancedPageContent({ slug }: { slug: string }) {
   const data = pageEnhancements[slug];
   if (!data) return null;
+  const productFamilies = data.productFamilies ?? [];
 
   return (
     <section className="bg-surface text-ink">
@@ -472,13 +473,13 @@ export default function EnhancedPageContent({ slug }: { slug: string }) {
           })}
         </div>
 
-        {data.productFamilies && (
+        {productFamilies.length > 0 && (
           <div className="mt-16">
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <div className="max-w-2xl">
                 <p className="eyebrow text-brand-deep">Product range</p>
                 <h3 className="mt-4 font-display text-3xl font-bold text-ink">
-                  Practical mesh options for real equipment
+                  Image-led product selection for real equipment
                 </h3>
               </div>
               <Link href="/contact" className="btn btn-outline-dark w-fit">
@@ -486,24 +487,81 @@ export default function EnhancedPageContent({ slug }: { slug: string }) {
               </Link>
             </div>
 
-            <div className="mt-8 grid gap-6 lg:grid-cols-3">
-              {data.productFamilies.map((product) => (
+            <div className="mt-8 grid overflow-hidden border border-ink-line bg-ink text-white lg:grid-cols-[1.15fr_0.85fr]">
+              <div className="relative min-h-[24rem] bg-ink-raised">
+                <Image
+                  src={productFamilies[0].image}
+                  alt={`${productFamilies[0].name} product visual`}
+                  fill
+                  sizes="(min-width: 1024px) 55vw, 100vw"
+                  className="object-cover opacity-90"
+                  priority={false}
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-ink via-transparent to-transparent" />
+                <div className="absolute bottom-0 left-0 max-w-xl p-7 lg:p-10">
+                  <p className="text-xs font-semibold uppercase text-brand">
+                    Featured product
+                  </p>
+                  <h4 className="mt-3 font-display text-3xl font-bold">
+                    {productFamilies[0].name}
+                  </h4>
+                  <p className="mt-3 text-sm leading-relaxed text-on-dark-muted">
+                    {productFamilies[0].description}
+                  </p>
+                </div>
+              </div>
+
+              <div className="grid content-between gap-8 p-7 lg:p-10">
+                <div>
+                  <p className="text-xs font-semibold uppercase text-brand">
+                    {productFamilies[0].tag}
+                  </p>
+                  <ul className="mt-6 grid gap-3">
+                    {productFamilies[0].points.map((point) => (
+                      <li
+                        key={point}
+                        className="flex items-center gap-3 border border-ink-line bg-ink-raised px-4 py-3 text-sm text-on-dark"
+                      >
+                        <span aria-hidden className="h-2 w-2 shrink-0 bg-brand" />
+                        {point}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="grid gap-px overflow-hidden border border-ink-line bg-ink-line sm:grid-cols-3 lg:grid-cols-1">
+                  {["Best for", "Mesh behavior", "Stack fit"].map((label, index) => (
+                    <div key={label} className="bg-ink-raised p-4">
+                      <p className="text-[0.6875rem] font-semibold uppercase text-on-dark-faint">
+                        {label}
+                      </p>
+                      <p className="mt-2 text-sm font-semibold text-white">
+                        {productFamilies[0].points[index] ?? "Customised"}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-6 grid gap-6 lg:grid-cols-2">
+              {productFamilies.slice(1).map((product) => (
                 <article
                   key={product.name}
-                  className="group overflow-hidden border border-hairline bg-white"
+                  className="group grid overflow-hidden border border-hairline bg-white sm:grid-cols-[0.8fr_1fr]"
                 >
-                  <div className="relative aspect-[4/3] overflow-hidden bg-surface-raised">
+                  <div className="relative min-h-64 overflow-hidden bg-ink">
                     <Image
                       src={product.image}
                       alt={`${product.name} for BVK Hydrotech precision mesh applications`}
                       fill
-                      sizes="(min-width: 1024px) 30vw, 100vw"
-                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                      sizes="(min-width: 1024px) 25vw, 100vw"
+                      className="object-contain p-6 transition-transform duration-700 group-hover:scale-105"
                     />
                   </div>
                   <div className="p-7">
                     <p className="text-xs font-semibold uppercase text-brand-deep">{product.tag}</p>
-                    <h4 className="mt-3 font-display text-xl font-bold text-ink">{product.name}</h4>
+                    <h4 className="mt-3 font-display text-2xl font-bold text-ink">{product.name}</h4>
                     <p className="mt-3 text-sm leading-relaxed text-grey">{product.description}</p>
                     <ul className="mt-6 space-y-2 border-t border-hairline pt-5">
                       {product.points.map((point) => (
