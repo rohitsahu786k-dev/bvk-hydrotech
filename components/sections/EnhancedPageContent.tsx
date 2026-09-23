@@ -1,4 +1,5 @@
 import type { ComponentType } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import {
   ArrowRight,
@@ -38,6 +39,13 @@ type Metric = { value: string; label: string };
 type Card = { title: string; body: string; icon?: IconName };
 type Spec = { label: string; value: string };
 type Resource = { label: string; href: string };
+type ProductFamily = {
+  name: string;
+  tag: string;
+  description: string;
+  image: string;
+  points: string[];
+};
 
 type Enhancement = {
   eyebrow: string;
@@ -50,6 +58,8 @@ type Enhancement = {
   process?: string[];
   applications?: string[];
   resources?: Resource[];
+  productFamilies?: ProductFamily[];
+  benefits?: string[];
 };
 
 const icons: Record<IconName, ComponentType<{ className?: string }>> = {
@@ -78,9 +88,9 @@ const resources = {
 const pageEnhancements: Record<string, Enhancement> = {
   about: {
     eyebrow: "Company",
-    title: "Six decades of precision mesh manufacturing from Jaipur",
+    title: "BVK Hydrotech makes precision mesh easy to specify and reliable to source",
     intro:
-      "BVK Hydrotech brings BVK Group's weaving heritage into hydrogen, fuel cell and industrial filtration programs where repeatability, traceability and engineering response matter as much as mesh geometry.",
+      "BVK Hydrotech is a BVK Group company from Jaipur, built on 60+ years of weaving and filtration experience. We manufacture woven mesh, knitted mesh and custom metal mesh components for green hydrogen, fuel cells, industrial filtration and clean-energy equipment.",
     metrics: [
       { value: "1963", label: "Group foundation" },
       { value: "25+", label: "Export countries" },
@@ -88,22 +98,22 @@ const pageEnhancements: Record<string, Enhancement> = {
       { value: "650+ MT", label: "Annual metal volume" },
     ],
     cards: [
-      { title: "German-origin equipment, Indian agility", body: "Integrated weaving and finishing capacity helps the team move from sample development to repeatable series supply.", icon: "factory" },
-      { title: "Engineering before quotation", body: "Application teams review chemistry, flow, porosity, pressure drop and tolerance targets before recommending a route.", icon: "workflow" },
-      { title: "Certified systems", body: "Quality, environmental, occupational health, safety and automotive management systems support global procurement programs.", icon: "shield" },
+      { title: "Experience customers can trust", body: "A 1963-founded group, German-origin equipment and export presence in 25+ countries give buyers confidence for long-term precision mesh sourcing.", icon: "factory" },
+      { title: "Guidance before quotation", body: "Our team reviews material, size, flow, porosity, corrosion and application needs before recommending woven or knitted mesh.", icon: "workflow" },
+      { title: "Certified manufacturing systems", body: "ISO 9001, ISO 14001, ISO 45001, IATF 16949 and other credentials support repeat orders and global quality expectations.", icon: "shield" },
     ],
     processTitle: "How buyers work with BVK",
     process: ["Share drawings, chemistry and duty conditions", "Receive material and mesh-structure guidance", "Prototype, validate and freeze the production route", "Scale with documented process controls"],
   },
   "precision-mesh-solutions": {
     eyebrow: "Solutions",
-    title: "Precision mesh specified around performance, not catalogue codes",
+    title: "Precision metal mesh for filtration, hydrogen and industrial components",
     intro:
-      "BVK combines woven and knitted structures with finishing, coating, forming and inspection routes so each mesh is tuned to flow, conductivity and mechanical constraints.",
+      "BVK Hydrotech supplies precision wire mesh in woven and knitted forms. Instead of pushing a catalogue item, we help you choose the right metal, mesh opening, density, finish and shape for your equipment.",
     cards: [
-      { title: "Woven precision", body: "Stable apertures, controlled porosity and repeatable geometry for filtration, electrodes, support layers and separation duties.", icon: "layers" },
-      { title: "Knitted flexibility", body: "Single, double and multi-end knitted mesh for elastic elements, gas diffusion layers and stack-conformable interfaces.", icon: "sliders" },
-      { title: "Application finishing", body: "Degreasing, annealing, coating, plating, corrugation, flattening and laser-cut shapes are selected around the assembly.", icon: "spark" },
+      { title: "Woven wire mesh", body: "Best when you need controlled openings, stable geometry and predictable flow for filtration, electrode support or separation.", icon: "layers" },
+      { title: "Knitted wire mesh", body: "Best when you need flexibility, high porosity and a mesh that can fit into stacks, pads, filters or shaped assemblies.", icon: "sliders" },
+      { title: "Ready-to-fit parts", body: "Mesh can be degreased, annealed, coated, plated, corrugated, flattened or laser cut for direct use in your product.", icon: "spark" },
     ],
     specs: [
       { label: "Material families", value: "Nickel, titanium, stainless steel, copper, aluminium, Hastelloy and specialty alloys" },
@@ -111,16 +121,40 @@ const pageEnhancements: Record<string, Enhancement> = {
       { label: "Route", value: "Weaving or knitting, treatment, forming, inspection and batch traceability" },
     ],
     applications: ["Electrolysers", "Fuel cells", "Industrial filtration", "Automotive", "Aerospace", "Chemical processing"],
+    productFamilies: [
+      {
+        name: "Stainless Steel Mesh",
+        tag: "Filtration and support",
+        description: "Durable stainless steel wire mesh for filtration, protection, separation and general industrial applications.",
+        image: "/bvk-assets/stainless-steel-mesh.jpg",
+        points: ["SS 304 / 316 options", "Good corrosion resistance", "Stable mesh opening"],
+      },
+      {
+        name: "Copper and Nickel Mesh",
+        tag: "Conductivity focused",
+        description: "Conductive metal mesh for applications where current collection, heat transfer or special chemistry matters.",
+        image: "/bvk-assets/copper-mesh.jpg",
+        points: ["High conductivity", "Nickel 201/202 options", "Useful for energy systems"],
+      },
+      {
+        name: "Knitted Mesh Rolls",
+        tag: "Flexible and porous",
+        description: "Knitted mesh rolls and shapes for gas diffusion, demister pads, elastic elements and stack-fit assemblies.",
+        image: "/bvk-assets/mesh-roll.jpg",
+        points: ["High porosity", "Custom density", "Cut and formed parts"],
+      },
+    ],
+    benefits: ["Easier vendor qualification", "Clear material recommendations", "Prototype-to-volume support", "SEO-ready product information for buyers searching precision mesh manufacturers in India"],
   },
   "woven-mesh-solutions": {
     eyebrow: "Woven Mesh",
-    title: "Controlled aperture and conductivity for electrochemical and filtration systems",
+    title: "Woven wire mesh with controlled openings and dependable flow",
     intro:
-      "Woven wire mesh is selected where stable geometry, pore-size control and predictable pressure drop are central to the component's function.",
+      "Woven mesh is ideal when your component needs a stable opening size, smooth flow and repeatable filtration performance. BVK supplies woven wire mesh for electrolysers, fuel cells, industrial filters and custom metal parts.",
     cards: [
-      { title: "Porosity control", body: "Weaving parameters are tuned to influence gas flow, retention and pressure drop across the component.", icon: "gauge" },
-      { title: "Conductive pathways", body: "Metal mesh structures support current collection, distribution and surface-area development in electrochemical stacks.", icon: "cpu" },
-      { title: "Advanced alloys", body: "Material options span stainless steels, nickel grades, copper, aluminium, titanium and high-performance nickel alloys.", icon: "beaker" },
+      { title: "Controlled filtration", body: "Mesh opening and wire size are selected to balance retention, flow rate and pressure drop.", icon: "gauge" },
+      { title: "Energy applications", body: "Metal mesh can support current collection, gas diffusion and electrode support in electrochemical stacks.", icon: "cpu" },
+      { title: "Wide material range", body: "Stainless steel, nickel, copper, aluminium, titanium and specialty alloys are available as per application need.", icon: "beaker" },
     ],
     specs: [
       { label: "Common stainless grades", value: "304, 304L, 316, 316L, 314, 904L" },
@@ -128,21 +162,44 @@ const pageEnhancements: Record<string, Enhancement> = {
       { label: "Support", value: "CFD, simulation assessment, cost evaluation and mesh design optimisation" },
     ],
     resources: [{ label: "Green Energy Brochure", href: resources.greenEnergy }],
+    productFamilies: [
+      {
+        name: "Stainless Steel Woven Mesh",
+        tag: "Industrial filtration",
+        description: "A strong choice for filtration, separation, dewatering and process protection where corrosion resistance matters.",
+        image: "/bvk-assets/stainless-steel-mesh.jpg",
+        points: ["SS 304 / 316 / 904L", "Stable aperture", "Repeatable rolls or parts"],
+      },
+      {
+        name: "Nickel Woven Mesh",
+        tag: "Electrolyser ready",
+        description: "Nickel mesh options for alkaline electrolyser components, catalyst support and conductive layers.",
+        image: "/bvk-assets/mesh-roll.jpg",
+        points: ["Ni 99.6 / Ni 99.2", "Good conductivity", "Energy-sector use"],
+      },
+      {
+        name: "Copper Mesh",
+        tag: "Conductive mesh",
+        description: "Copper mesh for applications requiring electrical conductivity, shielding or heat-transfer support.",
+        image: "/bvk-assets/copper-mesh.jpg",
+        points: ["Conductive surface", "Custom opening", "Cut-to-size options"],
+      },
+    ],
   },
   "knitted-mesh-solutions": {
     eyebrow: "Knitted Mesh",
-    title: "Stack-conformable knitted mesh for hydrogen applications",
+    title: "Knitted wire mesh for hydrogen stacks, filters and flexible assemblies",
     intro:
-      "Single, double and multi-end knitted mesh is engineered for high porosity, conductivity, permeability and mechanical conformability in demanding stack assemblies.",
+      "Knitted mesh is used where a flat woven mesh is not flexible enough. BVK manufactures single, double and multi-end knitted wire mesh with high porosity, good conductivity and custom density for hydrogen, filtration and industrial components.",
     metrics: [
       { value: "2.2 m", label: "Single-piece diameter capability" },
       { value: "0.05-0.30 mm", label: "Wire diameter range" },
       { value: "Ni / Ti / SS", label: "Hydrogen-ready materials" },
     ],
     cards: [
-      { title: "Voltra Lite", body: "Low-density single-wire construction for open GDLs and elastic elements.", icon: "layers" },
-      { title: "Voltra+", body: "Medium-density double-wire build for separators and balanced stack performance.", icon: "sliders" },
-      { title: "Voltra Max", body: "High-density construction for dense GDLs and electrode support applications.", icon: "gauge" },
+      { title: "Voltra Lite", body: "Low-density single-wire knitted mesh for open gas diffusion layers, elastic elements and lightweight assemblies.", icon: "layers" },
+      { title: "Voltra+", body: "Medium-density double-wire knitted mesh for separators and balanced stack performance.", icon: "sliders" },
+      { title: "Voltra Max", body: "High-density knitted mesh for dense GDL, electrode support and high-contact applications.", icon: "gauge" },
     ],
     specs: [
       { label: "Knit type", value: "Single, double and multi-end" },
@@ -154,16 +211,40 @@ const pageEnhancements: Record<string, Enhancement> = {
       { label: "Knitted Mesh Brochure", href: resources.knitted },
       { label: "Green Hydrogen Leaflet", href: resources.hydrogen },
     ],
+    productFamilies: [
+      {
+        name: "Voltra Lite",
+        tag: "Low density",
+        description: "Single-wire knitted mesh for open porosity, gas flow and elastic elements.",
+        image: "/bvk-assets/knitted-tube-1.jpg",
+        points: ["Open GDL", "Elastic elements", "Lightweight stack fit"],
+      },
+      {
+        name: "Voltra+",
+        tag: "Medium density",
+        description: "Double-wire knitted mesh for separators and balanced porosity, strength and conductivity.",
+        image: "/bvk-assets/mesh-roll.jpg",
+        points: ["Separator support", "Balanced flow", "Custom density"],
+      },
+      {
+        name: "Voltra Max",
+        tag: "High density",
+        description: "Dense knitted mesh for GDL and electrode support applications that need higher contact area.",
+        image: "/bvk-assets/fuel-cell-mesh.png",
+        points: ["Dense GDL", "Electrode support", "High surface area"],
+      },
+    ],
+    benefits: ["High porosity for reactant flow", "Good gas and liquid permeability", "Mechanical conformability for irregular shapes", "Custom wire diameter from 0.05 mm to 0.30 mm"],
   },
   "electrolyser-solutions": {
     eyebrow: "Electrolysers",
-    title: "Mesh for alkaline and PEM electrolyser stack performance",
+    title: "Electrolyser mesh for cleaner flow, better contact and easier stack integration",
     intro:
-      "BVK supports electrolyser builders with woven and knitted structures that manage reactant flow, conductivity, surface area and stack-fit requirements.",
+      "BVK supports alkaline and PEM electrolyser builders with woven mesh and knitted mesh components. The aim is simple: help gases move, support current collection, fit the stack and stay consistent from prototype to production.",
     cards: [
-      { title: "Catalyst support", body: "Mesh structures help support catalyst interaction, gas diffusion and current collection in the stack.", icon: "beaker" },
-      { title: "Bubble and flow control", body: "Porosity and geometry are tuned to improve flow distribution and release behavior.", icon: "gauge" },
-      { title: "Hydrogen-ready alloys", body: "Nickel 201/202, titanium, stainless steel and specialty alloys are selected per chemistry and duty.", icon: "shield" },
+      { title: "Flow and bubble control", body: "Porosity and mesh profile can be tuned to support gas movement and reduce unwanted flow restriction.", icon: "gauge" },
+      { title: "Conductive support", body: "Metal mesh helps with current collection, catalyst support and contact inside electrolyser stack assemblies.", icon: "beaker" },
+      { title: "Hydrogen-ready metals", body: "Nickel 201/202, titanium, stainless steel and specialty alloys are selected based on chemistry and duty.", icon: "shield" },
     ],
     specs: [
       { label: "Functions", value: "Porosity control, conductivity, surface-area coating and support layers" },
@@ -173,13 +254,13 @@ const pageEnhancements: Record<string, Enhancement> = {
   },
   "fuel-cell-solutions": {
     eyebrow: "Fuel Cells",
-    title: "Electrode-support mesh for transport, conductivity and durability",
+    title: "Fuel cell mesh for gas diffusion, current collection and durable support",
     intro:
-      "Fuel cell components need mass transport, electrical conductivity and resistance to deformation. BVK tunes mesh geometry and material selection around those trade-offs.",
+      "Fuel cell components need the right balance of gas movement, conductivity, pressure drop and mechanical strength. BVK helps select woven or knitted metal mesh for electrode support, GDL-related parts and custom stack components.",
     cards: [
-      { title: "Mass transport", body: "Open area and mesh profile can be tuned around gas diffusion and pressure-drop requirements.", icon: "workflow" },
-      { title: "Current collection", body: "Metallic pathways support distribution and conductivity in electrode-support applications.", icon: "cpu" },
-      { title: "Stack compatibility", body: "Designed for AFC, SOFC and PEM-related fuel cell component discussions.", icon: "badge" },
+      { title: "Gas diffusion support", body: "Open area and mesh density can be selected around gas diffusion and pressure-drop requirements.", icon: "workflow" },
+      { title: "Current collection", body: "Metallic pathways support electrical conductivity and current distribution in electrode-support applications.", icon: "cpu" },
+      { title: "Fuel-cell compatibility", body: "Material and geometry can be discussed for AFC, SOFC and PEM-related component requirements.", icon: "badge" },
     ],
     specs: [
       { label: "Mesh advantage", value: "High conductivity, current collection, improved gas diffusion, flexibility and porosity" },
@@ -188,22 +269,22 @@ const pageEnhancements: Record<string, Enhancement> = {
   },
   "engineering-manufacturing": {
     eyebrow: "Manufacturing",
-    title: "From material simulation to repeatable production control",
+    title: "Manufacturing built for repeat orders, not one-time samples",
     intro:
-      "BVK's manufacturing system links supply chain, digital process visibility, engineering, treatments, quality control and traceability into one production route.",
+      "BVK connects material sourcing, weaving or knitting, finishing, inspection and documentation into one controlled route. This helps customers move from sample approval to regular production with fewer surprises.",
     cards: [
-      { title: "Integrated process harmonisation", body: "Process reliability is built through customer collaboration, control plans and standardised production approvals.", icon: "workflow" },
-      { title: "Industry 4.0 controls", body: "MES, predictive analytics, machine monitoring and real-time transparency support consistent volume production.", icon: "cpu" },
-      { title: "100% traceability", body: "Inspection, process plans and batch-level records support critical industrial and clean-energy requirements.", icon: "shield" },
+      { title: "Controlled process route", body: "Control plans and production approvals help keep mesh quality stable after the first sample is approved.", icon: "workflow" },
+      { title: "Digital manufacturing visibility", body: "MES, machine monitoring and predictive analytics support consistent volume production.", icon: "cpu" },
+      { title: "Traceable quality", body: "Inspection, batch-level records and documented process plans support critical industrial and clean-energy requirements.", icon: "shield" },
     ],
     processTitle: "Manufacturing route",
     process: ["Material review and sourcing", "Weaving or knitting setup", "Treatment, forming or coating", "Inspection and documentation", "Packing and dispatch"],
   },
   "process-treatments": {
     eyebrow: "Treatments",
-    title: "Finishing routes that change how mesh behaves in assembly",
+    title: "Mesh treatments that make the part fit, form and perform better",
     intro:
-      "Treatment decisions affect hardness, softness, formability, cleanliness, corrosion resistance and integration. BVK selects the route around the duty condition.",
+      "The same mesh can behave very differently after treatment. BVK offers finishing and forming routes that improve cleanliness, softness, corrosion resistance, conductivity and integration inside the final assembly.",
     cards: [
       { title: "Annealing", body: "Micro-structure annealing alters physical properties for formability and application fit.", icon: "spark" },
       { title: "Coating and plating", body: "Pre- and post-coating processes can adjust surface behavior, conductivity, cleanliness and corrosion resistance.", icon: "beaker" },
@@ -216,9 +297,9 @@ const pageEnhancements: Record<string, Enhancement> = {
   },
   "rd-cfd-prototyping": {
     eyebrow: "R&D",
-    title: "Simulation-led mesh development before production commitment",
+    title: "R&D support to choose the right mesh before you scale",
     intro:
-      "BVK uses CFD, prototyping, material recommendations and testing to reduce trial cycles and help customers freeze an efficient mesh design earlier.",
+      "BVK uses prototyping, testing and CFD-led review to help customers compare mesh options before committing to production. This reduces trial-and-error and speeds up product development.",
     cards: [
       { title: "CFD and flow assessment", body: "Simulation helps assess how mesh structure affects flow dynamics and pressure behavior.", icon: "microscope" },
       { title: "Rapid prototyping", body: "Prototype samples support early validation of geometry, density, forming and finishing choices.", icon: "boxes" },
@@ -229,9 +310,9 @@ const pageEnhancements: Record<string, Enhancement> = {
   },
   "industries-applications": {
     eyebrow: "Applications",
-    title: "Precision mesh across clean energy and established industries",
+    title: "Precision mesh for clean energy and everyday industrial use",
     intro:
-      "The same manufacturing depth that serves automotive, aerospace and industrial filtration now supports clean energy applications that need controlled geometry and reliable supply.",
+      "BVK mesh is used in green hydrogen, fuel cells, automotive, aerospace, filtration, paper, food, chemical, mining, electronics and architecture. Each industry gets a mesh choice based on flow, strength, corrosion and fit.",
     cards: [
       { title: "Energy and clean tech", body: "Electrolysis, fuel cells, hydrogen purification and stack-interface applications.", icon: "leaf" },
       { title: "Mobility and aerospace", body: "Drive technology, hydraulic filtration, EGR, EMI shielding and lightweight protection use cases.", icon: "factory" },
@@ -241,9 +322,9 @@ const pageEnhancements: Record<string, Enhancement> = {
   },
   "industrial-filtration": {
     eyebrow: "Industrial Filtration",
-    title: "Mesh for separation, dewatering, protection and process reliability",
+    title: "Industrial filtration mesh for separation, dewatering and process protection",
     intro:
-      "BVK's long filtration experience supports customers in environments where retention, flow, cleanability and robust supply matter.",
+      "BVK supplies filtration mesh for plants and equipment where flow, retention, cleaning and repeat supply matter. Stainless steel mesh, nickel mesh and other alloys can be selected as per medium and operating condition.",
     cards: [
       { title: "Process fit", body: "Mesh geometry is matched to retention, pressure drop, flow rate and media compatibility.", icon: "gauge" },
       { title: "Material breadth", body: "Stainless, nickel, copper, aluminium and specialty alloys allow selection around corrosion and temperature.", icon: "beaker" },
@@ -253,9 +334,9 @@ const pageEnhancements: Record<string, Enhancement> = {
   },
   "energy-clean-tech": {
     eyebrow: "Clean Tech",
-    title: "Mesh components for electrolysis, fuel cells and sustainability-led programs",
+    title: "Clean-energy mesh components for electrolysis, fuel cells and hydrogen systems",
     intro:
-      "Clean-energy components demand tight collaboration between design, material science and manufacturing. BVK supports this with hydrogen-specific mesh capability and renewable-energy commitments.",
+      "Clean-energy equipment needs parts that are reliable, conductive, corrosion-aware and easy to scale. BVK supports electrolysis, fuel cells, hydrogen purification and balance-of-plant systems with application-led metal mesh solutions.",
     metrics: [
       { value: "50%+", label: "Energy needs powered through renewables" },
       { value: "100%", label: "Renewable self-reliance goal" },
@@ -270,7 +351,7 @@ const pageEnhancements: Record<string, Enhancement> = {
     eyebrow: "Sustainability",
     title: "Responsible manufacturing for customers building lower-carbon systems",
     intro:
-      "BVK's sustainability work combines renewable energy, reusable packaging, digital energy management and ESG-focused manufacturing improvements.",
+      "BVK combines renewable energy, reusable packaging, digital energy management and ESG-focused improvements. More than 50% of current energy needs are powered through renewable sources, with a goal of complete renewable self-reliance.",
     metrics: [
       { value: "50%+", label: "Current renewable-energy contribution" },
       { value: "2030", label: "ESG goal horizon" },
@@ -284,9 +365,9 @@ const pageEnhancements: Record<string, Enhancement> = {
   },
   resources: {
     eyebrow: "Resources",
-    title: "Brochures and technical documents for specification work",
+    title: "Brochures and documents for faster vendor review",
     intro:
-      "Use these approved PDFs as starting points for internal review, vendor qualification and early engineering discussions.",
+      "Use these approved brochures for internal review, vendor qualification, early engineering discussion and SEO-friendly learning around precision mesh, woven mesh, knitted mesh and green hydrogen components.",
     cards: [
       { title: "Green Energy Brochure", body: "Precision woven mesh solutions for electrolysers and fuel cells.", icon: "file" },
       { title: "Knitted Mesh Brochure", body: "Functional advantages, parameters and competitive edge for knitted mesh.", icon: "file" },
@@ -357,7 +438,11 @@ export default function EnhancedPageContent({ slug }: { slug: string }) {
           </div>
 
           {data.metrics && (
-            <dl className="grid gap-px overflow-hidden border border-hairline bg-hairline sm:grid-cols-2">
+            <dl
+              className={`grid gap-px overflow-hidden border border-hairline bg-hairline ${
+                data.metrics.length === 3 ? "sm:grid-cols-3" : "sm:grid-cols-2"
+              }`}
+            >
               {data.metrics.map((metric) => (
                 <div key={metric.label} className="bg-white p-7">
                   <dt className="text-sm font-medium leading-relaxed text-grey">{metric.label}</dt>
@@ -386,6 +471,64 @@ export default function EnhancedPageContent({ slug }: { slug: string }) {
             );
           })}
         </div>
+
+        {data.productFamilies && (
+          <div className="mt-16">
+            <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+              <div className="max-w-2xl">
+                <p className="eyebrow text-brand-deep">Product range</p>
+                <h3 className="mt-4 font-display text-3xl font-bold text-ink">
+                  Practical mesh options for real equipment
+                </h3>
+              </div>
+              <Link href="/contact" className="btn btn-outline-dark w-fit">
+                Discuss a custom part
+              </Link>
+            </div>
+
+            <div className="mt-8 grid gap-6 lg:grid-cols-3">
+              {data.productFamilies.map((product) => (
+                <article
+                  key={product.name}
+                  className="group overflow-hidden border border-hairline bg-white"
+                >
+                  <div className="relative aspect-[4/3] overflow-hidden bg-surface-raised">
+                    <Image
+                      src={product.image}
+                      alt={`${product.name} for BVK Hydrotech precision mesh applications`}
+                      fill
+                      sizes="(min-width: 1024px) 30vw, 100vw"
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-7">
+                    <p className="text-xs font-semibold uppercase text-brand-deep">{product.tag}</p>
+                    <h4 className="mt-3 font-display text-xl font-bold text-ink">{product.name}</h4>
+                    <p className="mt-3 text-sm leading-relaxed text-grey">{product.description}</p>
+                    <ul className="mt-6 space-y-2 border-t border-hairline pt-5">
+                      {product.points.map((point) => (
+                        <li key={point} className="flex gap-2 text-sm leading-snug text-grey">
+                          <span aria-hidden className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-brand-deep" />
+                          {point}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {data.benefits && (
+          <div className="mt-10 grid gap-px overflow-hidden border border-hairline bg-hairline md:grid-cols-4">
+            {data.benefits.map((benefit) => (
+              <div key={benefit} className="bg-surface-raised p-5 text-sm font-medium leading-relaxed text-ink">
+                {benefit}
+              </div>
+            ))}
+          </div>
+        )}
 
         {(data.specs || data.process || data.applications) && (
           <div className="mt-16 grid gap-10 lg:grid-cols-2 lg:gap-16">

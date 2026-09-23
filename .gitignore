@@ -30,6 +30,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
+# local browser-test artifacts
+/.playwright-cli/
+/output/
+
+# oversized source asset kept local; optimized JPG is committed
+/public/bvk-assets/knitted-tube-1.png
+
 # env files (can opt-in for committing if needed)
 .env*
 

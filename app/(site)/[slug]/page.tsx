@@ -30,6 +30,44 @@ const CERTIFIED_SLUGS = new Set([
   "resources",
 ]);
 
+const SEO_FALLBACKS: Record<string, { title: string; description: string }> = {
+  about: {
+    title: "About BVK Hydrotech | Precision Mesh Manufacturer in India",
+    description:
+      "BVK Hydrotech is a Jaipur-based precision woven and knitted wire mesh manufacturer for green hydrogen, fuel cells, industrial filtration and clean-energy applications.",
+  },
+  "precision-mesh-solutions": {
+    title: "Precision Wire Mesh Solutions | Woven and Knitted Metal Mesh",
+    description:
+      "Explore BVK Hydrotech precision wire mesh, woven mesh, knitted mesh, stainless steel mesh, nickel mesh and custom metal mesh parts for filtration and clean energy.",
+  },
+  "woven-mesh-solutions": {
+    title: "Woven Wire Mesh Manufacturer | Stainless Steel, Nickel and Copper Mesh",
+    description:
+      "Controlled-aperture woven wire mesh for industrial filtration, electrolysers, fuel cells, separation and custom metal mesh components.",
+  },
+  "knitted-mesh-solutions": {
+    title: "Knitted Wire Mesh for Hydrogen, Filters and Flexible Assemblies",
+    description:
+      "Single, double and multi-end knitted wire mesh for gas diffusion layers, electrolyser stacks, filters, elastic elements and custom formed mesh parts.",
+  },
+  "electrolyser-solutions": {
+    title: "Electrolyser Mesh for Green Hydrogen Stacks",
+    description:
+      "Woven and knitted electrolyser mesh for alkaline and PEM stacks, gas diffusion, current collection, catalyst support and hydrogen-ready components.",
+  },
+  "fuel-cell-solutions": {
+    title: "Fuel Cell Mesh for Gas Diffusion and Electrode Support",
+    description:
+      "Fuel cell metal mesh solutions for gas diffusion, current collection, electrode support and durable stack components.",
+  },
+  "industrial-filtration": {
+    title: "Industrial Filtration Mesh | Stainless Steel and Custom Wire Mesh",
+    description:
+      "Industrial filtration mesh for separation, dewatering, process protection, chemical processing, mining, paper, food and beverage applications.",
+  },
+};
+
 export async function generateStaticParams() {
   const slugs = await getPageSlugs();
   return slugs.map(({ slug }) => ({ slug }));
@@ -41,12 +79,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!page) return {};
 
   return {
-    title: page.title,
-    description: page.seo.description || page.hero.subtitle || undefined,
+    title: page.seo.title || SEO_FALLBACKS[page.slug]?.title || page.title,
+    description: page.seo.description || SEO_FALLBACKS[page.slug]?.description || page.hero.subtitle || undefined,
     alternates: { canonical: `/${page.slug}` },
     openGraph: {
-      title: page.title,
-      description: page.seo.description || page.hero.subtitle || undefined,
+      title: page.seo.title || SEO_FALLBACKS[page.slug]?.title || page.title,
+      description: page.seo.description || SEO_FALLBACKS[page.slug]?.description || page.hero.subtitle || undefined,
       images: page.hero.image?.sourceUrl ? [page.hero.image.sourceUrl] : undefined,
     },
   };

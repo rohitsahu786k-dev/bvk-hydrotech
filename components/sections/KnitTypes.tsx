@@ -14,6 +14,8 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
 
   const featured = products.slice(0, 3);
   const rest = products.slice(3);
+  const productHref = (slug: string) =>
+    slug.includes("woven") ? "/woven-mesh-solutions" : "/knitted-mesh-solutions";
 
   return (
     <section className="section bg-surface-raised">
@@ -21,14 +23,14 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
         <SectionHeading
           tone="light"
           eyebrow="Technology"
-          title="Three knit types, engineered for the hydrogen stack"
-          description="Wires per needle set gas-diffusion-layer density and conductivity. Needle gauge and stitch length set pore size and stack-cell fit. Every parameter is specified per application."
+          title="Mesh products made for easy specification"
+          description="Choose from woven mesh, knitted mesh and custom formed parts for filtration, hydrogen stacks, fuel cells and industrial equipment. BVK helps match material, density and finish to your application."
         />
 
         <ul className="mt-14 grid gap-6 lg:grid-cols-3">
           {featured.map((product) => (
             <li key={product.slug}>
-              <Link href={`/products/${product.slug}`} className="card-light group flex h-full flex-col overflow-hidden">
+              <Link href={productHref(product.slug)} className="card-light group flex h-full flex-col overflow-hidden">
                 {product.image?.sourceUrl && (
                   <div className="relative aspect-16/10 w-full overflow-hidden bg-surface-raised">
                     <Image
@@ -72,7 +74,7 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
                   </dl>
 
                   <span className="mt-auto flex items-center gap-2 pt-7 text-[0.8125rem] font-semibold text-brand-deep">
-                    Specification
+                    View product range
                     <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </span>
                 </div>
@@ -86,7 +88,7 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
             {rest.map((product) => (
               <li key={product.slug}>
                 <Link
-                  href={`/products/${product.slug}`}
+                  href={productHref(product.slug)}
                   className="card-light group flex h-full items-start gap-6 p-7"
                 >
                   <div className="flex-1">
