@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap");
+@import "tailwindcss";
+
+/* =============================================================================
+   BVK HYDROTECH — DESIGN TOKENS
+
+   Two sources, deliberately combined:
+
+   - Structure, scale and mood come from the approved reference layout: a
+     full-bleed cinematic hero, an oversized two-tone display headline, near
+     square corners, generous negative space.
+   - Colour comes from "BVK Hydrotech — Brand Guidelines" (2026-09-18). Brand
+     green #1DB053 is sampled from the HYDROTECH wordmark. The guidelines are
+     explicit that it fails the 3:1 contrast floor as text or as a solid fill
+     under light text, so anything interactive uses green-deep #147B3A instead
+     and plain green is reserved for marks, rules and large decorative fills.
+
+   Tailwind v4 reads its theme from this block; tailwind.config.ts is not used.
+   ============================================================================= */
+
+@theme {
+  /* Ink — the dark ground the hero and dark sections sit on. */
+  --color-ink: #0b0d0c;
+  --color-ink-raised: #121614;
+  --color-ink-panel: #1a201d;
+  --color-ink-line: #2a312e;
+
+  /* Brand, straight from the wordmark. */
+  --color-brand: #1db053;
+  --color-brand-deep: #147b3a;
+  --color-brand-dim: #0f5c2b;
+  --color-brand-wash: #e8f7ee;
+
+  /* Neutrals. Brand grey is the wordmark's "A BVK Group Company" grey. */
+  --color-grey: #58585a;
+  --color-grey-mid: #757577;
+  --color-grey-soft: #8e8e91;
+
+  /* Light surfaces, per the guidelines' surface / surface-raised tokens. */
+  --color-surface: #ffffff;
+  --color-surface-raised: #f5f5f6;
+  --color-hairline: #e4e4e5;
+
+  /* Text on dark. */
+  --color-on-dark: #f7f8f7;
+  --color-on-dark-muted: #9aa3a0;
+  --color-on-dark-faint: #6b7470;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Outfit", "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Near-square corners, matching the reference. The guidelines' 4/8/16 radius
+     scale is kept for inputs and large panels. */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  --spacing-section: 6rem;
+  --spacing-section-lg: 8.5rem;
+
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* =============================================================================
+   BASE
+   ============================================================================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-ink);
+  color: var(--color-on-dark);
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background-color: color-mix(in srgb, var(--color-brand) 35%, transparent);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand-deep);
+  outline-offset: 3px;
+  border-radius: var(--radius-xs);
+}
+
+/* On the dark ground the deep green is too low-contrast for a focus ring,
+   so the brighter green is used there — it is a ring, not text. */
+.on-ink :focus-visible,
+.on-ink:focus-visible {
+  outline-color: var(--color-brand);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink-raised);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ink-line);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-grey);
+}
+
+/* =============================================================================
+   LAYOUT + COMPONENTS
+   ============================================================================= */
+
+@layer components {
+  /* Every band on the site — header, footer and every body section — is
+     centred on this one container: a flat 90% of the viewport with no
+     horizontal padding, so content lines up edge to edge across the page.
+     Below 768px it goes full width with a 10px gutter instead. */
+  .shell {
+    width: 90%;
+    max-width: none;
+    margin-inline: auto;
+    padding-inline: 0;
+  }
+
+  @media (max-width: 767px) {
+    .shell {
+      width: 100%;
+      padding-inline: 10px;
+    }
+  }
+
+  .section {
+    padding-block: 5rem;
+  }
+
+  @media (min-width: 1024px) {
+    .section {
+      padding-block: var(--spacing-section);
+    }
+  }
+
+  /* Small uppercase label above a section heading. */
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  .eyebrow::before {
+    content: "";
+    width: 2rem;
+    height: 1px;
+    background: currentColor;
+    opacity: 0.6;
+  }
+
+  /* Display scale. Hero runs larger than the guidelines' 56px Display step
+     because the reference hero is a full-bleed cinematic panel. */
+  .display-hero {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: clamp(1.75rem, 3.4vw, 3rem);
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+  }
+
+  .display-section {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(2rem, 3.8vw, 3.25rem);
+    line-height: 1.04;
+    letter-spacing: -0.03em;
+  }
+
+  /* Buttons — square-ish, per the reference. */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+    border: 1px solid transparent;
+    border-radius: var(--radius-xs);
+    padding: 0.9375rem 1.75rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    cursor: pointer;
+    transition:
+      background-color 220ms var(--ease-out-soft),
+      border-color 220ms var(--ease-out-soft),
+      color 220ms var(--ease-out-soft),
+      transform 220ms var(--ease-out-soft);
+  }
+
+  .btn:hover {
+    transform: translateY(-1px);
+  }
+
+  .btn-solid {
+    background: var(--color-surface);
+    color: var(--color-ink);
+  }
+  .btn-solid:hover {
+    background: var(--color-brand);
+    color: #fff;
+  }
+
+  .btn-green {
+    background: var(--color-brand-deep);
+    color: #fff;
+  }
+  .btn-green:hover {
+    background: var(--color-brand);
+  }
+
+  .btn-outline-light {
+    border-color: color-mix(in srgb, #fff 28%, transparent);
+    color: #fff;
+  }
+  .btn-outline-light:hover {
+    border-color: var(--color-brand);
+    background: color-mix(in srgb, var(--color-brand) 14%, transparent);
+  }
+
+  .btn-outline-dark {
+    border-color: var(--color-hairline);
+    color: var(--color-ink);
+  }
+  .btn-outline-dark:hover {
+    border-color: var(--color-brand-deep);
+    color: var(--color-brand-deep);
+  }
+
+  /* Cards */
+  .card-dark {
+    position: relative;
+    background: var(--color-ink-raised);
+    border: 1px solid var(--color-ink-line);
+    border-radius: var(--radius-xs);
+    transition:
+      border-color 260ms var(--ease-out-soft),
+      background-color 260ms var(--ease-out-soft),
+      transform 260ms var(--ease-out-soft);
+  }
+
+  .card-dark:hover {
+    border-color: color-mix(in srgb, var(--color-brand) 55%, transparent);
+    background: var(--color-ink-panel);
+    transform: translateY(-3px);
+  }
+
+  .card-light {
+    background: var(--color-surface);
+    border: 1px solid var(--color-hairline);
+    border-radius: var(--radius-xs);
+    transition:
+      border-color 260ms var(--ease-out-soft),
+      box-shadow 260ms var(--ease-out-soft),
+      transform 260ms var(--ease-out-soft);
+  }
+
+  .card-light:hover {
+    border-color: color-mix(in srgb, var(--color-brand-deep) 45%, transparent);
+    box-shadow: 0 18px 40px -24px rgb(0 0 0 / 0.35);
+    transform: translateY(-3px);
+  }
+
+  .rule-green {
+    width: 3rem;
+    height: 3px;
+    background: var(--color-brand);
+  }
+
+  .field {
+    width: 100%;
+    border: 1px solid var(--color-hairline);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface);
+    padding: 0.8125rem 1rem;
+    color: var(--color-ink);
+    font-size: 0.9375rem;
+    transition: border-color 180ms var(--ease-out-soft), box-shadow 180ms var(--ease-out-soft);
+  }
+
+  .field::placeholder {
+    color: var(--color-grey-soft);
+  }
+
+  .field:focus {
+    outline: none;
+    border-color: var(--color-brand-deep);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-brand-deep) 18%, transparent);
+  }
+
+  .field-label {
+    display: block;
+    margin-bottom: 0.4375rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--color-grey);
+  }
+}
+
+/* =============================================================================
+   WORDPRESS CONTENT
+   ============================================================================= */
+
+.wp-content {
+  color: var(--color-grey);
+  line-height: 1.75;
+}
+
+.wp-content > * + * {
+  margin-top: 1.125rem;
+}
+
+.wp-content h2,
+.wp-content h3,
+.wp-content h4 {
+  color: var(--color-ink);
+  margin-top: 2.5rem;
+}
+
+.wp-content strong {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+.wp-content a {
+  color: var(--color-brand-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.wp-content ul,
+.wp-content ol {
+  padding-left: 1.25rem;
+}
+
+.wp-content li + li {
+  margin-top: 0.5rem;
+}
+
+.wp-content img {
+  border-radius: var(--radius-xs);
+}
+
+.wp-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.wp-content th {
+  background: var(--color-surface-raised);
+  border: 1px solid var(--color-hairline);
+  padding: 0.75rem;
+  text-align: left;
+  color: var(--color-ink);
+  font-weight: 600;
+}
+
+.wp-content td {
+  border: 1px solid var(--color-hairline);
+  padding: 0.75rem;
+}
+
+.wp-content blockquote {
+  border-left: 3px solid var(--color-brand);
+  padding-left: 1.25rem;
+  font-style: italic;
+}
+
+.wp-content .policy-content {
+  max-width: 58rem;
+  margin-inline: auto;
+  border: 1px solid var(--color-hairline);
+  background: var(--color-surface);
+  padding: clamp(1.5rem, 4vw, 3.5rem);
+}
+
+.wp-content .policy-content h2 {
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--color-hairline);
+  font-size: clamp(1.25rem, 2vw, 1.75rem);
+}
+
+.wp-content .policy-content .policy-bullet {
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.wp-content .policy-content .policy-bullet::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.75em;
+  width: 0.35rem;
+  height: 0.35rem;
+  background: var(--color-brand-deep);
+}
+
+/* =============================================================================
+   MOTION
+   ============================================================================= */
+
+@keyframes bvk-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bvk-ken-burns {
+  from {
+    transform: scale(1.06);
+  }
+  to {
+    transform: scale(1.14);
+  }
+}
+
+@keyframes bvk-scroll-cue {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateY(7px);
+    opacity: 1;
+  }
+}
