@@ -5,6 +5,10 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
 import type { MenuLink } from "@/lib/wordpress/home";
+import { contentSlugs } from "@/content";
+
+/** Pages built on the light SolutionPage template need a light header at rest. */
+const LIGHT_ROUTES = new Set(contentSlugs.map((slug) => `/${slug}`));
 
 const LOGO_WHITE = `${process.env.NEXT_PUBLIC_WORDPRESS_URL ?? ""}/wp-content/uploads/BVK-Hydrotech-White-Logo.png`;
 const LOGO_COLOR = "/bvk-assets/bvk-hydrotech-logo-line.png";
@@ -29,7 +33,7 @@ export default function Header({ menu }: { menu: MenuLink[] }) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
-  const lightTop = pathname === "/electrolyser-solutions" && !scrolled && !open;
+  const lightTop = LIGHT_ROUTES.has(pathname) && !scrolled && !open;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);

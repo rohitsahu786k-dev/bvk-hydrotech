@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { getChrome } from "@/lib/wordpress/home";
+import { JsonLd, organisationSchema, websiteSchema } from "@/lib/seo/jsonLd";
 
 const siteName = process.env.NEXT_PUBLIC_SITE_NAME || "BVK Hydrotech";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bvkhydrotech.com";
@@ -85,6 +86,19 @@ export default async function RootLayout({
         )}
       </head>
       <body className="bg-ink font-sans antialiased">
+        {/* Identity and site graph, declared once for every route. */}
+        <JsonLd
+          data={[
+            organisationSchema({
+              email: settings.email,
+              phone: settings.phone,
+              linkedin: settings.linkedin,
+              tagline: settings.tagline,
+            }),
+            websiteSchema(),
+          ]}
+        />
+
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:bg-surface focus:px-4 focus:py-2 focus:text-ink"

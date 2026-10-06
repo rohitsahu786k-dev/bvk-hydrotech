@@ -40,6 +40,14 @@ const fallbackResources: MenuLink[] = [
   { label: "Contact / Request a Quote", url: "/contact" },
 ];
 
+/** Used when the CMS legal menu is empty, so these never disappear. */
+const fallbackLegal: MenuLink[] = [
+  { label: "Privacy Policy", url: "/privacy-policy" },
+  { label: "Terms & Conditions", url: "/terms-and-conditions" },
+  { label: "Cookie Policy", url: "/cookie-policy" },
+  { label: "Disclaimer", url: "/disclaimer" },
+];
+
 const productFamilies = [
   "Stainless Steel Mesh",
   "Nickel 201 / 202 Mesh",
@@ -260,9 +268,9 @@ export default function Footer({ menus, settings }: FooterProps) {
             )}
           </div>
 
-          {menus.legal.length > 0 && (
+          {(menus.legal.length > 0 ? menus.legal : fallbackLegal).length > 0 && (
             <ul className="flex flex-wrap gap-x-6 gap-y-2 text-xs text-on-dark-faint">
-              {menus.legal.map((link) => (
+              {(menus.legal.length > 0 ? menus.legal : fallbackLegal).map((link) => (
                 <li key={link.url}>
                   <Link href={link.url} className="transition-colors hover:text-on-dark-muted">
                     {link.label}

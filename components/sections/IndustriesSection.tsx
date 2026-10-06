@@ -10,6 +10,30 @@ import SectionHeading from "./SectionHeading";
 const PIXELS_PER_SECOND = 45;
 
 /**
+ * There is no per-industry route. Each card goes to the page that actually
+ * covers that sector, so the carousel sends buyers somewhere real rather than
+ * to a /industries/<slug> URL that was never built.
+ */
+const INDUSTRY_ROUTES: Record<string, string> = {
+  energy: "/energy-clean-tech",
+  "energy-hydrogen": "/energy-clean-tech",
+  hydrogen: "/energy-clean-tech",
+  automotive: "/industries-applications",
+  aerospace: "/industries-applications",
+  electronics: "/industries-applications",
+  architecture: "/industries-applications",
+  chemical: "/industrial-filtration",
+  mining: "/industrial-filtration",
+  "pulp-paper": "/industrial-filtration",
+  "food-beverage": "/industrial-filtration",
+  "plastic-polymer": "/industrial-filtration",
+};
+
+function industryHref(slug: string) {
+  return INDUSTRY_ROUTES[slug] ?? "/industries-applications";
+}
+
+/**
  * Applications, the PO's term for where the mesh ends up. A continuously
  * auto-scrolling row reads better than a static grid once there are ten of
  * them.
@@ -110,7 +134,7 @@ export default function IndustriesSection({ industries }: { industries: Industry
           {track.map((industry, i) => (
             <li key={`${industry.slug}-${i}`} className="w-64 shrink-0 sm:w-72">
               <Link
-                href={`/industries/${industry.slug}`}
+                href={industryHref(industry.slug)}
                 className="group relative block aspect-square overflow-hidden border border-ink-line"
                 tabIndex={i < industries.length ? 0 : -1}
                 aria-hidden={i >= industries.length}

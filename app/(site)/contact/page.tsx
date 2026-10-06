@@ -5,14 +5,30 @@ import FaqAccordion from "@/components/sections/FaqAccordion";
 import PageHero from "@/components/sections/PageHero";
 import { getChrome } from "@/lib/wordpress/home";
 import { getPageFaqs } from "@/lib/wordpress/pages";
+import { JsonLd, breadcrumbSchema, faqSchema, organisationId } from "@/lib/seo/jsonLd";
 
 export const revalidate = 900;
 
 export const metadata: Metadata = {
-  title: "Contact & Technical RFQ",
+  title: { absolute: "Contact BVK Hydrotech | Wire Mesh RFQ India" },
   description:
-    "Send drawings, cell chemistry and target porosity to BVK Hydrotech. Our application engineers respond with a material recommendation, a mesh design proposal and an indicative lead time.",
+    "Send drawings, cell chemistry and target porosity. BVK Hydrotech engineers reply with a material recommendation, mesh design and indicative lead time.",
+  keywords: [
+    "wire mesh RFQ India",
+    "contact BVK Hydrotech",
+    "precision mesh quotation",
+    "knitted mesh enquiry",
+    "electrolyser mesh supplier contact",
+    "Jaipur wire mesh manufacturer",
+  ],
   alternates: { canonical: "/contact" },
+  openGraph: {
+    type: "website",
+    title: "Contact BVK Hydrotech | Wire Mesh RFQ India",
+    description:
+      "Send drawings, cell chemistry and target porosity. Our application engineers reply with a material recommendation, mesh design and indicative lead time.",
+    url: "/contact",
+  },
 };
 
 export default async function ContactPage() {
@@ -21,8 +37,24 @@ export default async function ContactPage() {
   // Site Settings so they are maintained in one place.
   const [{ settings }, faqs] = await Promise.all([getChrome(), getPageFaqs("contact")]);
 
+  const schemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      name: "Contact BVK Hydrotech",
+      description:
+        "Technical enquiry and request-for-quotation contact for BVK Hydrotech precision mesh.",
+      url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://bvkhydrotech.com"}/contact`,
+      mainEntity: { "@id": organisationId },
+    },
+    breadcrumbSchema("Contact", "contact"),
+    faqSchema(faqs),
+  ].filter(Boolean) as Record<string, unknown>[];
+
   return (
     <>
+      <JsonLd data={schemas} />
+
       <PageHero
         title="Contact & RFQ"
         hero={{

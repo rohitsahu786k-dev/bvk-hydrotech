@@ -11,6 +11,7 @@ import SustainabilitySection from "@/components/sections/SustainabilitySection";
 import ResourcesSection from "@/components/sections/ResourcesSection";
 import FaqAccordion from "@/components/sections/FaqAccordion";
 import CtaSection from "@/components/sections/CtaSection";
+import { JsonLd, faqSchema } from "@/lib/seo/jsonLd";
 
 export const revalidate = 300;
 
@@ -24,59 +25,14 @@ export const metadata: Metadata = {
 export default async function HomePage() {
   const data = await getHomeData();
 
-  // Question-led content marked up for answer engines, built from the same
+  // Organization and WebSite are declared once in the root layout. The home
+  // page adds the question-led markup answer engines read, built from the same
   // FAQ records the accordion renders.
-  const faqSchema =
-    data.faqs.length > 0
-      ? {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: data.faqs.map((faq) => ({
-            "@type": "Question",
-            name: faq.question,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: faq.answer.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(),
-            },
-          })),
-        }
-      : null;
-
-  const orgSchema = {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    name: "BVK Hydrotech India Pvt. Ltd.",
-    alternateName: "BVK Hydrotech",
-    url: process.env.NEXT_PUBLIC_SITE_URL,
-    foundingDate: "1963",
-    parentOrganization: { "@type": "Organization", name: "BVK Group" },
-    slogan: data.settings.tagline ?? undefined,
-    email: data.settings.email ?? undefined,
-    telephone: data.settings.phone ?? undefined,
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "52-B (part), Industrial Area, Jhotwara",
-      addressLocality: "Jaipur",
-      postalCode: "302012",
-      addressRegion: "Rajasthan",
-      addressCountry: "IN",
-    },
-    sameAs: [data.settings.linkedin].filter(Boolean),
-    hasCredential: data.certifications.map((c) => c.standard ?? c.title),
-  };
+  const schema = faqSchema(data.faqs);
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
-      />
-      {faqSchema && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-        />
-      )}
+      {schema && <JsonLd data={schema} />}
 
       <HeroCarousel slides={data.slides} />
       <StatsBand stats={data.stats} />

@@ -33,8 +33,8 @@
 .benefits { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid #edf1f5; border-radius: 8px; padding: 16px 8px !important; margin-top: 10px; margin-bottom: 12px; }
 .benefits > div { border-right: 1px solid #edf1f5; border-radius: 0; padding: 10px 16px; }
 .benefits > div:last-child { border: 0; }
-.benefits h2 { font-size: 13px; line-height: 1.3; }
-.benefits p { font-size: 10px; color: #748091; }
+.benefits p:first-child { font-size: 13px; line-height: 1.3; }
+.benefits p + p { font-size: 10px; color: #748091; }
 .page .components { padding-bottom: 24px; }
 .components > div > div:first-child { max-width: 880px; }
 .diagram { margin-top: 45px; }
@@ -72,8 +72,15 @@
 .strength p { font-size: 12px; line-height: 1.5; }
 .tiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 20px; color: white; }
 .tiles > a { border-radius: 0; min-height: 0; aspect-ratio: 1.65; }
-.tiles h2 { font-size: 21px; max-width: 65%; }
+.tiles h3 { font-size: 21px; max-width: 65%; }
 .tiles :global(.h-10) { width: 30px; height: 30px; }
+.specWrap { margin-top: 38px; overflow-x: auto; border: 1px solid #e3ecf4; border-radius: 8px; }
+.specTable { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 620px; }
+.specTable th, .specTable td { text-align: left; padding: 14px 20px; border-bottom: 1px solid #edf3f8; vertical-align: top; }
+.specTable thead th { background: #f4f9fd; color: #3d5165; font-size: 11px; font-weight: 700; text-transform: uppercase; }
+.specTable tbody th { font-weight: 700; color: #102139; width: 30%; }
+.specTable tbody td { color: #526174; line-height: 1.55; }
+.specTable tbody tr:last-child th, .specTable tbody tr:last-child td { border-bottom: 0; }
 .cta { padding: 25px 18px 35px; }
 .cta > div { width: min(1300px,100%) !important; border-radius: 8px; }
 .cta h2 { font-size: 36px; }
@@ -101,18 +108,20 @@
   .page h1 { font-size: 46px; } .heroLayout p:not(:global(.uppercase)) { font-size: 15px; }
   .heroFeatures { gap: 13px; margin-top: 22px; } .heroFeatures > div { flex-direction: row; } .heroFeatures span { font-size: 9px; } .heroFeatures svg { width: 18px; }
   .heroLayout a { font-size: 11px; padding: 12px 14px; gap: 7px; }
-  .benefits { grid-template-columns: 1fr 1fr; gap: 22px 10px; padding: 18px 10px !important; margin-top: 0; } .benefits > div { padding: 0; border: 0; } .benefits h2 { font-size: 11px; } .benefits p { font-size: 9px; }
+  .benefits { grid-template-columns: 1fr 1fr; gap: 22px 10px; padding: 18px 10px !important; margin-top: 0; } .benefits > div { padding: 0; border: 0; } .benefits p:first-child { font-size: 11px; } .benefits p + p { font-size: 9px; }
   .page h2 { font-size: 29px; } .page :global(.lg\:grid-cols-\[0\.9fr_1\.1fr\]) { grid-template-columns: 1fr; gap: 26px; }
   .page :global(.text-base) { font-size: 14px; } .page :global(.uppercase) { font-size: 10px; }
   .page :global(.min-h-\[24rem\]), .page :global(.min-h-\[25rem\]) { min-height: 290px; }
-  .page .benefits h2 { font-size: 11px; }
+  .page .benefits p:first-child { font-size: 11px; }
   .diagram { margin-top: 25px; display: flex; flex-direction: column; } .diagram > img { order: -1; margin: 0 0 25px; }
   .callouts { gap: 20px; grid-template-columns: 1fr; padding: 0 8px; } .callouts > div { max-width: none; } .callouts > div::after { display: none; } .callouts:last-child { padding: 0 8px; margin-top: 20px; }
   .page :global(.md\:grid-cols-5) { grid-template-columns: 1fr 1fr; gap: 30px 20px; } .page :global(.md\:grid-cols-5) > div:last-child { grid-column: 1 / -1; }
+  .page :global(.md\:grid-cols-4) { grid-template-columns: 1fr 1fr; gap: 30px 20px; }
+  .specTable th, .specTable td { padding: 12px 14px; } .specTable { font-size: 12px; }
   .page section:has(> img) { padding-block: 35px; } .page section:has(> img) :global(.shell) { grid-template-columns: 1fr; gap: 25px; } .page section:has(> img) h2 { font-size: 32px; }
   .applicationGrid { gap: 12px; } .applicationGrid :global(.h-36) { height: 135px; }
   .strengths { gap: 25px 15px; } .strength { display: block; } .strength h3 { margin-top: 12px; }
-  .tiles { grid-template-columns: 1fr; gap: 6px; margin-top: 15px; } .tiles > a { aspect-ratio: 2; } .tiles h2 { font-size: 20px; }
+  .tiles { grid-template-columns: 1fr; gap: 6px; margin-top: 15px; } .tiles > a { aspect-ratio: 2; } .tiles h3 { font-size: 20px; }
   .cta { padding: 20px 12px; } .cta > div { width: 100% !important; } .cta :global(.p-8) { padding: 30px 20px; } .cta h2 { font-size: 27px; }
   .cta :global(.lg\:grid-cols-\[0\.85fr_1\.15fr\]) { grid-template-columns: 1fr; }
   .cta :global(.opacity-45) { opacity: .2; }
@@ -123,4 +132,5 @@
   .heroFeatures { flex-direction: column; align-items: flex-start; gap: 10px; }
   .applicationGrid { grid-template-columns: 1fr; }
   .page :global(.md\:grid-cols-5) { grid-template-columns: 1fr; }
+  .page :global(.md\:grid-cols-4) { grid-template-columns: 1fr; }
 }
