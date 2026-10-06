@@ -4,11 +4,12 @@ import { notFound } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 import PageHero from "@/components/sections/PageHero";
 import SolutionPage from "@/components/templates/SolutionPage";
+import CorporatePage from "@/components/templates/CorporatePage";
 import FaqAccordion from "@/components/sections/FaqAccordion";
 import CertificationsStrip from "@/components/sections/CertificationsStrip";
 import { getPageFaqs, getPageSlugs, getSitePage } from "@/lib/wordpress/pages";
 import { getCertifications } from "@/lib/wordpress/home";
-import { contentSlugs, getPageContent } from "@/content";
+import { contentSlugs, getPageContent, isSolutionPage } from "@/content";
 import { canonicalOverrides, noindexSlugs, pageSeo } from "@/content/seo";
 import {
   JsonLd,
@@ -107,7 +108,11 @@ export default async function SitePage({ params }: PageProps) {
       {schemas.length > 0 && <JsonLd data={schemas} />}
 
       {content ? (
-        <SolutionPage content={content} />
+        isSolutionPage(slug) ? (
+          <SolutionPage content={content} />
+        ) : (
+          <CorporatePage content={content} />
+        )
       ) : (
         <>
           <PageHero hero={page!.hero} title={page!.title} />

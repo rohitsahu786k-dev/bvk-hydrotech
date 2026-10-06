@@ -5,10 +5,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
 import type { MenuLink } from "@/lib/wordpress/home";
-import { contentSlugs } from "@/content";
+import { solutionSlugs } from "@/content";
 
-/** Pages built on the light SolutionPage template need a light header at rest. */
-const LIGHT_ROUTES = new Set(contentSlugs.map((slug) => `/${slug}`));
+/**
+ * Solution pages open on a white hero, so the header inverts to light at rest.
+ * Corporate pages open on a dark hero and keep the default dark header.
+ */
+const LIGHT_ROUTES = new Set(solutionSlugs.map((slug) => `/${slug}`));
 
 const LOGO_WHITE = `${process.env.NEXT_PUBLIC_WORDPRESS_URL ?? ""}/wp-content/uploads/BVK-Hydrotech-White-Logo.png`;
 const LOGO_COLOR = "/bvk-assets/bvk-hydrotech-logo-line.png";

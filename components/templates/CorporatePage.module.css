@@ -1,0 +1,671 @@
+/* Company, capability and knowledge pages.
+
+   Built on the ink/green tokens in globals.css rather than the blue print
+   system used by SolutionPage: square corners, hairline rules, flat surfaces,
+   numerals instead of diagrams, and a vertical process spine. */
+
+.page {
+  background: var(--color-surface);
+  color: var(--color-ink);
+}
+
+/* ---------- HERO ---------- */
+
+.hero {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 34rem;
+  padding-block: 7.5rem 4rem;
+  background: var(--color-ink);
+  overflow: hidden;
+}
+
+.hero :global(img) {
+  opacity: 0.42;
+}
+
+.heroScrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, var(--color-ink) 2%, rgb(11 13 12 / 0.55) 55%, rgb(11 13 12 / 0.75)),
+    linear-gradient(to right, rgb(11 13 12 / 0.85), transparent 70%);
+}
+
+.heroInner {
+  position: relative;
+  z-index: 1;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 0.75rem;
+  color: var(--color-on-dark-faint);
+}
+
+.breadcrumb a:hover {
+  color: var(--color-brand);
+}
+
+.heroTitle {
+  margin-top: 1.25rem;
+  max-width: 18ch;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2.5rem, 5.4vw, 4.75rem);
+  line-height: 1.02;
+  letter-spacing: -0.03em;
+  color: #fff;
+  text-wrap: balance;
+}
+
+.heroSubtitle {
+  margin-top: 1.5rem;
+  max-width: 54ch;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  color: var(--color-on-dark-muted);
+}
+
+/* ---------- FACT ROW ---------- */
+
+.factBand {
+  background: var(--color-ink-raised);
+  border-block: 1px solid var(--color-ink-line);
+}
+
+.factRow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--color-ink-line);
+}
+
+.fact {
+  background: var(--color-ink-raised);
+  padding: 2.25rem 2rem 2.25rem 0;
+}
+
+.factRow > .fact:not(:first-child) {
+  padding-left: 2rem;
+}
+
+.factTitle {
+  margin-top: 1.125rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.0625rem;
+  line-height: 1.25;
+  color: #fff;
+}
+
+.factText {
+  margin-top: 0.5rem;
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--color-on-dark-faint);
+}
+
+/* ---------- LEAD ---------- */
+
+.lead {
+  display: grid;
+  grid-template-columns: 0.85fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.leadBody {
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  color: var(--color-grey);
+}
+
+.leadNote {
+  margin-top: 1.75rem;
+  border-left: 2px solid var(--color-brand);
+  padding-left: 1.125rem;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-grey-mid);
+}
+
+.leadNote strong {
+  color: var(--color-ink);
+}
+
+/* ---------- SECTION HEADS ---------- */
+
+.blockHead {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 4rem;
+  align-items: end;
+}
+
+.blockIntro {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--color-grey);
+}
+
+/* ---------- NUMBERED BLOCKS ---------- */
+
+.numbered {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--color-hairline);
+  border: 1px solid var(--color-hairline);
+  list-style: none;
+  padding: 0;
+}
+
+.numbered > li {
+  background: var(--color-surface);
+  padding: 2.5rem 2rem 2.75rem;
+}
+
+.numeral {
+  font-family: var(--font-display);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--color-brand-deep);
+}
+
+.numberedTitle {
+  margin-top: 1.25rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1875rem;
+  line-height: 1.25;
+  color: var(--color-ink);
+}
+
+.numberedText {
+  margin-top: 0.875rem;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--color-grey);
+}
+
+/* ---------- CHECKLIST ---------- */
+
+.checklistBand {
+  background: var(--color-ink);
+  color: #fff;
+}
+
+.checklist {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr;
+  gap: 4.5rem;
+  align-items: center;
+  padding-block: 6rem;
+}
+
+.checklistCopy {
+  min-width: 0;
+}
+
+.checklistBody {
+  margin-top: 1.5rem;
+  max-width: 60ch;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-on-dark-muted);
+}
+
+.checklistItems {
+  margin-top: 2.25rem;
+  display: grid;
+  gap: 0;
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid var(--color-ink-line);
+}
+
+.checklistItems > li {
+  display: flex;
+  gap: 0.875rem;
+  align-items: flex-start;
+  padding: 0.9375rem 0;
+  border-bottom: 1px solid var(--color-ink-line);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--color-on-dark);
+}
+
+.checklistMedia {
+  position: relative;
+  aspect-ratio: 3 / 4;
+  border: 1px solid var(--color-ink-line);
+}
+
+.mediaCaption {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  display: grid;
+  gap: 0.25rem;
+  background: rgb(11 13 12 / 0.9);
+  border-top: 1px solid var(--color-ink-line);
+  padding: 1rem 1.25rem;
+}
+
+.mediaCaption strong {
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+.mediaCaption span {
+  font-size: 0.75rem;
+  color: var(--color-on-dark-faint);
+}
+
+/* ---------- TABLE ---------- */
+
+.tableWrap {
+  margin-top: 3rem;
+  overflow-x: auto;
+  border: 1px solid var(--color-hairline);
+}
+
+.table {
+  width: 100%;
+  min-width: 42rem;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.table thead th {
+  background: var(--color-ink);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 1rem 1.5rem;
+}
+
+.table tbody th,
+.table tbody td {
+  text-align: left;
+  padding: 1.0625rem 1.5rem;
+  border-top: 1px solid var(--color-hairline);
+  vertical-align: top;
+}
+
+.table tbody th {
+  width: 28%;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.table tbody td {
+  color: var(--color-grey);
+  line-height: 1.6;
+}
+
+.table tbody tr:nth-child(even) {
+  background: var(--color-surface-raised);
+}
+
+/* ---------- TIMELINE ---------- */
+
+.timelineLayout {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  gap: 5rem;
+  align-items: start;
+}
+
+.timeline {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 2.75rem;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.875rem;
+  top: 0.5rem;
+  bottom: 2.5rem;
+  width: 1px;
+  background: var(--color-hairline);
+}
+
+.timeline > li {
+  position: relative;
+  padding-bottom: 2.5rem;
+}
+
+.timeline > li:last-child {
+  padding-bottom: 0;
+}
+
+.timelineMark {
+  position: absolute;
+  left: -2.75rem;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: var(--color-ink);
+  color: var(--color-brand);
+}
+
+.timelineStep {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-grey-soft);
+}
+
+.timelineTitle {
+  margin-top: 0.4375rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1875rem;
+  color: var(--color-ink);
+}
+
+.timelineText {
+  margin-top: 0.5rem;
+  max-width: 48ch;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  color: var(--color-grey);
+}
+
+/* ---------- PHOTO ROW ---------- */
+
+.photoRow {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.75rem;
+}
+
+.photoRow figure {
+  margin: 0;
+}
+
+.photoFrame {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border: 1px solid var(--color-hairline);
+  overflow: hidden;
+}
+
+.photoRow figcaption h3 {
+  margin-top: 1.25rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.0625rem;
+  color: var(--color-ink);
+}
+
+.photoRow figcaption p {
+  margin-top: 0.5rem;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--color-grey);
+}
+
+/* ---------- REASONS ---------- */
+
+.reasonGrid {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: var(--color-hairline);
+  border: 1px solid var(--color-hairline);
+}
+
+.reasonGrid article {
+  background: var(--color-surface);
+  padding: 2.25rem 1.75rem 2.5rem;
+}
+
+.reasonGrid h3 {
+  margin-top: 1.25rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.0625rem;
+  line-height: 1.3;
+  color: var(--color-ink);
+}
+
+.reasonGrid p {
+  margin-top: 0.75rem;
+  font-size: 0.8125rem;
+  line-height: 1.7;
+  color: var(--color-grey);
+}
+
+/* ---------- SUSTAINABILITY ---------- */
+
+.sustainBand {
+  background: var(--color-ink);
+  color: #fff;
+  border-top: 1px solid var(--color-ink-line);
+}
+
+.sustain {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  gap: 4.5rem;
+  align-items: center;
+  padding-block: 5.5rem;
+}
+
+.sustainStats {
+  display: grid;
+  gap: 1px;
+  background: var(--color-ink-line);
+  border: 1px solid var(--color-ink-line);
+  margin: 0;
+}
+
+.sustainStats > div {
+  background: var(--color-ink);
+  padding: 1.75rem 2rem;
+}
+
+.sustainStats dt {
+  font-size: 0.8125rem;
+  color: var(--color-on-dark-faint);
+}
+
+.sustainStats dd {
+  margin: 0.5rem 0 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 2.75rem;
+  line-height: 1;
+  color: var(--color-brand);
+}
+
+/* ---------- CROSS-LINK ROWS ---------- */
+
+.linkRows {
+  margin-top: 2rem;
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid var(--color-hairline);
+}
+
+.linkRows > li {
+  border-bottom: 1px solid var(--color-hairline);
+}
+
+.linkRows a {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.375rem 0;
+  transition: padding-inline 220ms var(--ease-out-soft);
+}
+
+.linkRows a:hover {
+  padding-inline: 0.75rem;
+}
+
+.linkRows a:hover h3 {
+  color: var(--color-brand-deep);
+}
+
+.linkThumb {
+  position: relative;
+  width: 6rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  overflow: hidden;
+  border: 1px solid var(--color-hairline);
+}
+
+.linkRows h3 {
+  flex: 1;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--color-ink);
+  transition: color 220ms var(--ease-out-soft);
+}
+
+/* ---------- CTA ---------- */
+
+.ctaBand {
+  background: var(--color-ink-raised);
+  border-top: 1px solid var(--color-ink-line);
+  color: #fff;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 3.5rem;
+  align-items: center;
+  padding-block: 5rem;
+}
+
+.ctaTitle {
+  margin-top: 1.5rem;
+  max-width: 20ch;
+  white-space: pre-line;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(1.875rem, 3.4vw, 3rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.ctaBody {
+  margin-top: 1.25rem;
+  max-width: 62ch;
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--color-on-dark-muted);
+}
+
+.ctaActions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+/* ---------- RESPONSIVE ---------- */
+
+@media (max-width: 1100px) {
+  .lead,
+  .timelineLayout {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .blockHead {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    align-items: start;
+  }
+  .numbered {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .checklist {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    padding-block: 4.5rem;
+  }
+  .checklistMedia {
+    aspect-ratio: 16 / 10;
+  }
+  .photoRow,
+  .reasonGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sustain,
+  .cta {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .ctaActions {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    min-height: 26rem;
+    padding-block: 6.5rem 3rem;
+  }
+  .factRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .fact {
+    padding: 1.75rem 1.25rem;
+  }
+  .factRow > .fact:not(:first-child) {
+    padding-left: 1.25rem;
+  }
+  .lead,
+  .timelineLayout {
+    gap: 2rem;
+  }
+  .numbered,
+  .photoRow,
+  .reasonGrid {
+    grid-template-columns: 1fr;
+  }
+  .numbered > li {
+    padding: 2rem 1.5rem 2.25rem;
+  }
+  .photoRow {
+    gap: 2.25rem;
+  }
+  .sustainStats dd {
+    font-size: 2.25rem;
+  }
+  .linkRows h3 {
+    font-size: 1.0625rem;
+  }
+  .table thead th,
+  .table tbody th,
+  .table tbody td {
+    padding: 0.875rem 1rem;
+  }
+}
