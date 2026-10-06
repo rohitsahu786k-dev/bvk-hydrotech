@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 import PageHero from "@/components/sections/PageHero";
 import EnhancedPageContent, { hasPageEnhancement } from "@/components/sections/EnhancedPageContent";
+import ElectrolyserSolutionsPage from "@/components/sections/ElectrolyserSolutionsPage";
 import FaqAccordion from "@/components/sections/FaqAccordion";
 import CertificationsStrip from "@/components/sections/CertificationsStrip";
 import { getPageSlugs, getSitePage } from "@/lib/wordpress/pages";
@@ -98,38 +99,45 @@ export default async function SitePage({ params }: PageProps) {
 
   const certifications = CERTIFIED_SLUGS.has(page.slug) ? await getCertifications() : [];
   const enhanced = hasPageEnhancement(page.slug);
+  const isElectrolyserPage = page.slug === "electrolyser-solutions";
 
   return (
     <>
-      <PageHero hero={page.hero} title={page.title} />
-
-      {enhanced ? (
-        <EnhancedPageContent slug={page.slug} />
+      {isElectrolyserPage ? (
+        <ElectrolyserSolutionsPage />
       ) : (
-        <section className="section bg-surface">
-          <div className="shell">
-            {page.content ? (
-              <div
-                className="wp-content"
-                dangerouslySetInnerHTML={{ __html: page.content }}
-              />
-            ) : (
-              <div className="mx-auto max-w-2xl border border-hairline p-10 text-center">
-                <h2 className="font-display text-xl font-bold tracking-tight text-ink">
-                  This section is being written
-                </h2>
-                <p className="mt-3 text-sm leading-relaxed text-grey">
-                  Body content for <strong>{page.title}</strong> has not been published in the CMS
-                  yet. In the meantime our application engineers can answer any question directly.
-                </p>
-                <Link href="/contact" className="btn btn-green group mt-7">
-                  Talk to an engineer
-                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Link>
+        <>
+          <PageHero hero={page.hero} title={page.title} />
+
+          {enhanced ? (
+            <EnhancedPageContent slug={page.slug} />
+          ) : (
+            <section className="section bg-surface">
+              <div className="shell">
+                {page.content ? (
+                  <div
+                    className="wp-content"
+                    dangerouslySetInnerHTML={{ __html: page.content }}
+                  />
+                ) : (
+                  <div className="mx-auto max-w-2xl border border-hairline p-10 text-center">
+                    <h2 className="font-display text-xl font-bold tracking-tight text-ink">
+                      This section is being written
+                    </h2>
+                    <p className="mt-3 text-sm leading-relaxed text-grey">
+                      Body content for <strong>{page.title}</strong> has not been published in the CMS
+                      yet. In the meantime our application engineers can answer any question directly.
+                    </p>
+                    <Link href="/contact" className="btn btn-green group mt-7">
+                      Talk to an engineer
+                      <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </Link>
+                  </div>
+                )}
               </div>
-            )}
-          </div>
-        </section>
+            </section>
+          )}
+        </>
       )}
 
       <CertificationsStrip

@@ -6,15 +6,16 @@ import { usePathname } from "next/navigation";
 import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
 import type { MenuLink } from "@/lib/wordpress/home";
 
-const LOGO = `${process.env.NEXT_PUBLIC_WORDPRESS_URL ?? ""}/wp-content/uploads/BVK-Hydrotech-White-Logo.png`;
+const LOGO_WHITE = `${process.env.NEXT_PUBLIC_WORDPRESS_URL ?? ""}/wp-content/uploads/BVK-Hydrotech-White-Logo.png`;
+const LOGO_COLOR = "/bvk-assets/bvk-hydrotech-logo-line.png";
 
 /** The white/reversed wordmark, sitting directly on the dark header. */
-function Wordmark() {
+function Wordmark({ light }: { light: boolean }) {
   return (
     <Link href="/" className="shrink-0" aria-label="BVK Hydrotech — home">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src={LOGO}
+        src={light ? LOGO_COLOR : LOGO_WHITE}
         alt="BVK Hydrotech"
         width={132}
         height={66}
@@ -28,6 +29,7 @@ export default function Header({ menu }: { menu: MenuLink[] }) {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const lightTop = pathname === "/electrolyser-solutions" && !scrolled && !open;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -49,13 +51,15 @@ export default function Header({ menu }: { menu: MenuLink[] }) {
   return (
     <header
       className={`on-ink fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-        scrolled || open
+        lightTop
+          ? "border-b border-blue-100/80 bg-white/88 text-ink shadow-sm shadow-blue-950/5 backdrop-blur-md"
+          : scrolled || open
           ? "border-b border-ink-line bg-ink/95 backdrop-blur-md"
           : "border-b border-transparent bg-transparent"
       }`}
     >
       <div className="shell flex h-20 items-center justify-between gap-6 lg:h-[5.5rem]">
-        <Wordmark />
+        <Wordmark light={lightTop} />
 
         <nav aria-label="Primary" className="hidden items-center gap-7 xl:flex">
           {menu.map((item) => {
@@ -67,7 +71,13 @@ export default function Header({ menu }: { menu: MenuLink[] }) {
                   href={item.url}
                   aria-current={active ? "page" : undefined}
                   className={`relative inline-flex items-center gap-1.5 text-[0.8125rem] font-medium transition-colors ${
-                    active ? "text-white" : "text-on-dark-muted hover:text-white"
+                    lightTop
+                      ? active
+                        ? "text-[#086bb9]"
+                        : "text-slate-700 hover:text-[#086bb9]"
+                      : active
+                        ? "text-white"
+                        : "text-on-dark-muted hover:text-white"
                   }`}
                 >
                   {item.label}
@@ -104,7 +114,11 @@ export default function Header({ menu }: { menu: MenuLink[] }) {
         <div className="flex items-center gap-3">
           <Link
             href="/contact"
-            className="hidden items-center gap-2 border border-white/25 px-5 py-2.5 text-[0.8125rem] font-semibold text-white transition hover:border-brand hover:bg-brand/12 sm:inline-flex"
+            className={`hidden items-center gap-2 rounded-full px-5 py-2.5 text-[0.8125rem] font-semibold transition sm:inline-flex ${
+              lightTop
+                ? "bg-[#086bb9] text-white shadow-lg shadow-blue-600/20 hover:bg-[#0a7ed3]"
+                : "border border-white/25 text-white hover:border-brand hover:bg-brand/12"
+            }`}
           >
             Request RFQ
             <ArrowUpRight className="h-3.5 w-3.5" />
@@ -115,7 +129,9 @@ export default function Header({ menu }: { menu: MenuLink[] }) {
             aria-expanded={open}
             aria-controls="mobile-nav"
             aria-label={open ? "Close menu" : "Open menu"}
-            className="flex h-10 w-10 items-center justify-center text-white xl:hidden"
+            className={`flex h-10 w-10 items-center justify-center xl:hidden ${
+              lightTop ? "text-ink" : "text-white"
+            }`}
           >
             {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
