@@ -57,7 +57,7 @@ export function getPageContent(slug: string): SolutionPageContent | null {
 
 /**
  * The product range — everything grouped under "Solutions" in the navigation.
- * These render on the blue SolutionPage layout taken from the approved
+ * These render on the SolutionPage layout taken from the approved
  * Electrolyser design. Every other page renders on CorporatePage, which uses
  * the site's own ink-and-green system, so the two groups are visibly
  * different without either leaving the brand.

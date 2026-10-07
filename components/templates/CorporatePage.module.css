@@ -669,3 +669,39 @@
     padding: 0.875rem 1rem;
   }
 }
+
+/* =============================================================================
+   MOTION
+   Scroll reveal is global (MotionObserver); this is the hero entrance and the
+   hover states. Hover sits behind (hover: hover) so touch never sticks.
+   ============================================================================= */
+
+@keyframes corpRise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+
+.heroInner > * { animation: corpRise .85s cubic-bezier(.22, 1, .36, 1) both; }
+.heroInner > :nth-child(1) { animation-delay: 40ms; }
+.heroInner > :nth-child(2) { animation-delay: 130ms; }
+.heroInner > :nth-child(3) { animation-delay: 220ms; }
+.heroInner > :nth-child(4) { animation-delay: 310ms; }
+.heroInner > :nth-child(5) { animation-delay: 400ms; }
+.heroInner > :nth-child(6) { animation-delay: 490ms; }
+.factBand { animation: corpRise .85s cubic-bezier(.22, 1, .36, 1) 520ms both; }
+
+.fact, .numbered > li, .reasonGrid article, .sustainStats > div, .checklistItems > li, .timelineStep, .timelineMark { transition: transform .35s cubic-bezier(.22, 1, .36, 1), background-color .3s, border-color .3s, box-shadow .35s, color .3s; }
+.photoFrame :global(img), .checklistMedia :global(img), .linkThumb :global(img) { transition: transform .9s cubic-bezier(.22, 1, .36, 1); }
+.table tbody tr { transition: background-color .2s; }
+.numberedTitle, .reasonGrid h3, .factTitle { transition: color .25s; }
+
+@media (hover: hover) and (pointer: fine) {
+  .fact:hover { background: color-mix(in srgb, #fff 5%, transparent); }
+  .fact:hover .factTitle { color: var(--color-brand); }
+  .numbered > li:hover { transform: translateY(-4px); }
+  .numbered > li:hover .numberedTitle { color: var(--color-brand-deep); }
+  .reasonGrid article:hover { transform: translateY(-5px); border-color: color-mix(in srgb, var(--color-brand-deep) 40%, transparent); box-shadow: 0 22px 36px -24px rgb(0 0 0 / .35); }
+  .reasonGrid article:hover h3 { color: var(--color-brand-deep); }
+  .sustainStats > div:hover { transform: translateY(-3px); }
+  .checklistItems > li:hover { transform: translateX(4px); }
+  .timelineStep:hover { transform: translateX(3px); }
+  .photoRow figure:hover :global(img), .checklistMedia:hover :global(img), .linkRows a:hover .linkThumb :global(img) { transform: scale(1.06); }
+  .table tbody tr:hover { background: color-mix(in srgb, var(--color-brand-wash) 55%, #fff); }
+}

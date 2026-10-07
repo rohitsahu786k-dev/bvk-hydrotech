@@ -1,24 +1,24 @@
-.page { background: #fff; color: #102139; font-family: var(--font-sans); }
+.page { background: #fff; color: #000; font-family: var(--font-sans); }
 .page h1, .page h2, .page h3 { font-family: var(--font-display); }
 .page h1 { font-size: 62px; line-height: 1.03; font-weight: 800; }
 .page h2 { font-size: 36px; line-height: 1.15; font-weight: 800; }
 .page h3 { font-size: 15px; line-height: 1.3; font-weight: 700; }
 .page :global(.section) { background: white; padding-block: 48px; scroll-margin-top: 100px; }
-.page :global(.uppercase) { font-size: 11px; color: #7a899a; }
+.page :global(.uppercase) { font-size: 11px; color: var(--color-brand-deep); }
 .page :global(.leading-relaxed) { line-height: 1.6; }
-.page a { border-radius: 7px; box-shadow: none; }
-.page a:global(.bg-\[\#0876c9\]) { color: #fff; }
+.page a { border-radius: var(--radius-md); box-shadow: none; }
+.page a:global(.bg-brand-deep) { color: #fff; }
 .page a:hover { filter: brightness(.96); }
-.page a:focus-visible { outline-color: #0876c9; }
+.page a:focus-visible { outline-color: var(--color-brand-deep); }
 .page :global(.shadow-2xl), .page :global(.shadow-xl), .page :global(.shadow-lg) { box-shadow: none; }
 .page :global(.font-black) { font-weight: 800; }
 .page :global(.min-h-\[24rem\]) { min-height: 360px; }
 .page :global(.min-h-\[25rem\]) { min-height: 400px; }
 .page :global(.lg\:grid-cols-\[0\.9fr_1\.1fr\]) { grid-template-columns: 1fr 1fr; gap: 64px; }
 .page :global(.text-base) { font-size: 15px; }
-.page :global(.text-slate-600) { color: #526174; }
+.page :global(.text-grey) { color: var(--color-grey); }
 .hero { padding-top: 88px; overflow: hidden; }
-.breadcrumb { display: flex; align-items: center; gap: 10px; padding: 18px 0; color: #778597; font-size: 11px; }
+.breadcrumb { display: flex; align-items: center; gap: 10px; padding: 18px 0; color: var(--color-grey-mid); font-size: 11px; }
 .heroLayout { position: relative; display: grid; grid-template-columns: 47% 53%; align-items: center; min-height: 485px; }
 .heroLayout > div:first-child { position: relative; z-index: 1; padding: 32px 0 40px; }
 .heroLayout h1 { margin-top: 18px; }
@@ -28,22 +28,22 @@
 .heroImage img { object-fit: contain; }
 .heroFeatures { display: flex; gap: 16px; margin-top: 30px; max-width: 470px; }
 .heroFeatures > div { display: flex; align-items: center; gap: 7px; flex: 1; }
-.heroFeatures svg { color: #1688d7; flex-shrink: 0; }
+.heroFeatures svg { color: var(--color-brand-deep); flex-shrink: 0; }
 .heroFeatures span { font-size: 10px; font-weight: 700; line-height: 1.35; }
-.benefits { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid #edf1f5; border-radius: 8px; padding: 16px 8px !important; margin-top: 10px; margin-bottom: 12px; }
-.benefits > div { border-right: 1px solid #edf1f5; border-radius: 0; padding: 10px 16px; }
+.benefits { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--color-hairline); border-radius: 8px; padding: 16px 8px !important; margin-top: 10px; margin-bottom: 12px; }
+.benefits > div { border-right: 1px solid var(--color-hairline); border-radius: 0; padding: 10px 16px; }
 .benefits > div:last-child { border: 0; }
 .benefits p:first-child { font-size: 13px; line-height: 1.3; }
-.benefits p + p { font-size: 10px; color: #748091; }
+.benefits p + p { font-size: 10px; color: var(--color-grey-mid); }
 .page .components { padding-bottom: 24px; }
 .components > div > div:first-child { max-width: 880px; }
 .diagram { margin-top: 45px; }
 .diagram > img { display: block; width: 100%; height: auto; margin: -40px 0 -35px; }
 .callouts { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 100px; padding: 0 24px; }
-.callouts > div { position: relative; border-left: 1px solid #82bbe2; padding-left: 15px; max-width: 235px; }
-.callouts > div::before { content: ""; position: absolute; width: 10px; height: 10px; border-radius: 50%; background: #087bc8; left: -5px; top: 3px; }
-.callouts > div::after { content: ""; position: absolute; top: 100%; left: -1px; height: 46px; border-left: 1px solid #82bbe2; }
-.callouts p { color: #596577; font-size: 12px; line-height: 1.5; margin-top: 7px; }
+.callouts > div { position: relative; border-left: 1px solid var(--color-brand); padding-left: 15px; max-width: 235px; }
+.callouts > div::before { content: ""; position: absolute; width: 10px; height: 10px; border-radius: 50%; background: var(--color-brand); left: -5px; top: 3px; }
+.callouts > div::after { content: ""; position: absolute; top: 100%; left: -1px; height: 46px; border-left: 1px solid var(--color-brand); }
+.callouts p { color: var(--color-grey); font-size: 12px; line-height: 1.5; margin-top: 7px; }
 .callouts:last-child { padding-left: 100px; }
 .callouts:last-child > div::after { top: auto; bottom: 100%; }
 .page section:has(> img) { padding-block: 55px; margin-top: 25px; }
@@ -59,12 +59,18 @@
 .applications { display: grid; grid-template-columns: 29% 1fr; gap: 35px; }
 .applications h2 { font-size: 32px; }
 .applicationGrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
-.applicationGrid article { border-color: #edf1f5; border-radius: 7px; }
+.applicationGrid article { border-color: var(--color-hairline); border-radius: 7px; }
 .applicationGrid h3 { font-size: 13px; }
 .applicationGrid :global(.p-5) { padding: 0 14px 20px; }
 .applicationGrid :global(.p-5) > span { position: relative; margin-top: -20px; border: 4px solid white; }
 .applicationGrid p { font-size: 11px; }
 .applicationGrid :global(.h-36) { height: 150px; }
+/* Process steps: icon, title and copy share one centre line. Margins are set
+   here rather than with utilities because the global unlayered `p, h3 { margin: 0 }`
+   reset overrides Tailwind margin classes. */
+.step { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; }
+.stepTitle { margin: 20px 0 0; font-size: 15px; line-height: 1.3; font-weight: 700; color: #000; }
+.stepText { margin: 8px 0 0; max-width: 12.5rem; font-size: 12px; line-height: 1.55; color: var(--color-grey); text-align: center; }
 .strengths { display: grid; grid-template-columns: 1fr 1fr; gap: 35px 25px; }
 .strength { display: grid; grid-template-columns: 44px 1fr; column-gap: 14px; align-content: start; }
 .strength > span { grid-row: span 2; }
@@ -74,12 +80,12 @@
 .tiles > a { border-radius: 0; min-height: 0; aspect-ratio: 1.65; }
 .tiles h3 { font-size: 21px; max-width: 65%; }
 .tiles :global(.h-10) { width: 30px; height: 30px; }
-.specWrap { margin-top: 38px; overflow-x: auto; border: 1px solid #e3ecf4; border-radius: 8px; }
+.specWrap { margin-top: 38px; overflow-x: auto; border: 1px solid var(--color-hairline); border-radius: 8px; }
 .specTable { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 620px; }
-.specTable th, .specTable td { text-align: left; padding: 14px 20px; border-bottom: 1px solid #edf3f8; vertical-align: top; }
-.specTable thead th { background: #f4f9fd; color: #3d5165; font-size: 11px; font-weight: 700; text-transform: uppercase; }
-.specTable tbody th { font-weight: 700; color: #102139; width: 30%; }
-.specTable tbody td { color: #526174; line-height: 1.55; }
+.specTable th, .specTable td { text-align: left; padding: 14px 20px; border-bottom: 1px solid var(--color-hairline); vertical-align: top; }
+.specTable thead th { background: var(--color-surface-raised); color: var(--color-grey); font-size: 11px; font-weight: 700; text-transform: uppercase; }
+.specTable tbody th { font-weight: 700; color: #000; width: 30%; }
+.specTable tbody td { color: var(--color-grey); line-height: 1.55; }
 .specTable tbody tr:last-child th, .specTable tbody tr:last-child td { border-bottom: 0; }
 .cta { padding: 25px 18px 35px; }
 .cta > div { width: min(1300px,100%) !important; border-radius: 8px; }
@@ -133,4 +139,48 @@
   .applicationGrid { grid-template-columns: 1fr; }
   .page :global(.md\:grid-cols-5) { grid-template-columns: 1fr; }
   .page :global(.md\:grid-cols-4) { grid-template-columns: 1fr; }
+}
+
+/* =============================================================================
+   MOTION
+   Hover rules sit behind (hover: hover) so touch screens never get a stuck
+   hover state. Scroll reveal is handled globally by MotionObserver.
+   ============================================================================= */
+
+@keyframes heroRise { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: none; } }
+@keyframes heroImageIn { from { opacity: 0; transform: translateX(28px) scale(.96); } to { opacity: 1; transform: none; } }
+
+.heroLayout > div:first-child > * { animation: heroRise .85s cubic-bezier(.22, 1, .36, 1) both; }
+.heroLayout > div:first-child > :nth-child(1) { animation-delay: 60ms; }
+.heroLayout > div:first-child > :nth-child(2) { animation-delay: 150ms; }
+.heroLayout > div:first-child > :nth-child(3) { animation-delay: 240ms; }
+.heroLayout > div:first-child > :nth-child(4) { animation-delay: 330ms; }
+.heroLayout > div:first-child > :nth-child(5) { animation-delay: 420ms; }
+.heroImage { animation: heroImageIn 1.1s cubic-bezier(.22, 1, .36, 1) 120ms both; }
+.benefits { animation: heroRise .85s cubic-bezier(.22, 1, .36, 1) 500ms both; }
+
+.page a[class*="rounded-md"] { transition: transform .25s cubic-bezier(.22, 1, .36, 1), box-shadow .25s, background-color .25s, border-color .25s, color .25s; }
+.page a[class*="rounded-md"]:active { transform: scale(.98); }
+.benefits > div, .strength, .applicationGrid article, .callouts > div::before, .tiles > a > span { transition: transform .35s cubic-bezier(.22, 1, .36, 1), box-shadow .35s, border-color .35s, background-color .35s, color .35s; }
+.benefits > div > span, .strength > span, .applicationGrid article span:global(.rounded-full), .step > div:first-child { transition: transform .35s cubic-bezier(.22, 1, .36, 1), background-color .3s, color .3s, border-color .3s, box-shadow .35s; }
+.applicationGrid article :global(img), .page :global(.min-h-\[24rem\]) :global(img), .page :global(.min-h-\[25rem\]) :global(img) { transition: transform .9s cubic-bezier(.22, 1, .36, 1); }
+.specTable tbody tr { transition: background-color .2s; }
+.heroFeatures svg { transition: transform .3s cubic-bezier(.22, 1, .36, 1); }
+.breadcrumb a { transition: color .2s; }
+
+@media (hover: hover) and (pointer: fine) {
+  .page a[class*="rounded-md"]:hover { transform: translateY(-2px); box-shadow: 0 14px 26px -14px color-mix(in srgb, var(--color-brand-deep) 65%, transparent); }
+  .heroFeatures > div:hover svg { transform: translateY(-3px) scale(1.12); }
+  .benefits > div:hover { background: color-mix(in srgb, var(--color-brand-wash) 55%, #fff); transform: translateY(-3px); }
+  .benefits > div:hover > span, .strength:hover > span, .applicationGrid article:hover span:global(.rounded-full) { background: var(--color-brand-deep); color: #fff; transform: translateY(-2px) scale(1.08); }
+  .strength:hover h3 { color: var(--color-brand-deep); }
+  .strength h3 { transition: color .25s; }
+  .applicationGrid article:hover { transform: translateY(-6px); border-color: color-mix(in srgb, var(--color-brand-deep) 40%, transparent); box-shadow: 0 24px 40px -24px rgb(0 0 0 / .35); }
+  .applicationGrid article:hover :global(img) { transform: scale(1.08); }
+  .page :global(.min-h-\[24rem\]):hover :global(img), .page :global(.min-h-\[25rem\]):hover :global(img) { transform: scale(1.04); }
+  .callouts > div:hover::before { transform: scale(1.6); box-shadow: 0 0 0 5px color-mix(in srgb, var(--color-brand) 22%, transparent); }
+  .step:hover > div:first-child { transform: translateY(-6px); background: var(--color-brand-deep); color: #fff; border-color: var(--color-brand-deep); box-shadow: 0 18px 30px -14px color-mix(in srgb, var(--color-brand-deep) 55%, transparent); }
+  .tiles > a:hover > span:last-child { transform: translateX(5px) scale(1.1); background: var(--color-brand-deep); color: #fff; }
+  .specTable tbody tr:hover { background: color-mix(in srgb, var(--color-brand-wash) 55%, #fff); }
+  .breadcrumb a:hover { color: var(--color-brand-deep); }
 }

@@ -119,9 +119,13 @@ p {
   margin: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* In the base layer so Tailwind's colour utilities on anchors still win —
+   an unlayered rule here silently overrides every `text-*` class on a link. */
+@layer base {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 }
 
 ::selection {
@@ -233,7 +237,7 @@ a {
     justify-content: center;
     gap: 0.625rem;
     border: 1px solid transparent;
-    border-radius: var(--radius-xs);
+    border-radius: var(--radius-md);
     padding: 0.9375rem 1.75rem;
     font-size: 0.875rem;
     font-weight: 600;
@@ -264,7 +268,9 @@ a {
     color: #fff;
   }
   .btn-green:hover {
-    background: var(--color-brand);
+    /* Plain brand green fails contrast under white text, so the hover steps
+       darker rather than lighter. */
+    background: var(--color-brand-dim);
   }
 
   .btn-outline-light {
@@ -469,6 +475,21 @@ a {
   }
 }
 
+@keyframes bvk-mega-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mega-panel {
+  animation: bvk-mega-in 200ms var(--ease-out-soft) both;
+}
+
 @keyframes bvk-ken-burns {
   from {
     transform: scale(1.06);
@@ -488,4 +509,102 @@ a {
     transform: translateY(7px);
     opacity: 1;
   }
+}
+
+/* =============================================================================
+   SCROLL REVEAL + INTERACTION
+   Tagged at runtime by components/ui/MotionObserver.tsx. Elements are only
+   hidden once the script has tagged them, so a page without JS stays visible.
+   ============================================================================= */
+
+/* An animation rather than a transition, so it is not overridden by the
+   element's own transition (cards, list items) and always runs. */
+[data-reveal="pending"] {
+  opacity: 0;
+}
+
+[data-reveal="in"] {
+  animation: bvk-reveal 750ms var(--ease-out-soft) both;
+  animation-delay: calc(var(--reveal-i, 0) * 90ms);
+}
+
+@keyframes bvk-reveal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 26px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Thin brand-green reading progress bar. Pure CSS, scroll-driven; browsers
+   without scroll timelines simply do not show it. */
+.scroll-progress {
+  display: none;
+}
+
+@supports (animation-timeline: scroll()) {
+  .scroll-progress {
+    display: block;
+    position: fixed;
+    inset: 0 0 auto 0;
+    height: 3px;
+    z-index: 60;
+    background: var(--color-brand);
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    pointer-events: none;
+    animation: bvk-progress linear both;
+    animation-timeline: scroll(root);
+  }
+}
+
+@keyframes bvk-progress {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  .scroll-progress {
+    display: none !important;
+  }
+}
+
+/* Arrows and download glyphs nudge in the direction they point. */
+a > svg.lucide-arrow-right,
+a > svg.lucide-arrow-up-right,
+a > svg.lucide-download,
+.btn > svg {
+  transition: transform 260ms var(--ease-out-soft);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover > svg.lucide-arrow-right,
+  .btn:hover > svg.lucide-arrow-right {
+    transform: translateX(4px);
+  }
+  a:hover > svg.lucide-arrow-up-right,
+  .btn:hover > svg.lucide-arrow-up-right {
+    transform: translate(2px, -2px);
+  }
+  a:hover > svg.lucide-download,
+  .btn:hover > svg.lucide-download {
+    transform: translateY(2px);
+  }
+}
+
+.btn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+.btn-green:hover,
+.btn-solid:hover {
+  box-shadow: 0 14px 28px -14px color-mix(in srgb, var(--color-brand-deep) 70%, transparent);
 }

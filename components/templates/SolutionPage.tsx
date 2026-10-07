@@ -14,9 +14,9 @@ import styles from "./SolutionPage.module.css";
  * the same rhythm, type scale and colour treatment.
  */
 
-function BlueIcon({ children }: { children: ReactNode }) {
+function BrandIcon({ children }: { children: ReactNode }) {
   return (
-    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#eaf6ff] text-[#0876c9] ring-1 ring-blue-100">
+    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-wash text-brand-deep ring-1 ring-brand-deep/15">
       {children}
     </span>
   );
@@ -25,8 +25,8 @@ function BlueIcon({ children }: { children: ReactNode }) {
 function Action({ action, variant }: { action: LinkAction; variant: "solid" | "outline" }) {
   const className =
     variant === "solid"
-      ? "inline-flex items-center gap-2 rounded-full bg-[#0876c9] px-6 py-3 text-sm font-bold text-white shadow-xl shadow-blue-700/20 transition hover:bg-[#055faa]"
-      : "inline-flex items-center gap-2 rounded-full border border-[#0876c9]/30 bg-white px-6 py-3 text-sm font-bold text-[#0876c9] transition hover:border-[#0876c9]";
+      ? "inline-flex items-center gap-2 rounded-md bg-brand-deep px-6 py-3 text-sm font-bold text-white shadow-xl shadow-brand-deep/20 transition hover:bg-brand-dim"
+      : "inline-flex items-center gap-2 rounded-md border border-brand-deep/30 bg-white px-6 py-3 text-sm font-bold text-brand-deep transition hover:border-brand-deep";
 
   const glyph = action.external ? (
     <Download className="h-4 w-4" />
@@ -49,14 +49,14 @@ function Action({ action, variant }: { action: LinkAction; variant: "solid" | "o
   );
 }
 
-/** Headline split across two lines, the second in the accent blue. */
+/** Headline split across two lines, the second in the brand green. */
 function Headline({ title, accent }: { title: string; accent?: string }) {
   if (!accent) return <>{title}</>;
   return (
     <>
       {title}
       <br />
-      <span className="text-[#0876c9]">{accent}</span>
+      <span className="text-brand-deep">{accent}</span>
     </>
   );
 }
@@ -77,14 +77,14 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
 
         <div className={`shell ${styles.heroLayout}`}>
           <div>
-            <p className="text-xs font-semibold uppercase text-[#0b8cdd]">{hero.eyebrow}</p>
-            <h1 className="mt-5 font-display text-[clamp(3rem,7vw,6.4rem)] font-black leading-[0.92] text-[#071a33]">
+            <p className="text-xs font-semibold uppercase text-brand-deep">{hero.eyebrow}</p>
+            <h1 className="mt-5 font-display text-[clamp(3rem,7vw,6.4rem)] font-black leading-[0.92] text-black">
               {hero.title}
               {hero.titleAccent && (
-                <span className="block text-[#0876c9]">{hero.titleAccent}</span>
+                <span className="block text-brand-deep">{hero.titleAccent}</span>
               )}
             </h1>
-            <p className="mt-6 max-w-xl text-lg font-medium leading-relaxed text-slate-600">
+            <p className="mt-6 max-w-xl text-lg font-medium leading-relaxed text-grey">
               {hero.subtitle}
             </p>
 
@@ -123,13 +123,13 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               const Icon = getIcon(item.icon);
               return (
                 <div key={item.title} className="flex items-center gap-3 rounded-md px-3 py-4">
-                  <BlueIcon>
+                  <BrandIcon>
                     <Icon className="h-5 w-5" />
-                  </BlueIcon>
+                  </BrandIcon>
                   {/* Labels, not sections — kept out of the heading outline. */}
                   <div>
-                    <p className="text-sm font-bold leading-tight text-[#071a33]">{item.title}</p>
-                    <p className="mt-1 text-xs leading-snug text-slate-500">{item.text}</p>
+                    <p className="text-sm font-bold leading-tight text-black">{item.title}</p>
+                    <p className="mt-1 text-xs leading-snug text-grey-mid">{item.text}</p>
                   </div>
                 </div>
               );
@@ -142,13 +142,13 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
         <section className="section bg-white">
           <div className="shell grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
-              <p className="text-xs font-semibold uppercase text-[#0b8cdd]">
+              <p className="text-xs font-semibold uppercase text-brand-deep">
                 {content.overview.eyebrow}
               </p>
-              <h2 className="mt-4 font-display text-[clamp(2.2rem,4vw,4.2rem)] font-black leading-none text-[#071a33]">
+              <h2 className="mt-4 font-display text-[clamp(2.2rem,4vw,4.2rem)] font-black leading-none text-black">
                 <Headline title={content.overview.title} accent={content.overview.titleAccent} />
               </h2>
-              <p className="mt-6 text-base leading-relaxed text-slate-600">
+              <p className="mt-6 text-base leading-relaxed text-grey">
                 {content.overview.body}
               </p>
               {content.overview.action && (
@@ -158,7 +158,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               )}
             </div>
 
-            <div className="relative min-h-[24rem] overflow-hidden rounded-lg bg-slate-100 shadow-2xl shadow-blue-950/10">
+            <div className="relative min-h-[24rem] overflow-hidden rounded-lg bg-surface-raised shadow-2xl shadow-black/10">
               <Image
                 src={content.overview.image.src}
                 alt={content.overview.image.alt}
@@ -168,15 +168,15 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               />
               {content.overview.badge && (
                 <div className="absolute bottom-8 left-8 flex items-center gap-4 rounded-lg bg-white/95 p-4 shadow-xl">
-                  <BlueIcon>
+                  <BrandIcon>
                     {(() => {
                       const Icon = getIcon("flameKindling");
                       return <Icon className="h-5 w-5" />;
                     })()}
-                  </BlueIcon>
+                  </BrandIcon>
                   <div>
-                    <p className="text-sm font-bold text-[#071a33]">{content.overview.badge.title}</p>
-                    <p className="text-xs text-slate-500">{content.overview.badge.text}</p>
+                    <p className="text-sm font-bold text-black">{content.overview.badge.title}</p>
+                    <p className="text-xs text-grey-mid">{content.overview.badge.text}</p>
                   </div>
                 </div>
               )}
@@ -189,7 +189,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
         <section id="components" className={`section ${styles.components}`}>
           <div className="shell">
             <div className="mx-auto max-w-3xl text-center">
-              <p className="text-xs font-semibold uppercase text-[#0b8cdd]">
+              <p className="text-xs font-semibold uppercase text-brand-deep">
                 {content.components.eyebrow}
               </p>
               <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.8rem)] font-black leading-none">
@@ -198,7 +198,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                   accent={content.components.titleAccent}
                 />
               </h2>
-              <p className="mt-5 text-slate-600">{content.components.intro}</p>
+              <p className="mt-5 text-grey">{content.components.intro}</p>
             </div>
 
             <div className={styles.diagram}>
@@ -238,13 +238,13 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
         <section className="section bg-white">
           <div className="shell">
             <div className="mx-auto max-w-3xl text-center">
-              <p className="text-xs font-semibold uppercase text-[#0b8cdd]">
+              <p className="text-xs font-semibold uppercase text-brand-deep">
                 {content.process.eyebrow}
               </p>
               <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.8rem)] font-black leading-none">
                 <Headline title={content.process.title} accent={content.process.titleAccent} />
               </h2>
-              <p className="mt-5 text-slate-600">{content.process.intro}</p>
+              <p className="mt-5 text-grey">{content.process.intro}</p>
             </div>
 
             <div
@@ -255,8 +255,8 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               {content.process.steps.map((step, index) => {
                 const Icon = getIcon(step.icon);
                 return (
-                  <div key={step.title} className="relative text-center">
-                    <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-blue-100 bg-white text-[#0876c9] shadow-lg shadow-blue-950/5">
+                  <div key={step.title} className={styles.step}>
+                    <div className="flex h-20 w-20 shrink-0 items-center justify-center rounded-full border border-hairline bg-white text-brand-deep shadow-lg shadow-black/5">
                       {step.symbol ? (
                         <span className="text-3xl font-bold">
                           {step.symbol.replace(/\d/g, "")}
@@ -269,15 +269,13 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                     {index < content.process!.steps.length - 1 && (
                       <ArrowRight
                         aria-hidden
-                        className="absolute right-[-1.25rem] top-7 hidden h-5 w-5 text-blue-300 md:block"
+                        className="absolute right-[-1.25rem] top-[30px] hidden h-5 w-5 text-brand md:block"
                       />
                     )}
-                    <h3 className="mt-5 text-sm font-bold">
+                    <h3 className={styles.stepTitle}>
                       {index + 1}. {step.title}
                     </h3>
-                    <p className="mx-auto mt-2 max-w-[11rem] text-xs leading-relaxed text-slate-500">
-                      {step.text}
-                    </p>
+                    <p className={styles.stepText}>{step.text}</p>
                   </div>
                 );
               })}
@@ -287,27 +285,27 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
       )}
 
       {content.features && (
-        <section className="section bg-[#f7fbff]">
+        <section className="section bg-surface-raised">
           <div className="shell grid items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
-              <p className="text-xs font-semibold uppercase text-[#0b8cdd]">
+              <p className="text-xs font-semibold uppercase text-brand-deep">
                 {content.features.eyebrow}
               </p>
               <h2 className="mt-4 font-display text-[clamp(2.1rem,4vw,4rem)] font-black leading-none">
                 <Headline title={content.features.title} accent={content.features.titleAccent} />
               </h2>
-              <p className="mt-6 leading-relaxed text-slate-600">{content.features.body}</p>
+              <p className="mt-6 leading-relaxed text-grey">{content.features.body}</p>
               <ul className="mt-7 space-y-3">
                 {content.features.points.map((point) => (
-                  <li key={point} className="flex gap-3 text-sm font-semibold text-slate-700">
-                    <CheckCircle2 aria-hidden className="mt-0.5 h-5 w-5 shrink-0 text-[#0876c9]" />
+                  <li key={point} className="flex gap-3 text-sm font-semibold text-grey">
+                    <CheckCircle2 aria-hidden className="mt-0.5 h-5 w-5 shrink-0 text-brand-deep" />
                     {point}
                   </li>
                 ))}
               </ul>
             </div>
 
-            <div className="relative min-h-[25rem] overflow-hidden rounded-lg bg-slate-100 shadow-2xl shadow-blue-950/10">
+            <div className="relative min-h-[25rem] overflow-hidden rounded-lg bg-surface-raised shadow-2xl shadow-black/10">
               <Image
                 src={content.features.image.src}
                 alt={content.features.image.alt}
@@ -319,7 +317,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               {content.features.badge && (
                 <div className="absolute bottom-7 left-7 rounded-lg bg-white/95 p-4 shadow-xl">
                   <p className="text-sm font-bold">{content.features.badge.title}</p>
-                  <p className="mt-1 text-xs text-slate-500">{content.features.badge.text}</p>
+                  <p className="mt-1 text-xs text-grey-mid">{content.features.badge.text}</p>
                 </div>
               )}
             </div>
@@ -331,7 +329,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
         <section id="specifications" className="section bg-white">
           <div className="shell">
             <div className="mx-auto max-w-3xl text-center">
-              <p className="text-xs font-semibold uppercase text-[#0b8cdd]">Specifications</p>
+              <p className="text-xs font-semibold uppercase text-brand-deep">Specifications</p>
               <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.4rem)] font-black leading-none">
                 {content.specs.caption}
               </h2>
@@ -377,7 +375,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
           />
           <div className="shell relative grid gap-10 lg:grid-cols-[0.9fr_0.8fr]">
             <div>
-              <p className="text-xs font-semibold uppercase text-blue-100">
+              <p className="text-xs font-semibold uppercase text-brand-wash">
                 {content.sustainability.eyebrow}
               </p>
               <h2 className="mt-4 font-display text-[clamp(2.5rem,5vw,5rem)] font-black leading-none">
@@ -410,7 +408,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
           <div className="shell">
             <div className={styles.applications}>
               <div>
-                <p className="text-xs font-semibold uppercase text-[#0b8cdd]">
+                <p className="text-xs font-semibold uppercase text-brand-deep">
                   {content.applications.eyebrow}
                 </p>
                 <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.6rem)] font-black leading-none">
@@ -419,7 +417,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                     accent={content.applications.titleAccent}
                   />
                 </h2>
-                <p className="mt-5 text-slate-600">{content.applications.intro}</p>
+                <p className="mt-5 text-grey">{content.applications.intro}</p>
               </div>
               <div className={styles.applicationGrid}>
                 {content.applications.cards.map((card) => {
@@ -427,7 +425,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                   return (
                     <article
                       key={card.title}
-                      className="overflow-hidden rounded-lg border border-blue-100 bg-white shadow-lg shadow-blue-950/5"
+                      className="overflow-hidden rounded-lg border border-hairline bg-white shadow-lg shadow-black/5"
                     >
                       <div className="relative h-36">
                         <Image
@@ -440,11 +438,11 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                         />
                       </div>
                       <div className="p-5">
-                        <BlueIcon>
+                        <BrandIcon>
                           <Icon className="h-5 w-5" />
-                        </BlueIcon>
+                        </BrandIcon>
                         <h3 className="mt-4 text-base font-bold leading-tight">{card.title}</h3>
-                        <p className="mt-2 text-xs leading-relaxed text-slate-500">{card.text}</p>
+                        <p className="mt-2 text-xs leading-relaxed text-grey-mid">{card.text}</p>
                       </div>
                     </article>
                   );
@@ -456,27 +454,27 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
       )}
 
       {content.why && (
-        <section className="section bg-[#f7fbff]">
+        <section className="section bg-surface-raised">
           <div className="shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
             <div>
-              <p className="text-xs font-semibold uppercase text-[#0b8cdd]">
+              <p className="text-xs font-semibold uppercase text-brand-deep">
                 {content.why.eyebrow}
               </p>
               <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.8rem)] font-black leading-none">
                 <Headline title={content.why.title} accent={content.why.titleAccent} />
               </h2>
-              <p className="mt-5 text-slate-600">{content.why.intro}</p>
+              <p className="mt-5 text-grey">{content.why.intro}</p>
             </div>
             <div className={styles.strengths}>
               {content.why.cards.map((card) => {
                 const Icon = getIcon(card.icon);
                 return (
                   <article key={card.title} className={styles.strength}>
-                    <BlueIcon>
+                    <BrandIcon>
                       <Icon className="h-5 w-5" />
-                    </BlueIcon>
+                    </BrandIcon>
                     <h3 className="mt-4 text-base font-bold">{card.title}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-slate-500">{card.text}</p>
+                    <p className="mt-2 text-sm leading-relaxed text-grey-mid">{card.text}</p>
                   </article>
                 );
               })}
@@ -510,7 +508,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               </h3>
               <span
                 aria-hidden
-                className="absolute bottom-7 right-7 flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#0876c9]"
+                className="absolute bottom-7 right-7 flex h-10 w-10 items-center justify-center rounded-full bg-white text-brand-deep"
               >
                 <ArrowRight className="h-5 w-5" />
               </span>
@@ -521,16 +519,16 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
 
       {content.cta && (
         <section className={styles.cta}>
-          <div className="shell overflow-hidden rounded-xl bg-[#eaf6ff]">
+          <div className="shell overflow-hidden rounded-lg bg-brand-wash">
             <div className="relative grid min-h-[24rem] items-center overflow-hidden lg:grid-cols-[0.85fr_1.15fr]">
               <div className="relative z-10 p-8 lg:p-12">
-                <p className="text-xs font-semibold uppercase text-[#0b8cdd]">
+                <p className="text-xs font-semibold uppercase text-brand-deep">
                   {content.cta.eyebrow}
                 </p>
-                <h2 className="mt-4 whitespace-pre-line font-display text-[clamp(2rem,4vw,3.8rem)] font-black leading-none text-[#071a33]">
+                <h2 className="mt-4 whitespace-pre-line font-display text-[clamp(2rem,4vw,3.8rem)] font-black leading-none text-black">
                   {content.cta.title}
                 </h2>
-                <p className="mt-5 max-w-xl text-slate-600">{content.cta.body}</p>
+                <p className="mt-5 max-w-xl text-grey">{content.cta.body}</p>
                 <div className="mt-7 flex flex-wrap gap-4">
                   <Action action={content.cta.primary} variant="solid" />
                   {content.cta.secondary && (
@@ -546,7 +544,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                   sizes="(min-width: 1024px) 55vw, 100vw"
                   className="object-cover opacity-45 lg:opacity-100"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-[#eaf6ff] via-[#eaf6ff]/65 to-transparent lg:from-[#eaf6ff] lg:via-[#eaf6ff]/35" />
+                <div className="absolute inset-0 bg-gradient-to-r from-brand-wash via-brand-wash/65 to-transparent lg:from-brand-wash lg:via-brand-wash/35" />
               </div>
             </div>
           </div>

@@ -100,7 +100,7 @@ function Column({ title, links }: { title: string; links: MenuLink[] }) {
               href={link.url}
               className="group inline-flex items-center gap-2 text-sm font-medium text-on-dark-muted transition-colors hover:text-white"
             >
-              <span className="h-px w-3 bg-ink-line transition-colors group-hover:bg-brand" />
+              <span className="h-px w-3 bg-ink-line transition-all duration-300 group-hover:w-5 group-hover:bg-brand" />
               {link.label}
             </Link>
           </li>

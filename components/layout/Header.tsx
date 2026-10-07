@@ -1,48 +1,51 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
-import type { MenuLink } from "@/lib/wordpress/home";
-import { solutionSlugs } from "@/content";
+import { ArrowRight, ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
+import { navigation, type NavItem } from "@/content/navigation";
 
 /**
- * Solution pages open on a white hero, so the header inverts to light at rest.
- * Corporate pages open on a dark hero and keep the default dark header.
+ * The one header for the whole site.
+ *
+ * Always on the white surface: the brand guidelines only permit the wordmark
+ * on white or very light neutral grounds, so a single light header is both the
+ * compliant and the consistent choice across every page template.
  */
-const LIGHT_ROUTES = new Set(solutionSlugs.map((slug) => `/${slug}`));
 
-const LOGO_WHITE = `${process.env.NEXT_PUBLIC_WORDPRESS_URL ?? ""}/wp-content/uploads/BVK-Hydrotech-White-Logo.png`;
-const LOGO_COLOR = "/bvk-assets/bvk-hydrotech-logo-line.png";
+const LOGO = "/bvk-assets/bvk-hydrotech-logo-line.png";
+const HOVER_CLOSE_MS = 140;
 
-/** The white/reversed wordmark, sitting directly on the dark header. */
-function Wordmark({ light }: { light: boolean }) {
-  return (
-    <Link href="/" className="shrink-0" aria-label="BVK Hydrotech — home">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={light ? LOGO_COLOR : LOGO_WHITE}
-        alt="BVK Hydrotech"
-        width={132}
-        height={66}
-        className="h-9 w-auto lg:h-10"
-      />
-    </Link>
-  );
-}
-
-export default function Header({ menu }: { menu: MenuLink[] }) {
-  const [scrolled, setScrolled] = useState(false);
-  const [open, setOpen] = useState(false);
+export default function Header() {
   const pathname = usePathname();
-  const lightTop = LIGHT_ROUTES.has(pathname) && !scrolled && !open;
+  const [scrolled, setScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileSection, setMobileSection] = useState<string | null>(null);
+
+  // The open menu is stored with the path it was opened on, so navigating
+  // closes it without an effect that has to reset state.
+  const [menu, setMenu] = useState<{ key: string | null; path: string }>({ key: null, path: "" });
+  const openKey = menu.path === pathname ? menu.key : null;
+  const openItem = navigation.find((item) => item.key === openKey) ?? null;
+  const setOpenKey = (key: string | null) => setMenu({ key, path: pathname });
+
+  const wrapRef = useRef<HTMLDivElement>(null);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const cancelClose = () => {
+    if (closeTimer.current) clearTimeout(closeTimer.current);
+    closeTimer.current = null;
+  };
+  const scheduleClose = () => {
+    cancelClose();
+    closeTimer.current = setTimeout(() => setOpenKey(null), HOVER_CLOSE_MS);
+  };
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
+    const onScroll = () => setScrolled(window.scrollY > 8);
     window.addEventListener("scroll", onScroll, { passive: true });
-    // Catch a page restored mid-scroll, on the next frame rather than
-    // synchronously inside the effect.
     const raf = requestAnimationFrame(onScroll);
     return () => {
       cancelAnimationFrame(raf);
@@ -51,138 +54,315 @@ export default function Header({ menu }: { menu: MenuLink[] }) {
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "";
-    return () => { document.body.style.overflow = ""; };
-  }, [open]);
+    document.body.style.overflow = mobileOpen ? "hidden" : "";
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [mobileOpen]);
+
+  // Close the desktop panel on an outside press.
+  useEffect(() => {
+    if (!openKey) return;
+    const onPress = (event: PointerEvent) => {
+      if (wrapRef.current && !wrapRef.current.contains(event.target as Node)) {
+        setMenu({ key: null, path: pathname });
+      }
+    };
+    document.addEventListener("pointerdown", onPress);
+    return () => document.removeEventListener("pointerdown", onPress);
+  }, [openKey, pathname]);
+
+  useEffect(() => () => cancelClose(), []);
+
+  const isActive = (item: NavItem) =>
+    item.groups.some((group) => group.links.some((link) => link.href === pathname));
+
+  const closeMobile = () => {
+    setMobileOpen(false);
+    setMobileSection(null);
+  };
 
   return (
     <header
-      className={`on-ink fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${
-        lightTop
-          ? "border-b border-blue-100/80 bg-white/88 text-ink shadow-sm shadow-blue-950/5 backdrop-blur-md"
-          : scrolled || open
-          ? "border-b border-ink-line bg-ink/95 backdrop-blur-md"
-          : "border-b border-transparent bg-transparent"
+      className={`fixed inset-x-0 top-0 z-50 bg-surface transition-shadow duration-300 ${
+        scrolled || openItem || mobileOpen
+          ? "border-b border-hairline shadow-[0_8px_24px_-18px_rgb(0_0_0/0.35)]"
+          : "border-b border-hairline"
       }`}
+      onKeyDown={(event) => {
+        if (event.key === "Escape") {
+          setOpenKey(null);
+          if (mobileOpen) closeMobile();
+        }
+      }}
     >
-      <div className="shell flex h-20 items-center justify-between gap-6 lg:h-[5.5rem]">
-        <Wordmark light={lightTop} />
-
-        <nav aria-label="Primary" className="hidden items-center gap-7 xl:flex">
-          {menu.map((item) => {
-            const active = pathname === item.url;
-            const children = item.children ?? [];
-            return (
-              <div key={item.url} className="group relative">
-                <Link
-                  href={item.url}
-                  aria-current={active ? "page" : undefined}
-                  className={`relative inline-flex items-center gap-1.5 text-[0.8125rem] font-medium transition-colors ${
-                    lightTop
-                      ? active
-                        ? "text-[#086bb9]"
-                        : "text-slate-700 hover:text-[#086bb9]"
-                      : active
-                        ? "text-white"
-                        : "text-on-dark-muted hover:text-white"
-                  }`}
-                >
-                  {item.label}
-                  {children.length > 0 && (
-                    <ChevronDown className="h-3.5 w-3.5 transition-transform group-hover:rotate-180" />
-                  )}
-                  <span
-                    aria-hidden
-                    className={`absolute -bottom-1.5 left-0 h-px bg-brand transition-all duration-300 ${
-                      active ? "w-full" : "w-0"
-                    }`}
-                  />
-                </Link>
-                {children.length > 0 && (
-                  <div className="invisible absolute left-0 top-full w-64 pt-4 opacity-0 transition duration-150 group-focus-within:visible group-focus-within:opacity-100 group-hover:visible group-hover:opacity-100">
-                    <div className="border border-ink-line bg-ink/98 p-2 shadow-2xl shadow-black/25 backdrop-blur-md">
-                      {children.map((child) => (
-                        <Link
-                          key={child.url}
-                          href={child.url}
-                          className="block px-3 py-2.5 text-[0.8125rem] font-medium text-on-dark-muted transition hover:bg-white/5 hover:text-white"
-                        >
-                          {child.label}
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
-            );
-          })}
-        </nav>
-
-        <div className="flex items-center gap-3">
-          <Link
-            href="/contact"
-            className={`hidden items-center gap-2 rounded-full px-5 py-2.5 text-[0.8125rem] font-semibold transition sm:inline-flex ${
-              lightTop
-                ? "bg-[#086bb9] text-white shadow-lg shadow-blue-600/20 hover:bg-[#0a7ed3]"
-                : "border border-white/25 text-white hover:border-brand hover:bg-brand/12"
-            }`}
-          >
-            Request RFQ
-            <ArrowUpRight className="h-3.5 w-3.5" />
+      <div ref={wrapRef} className="relative" onPointerLeave={(e) => e.pointerType === "mouse" && scheduleClose()}>
+        <div className="shell flex h-20 items-center justify-between gap-6 lg:h-[5.5rem]">
+          <Link href="/" className="shrink-0" aria-label="BVK Hydrotech — home" onClick={closeMobile}>
+            <Image
+              src={LOGO}
+              alt="BVK Hydrotech, a BVK Group company"
+              width={577}
+              height={285}
+              priority
+              className="h-11 w-auto lg:h-12"
+            />
           </Link>
 
-          <button
-            onClick={() => setOpen((v) => !v)}
-            aria-expanded={open}
-            aria-controls="mobile-nav"
-            aria-label={open ? "Close menu" : "Open menu"}
-            className={`flex h-10 w-10 items-center justify-center xl:hidden ${
-              lightTop ? "text-ink" : "text-white"
-            }`}
-          >
-            {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-          </button>
+          <nav aria-label="Primary" className="hidden items-center gap-1 xl:flex">
+            {navigation.map((item) => {
+              const open = openKey === item.key;
+              const active = isActive(item);
+              return (
+                <div
+                  key={item.key}
+                  onPointerEnter={(e) => {
+                    if (e.pointerType !== "mouse") return;
+                    cancelClose();
+                    setOpenKey(item.key);
+                  }}
+                >
+                  <button
+                    type="button"
+                    aria-expanded={open}
+                    aria-haspopup="true"
+                    aria-controls={`mega-${item.key}`}
+                    onClick={() => setOpenKey(open ? null : item.key)}
+                    className={`group relative inline-flex items-center gap-1.5 rounded-sm px-3.5 py-2.5 text-[0.9375rem] font-semibold transition-colors ${
+                      open || active ? "text-brand-deep" : "text-black hover:text-brand-deep"
+                    }`}
+                  >
+                    {item.label}
+                    <ChevronDown
+                      aria-hidden
+                      className={`h-4 w-4 transition-transform duration-200 ${open ? "rotate-180" : ""}`}
+                    />
+                    <span
+                      aria-hidden
+                      className={`absolute inset-x-3.5 -bottom-0.5 h-0.5 origin-left bg-brand transition-transform duration-300 ${
+                        open || active ? "scale-x-100" : "scale-x-0"
+                      }`}
+                    />
+                  </button>
+                </div>
+              );
+            })}
+            <Link
+              href="/contact"
+              aria-current={pathname === "/contact" ? "page" : undefined}
+              className={`rounded-sm px-3.5 py-2.5 text-[0.9375rem] font-semibold transition-colors ${
+                pathname === "/contact" ? "text-brand-deep" : "text-black hover:text-brand-deep"
+              }`}
+            >
+              Contact
+            </Link>
+          </nav>
+
+          <div className="flex items-center gap-3">
+            <Link href="/contact" className="btn btn-green hidden !px-5 !py-3 sm:inline-flex">
+              Request RFQ
+              <ArrowUpRight aria-hidden className="h-4 w-4" />
+            </Link>
+
+            <button
+              type="button"
+              onClick={() => setMobileOpen((v) => !v)}
+              aria-expanded={mobileOpen}
+              aria-controls="mobile-nav"
+              aria-label={mobileOpen ? "Close menu" : "Open menu"}
+              className="flex h-11 w-11 items-center justify-center rounded-md border border-hairline text-black transition hover:border-brand-deep hover:text-brand-deep xl:hidden"
+            >
+              {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            </button>
+          </div>
         </div>
+
+        {/* Desktop mega menu */}
+        {openItem && (
+          <>
+            <div
+              aria-hidden
+              className="pointer-events-none fixed inset-x-0 top-[5.5rem] bottom-0 hidden bg-black/25 xl:block"
+            />
+            <div
+              id={`mega-${openItem.key}`}
+              onPointerEnter={(e) => e.pointerType === "mouse" && cancelClose()}
+              className="mega-panel absolute inset-x-0 top-full hidden border-b border-hairline bg-surface shadow-[0_28px_48px_-24px_rgb(0_0_0/0.35)] xl:block"
+            >
+              <div className="shell grid gap-12 py-10 xl:grid-cols-[minmax(0,1fr)_21rem]">
+                <div
+                  className="grid gap-x-8 gap-y-8"
+                  style={{ gridTemplateColumns: `repeat(${openItem.groups.length}, minmax(0, 1fr))` }}
+                >
+                  {openItem.groups.map((group) => (
+                    <div key={group.title}>
+                      <p className="mb-3 flex items-center gap-3 px-3 text-xs font-semibold uppercase text-grey-mid">
+                        {group.title}
+                        <span aria-hidden className="h-px flex-1 bg-hairline" />
+                      </p>
+                      <ul className="space-y-1">
+                        {group.links.map((link) => {
+                          const Icon = link.icon;
+                          const current = pathname === link.href;
+                          return (
+                            <li key={link.href}>
+                              <Link
+                                href={link.href}
+                                aria-current={current ? "page" : undefined}
+                                className="group flex gap-4 rounded-md p-3 transition-colors hover:bg-brand-wash focus-visible:bg-brand-wash"
+                              >
+                                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-brand-wash text-brand-deep ring-1 ring-brand-deep/15 transition-colors group-hover:bg-brand-deep group-hover:text-white">
+                                  <Icon aria-hidden className="h-5 w-5" />
+                                </span>
+                                <span className="min-w-0">
+                                  <span
+                                    className={`flex items-center gap-1.5 text-[0.9375rem] font-bold ${
+                                      current ? "text-brand-deep" : "text-black group-hover:text-brand-deep"
+                                    }`}
+                                  >
+                                    {link.label}
+                                    <ArrowRight
+                                      aria-hidden
+                                      className="h-3.5 w-3.5 -translate-x-1 opacity-0 transition duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                                    />
+                                  </span>
+                                  <span className="mt-0.5 block text-[0.8125rem] leading-snug text-grey">
+                                    {link.description}
+                                  </span>
+                                </span>
+                              </Link>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+
+                <Link
+                  href={openItem.feature.href}
+                  className="group relative flex min-h-[19rem] flex-col justify-end overflow-hidden rounded-lg bg-black text-white"
+                >
+                  <Image
+                    src={openItem.feature.image}
+                    alt=""
+                    fill
+                    sizes="21rem"
+                    className="object-cover opacity-90 transition duration-700 group-hover:scale-105"
+                  />
+                  <span
+                    aria-hidden
+                    className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent"
+                  />
+                  <span className="relative p-6">
+                    <span className="flex items-center gap-2 text-xs font-semibold uppercase text-white/90">
+                      <span aria-hidden className="h-0.5 w-6 bg-brand" />
+                      {openItem.feature.eyebrow}
+                    </span>
+                    <span className="mt-2 block font-display text-xl font-bold leading-tight">
+                      {openItem.feature.title}
+                    </span>
+                    <span className="mt-2 block text-[0.8125rem] leading-snug text-white/85">
+                      {openItem.feature.text}
+                    </span>
+                    <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold">
+                      {openItem.feature.cta}
+                      <ArrowRight
+                        aria-hidden
+                        className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                      />
+                    </span>
+                  </span>
+                </Link>
+              </div>
+
+              <div className="border-t border-hairline bg-surface-raised">
+                <div className="shell flex items-center justify-between gap-6 py-4 text-sm">
+                  <p className="text-grey">
+                    <span className="font-semibold text-black">Not sure which mesh fits?</span>{" "}
+                    Share your drawing, material and duty condition.
+                  </p>
+                  <Link
+                    href="/contact"
+                    className="inline-flex items-center gap-2 font-semibold text-brand-deep transition-colors hover:text-brand-dim"
+                  >
+                    Request a technical RFQ
+                    <ArrowUpRight aria-hidden className="h-4 w-4" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </>
+        )}
       </div>
 
       {/* Mobile / tablet navigation */}
       <div
         id="mobile-nav"
-        hidden={!open}
-        className="border-t border-ink-line bg-ink xl:hidden"
+        hidden={!mobileOpen}
+        className="fixed inset-x-0 top-20 bottom-0 overflow-y-auto border-t border-hairline bg-surface xl:hidden"
       >
         <nav aria-label="Primary (mobile)" className="shell flex flex-col py-4">
-          {menu.map((item) => {
-            const children = item.children ?? [];
+          {navigation.map((item) => {
+            const open = mobileSection === item.key;
             return (
-              <div key={item.url} className="border-b border-ink-line/70 last:border-b-0">
-                <Link
-                  href={item.url}
-                  onClick={() => setOpen(false)}
-                  className="flex items-center justify-between py-4 text-sm font-medium text-on-dark"
+              <div key={item.key} className="border-b border-hairline">
+                <button
+                  type="button"
+                  aria-expanded={open}
+                  aria-controls={`mobile-${item.key}`}
+                  onClick={() => setMobileSection(open ? null : item.key)}
+                  className="flex w-full items-center justify-between py-4 text-left text-base font-bold text-black"
                 >
-                  {item.label}
-                  <ArrowUpRight className="h-4 w-4 text-on-dark-faint" />
-                </Link>
-                {children.length > 0 && (
-                  <div className="pb-3">
-                    {children.map((child) => (
-                      <Link
-                        key={child.url}
-                        href={child.url}
-                        onClick={() => setOpen(false)}
-                        className="block py-2 pl-4 text-sm text-on-dark-muted"
-                      >
-                        {child.label}
-                      </Link>
-                    ))}
-                  </div>
-                )}
+                  <span className={open ? "text-brand-deep" : undefined}>{item.label}</span>
+                  <ChevronDown
+                    aria-hidden
+                    className={`h-5 w-5 text-grey transition-transform ${open ? "rotate-180 text-brand-deep" : ""}`}
+                  />
+                </button>
+                <div id={`mobile-${item.key}`} hidden={!open} className="pb-4">
+                  {item.groups.map((group) => (
+                    <div key={group.title} className="mt-1">
+                      {item.groups.length > 1 && (
+                        <p className="px-1 pb-1 pt-3 text-xs font-semibold uppercase text-grey-mid">
+                          {group.title}
+                        </p>
+                      )}
+                      <ul>
+                        {group.links.map((link) => {
+                          const Icon = link.icon;
+                          return (
+                            <li key={link.href}>
+                              <Link
+                                href={link.href}
+                                onClick={closeMobile}
+                                className="flex items-center gap-3 rounded-md px-1 py-2.5 text-[0.9375rem] font-medium text-black hover:text-brand-deep"
+                              >
+                                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-brand-wash text-brand-deep">
+                                  <Icon aria-hidden className="h-4 w-4" />
+                                </span>
+                                {link.label}
+                              </Link>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
               </div>
             );
           })}
-          <Link href="/contact" onClick={() => setOpen(false)} className="btn btn-green mt-5">
+          <Link
+            href="/contact"
+            onClick={closeMobile}
+            className="border-b border-hairline py-4 text-base font-bold text-black"
+          >
+            Contact
+          </Link>
+          <Link href="/contact" onClick={closeMobile} className="btn btn-green mt-6">
             Request Technical RFQ
+            <ArrowUpRight aria-hidden className="h-4 w-4" />
           </Link>
         </nav>
       </div>

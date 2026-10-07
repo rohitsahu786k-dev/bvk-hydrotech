@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import MotionObserver from "@/components/ui/MotionObserver";
 import { getChrome } from "@/lib/wordpress/home";
 import { JsonLd, organisationSchema, websiteSchema } from "@/lib/seo/jsonLd";
 
@@ -62,7 +63,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0b0d0c",
+  themeColor: "#ffffff",
   width: "device-width",
   initialScale: 1,
 };
@@ -106,9 +107,11 @@ export default async function RootLayout({
           Skip to content
         </a>
 
-        <Header menu={menus.primary} />
+        <div aria-hidden className="scroll-progress" />
+        <Header />
         <main id="main-content">{children}</main>
         <Footer menus={menus} settings={settings} />
+        <MotionObserver />
       </body>
     </html>
   );
