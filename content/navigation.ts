@@ -29,6 +29,8 @@ import {
 
 export interface NavLink {
   label: string;
+  /** One line of real specification, shown under the label in the mega menu. */
+  spec: string;
   href: string;
   description: string;
   icon: LucideIcon;
@@ -66,12 +68,14 @@ export const navigation: NavItem[] = [
           {
             label: "Electrolyser Solutions",
             href: "/electrolyser-solutions",
+            spec: "Ni 201/202 · titanium · stainless · alkaline + PEM",
             description: "Mesh materials and precision components for green hydrogen production.",
             icon: Droplets,
           },
           {
             label: "Fuel Cell Solutions",
             href: "/fuel-cell-solutions",
+            spec: "AFC · SOFC · PEM · gas diffusion and electrode support",
             description: "Gas diffusion, current collection and electrode support for AFC, SOFC and PEM.",
             icon: Zap,
           },
@@ -83,18 +87,21 @@ export const navigation: NavItem[] = [
           {
             label: "Precision Mesh Solutions",
             href: "/precision-mesh-solutions",
+            spec: "14 catalogued alloys · woven and knitted · cut to drawing",
             description: "Woven and knitted mesh engineered around your application.",
             icon: Grid3x3,
           },
           {
             label: "Woven Mesh Solutions",
             href: "/woven-mesh-solutions",
+            spec: "Controlled aperture · 304 to 904L · Hastelloy C-22",
             description: "A stable, repeatable opening for rated filtration and electrode support.",
             icon: Layers,
           },
           {
             label: "Knitted Mesh Solutions",
             href: "/knitted-mesh-solutions",
+            spec: "Wire 0.05–0.30 mm · single piece up to 2.2 m diameter",
             description: "Single, double and multi-end knits for stacks, GDLs and elastic elements.",
             icon: Network,
           },
@@ -106,12 +113,14 @@ export const navigation: NavItem[] = [
           {
             label: "Industrial Filtration",
             href: "/industrial-filtration",
+            spec: "Candles · pleated filters · discs · screen cylinders",
             description: "Filter mesh and elements for separation, de-watering and process protection.",
             icon: Filter,
           },
           {
             label: "Energy & Clean Tech",
             href: "/energy-clean-tech",
+            spec: "Electrolysis · fuel cells · purification · balance of plant",
             description: "Components for electrolysis, hydrogen purification and balance-of-plant.",
             icon: Leaf,
           },
@@ -137,18 +146,21 @@ export const navigation: NavItem[] = [
           {
             label: "Engineering & Manufacturing",
             href: "/engineering-manufacturing",
+            spec: "Integrated weaving plant · IATF 16949 · 100% traceability",
             description: "An integrated weaving plant with Industry 4.0 process control.",
             icon: Factory,
           },
           {
             label: "Process & Treatments",
             href: "/process-treatments",
+            spec: "Annealing · coating · corrugation 4–10 mm · laser cutting",
             description: "Annealing, coating, forming and cutting — a roll becomes a component.",
             icon: Flame,
           },
           {
             label: "R&D, CFD & Prototyping",
             href: "/rd-cfd-prototyping",
+            spec: "CFD · air permeability · grain structure · DSIR recognised",
             description: "Choose the mesh on evidence before you commit to tooling and volume.",
             icon: FlaskConical,
           },
@@ -174,18 +186,21 @@ export const navigation: NavItem[] = [
           {
             label: "About BVK Hydrotech",
             href: "/about",
+            spec: "Since 1963 · 300+ people · 650+ MT of metal a year",
             description: "A BVK Group company from Jaipur, weaving technical mesh since 1963.",
             icon: Building2,
           },
           {
             label: "Industries & Applications",
             href: "/industries-applications",
+            spec: "Ten industries · exporting to 25+ countries",
             description: "Ten industries, one mesh capability, exporting to 25+ countries.",
             icon: Globe2,
           },
           {
             label: "Sustainability",
             href: "/sustainability",
+            spec: "50%+ renewable energy · ISO 14001 · ISO 50001",
             description: "More than half of our energy already comes from renewables.",
             icon: Leaf,
           },
@@ -211,18 +226,21 @@ export const navigation: NavItem[] = [
           {
             label: "Resources / Downloads",
             href: "/resources",
+            spec: "Brochures · certificates · compliance declarations",
             description: "Approved brochures and technical literature for vendor qualification.",
             icon: FileText,
           },
           {
             label: "Insights / Knowledge Center",
             href: "/insights",
+            spec: "Material choice · geometry · treatment · validation",
             description: "How mesh decisions are made: alloy, geometry and validation.",
             icon: Lightbulb,
           },
           {
             label: "FAQs",
             href: "/faqs",
+            spec: "Materials · capability · certifications · enquiry inputs",
             description: "Materials, mesh types, certifications and what we need to quote.",
             icon: CircleHelp,
           },
@@ -239,3 +257,18 @@ export const navigation: NavItem[] = [
     },
   },
 ];
+
+/**
+ * The credential strip along the bottom of every mega menu panel.
+ *
+ * It does two jobs: it puts the company's hard numbers in front of a buyer on
+ * every menu open, and it gives the three-link menus enough weight that the
+ * panel does not read as half empty.
+ */
+export const navCredentials: { value: string; label: string }[] = [
+  { value: "1963", label: "weaving since" },
+  { value: "25+", label: "export countries" },
+  { value: "650+ MT", label: "metal a year" },
+];
+
+export const navStandards = "IATF 16949 · ISO 9001 · AS9100 · DSIR";

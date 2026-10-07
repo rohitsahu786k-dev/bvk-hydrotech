@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowRight, ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
-import { navigation, type NavItem } from "@/content/navigation";
+import { navCredentials, navStandards, navigation, type NavItem } from "@/content/navigation";
 
 /**
  * The one header for the whole site.
@@ -182,109 +182,132 @@ export default function Header() {
           <>
             <div
               aria-hidden
-              className="pointer-events-none fixed inset-x-0 top-[5.5rem] bottom-0 hidden bg-black/25 xl:block"
+              className="pointer-events-none fixed inset-x-0 top-[5.5rem] bottom-0 hidden bg-black/45 xl:block"
             />
             <div
               id={`mega-${openItem.key}`}
               onPointerEnter={(e) => e.pointerType === "mouse" && cancelClose()}
-              className="mega-panel absolute inset-x-0 top-full hidden border-b border-hairline bg-surface shadow-[0_28px_48px_-24px_rgb(0_0_0/0.35)] xl:block"
+              className="mega-panel absolute inset-x-0 top-full hidden bg-ink text-white shadow-[0_28px_48px_-24px_rgb(0_0_0/0.55)] xl:block"
             >
-              <div className="shell grid gap-12 py-10 xl:grid-cols-[minmax(0,1fr)_21rem]">
-                <div
-                  className="grid gap-x-8 gap-y-8"
-                  style={{ gridTemplateColumns: `repeat(${openItem.groups.length}, minmax(0, 1fr))` }}
-                >
-                  {openItem.groups.map((group) => (
-                    <div key={group.title}>
-                      <p className="mb-3 flex items-center gap-3 px-3 text-xs font-semibold uppercase text-grey-mid">
-                        {group.title}
-                        <span aria-hidden className="h-px flex-1 bg-hairline" />
-                      </p>
-                      <ul className="space-y-1">
-                        {group.links.map((link) => {
-                          const Icon = link.icon;
-                          const current = pathname === link.href;
-                          return (
-                            <li key={link.href}>
-                              <Link
-                                href={link.href}
-                                aria-current={current ? "page" : undefined}
-                                className="group flex gap-4 rounded-md p-3 transition-colors hover:bg-brand-wash focus-visible:bg-brand-wash"
-                              >
-                                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-md bg-brand-wash text-brand-deep ring-1 ring-brand-deep/15 transition-colors group-hover:bg-brand-deep group-hover:text-white">
-                                  <Icon aria-hidden className="h-5 w-5" />
-                                </span>
-                                <span className="min-w-0">
-                                  <span
-                                    className={`flex items-center gap-1.5 text-[0.9375rem] font-bold ${
-                                      current ? "text-brand-deep" : "text-black group-hover:text-brand-deep"
+              <div className="shell grid gap-14 py-10 xl:grid-cols-[minmax(0,1fr)_22rem]">
+                {/* One running index across the groups, so the panel reads as a
+                    single catalogue rather than three stacked lists. */}
+                <div>
+                  {openItem.groups.map((group, groupIndex) => {
+                    const offset = openItem.groups
+                      .slice(0, groupIndex)
+                      .reduce((sum, g) => sum + g.links.length, 0);
+
+                    return (
+                      <div key={group.title} className={groupIndex > 0 ? "mt-7" : undefined}>
+                        <p className="mb-1.5 flex items-center gap-3.5 text-[0.6875rem] uppercase tracking-[0.18em] text-brand">
+                          {group.title}
+                          <span aria-hidden className="h-px flex-1 bg-ink-line" />
+                        </p>
+                        <ul>
+                          {group.links.map((link, linkIndex) => {
+                            const current = pathname === link.href;
+                            const number = String(offset + linkIndex + 1).padStart(2, "0");
+                            return (
+                              <li key={link.href} className="border-b border-ink-line last:border-b-0">
+                                <Link
+                                  href={link.href}
+                                  aria-current={current ? "page" : undefined}
+                                  className={`group flex items-center gap-5 py-3.5 transition-[background-color,padding] duration-200 hover:bg-ink-raised hover:pl-5 focus-visible:bg-ink-raised focus-visible:pl-5 ${
+                                    current ? "bg-ink-raised pl-5" : ""
+                                  }`}
+                                >
+                                  <span aria-hidden className="w-7 shrink-0 text-xs text-brand-deep">
+                                    {number}
+                                  </span>
+                                  <span className="min-w-0 flex-1">
+                                    <span
+                                      className={`block font-display text-[1.1875rem] leading-tight transition-colors ${
+                                        current ? "text-brand" : "text-white group-hover:text-brand"
+                                      }`}
+                                    >
+                                      {link.label}
+                                    </span>
+                                    <span className="mt-1 block text-xs leading-snug text-on-dark-muted">
+                                      {link.spec}
+                                    </span>
+                                  </span>
+                                  <ArrowRight
+                                    aria-hidden
+                                    className={`h-4 w-4 shrink-0 text-brand transition duration-200 ${
+                                      current
+                                        ? "opacity-100"
+                                        : "-translate-x-1.5 opacity-0 group-hover:translate-x-0 group-hover:opacity-100"
                                     }`}
-                                  >
-                                    {link.label}
-                                    <ArrowRight
-                                      aria-hidden
-                                      className="h-3.5 w-3.5 -translate-x-1 opacity-0 transition duration-200 group-hover:translate-x-0 group-hover:opacity-100"
-                                    />
-                                  </span>
-                                  <span className="mt-0.5 block text-[0.8125rem] leading-snug text-grey">
-                                    {link.description}
-                                  </span>
-                                </span>
-                              </Link>
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    </div>
-                  ))}
+                                  />
+                                </Link>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </div>
+                    );
+                  })}
                 </div>
 
                 <Link
                   href={openItem.feature.href}
-                  className="group relative flex min-h-[19rem] flex-col justify-end overflow-hidden rounded-lg bg-black text-white"
+                  className="group relative block min-h-[19rem] overflow-hidden border-l border-ink-line pl-9 text-white"
                 >
-                  <Image
-                    src={openItem.feature.image}
-                    alt=""
-                    fill
-                    sizes="21rem"
-                    className="object-cover opacity-90 transition duration-700 group-hover:scale-105"
-                  />
-                  <span
-                    aria-hidden
-                    className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent"
-                  />
-                  <span className="relative p-6">
-                    <span className="flex items-center gap-2 text-xs font-semibold uppercase text-white/90">
-                      <span aria-hidden className="h-0.5 w-6 bg-brand" />
-                      {openItem.feature.eyebrow}
-                    </span>
-                    <span className="mt-2 block font-display text-xl font-bold leading-tight">
-                      {openItem.feature.title}
-                    </span>
-                    <span className="mt-2 block text-[0.8125rem] leading-snug text-white/85">
-                      {openItem.feature.text}
-                    </span>
-                    <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold">
-                      {openItem.feature.cta}
-                      <ArrowRight
-                        aria-hidden
-                        className="h-4 w-4 transition-transform group-hover:translate-x-1"
-                      />
+                  <span className="relative block h-full overflow-hidden">
+                    <Image
+                      src={openItem.feature.image}
+                      alt=""
+                      fill
+                      sizes="22rem"
+                      className="object-cover transition duration-700 group-hover:scale-105"
+                    />
+                    <span
+                      aria-hidden
+                      className="absolute inset-0 bg-gradient-to-t from-ink via-ink/35 to-transparent"
+                    />
+                    <span className="absolute inset-x-0 bottom-0 block p-6">
+                      <span className="block text-[0.6875rem] uppercase tracking-[0.18em] text-brand">
+                        {openItem.feature.eyebrow}
+                      </span>
+                      <span className="mt-2.5 block font-display text-[1.375rem] leading-tight">
+                        {openItem.feature.title}
+                      </span>
+                      <span className="mt-2 block text-[0.8125rem] leading-snug text-on-dark-muted">
+                        {openItem.feature.text}
+                      </span>
+                      <span className="mt-4 inline-flex items-center gap-2 text-[0.8125rem] font-medium text-brand">
+                        {openItem.feature.cta}
+                        <ArrowRight
+                          aria-hidden
+                          className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                        />
+                      </span>
                     </span>
                   </span>
                 </Link>
               </div>
 
-              <div className="border-t border-hairline bg-surface-raised">
-                <div className="shell flex items-center justify-between gap-6 py-4 text-sm">
-                  <p className="text-grey">
-                    <span className="font-semibold text-black">Not sure which mesh fits?</span>{" "}
-                    Share your drawing, material and duty condition.
-                  </p>
+              {/* Hard numbers on every open, and enough weight that a
+                  three-link panel still reads as finished. */}
+              <div className="border-t border-ink-line bg-ink-raised">
+                <div className="shell flex items-center justify-between gap-8 py-4">
+                  <div className="flex items-center gap-9">
+                    {navCredentials.map((credential) => (
+                      <span key={credential.value} className="flex items-baseline gap-2.5">
+                        <span className="font-display text-[1.1875rem] text-brand">
+                          {credential.value}
+                        </span>
+                        <span className="text-xs text-on-dark-muted">{credential.label}</span>
+                      </span>
+                    ))}
+                    <span aria-hidden className="h-6 w-px bg-ink-line" />
+                    <span className="text-xs text-on-dark-muted">{navStandards}</span>
+                  </div>
+
                   <Link
                     href="/contact"
-                    className="inline-flex items-center gap-2 font-semibold text-brand-deep transition-colors hover:text-brand-dim"
+                    className="inline-flex items-center gap-2 border border-ink-line px-4 py-2.5 text-[0.8125rem] font-medium text-on-dark transition-colors hover:border-brand hover:text-brand"
                   >
                     Request a technical RFQ
                     <ArrowUpRight aria-hidden className="h-4 w-4" />
@@ -336,12 +359,19 @@ export default function Header() {
                               <Link
                                 href={link.href}
                                 onClick={closeMobile}
-                                className="flex items-center gap-3 rounded-md px-1 py-2.5 text-[0.9375rem] font-medium text-black hover:text-brand-deep"
+                                className="group flex items-start gap-3 rounded-md px-1 py-2.5"
                               >
-                                <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-brand-wash text-brand-deep">
+                                <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-brand-wash text-brand-deep">
                                   <Icon aria-hidden className="h-4 w-4" />
                                 </span>
-                                {link.label}
+                                <span className="min-w-0">
+                                  <span className="block text-[0.9375rem] font-medium text-black group-hover:text-brand-deep">
+                                    {link.label}
+                                  </span>
+                                  <span className="mt-0.5 block text-xs leading-snug text-grey">
+                                    {link.spec}
+                                  </span>
+                                </span>
                               </Link>
                             </li>
                           );
