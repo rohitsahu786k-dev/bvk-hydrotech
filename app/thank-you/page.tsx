@@ -26,15 +26,13 @@ export default async function ThankYouPage() {
           <h1 className="display-section mt-8 text-balance text-white">Enquiry received</h1>
 
           <p className="mt-6 text-base leading-relaxed text-on-dark-muted lg:text-lg">
-            Thank you. Your requirement is with our application engineering team. You can expect a
-            first response within one working day, IST — typically a material recommendation, a
-            mesh design proposal and an indicative lead time.
+            Thank you. Your requirement is with our application engineering team, who will respond
+            to your enquiry.
           </p>
 
           {settings.email && (
             <p className="mt-5 text-sm text-on-dark-faint">
-              Need to add drawings or a specification sheet? Reply to our acknowledgement, or send
-              them to{" "}
+              Need to add drawings or a specification sheet? Send them to{" "}
               <a href={`mailto:${settings.email}`} className="text-brand underline underline-offset-4">
                 {settings.email}
               </a>

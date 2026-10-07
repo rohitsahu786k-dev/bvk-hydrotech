@@ -117,6 +117,15 @@ export interface SolutionPageContent {
     callouts: Callout[];
   };
 
+  /** Downloadable documents, each with a direct link. */
+  downloads?: {
+    eyebrow: string;
+    title: string;
+    titleAccent?: string;
+    intro: string;
+    items: { title: string; text: string; href: string; format: string }[];
+  };
+
   /** Numbered horizontal step flow. */
   process?: {
     eyebrow: string;

@@ -12,24 +12,14 @@ export const resources: SolutionPageContent = {
         "Three: the Green Energy Brochure covering precision woven mesh for electrolysers and fuel cells, the Knitted Mesh Brochure covering functional advantages and parameters, and the Green Hydrogen Knitted Mesh leaflet covering knit types and stack applications. All open as PDFs.",
     },
     {
-      question: "Can I get copies of your certificates?",
+      question: "Which certifications does BVK refer to?",
       answer:
-        "Yes. Current-issue certificates for IATF 16949, ISO 9001, ISO 14001, ISO 45001, ISO 50001, AS9100 and DSIR recognition are issued on request, as are RoHS and REACH material compliance declarations.",
-    },
-    {
-      question: "Do you provide material test reports and mill certificates?",
-      answer:
-        "Yes, per batch. Mill certificates, material traceability records, air permeability, grain structure and stress testing reports are issued against a specific order or programme rather than published.",
-    },
-    {
-      question: "Can you complete our supplier questionnaire?",
-      answer:
-        "Yes. Send the questionnaire along with your audit requirements and documentation standard, and we will state up front where we meet it and where we do not.",
+        "BVK literature refers to IATF 16949:2016, ISO 9001:2015, ISO 14001:2015 and ISO 45001:2018, together with DSIR recognition for in-house R&D. The certification badges are shown on this site. For documents needed in your qualification process, contact the team.",
     },
     {
       question: "Is there a datasheet for a specific mesh specification?",
       answer:
-        "Specifications are issued per component rather than as a catalogue, because the geometry, alloy and finishing route are set against your duty. Send the application and our engineers will return a specification you can review.",
+        "The brochures set out the material range, parameter ranges and process capability. For a specific component, share the application and requirements through the enquiry form and the engineering team will respond.",
     },
   ],
   hero: {
@@ -48,83 +38,71 @@ export const resources: SolutionPageContent = {
     secondary: { label: "Green Energy Brochure", href: docs.greenEnergy, external: true },
     image: {
       src: img.membraneRoll,
-      alt: "Precision mesh roll featured in BVK technical literature",
+      alt: "Illustration: Precision mesh roll featured in BVK technical literature",
     },
   },
   benefits: [
     { icon: "file", title: "Three Brochures", text: "Green energy, knitted mesh and hydrogen." },
-    { icon: "badge", title: "Certificates", text: "ISO, IATF, AS9100 and DSIR on request." },
-    { icon: "flask", title: "Material Data", text: "Alloy specifications and compliance." },
-    { icon: "headset", title: "Direct Support", text: "An engineer, not a brochure, for specifics." },
+    { icon: "badge", title: "Credentials", text: "IATF, ISO and DSIR recognition." },
+    { icon: "flask", title: "Material Data", text: "Fourteen alloys with AISI/UNS designations." },
+    { icon: "headset", title: "Direct Contact", text: "For anything specific to your component." },
   ],
   overview: {
     eyebrow: "What is available",
     title: "Literature for the",
     titleAccent: "qualification stage",
-    body: "These documents are written for engineers and buyers who need to assess BVK before an RFQ: what we make, in which materials, to which standards, and how the process is controlled. They are not a substitute for a technical conversation — anything specific to your component is best answered directly, and usually faster.",
+    body: "These documents are written for engineers and buyers who need to assess BVK before an RFQ: what we make, in which materials, to which standards, and how the process is controlled. They are not a substitute for a technical conversation — anything specific to your component is best taken up with the team directly.",
     action: { label: "Ask an Engineer", href: "/contact" },
     image: {
       src: img.gembaBoard,
-      alt: "Documentation and quality records at the BVK plant",
+      alt: "Gemba quality management board at the BVK plant",
     },
-    badge: { title: "Need something else?", text: "Certificates and data on request" },
+    badge: { title: "Need something else?", text: "Contact the team" },
   },
-  components: {
+  downloads: {
     eyebrow: "Downloads",
     title: "Available",
     titleAccent: "documents",
-    intro:
-      "Three brochures covering the product range. Each opens as a PDF in a new tab.",
-    image: {
-      src: img.meshRoll,
-      alt: "BVK precision mesh product range",
-    },
-    callouts: [
+    intro: "Three documents covering the product range. Each opens as a PDF in a new tab.",
+    items: [
       {
         title: "Green Energy Brochure",
-        text: "Precision woven mesh solutions for electrolysers and fuel cells. Covers company credentials, the full material table, process capability and industries served.",
+        text: "Precision woven mesh solutions for electrolysers and fuel cells: company credentials, the material table, process capability, sustainability and industries served.",
+        href: docs.greenEnergy,
+        format: "PDF · Brochure",
       },
       {
-        title: "Green Hydrogen Leaflet",
-        text: "Knitted mesh for the hydrogen value chain. Covers the three knit types, machine and wire parameters, and applicable standards.",
-      },
-      {
-        title: "Certification Pack",
-        text: "ISO 9001, ISO 14001, ISO 45001, ISO 50001, IATF 16949, AS9100 and DSIR recognition — available on request.",
+        title: "Green Hydrogen Knitted Mesh Solutions",
+        text: "Knit types (Voltra Lite, Voltra +, Voltra Max), machine and wire parameters, stack applications and the standards referenced.",
+        href: docs.hydrogenLeaflet,
+        format: "PDF · Leaflet",
       },
       {
         title: "Knitted Mesh Brochure",
-        text: "Functional advantages, key parameters and the BVK competitive edge for knitted mesh across applications.",
-      },
-      {
-        title: "Material Compliance",
-        text: "RoHS and REACH declarations, plus alloy specifications against AISI and UNS designations.",
-      },
-      {
-        title: "Quality Documentation",
-        text: "Control plans, PPA documentation and traceability records, issued per programme.",
+        text: "Functional advantages, key parameters, finishing and forming options, and the BVK competitive edge for knitted mesh.",
+        href: docs.knittedMesh,
+        format: "PDF · Brochure",
       },
     ],
   },
   features: {
-    eyebrow: "On request",
-    title: "What is not",
-    titleAccent: "on this page",
-    body: "Some documents are issued per customer or per programme rather than published. Ask and we will send the current version.",
+    eyebrow: "Inside the documents",
+    title: "What the brochures",
+    titleAccent: "cover",
+    body: "Together the three documents cover the company, the product range and the process behind it.",
     points: [
-      "ISO, IATF, AS9100 and DSIR certificates — current issue",
-      "RoHS and REACH material compliance declarations",
-      "Mill certificates and material traceability for a specific batch",
-      "Control plans and Production Part Approval documentation",
-      "Test reports — air permeability, grain structure, stress testing",
-      "CFD assessment reports for a developed component",
-      "Supplier questionnaire responses and audit pack",
+      "Fourteen-alloy material table with material number, description and AISI/UNS designation",
+      "Company credentials, certifications and industries served",
+      "Process capability: treatments, coatings and quality control",
+      "Knit types and their stack applications",
+      "Knitted mesh parameters: wire diameter, knit type, forming and finishing",
+      "Sustainability and ESG commitments",
     ],
     image: {
       src: img.materialRacks,
-      alt: "Material storage with batch identification at the BVK plant",
+      alt: "Stainless steel material storage racks at the BVK plant",
     },
-    badge: { title: "Issued per programme", text: "always the current revision" },
+    badge: { title: "Three documents", text: "PDF, opens in a new tab" },
   },
   why: {
     eyebrow: "Using these documents",
@@ -141,7 +119,7 @@ export const resources: SolutionPageContent = {
       {
         icon: "ruler",
         title: "Parameter Ranges",
-        text: "Wire diameter, knit type, corrugation and single-piece capability.",
+        text: "Wire diameter, knit type, corrugation and forming options.",
       },
       {
         icon: "cog",
@@ -157,24 +135,24 @@ export const resources: SolutionPageContent = {
   },
   tiles: [
     {
-      image: { src: img.electrolyserSplash, alt: "Electrolyser stack" },
+      image: { src: img.electrolyserSplash, alt: "Illustration: Electrolyser stack" },
       title: "Electrolyser Solutions",
       href: "/electrolyser-solutions",
     },
     {
-      image: { src: img.knittedMacro, alt: "Knitted mesh detail" },
+      image: { src: img.knittedMacro, alt: "Illustration: Knitted mesh detail" },
       title: "Knitted Mesh Solutions",
       href: "/knitted-mesh-solutions",
     },
     {
-      image: { src: img.flowLab, alt: "R&D laboratory" },
+      image: { src: img.flowLab, alt: "Illustration: R&D laboratory" },
       title: "R&D, CFD & Prototyping",
       href: "/rd-cfd-prototyping",
     },
   ],
   cta: standardCta({
     title: "Need a document\nthat is not here?",
-    body: "Certificates, test reports, mill certificates and compliance declarations are all available. Tell us what your qualification process requires.",
+    body: "Tell us what your qualification process requires and the team will respond.",
     brochure: docs.knittedMesh,
     eyebrow: "Resources",
   }),
@@ -231,7 +209,7 @@ export const insights: SolutionPageContent = {
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
     image: {
       src: img.knittedMacro,
-      alt: "Macro detail of knitted metal mesh structure",
+      alt: "Illustration: Macro detail of knitted metal mesh structure",
     },
   },
   benefits: [
@@ -244,20 +222,20 @@ export const insights: SolutionPageContent = {
     eyebrow: "Why this page exists",
     title: "Most mesh problems are",
     titleAccent: "specification problems",
-    body: "In our experience the parts that fail in service were rarely made badly — they were specified against an incomplete picture of the duty. A micron rating without a pressure drop budget. An alloy chosen for cost without checking the medium. A knit density set by what was available rather than by the stack. This page collects the reasoning we go through with customers, so that the conversation can start further along.",
+    body: "A mesh specified against an incomplete picture of the duty can fail in service however well it is made. A micron rating without a pressure drop budget. An alloy chosen for cost without checking the medium. A knit density set by what was available rather than by the stack. This page collects the reasoning we go through with customers, so that the conversation can start further along.",
     action: { label: "Read the Notes", href: "#components" },
     image: {
       src: img.meshTestingLab,
-      alt: "Mesh flow testing laboratory",
+      alt: "Illustration: Mesh flow testing laboratory",
     },
-    badge: { title: "Written by engineers", text: "for engineers specifying mesh" },
+    badge: { title: "Six checkpoints", text: "before specifying mesh" },
   },
   components: {
     eyebrow: "Engineering notes",
     title: "Six things worth",
     titleAccent: "knowing first",
     intro:
-      "Each of these comes up in nearly every technical enquiry we handle.",
+      "Six points worth settling before a mesh is specified.",
     image: {
       src: img.wovenMeshSurface,
       alt: "Precision woven mesh structure",
@@ -307,7 +285,7 @@ export const insights: SolutionPageContent = {
     ],
     image: {
       src: img.flowLab,
-      alt: "Precision mesh flow laboratory with analysis display",
+      alt: "Illustration: Precision mesh flow laboratory with analysis display",
     },
     badge: { title: "Nine inputs", text: "turn an enquiry into a specification" },
   },
@@ -347,7 +325,7 @@ export const insights: SolutionPageContent = {
       href: "/woven-mesh-solutions",
     },
     {
-      image: { src: img.knittedMacro, alt: "Knitted mesh" },
+      image: { src: img.knittedMacro, alt: "Illustration: Knitted mesh" },
       title: "Knitted Mesh Solutions",
       href: "/knitted-mesh-solutions",
     },
@@ -389,7 +367,7 @@ export const faqs: SolutionPageContent = {
   },
   benefits: [
     { icon: "ruler", title: "0.05–0.30 mm", text: "Knitted mesh wire diameter range." },
-    { icon: "spool", title: "Up to 2.2 m", text: "Single-piece diameter capability." },
+    { icon: "spool", title: "Large Single Pieces", text: "Single-piece diameter capability." },
     { icon: "flask", title: "14 Alloys", text: "Catalogued material range." },
     { icon: "globe", title: "25+ Countries", text: "Current export reach." },
   ],
@@ -410,7 +388,7 @@ export const faqs: SolutionPageContent = {
     title: "Six things that",
     titleAccent: "speed up a quote",
     intro:
-      "Nothing here is unusual — but an enquiry carrying all six usually gets a technical answer the same week.",
+      "Nothing here is unusual — but an enquiry carrying all six lets the engineering team start from the application.",
     image: {
       src: img.engineeredMeshRender,
       alt: "Engineered mesh component for technical enquiry",
@@ -451,16 +429,16 @@ export const faqs: SolutionPageContent = {
       "Materials — nickel 201/202, titanium, stainless steel, copper, aluminium, Hastelloy and specialty alloys; fourteen catalogued grades",
       "Knitted wire diameter — 0.05 mm to 0.30 mm",
       "Knit types — single, double and multi-end",
-      "Single-piece diameter — up to 2.2 m, removing seams from large circular components",
+      "Single-piece sizes — large diameters, removing seams from circular components",
       "Corrugation — 4 to 10 mm, in herringbone, W and V profiles",
       "Treatments — degreased, annealed, coated or plated",
-      "Certifications — IATF 16949, ISO 9001, ISO 14001, ISO 45001, ISO 50001, AS9100, DSIR, CE, RoHS, REACH",
+      "Certifications — IATF 16949, ISO 9001, ISO 14001, ISO 45001, ISO 50001, DSIR, CE, RoHS, REACH",
       "Standards referenced — ASTM B164, ISO 9044, DSIR-RDI and ISO 22734-ready QMS",
       "Export — currently supplying 25+ countries",
     ],
     image: {
       src: img.stainlessMeshRoll,
-      alt: "Stainless steel mesh roll",
+      alt: "Illustration: Stainless steel mesh roll",
     },
     badge: { title: "Still unanswered?", text: "An engineer will reply directly" },
   },
@@ -469,7 +447,7 @@ export const faqs: SolutionPageContent = {
     title: "An engineer,",
     titleAccent: "not a form letter",
     intro:
-      "Technical enquiries are routed to the application team rather than to sales administration. That occasionally makes the first reply slower and almost always makes it more useful.",
+      "Technical enquiries are addressed on the engineering question first.",
     cards: [
       {
         icon: "headset",
@@ -500,12 +478,12 @@ export const faqs: SolutionPageContent = {
       href: "/precision-mesh-solutions",
     },
     {
-      image: { src: img.membraneRoll, alt: "Technical literature" },
+      image: { src: img.membraneRoll, alt: "Illustration: Technical literature" },
       title: "Resources & Downloads",
       href: "/resources",
     },
     {
-      image: { src: img.knittedMacro, alt: "Engineering insights" },
+      image: { src: img.knittedMacro, alt: "Illustration: Engineering insights" },
       title: "Engineering Insights",
       href: "/insights",
     },

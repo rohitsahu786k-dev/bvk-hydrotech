@@ -365,53 +365,53 @@ p {
    WORDPRESS CONTENT
    ============================================================================= */
 
-.wp-content {
+.rich-text {
   color: var(--color-grey);
   line-height: 1.75;
 }
 
-.wp-content > * + * {
+.rich-text > * + * {
   margin-top: 1.125rem;
 }
 
-.wp-content h2,
-.wp-content h3,
-.wp-content h4 {
+.rich-text h2,
+.rich-text h3,
+.rich-text h4 {
   color: var(--color-ink);
   margin-top: 2.5rem;
 }
 
-.wp-content strong {
+.rich-text strong {
   color: var(--color-ink);
   font-weight: 600;
 }
 
-.wp-content a {
+.rich-text a {
   color: var(--color-brand-deep);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
-.wp-content ul,
-.wp-content ol {
+.rich-text ul,
+.rich-text ol {
   padding-left: 1.25rem;
 }
 
-.wp-content li + li {
+.rich-text li + li {
   margin-top: 0.5rem;
 }
 
-.wp-content img {
+.rich-text img {
   border-radius: var(--radius-xs);
 }
 
-.wp-content table {
+.rich-text table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.875rem;
 }
 
-.wp-content th {
+.rich-text th {
   background: var(--color-surface-raised);
   border: 1px solid var(--color-hairline);
   padding: 0.75rem;
@@ -420,18 +420,18 @@ p {
   font-weight: 600;
 }
 
-.wp-content td {
+.rich-text td {
   border: 1px solid var(--color-hairline);
   padding: 0.75rem;
 }
 
-.wp-content blockquote {
+.rich-text blockquote {
   border-left: 3px solid var(--color-brand);
   padding-left: 1.25rem;
   font-style: italic;
 }
 
-.wp-content .policy-content {
+.rich-text .policy-content {
   max-width: 58rem;
   margin-inline: auto;
   border: 1px solid var(--color-hairline);
@@ -439,18 +439,18 @@ p {
   padding: clamp(1.5rem, 4vw, 3.5rem);
 }
 
-.wp-content .policy-content h2 {
+.rich-text .policy-content h2 {
   padding-top: 1.25rem;
   border-top: 1px solid var(--color-hairline);
   font-size: clamp(1.25rem, 2vw, 1.75rem);
 }
 
-.wp-content .policy-content .policy-bullet {
+.rich-text .policy-content .policy-bullet {
   position: relative;
   padding-left: 1.25rem;
 }
 
-.wp-content .policy-content .policy-bullet::before {
+.rich-text .policy-content .policy-bullet::before {
   content: "";
   position: absolute;
   left: 0;

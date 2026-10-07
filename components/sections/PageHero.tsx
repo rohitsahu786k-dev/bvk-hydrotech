@@ -3,8 +3,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { SitePage } from "@/lib/wordpress/pages";
 
-const WP_BASE = process.env.NEXT_PUBLIC_WORDPRESS_URL ?? "https://dev.bhavcreations.in";
-const PATTERN_BG = `${WP_BASE.replace(/\/$/, "")}/wp-content/uploads/bg-pattern-scaled.webp`;
+const PATTERN_BG = "/media/bg-pattern-scaled.webp";
 
 /**
  * Inner-page hero — a shorter, quieter relative of the homepage carousel.

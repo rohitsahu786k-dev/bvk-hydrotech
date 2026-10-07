@@ -29,12 +29,12 @@ export const about: SolutionPageContent = {
     {
       question: "Which certifications does BVK Hydrotech hold?",
       answer:
-        "IATF 16949:2016, ISO 9001:2015, ISO 14001:2015, ISO 45001:2018 and ISO 50001:2018, plus AS9100 for aerospace and DSIR recognition for in-house R&D from the Government of India. Material compliance covers CE marking, RoHS and REACH.",
+        "IATF 16949:2016, ISO 9001:2015, ISO 14001:2015, ISO 45001:2018 and ISO 50001:2018, plus DSIR recognition for in-house R&D from the Government of India. Material compliance covers CE marking, RoHS and REACH.",
     },
     {
       question: "What other companies are in the BVK Group?",
       answer:
-        "WMW India (WMW Industries Ltd.) for woven mesh manufacturing, Deco Mesh Solutions for architectural mesh, BVK Infrasoft for IT, and two non-commercial bodies: the Disha Foundation and The Jeypore School.",
+        "The group includes BVK Hydrotech, WMW India (WMW Industries Ltd.), Deco Mesh Solutions, BVK Infrasoft, the Disha Foundation and The Jeypore School. Across the group, BVK is present in precision industrial filtration, IT & Infocom, education and real estate.",
     },
   ],
   hero: {
@@ -115,14 +115,14 @@ export const about: SolutionPageContent = {
     eyebrow: "Group companies",
     title: "The BVK",
     titleAccent: "group",
-    body: "BVK Hydrotech is the group's hydrogen and energy mesh arm. It sits alongside five other businesses, two of which are not commercial at all.",
+    body: "BVK Group is a diversified enterprise with a presence in precision industrial filtration, IT & Infocom, education and real estate.",
     points: [
-      "BVK Hydrotech — precision mesh for hydrogen, fuel cells and filtration",
-      "WMW India (WMW Industries Ltd.) — the group's woven mesh manufacturing business",
-      "Deco Mesh Solutions — architectural and decorative metal mesh",
-      "BVK Infrasoft — information technology and infocom",
-      "Disha Foundation — the group's social initiative",
-      "The Jeypore School — education, including for specially abled children",
+      "BVK Hydrotech",
+      "WMW India (WMW Industries Ltd.)",
+      "Deco Mesh Solutions",
+      "BVK Infrasoft",
+      "Disha Foundation",
+      "The Jeypore School",
     ],
     image: {
       src: img.materialRacks,
@@ -145,7 +145,7 @@ export const about: SolutionPageContent = {
         parameter: "Management systems",
         value: "IATF 16949:2016, ISO 9001:2015, ISO 14001:2015, ISO 45001:2018, ISO 50001:2018",
       },
-      { parameter: "Sector approvals", value: "AS9100 aerospace, DSIR-recognised in-house R&D" },
+      { parameter: "Recognition", value: "DSIR-recognised in-house R&D" },
       { parameter: "Material compliance", value: "CE marking, RoHS compliant, REACH compliant" },
       { parameter: "Renewable energy", value: "50%+ of consumption, targeting 100% self-reliance" },
     ],
@@ -156,7 +156,7 @@ export const about: SolutionPageContent = {
     title: "Where the work",
     titleAccent: "happens",
     intro:
-      "Photographs of the Jaipur plant. Customers running a supplier qualification are welcome to see all four stages in person.",
+      "Photographs of the Jaipur plant.",
     cards: [
       {
         image: { src: img.warping, alt: "Wire warping at BVK" },
@@ -220,12 +220,12 @@ export const about: SolutionPageContent = {
       href: "/engineering-manufacturing",
     },
     {
-      image: { src: img.flowLab, alt: "R&D laboratory" },
+      image: { src: img.flowLab, alt: "Illustration: R&D laboratory" },
       title: "R&D, CFD & Prototyping",
       href: "/rd-cfd-prototyping",
     },
     {
-      image: { src: img.solarMountains, alt: "Solar farm" },
+      image: { src: img.solarMountains, alt: "Illustration: Solar farm" },
       title: "Sustainability",
       href: "/sustainability",
     },
@@ -257,7 +257,7 @@ export const sustainability: SolutionPageContent = {
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
     image: {
       src: img.solarMountains,
-      alt: "Solar farm beneath mountain skies",
+      alt: "Illustration: Solar farm beneath mountain skies",
     },
   },
   benefits: [
@@ -290,7 +290,7 @@ export const sustainability: SolutionPageContent = {
     action: { label: "See Our Commitments", href: "#components" },
     image: {
       src: img.algae,
-      alt: "Sunlit aquatic algae garden representing natural carbon capture",
+      alt: "Illustration: Sunlit aquatic algae garden representing natural carbon capture",
     },
     badge: { title: "Helping customers", text: "achieve their own ESG goals" },
   },
@@ -299,10 +299,10 @@ export const sustainability: SolutionPageContent = {
     title: "Where sustainability",
     titleAccent: "actually shows up",
     intro:
-      "Six areas, each with something measurable behind it rather than a statement of intent.",
+      "Six areas from BVK's sustainability programme.",
     image: {
       src: img.solarSunrise,
-      alt: "Solar farm at sunrise",
+      alt: "Illustration: Solar farm at sunrise",
     },
     callouts: [
       {
@@ -323,11 +323,11 @@ export const sustainability: SolutionPageContent = {
       },
       {
         title: "Certified Systems",
-        text: "ISO 14001 environmental and ISO 50001 energy management systems, independently audited.",
+        text: "ISO 14001 environmental and ISO 50001 energy management systems.",
       },
       {
-        title: "Social Initiative",
-        text: "The Disha Foundation and The Jeypore School, including education for specially abled children.",
+        title: "Social Responsibility",
+        text: "The group's corporate social responsibility work, including the Disha Foundation and The Jeypore School.",
       },
     ],
   },
@@ -347,9 +347,9 @@ export const sustainability: SolutionPageContent = {
     ],
     image: {
       src: img.hydrogenValley,
-      alt: "Hydrogen plant set in a forested valley",
+      alt: "Illustration: Hydrogen plant set in a forested valley",
     },
-    badge: { title: "Scope 3 ready", text: "documentation your auditors will ask for" },
+    badge: { title: "Certified systems", text: "ISO 14001 and ISO 50001" },
   },
   specs: {
     caption: "Sustainability commitments and evidence",
@@ -358,12 +358,12 @@ export const sustainability: SolutionPageContent = {
       {
         parameter: "Renewable energy share",
         value: "50%+ of energy consumption",
-        note: "ISO 50001:2018 energy management system",
+        note: "Green Energy Brochure",
       },
       {
         parameter: "Renewable self-reliance",
         value: "100% — target",
-        note: "Digital energy management system",
+        note: "Green Energy Brochure",
       },
       {
         parameter: "ESG programme",
@@ -393,7 +393,7 @@ export const sustainability: SolutionPageContent = {
       {
         parameter: "Diversity",
         value: "20% of group employees are women",
-        note: "Group workforce data",
+        note: "Green Energy Brochure",
       },
     ],
   },
@@ -422,7 +422,7 @@ export const sustainability: SolutionPageContent = {
       {
         icon: "cpu",
         title: "Digital Conservation",
-        text: "Industry 4.0 visibility driving measurable energy reduction.",
+        text: "A digital energy management system driving conservation.",
       },
       {
         icon: "handshake",
@@ -438,7 +438,7 @@ export const sustainability: SolutionPageContent = {
   },
   tiles: [
     {
-      image: { src: img.electrolyzerPlant, alt: "Electrolyser plant" },
+      image: { src: img.electrolyzerPlant, alt: "Illustration: Electrolyser plant" },
       title: "Energy & Clean Tech",
       href: "/energy-clean-tech",
     },
@@ -455,7 +455,7 @@ export const sustainability: SolutionPageContent = {
   ],
   cta: standardCta({
     title: "Need our sustainability\ndocumentation?",
-    body: "Certificates, material compliance declarations and energy data for your supplier assessment are available on request. Tell us which framework you report under.",
+    body: "For a supplier assessment, tell us which framework you report under and which documents you need.",
     brochure: docs.greenEnergy,
     eyebrow: "Sustainably grow",
   }),

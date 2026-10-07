@@ -62,7 +62,7 @@ export default function FaqAccordion({
 
               <Accordion.Content className="overflow-hidden data-[state=closed]:animate-none">
                 <div
-                  className="wp-content pb-7 pr-12 text-sm"
+                  className="rich-text pb-7 pr-12 text-sm"
                   dangerouslySetInnerHTML={{ __html: faq.answer }}
                 />
               </Accordion.Content>

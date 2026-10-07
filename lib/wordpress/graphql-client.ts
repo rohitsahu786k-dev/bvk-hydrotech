@@ -3,6 +3,8 @@
  * All requests to WPGraphQL go through this centralized client
  */
 
+import { rewriteMedia } from "@/lib/media";
+
 const GRAPHQL_URL = process.env.WORDPRESS_GRAPHQL_URL || "https://dev.bhavcreations.in/graphql";
 const WP_USERNAME = process.env.WORDPRESS_USERNAME;
 const WP_APP_PASSWORD = process.env.WORDPRESS_APP_PASSWORD;
@@ -73,7 +75,7 @@ export async function fetchGraphQL<T = unknown>(
       // Don't throw for all errors — return data with partial errors gracefully
     }
 
-    return json.data;
+    return rewriteMedia(json.data);
   } catch (error) {
     console.error("GraphQL fetch error:", error);
     throw error;

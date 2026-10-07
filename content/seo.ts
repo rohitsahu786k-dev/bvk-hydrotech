@@ -99,7 +99,7 @@ export const pageSeo: Record<string, PageSeo> = {
   "knitted-mesh-solutions": {
     title: "Knitted Wire Mesh | GDL, Elastic Elements & Stack Components",
     description:
-      "Single, double and multi-end knitted wire mesh in nickel, titanium and stainless steel. Wire 0.05–0.30 mm, single-piece up to 2.2 m diameter.",
+      "Single, double and multi-end knitted wire mesh in nickel, titanium and stainless steel. Wire 0.05–0.30 mm, large single-piece diameters.",
     keywords: [
       "knitted wire mesh",
       "knitted wire mesh manufacturer India",
@@ -122,7 +122,7 @@ export const pageSeo: Record<string, PageSeo> = {
   "electrolyser-solutions": {
     title: "Electrolyser Mesh for Green Hydrogen Stacks | Alkaline & PEM",
     description:
-      "Electrolyser mesh for alkaline and PEM stacks: GDL and PTL layers, catalyst support, current collection and nickel elastic elements. Single-piece up to 2.2 m.",
+      "Electrolyser mesh for alkaline and PEM stacks: GDL and PTL layers, catalyst support, current collection and nickel elastic elements. Large single-piece diameters.",
     keywords: [
       "electrolyser mesh",
       "alkaline electrolyser components",
@@ -361,7 +361,7 @@ export const pageSeo: Record<string, PageSeo> = {
   faqs: {
     title: "Wire Mesh FAQ | Materials, Capability & Enquiry Process",
     description:
-      "Wire mesh FAQ: materials and alloys, wire diameter 0.05–0.30 mm, knit types, 2.2 m single-piece capability, certifications and what we need to quote.",
+      "Wire mesh FAQ: materials and alloys, wire diameter 0.05–0.30 mm, knit types, single-piece capability, certifications and what we need to quote.",
     keywords: [
       "wire mesh FAQ",
       "knitted mesh wire diameter",

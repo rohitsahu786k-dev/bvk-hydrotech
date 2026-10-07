@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { ArrowUpRight, Clock, Mail, MapPin, Phone } from "lucide-react";
+import { ArrowUpRight, Mail, MapPin, Phone } from "lucide-react";
 import RfqForm from "@/components/forms/RfqForm";
 import FaqAccordion from "@/components/sections/FaqAccordion";
 import PageHero from "@/components/sections/PageHero";
@@ -84,7 +84,7 @@ export default async function ContactPage() {
                   <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-brand-deep" />
                   <div>
                     <dt className="text-[0.6875rem] font-semibold uppercase tracking-[0.18em] text-grey-soft">
-                      Registered office
+                      Address
                     </dt>
                     <dd className="mt-1.5 whitespace-pre-line text-sm leading-relaxed text-grey">
                       {settings.address}
@@ -98,7 +98,7 @@ export default async function ContactPage() {
                   <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-brand-deep" />
                   <div>
                     <dt className="text-[0.6875rem] font-semibold uppercase tracking-[0.18em] text-grey-soft">
-                      Manufacturing
+                      Address
                     </dt>
                     <dd className="mt-1.5 whitespace-pre-line text-sm leading-relaxed text-grey">
                       {settings.factoryAddress}
@@ -146,18 +146,6 @@ export default async function ContactPage() {
                   </div>
                 </div>
               )}
-
-              <div className="flex gap-4">
-                <Clock className="mt-0.5 h-5 w-5 shrink-0 text-brand-deep" />
-                <div>
-                  <dt className="text-[0.6875rem] font-semibold uppercase tracking-[0.18em] text-grey-soft">
-                    Response time
-                  </dt>
-                  <dd className="mt-1.5 text-sm leading-relaxed text-grey">
-                    Technical enquiries are answered within one working day, IST.
-                  </dd>
-                </div>
-              </div>
             </dl>
           </aside>
 

@@ -5,6 +5,31 @@ import { sustainabilityBand, standardCta } from "../shared";
 export const engineeringManufacturing: SolutionPageContent = {
   slug: "engineering-manufacturing",
   breadcrumb: "Engineering & Manufacturing",
+  faqs: [
+    {
+      question: "What manufacturing capabilities does BVK Hydrotech have?",
+      answer:
+        "An integrated weaving platform with equipment of German origin, covering weaving, treatments such as annealing and coating, laser cutting and quality control, supported by Industry 4.0 systems including a manufacturing execution system.",
+    },
+    {
+      question: "Which quality practices does BVK describe?",
+      answer:
+        "100% traceability, product standard harmonisation, process and quality control plans, custom-made testing equipment, and light-box and video inspection. Total Quality Management is guided by standardised control plans and a Production Part Approval (PPA) procedure.",
+    },
+    {
+      question: "What does Industry 4.0 cover at BVK?",
+      answer:
+        "Technology 4.0 (material and manufacturing simulation, digital twin), Supply Chain 4.0 (end-to-end real-time transparency, AI early-warning systems), Manufacturing 4.0 (manufacturing execution system, MRO 4.0, predictive maintenance, human-machine interface, intelligent machine control) and Business 4.0 (predictive analytics, e-learning, IT security).",
+    },
+    {
+      question: "What is BVK's production scale?",
+      answer: "BVK converts 650+ MT of metal per annum, with 300+ employees and exports to 25+ countries.",
+    },
+    {
+      question: "Where is the plant located?",
+      answer: "Industrial Area, Jhotwara, Jaipur 302012, Rajasthan, India.",
+    },
+  ],
   hero: {
     eyebrow: "Scalability with stability",
     title: "Engineering &",
@@ -34,7 +59,7 @@ export const engineeringManufacturing: SolutionPageContent = {
     eyebrow: "Overview",
     title: "Manufacturing built for",
     titleAccent: "repeat orders",
-    body: "We prioritise innovation through manufacturing excellence by pursuing global standards, incorporating state-of-the-art technologies that place us at the forefront of global manufacturing. Central to that commitment is Total Quality Management, guided by standardised control plans and a Production Part Approval procedure. In practice this means the sample you approve and the batch you receive eighteen months later came off the same documented route.",
+    body: "We prioritise innovation through manufacturing excellence by pursuing global standards, incorporating state-of-the-art technologies that place us at the forefront of global manufacturing. Central to that commitment is Total Quality Management, guided by standardised control plans and a Production Part Approval procedure. In practice this means the sample you approve and a later batch come off the same documented route.",
     action: { label: "See the Route", href: "#components" },
     image: {
       src: img.materialRacks,
@@ -47,7 +72,7 @@ export const engineeringManufacturing: SolutionPageContent = {
     title: "From raw wire to",
     titleAccent: "dispatched part",
     intro:
-      "Five stages, all in-house. No external handoff means no gap in the traceability record.",
+      "Five stages from raw wire to dispatched part.",
     steps: [
       {
         icon: "package",
@@ -139,7 +164,7 @@ export const engineeringManufacturing: SolutionPageContent = {
     title: "The stages you can",
     titleAccent: "come and see",
     intro:
-      "These are photographs of the BVK plant, not renders. Customers qualifying us are welcome to walk the same route.",
+      "Photographs from the BVK plant.",
     cards: [
       {
         image: { src: img.warping, alt: "Wire warping process at BVK" },
@@ -203,7 +228,7 @@ export const engineeringManufacturing: SolutionPageContent = {
       href: "/process-treatments",
     },
     {
-      image: { src: img.flowLab, alt: "Flow testing laboratory" },
+      image: { src: img.flowLab, alt: "Illustration: Flow testing laboratory" },
       title: "R&D, CFD & Prototyping",
       href: "/rd-cfd-prototyping",
     },
@@ -274,7 +299,7 @@ export const processTreatments: SolutionPageContent = {
       src: img.slitting,
       alt: "Precision slitting process at the BVK plant",
     },
-    badge: { title: "Post-weave finishing", text: "the stage most suppliers outsource" },
+    badge: { title: "Post-weave finishing", text: "annealing, coating, forming and cutting" },
   },
   components: {
     eyebrow: "Capability",
@@ -284,7 +309,7 @@ export const processTreatments: SolutionPageContent = {
       "Each one changes a different property. Most components use two or three in sequence.",
     image: {
       src: img.membraneRoll,
-      alt: "Treated precision mesh roll close up",
+      alt: "Illustration: Treated precision mesh roll close up",
     },
     callouts: [
       {
@@ -329,7 +354,7 @@ export const processTreatments: SolutionPageContent = {
     ],
     image: {
       src: img.mistNozzlesFactory,
-      alt: "Precision coating and treatment equipment in a stainless steel factory",
+      alt: "Illustration: Precision coating and treatment equipment in a stainless steel factory",
     },
     badge: { title: "Coating pattern", text: "defined, not incidental" },
   },
@@ -394,18 +419,18 @@ export const processTreatments: SolutionPageContent = {
       },
       {
         icon: "microscope",
-        title: "Tested Before Release",
-        text: "Treatment effects verified on prototype samples, not on your line.",
+        title: "Rapid Prototyping",
+        text: "Prototype samples for dimensional and functional checks.",
       },
       {
         icon: "scan",
         title: "Continuous Traceability",
-        text: "The batch record follows the material through every treatment stage.",
+        text: "100% traceability across the process route.",
       },
       {
         icon: "clipboard",
         title: "Repeatable Parameters",
-        text: "Treatment settings locked into the control plan at PPA.",
+        text: "Process and quality control plans guide production.",
       },
     ],
   },
@@ -416,12 +441,12 @@ export const processTreatments: SolutionPageContent = {
       href: "/engineering-manufacturing",
     },
     {
-      image: { src: img.flowLab, alt: "Flow testing laboratory" },
+      image: { src: img.flowLab, alt: "Illustration: Flow testing laboratory" },
       title: "R&D, CFD & Prototyping",
       href: "/rd-cfd-prototyping",
     },
     {
-      image: { src: img.knittedMacro, alt: "Knitted mesh detail" },
+      image: { src: img.knittedMacro, alt: "Illustration: Knitted mesh detail" },
       title: "Knitted Mesh Solutions",
       href: "/knitted-mesh-solutions",
     },
@@ -436,6 +461,28 @@ export const processTreatments: SolutionPageContent = {
 export const rdCfdPrototyping: SolutionPageContent = {
   slug: "rd-cfd-prototyping",
   breadcrumb: "R&D, CFD & Prototyping",
+  faqs: [
+    {
+      question: "Is BVK's R&D recognised by the Government of India?",
+      answer:
+        "Yes. BVK has received recognition from the Government of India through the DSIR programme for its in-house research and development efforts.",
+    },
+    {
+      question: "Which tests can BVK run?",
+      answer:
+        "Advanced Computational Fluid Dynamics (CFD) analysis, examination of grain structure, topography assessments of air permeability and stress testing, in line with norms established between BVK and the customer.",
+    },
+    {
+      question: "How does BVK use CFD?",
+      answer:
+        "BVK uses Computational Fluid Dynamics and rapid prototyping to analyse flow dynamics within the mesh structure.",
+    },
+    {
+      question: "Does BVK offer prototyping and engineering support?",
+      answer:
+        "Yes. Prototyping, simulation assessments, cost evaluations, material recommendations and mesh design optimisation are part of BVK's engineering offer.",
+    },
+  ],
   hero: {
     eyebrow: "DSIR-recognised R&D centre",
     title: "R&D, CFD &",
@@ -452,7 +499,7 @@ export const rdCfdPrototyping: SolutionPageContent = {
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
     image: {
       src: img.flowLab,
-      alt: "Precision mesh flow laboratory with simulation display",
+      alt: "Illustration: Precision mesh flow laboratory with simulation display",
     },
   },
   benefits: [
@@ -485,7 +532,7 @@ export const rdCfdPrototyping: SolutionPageContent = {
     action: { label: "See the Test Suite", href: "#components" },
     image: {
       src: img.meshTestingLab,
-      alt: "Industrial mesh flow testing laboratory",
+      alt: "Illustration: Industrial mesh flow testing laboratory",
     },
     badge: { title: "DSIR recognised", text: "Dept. of Scientific & Industrial Research" },
   },
@@ -497,7 +544,7 @@ export const rdCfdPrototyping: SolutionPageContent = {
       "These services adhere to norms established between BVK and the customer, so the result is evidence both sides accept.",
     image: {
       src: img.meshRollFactory,
-      alt: "Mesh samples prepared for laboratory evaluation",
+      alt: "Illustration: Mesh samples prepared for laboratory evaluation",
     },
     callouts: [
       {
@@ -561,23 +608,24 @@ export const rdCfdPrototyping: SolutionPageContent = {
     ],
   },
   features: {
-    eyebrow: "Track record",
-    title: "What development",
-    titleAccent: "actually delivered",
-    body: "Published examples of what this process has produced for customers — the kind of gain that only shows up when someone models the structure rather than swapping a catalogue part.",
+    eyebrow: "Recognition",
+    title: "Government-recognised",
+    titleAccent: "R&D",
+    body: "BVK's R&D efforts have received recognition from the Government of India through the DSIR programme, and BVK takes part in joint R&D programmes.",
     points: [
-      "Polymer filter life extended from 24 hours to 36 hours through media restructuring",
-      "Particulate recovery raised from 30% to 40% without changing micron size, via controlled weaving adjustments",
-      "Locally manufactured filtration fabrics that replaced imports while improving drainage and reducing water usage",
-      "Patent-pending innovations filed from in-house development work",
-      "Collaborations with technology institutes and global testing facilities",
-      "Advanced simulation software used throughout development",
+      "DSIR recognition for in-house research and development",
+      "Joint R&D programmes with the Government of India",
+      "Advanced Computational Fluid Dynamics (CFD) analysis",
+      "Examination of grain structure",
+      "Topography assessments of air permeability",
+      "Stress testing",
+      "Tests adhere to norms established between BVK and the customer",
     ],
     image: {
       src: img.weavingMachine,
-      alt: "Precision mesh weaving machine used for prototype production",
+      alt: "Illustration: Precision mesh weaving machine used for prototype production",
     },
-    badge: { title: "Measured gains", text: "not marketing claims" },
+    badge: { title: "DSIR recognised", text: "in-house R&D" },
   },
   specs: {
     caption: "Test methods and what each one tells you",
@@ -640,8 +688,8 @@ export const rdCfdPrototyping: SolutionPageContent = {
       },
       {
         icon: "network",
-        title: "External Partnerships",
-        text: "Strategic partnerships with global testing facilities and technology institutes.",
+        title: "Joint R&D Programmes",
+        text: "Collaboration with the Government of India.",
       },
       {
         icon: "route",
@@ -662,7 +710,7 @@ export const rdCfdPrototyping: SolutionPageContent = {
       href: "/process-treatments",
     },
     {
-      image: { src: img.electrolyserSplash, alt: "Electrolyser stack" },
+      image: { src: img.electrolyserSplash, alt: "Illustration: Electrolyser stack" },
       title: "Electrolyser Solutions",
       href: "/electrolyser-solutions",
     },

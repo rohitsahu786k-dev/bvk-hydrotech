@@ -7,7 +7,7 @@
  * library; the brochure filenames in particular are case-sensitive.
  */
 
-const MEDIA = `${process.env.NEXT_PUBLIC_WORDPRESS_URL ?? "https://dev.bhavcreations.in"}/wp-content/uploads`;
+const MEDIA = "/media";
 
 const u = (file: string) => `${MEDIA}/${file}`;
 

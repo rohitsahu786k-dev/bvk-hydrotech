@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowRight, Mail, Phone } from "lucide-react";
 import type { HomeData, SiteSettings } from "@/lib/wordpress/home";
 
-const PATTERN_BG = `${process.env.NEXT_PUBLIC_WORDPRESS_URL ?? ""}/wp-content/uploads/pattern-scaled.png`;
+const PATTERN_BG = "/media/pattern-scaled.png";
 
 interface CtaProps {
   cta: HomeData["cta"];

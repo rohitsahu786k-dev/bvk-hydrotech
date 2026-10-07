@@ -119,16 +119,15 @@ export default async function SitePage({ params }: PageProps) {
           <section className="section bg-surface">
             <div className="shell">
               {page!.content ? (
-                <div className="wp-content" dangerouslySetInnerHTML={{ __html: page!.content }} />
+                <div className="rich-text" dangerouslySetInnerHTML={{ __html: page!.content }} />
               ) : (
                 <div className="mx-auto max-w-2xl border border-hairline p-10 text-center">
                   <h2 className="font-display text-xl font-bold tracking-tight text-ink">
-                    This section is being written
+                    {page!.title}
                   </h2>
                   <p className="mt-3 text-sm leading-relaxed text-grey">
-                    Body content for <strong>{page!.title}</strong> has not been published in the
-                    CMS yet. In the meantime our application engineers can answer any question
-                    directly.
+                    For details about {page!.title}, our application engineers can answer any
+                    question directly.
                   </p>
                   <Link href="/contact" className="btn btn-green group mt-7">
                     Talk to an engineer

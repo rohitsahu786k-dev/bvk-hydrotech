@@ -50,11 +50,11 @@ export const industrialFiltration: SolutionPageContent = {
     eyebrow: "Overview",
     title: "Filtration is rarely",
     titleAccent: "plug-and-play",
-    body: "A filtration specification is four requirements pulling against each other: what you need to retain, how much pressure you can afford to lose, what the medium will do to the metal, and how the element has to be cleaned. Change one and the others move. BVK's filtration work starts by establishing all four before any mesh is proposed — which is why the enquiry conversation is longer than a catalogue order, and the result lasts longer too.",
+    body: "A filtration specification is four requirements pulling against each other: what you need to retain, how much pressure you can afford to lose, what the medium will do to the metal, and how the element has to be cleaned. Change one and the others move. BVK's filtration work starts by establishing all four before any mesh is proposed.",
     action: { label: "See the Decision Set", href: "#components" },
     image: {
       src: img.hydrogenFilterModule,
-      alt: "Filter module assembly in a process plant",
+      alt: "Illustration: Filter module assembly in a process plant",
     },
     badge: { title: "Since 1963", text: "filtration mesh for process industry" },
   },
@@ -66,7 +66,7 @@ export const industrialFiltration: SolutionPageContent = {
       "Send these and a recommendation can follow quickly. Send only a micron rating and the specification will still be incomplete.",
     image: {
       src: img.mistNozzlesFactory,
-      alt: "Precision stainless steel filtration components in a factory",
+      alt: "Illustration: Precision stainless steel filtration components in a factory",
     },
     callouts: [
       {
@@ -96,25 +96,24 @@ export const industrialFiltration: SolutionPageContent = {
     ],
   },
   features: {
-    eyebrow: "Element range",
-    title: "From mesh to",
-    titleAccent: "finished element",
-    body: "BVK does not stop at the roll. Elements are fabricated, inspected and documented so the part arrives ready to install.",
+    eyebrow: "What BVK supplies",
+    title: "Value-engineered",
+    titleAccent: "filtration solutions",
+    body: "BVK's long experience across multiple industrial filtration segments allows it to offer customised, value-engineered solutions for challenging process environments.",
     points: [
-      "Filter candles and cartridges",
-      "Pleated mesh filters",
-      "Multi-layer disc filters",
-      "Ring discs and filter discs",
-      "Screen cylinders",
-      "Laser-cut segments and punched parts",
-      "Framed filter discs",
-      "Hydraulic and automotive filter media",
+      "Automotive — drive technology, hydraulic filter, filter and EGR",
+      "Pulp & paper — fibre moulding, paper forming, de-watering and filtering, security watermark",
+      "Chemical — filtration and separation, distillation",
+      "Mining — coal washing, mineral separation, FGD, fertilizers, gypsum",
+      "Continuous rolls, custom die-cut geometries and laser-cut precision parts",
+      "Material recommendations, prototyping and process development for the application",
+      "Process and quality control plans with 100% traceability",
     ],
     image: {
       src: img.materialRacks,
       alt: "Stainless steel mesh material storage racks",
     },
-    badge: { title: "Fabricated in-house", text: "weaving through to finished element" },
+    badge: { title: "Customised solutions", text: "value-engineered for process environments" },
   },
   specs: {
     caption: "Filtration media selection",
@@ -152,7 +151,7 @@ export const industrialFiltration: SolutionPageContent = {
       },
       {
         parameter: "Conductivity or shielding",
-        value: "Copper (E-Cu 57), bronze",
+        value: "Copper (E-Cu 57)",
         note: "EMI shielding and heat-transfer duty",
       },
       {
@@ -171,25 +170,25 @@ export const industrialFiltration: SolutionPageContent = {
       "Each of these industries has its own failure mode. The mesh that suits one will usually not suit another.",
     cards: [
       {
-        image: { src: img.industryPulpPaper, alt: "Paper forming and de-watering line" },
+        image: { src: img.industryPulpPaper, alt: "Illustration: Paper forming and de-watering line" },
         icon: "layers",
         title: "Pulp & Paper",
         text: "Fibre moulding, paper forming, de-watering and filtering, security watermark.",
       },
       {
-        image: { src: img.industryMining, alt: "Mineral separation plant" },
+        image: { src: img.industryMining, alt: "Illustration: Mineral separation plant" },
         icon: "container",
         title: "Mining",
         text: "Coal washing, mineral separation, FGD, fertilizers and gypsum.",
       },
       {
-        image: { src: img.industryFood, alt: "Food and beverage processing" },
+        image: { src: img.industryFood, alt: "Illustration: Food and beverage processing" },
         icon: "droplet",
         title: "Food & Beverage",
         text: "Juicing and process separation duty.",
       },
       {
-        image: { src: img.industryChemical, alt: "Chemical processing plant" },
+        image: { src: img.industryChemical, alt: "Illustration: Chemical processing plant" },
         icon: "flask",
         title: "Chemical",
         text: "Filtration, separation and distillation internals.",
@@ -201,7 +200,7 @@ export const industrialFiltration: SolutionPageContent = {
     title: "The capability the",
     titleAccent: "rest was built on",
     intro:
-      "BVK Group entered the technical mesh business through filtration, at a time when woven metallic mesh was primarily a pulp and paper product. Everything since — including the hydrogen work — rests on that base.",
+      "BVK Group has worked in precision industrial filtration since 1963. Everything since — including the hydrogen work — rests on that base.",
     cards: [
       {
         icon: "building",
@@ -237,7 +236,7 @@ export const industrialFiltration: SolutionPageContent = {
       href: "/process-treatments",
     },
     {
-      image: { src: img.flowLab, alt: "Mesh flow testing laboratory" },
+      image: { src: img.flowLab, alt: "Illustration: Mesh flow testing laboratory" },
       title: "R&D, CFD & Prototyping",
       href: "/rd-cfd-prototyping",
     },
@@ -257,7 +256,7 @@ export const energyCleanTech: SolutionPageContent = {
     title: "Energy &",
     titleAccent: "Clean Tech",
     subtitle:
-      "Metal mesh components for electrolysis, fuel cells, hydrogen purification and balance-of-plant systems — from a manufacturer running on renewables itself.",
+      "Metal mesh components for electrolysis, fuel cells, hydrogen purification and balance-of-plant systems — from a manufacturer that already powers 50%+ of its energy needs through renewables.",
     features: [
       { icon: "bolt", title: "Electrolysis" },
       { icon: "zap", title: "Fuel Cells" },
@@ -268,7 +267,7 @@ export const energyCleanTech: SolutionPageContent = {
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
     image: {
       src: img.electrolyzerPlant,
-      alt: "Stainless steel electrolyser plant installation",
+      alt: "Illustration: Stainless steel electrolyser plant installation",
     },
   },
   benefits: [
@@ -301,7 +300,7 @@ export const energyCleanTech: SolutionPageContent = {
     action: { label: "See the Applications", href: "#components" },
     image: {
       src: img.hydrogenFacility,
-      alt: "Hydrogen production facility in a mountain landscape",
+      alt: "Illustration: Hydrogen production facility in a mountain landscape",
     },
     badge: { title: "Nearly two decades", text: "of experience in the energy space" },
   },
@@ -313,7 +312,7 @@ export const energyCleanTech: SolutionPageContent = {
       "Mesh is not one component in a hydrogen plant. It appears at six separate points, each with its own specification.",
     image: {
       src: img.explodedElectrolyser,
-      alt: "Exploded electrolyser stack infographic showing mesh layers",
+      alt: "Illustration: Exploded electrolyser stack infographic showing mesh layers",
     },
     callouts: [
       {
@@ -380,7 +379,7 @@ export const energyCleanTech: SolutionPageContent = {
     eyebrow: "Our own footprint",
     title: "Responsibility",
     titleAccent: "in action",
-    body: "A clean-energy supply chain is only as clean as the suppliers in it. These are BVK's own numbers, not aspirations for a customer's scope 3 report.",
+    body: "A clean-energy supply chain is only as clean as the suppliers in it. These are BVK's own figures.",
     points: [
       "50%+ of energy consumption already from renewable sources",
       "Goal of becoming 100% self-reliant on renewables",
@@ -391,53 +390,58 @@ export const energyCleanTech: SolutionPageContent = {
     ],
     image: {
       src: img.solarMountains,
-      alt: "Solar farm beneath mountain skies",
+      alt: "Illustration: Solar farm beneath mountain skies",
     },
     badge: { title: "Helping customers", text: "achieve their own ESG goals" },
   },
   specs: {
     caption: "Mesh by position in the hydrogen chain",
-    columns: ["Position", "Mesh form", "Typical material"],
+    columns: ["Position", "Mesh form", "Materials referenced"],
     rows: [
       {
         parameter: "Electrolyser GDL / PTL",
-        value: "Knitted, low to medium density",
-        note: "Nickel 201/202 for alkaline, titanium for PEM",
+        value: "Knitted mesh",
+        note: "Ni 201/202, titanium, stainless steel for alkaline",
       },
       {
-        parameter: "Electrode substrate / catalyst support",
-        value: "Woven, controlled aperture",
-        note: "Nickel, stainless steel, coated",
+        parameter: "Nickel elastic elements and separators",
+        value: "Knitted mesh",
+        note: "Nickel",
       },
       {
-        parameter: "Current collection",
-        value: "Woven or knitted",
-        note: "Nickel, copper for conductivity",
-      },
-      {
-        parameter: "Nickel elastic element",
-        value: "Knitted, corrugated 4–10 mm",
-        note: "Nickel 201/202",
+        parameter: "Open GDL and elastic elements",
+        value: "Voltra Lite — low density, single wire",
+        note: "—",
       },
       {
         parameter: "Separator",
-        value: "Knitted, medium density (double wire)",
-        note: "Nickel, stainless steel",
+        value: "Voltra + — medium density, double wire",
+        note: "—",
       },
       {
-        parameter: "Fuel cell electrode support",
-        value: "Woven or dense knitted",
-        note: "Crofer 22 for SOFC, 316L for PEM",
+        parameter: "Dense GDL and electrode support",
+        value: "Voltra Max — high density",
+        note: "—",
       },
       {
-        parameter: "BoP filter element",
-        value: "Woven, rated aperture",
-        note: "316L, 904L depending on medium",
+        parameter: "Electrode substrate, catalyst support and current collection",
+        value: "Woven mesh",
+        note: "Per the fourteen-alloy material table",
       },
       {
-        parameter: "H₂ purification and drying",
-        value: "Woven or fabricated element",
-        note: "Stainless steel, nickel alloys",
+        parameter: "Fuel cell electrodes (AFC, SOFC, PEM)",
+        value: "Woven mesh",
+        note: "—",
+      },
+      {
+        parameter: "Fuel cells and H₂ storage",
+        value: "Knitted mesh: GDL, electrode supports, vent guards",
+        note: "—",
+      },
+      {
+        parameter: "BoP filter elements, H₂ purification and drying",
+        value: "Filter elements and mesh internals",
+        note: "—",
       },
     ],
   },
@@ -447,31 +451,31 @@ export const energyCleanTech: SolutionPageContent = {
     title: "Clean technology,",
     titleAccent: "real equipment",
     intro:
-      "The components below are in service or in development with equipment builders across the hydrogen economy.",
+      "Where BVK mesh is applied across the hydrogen value chain.",
     cards: [
       {
-        image: { src: img.solarSunrise, alt: "Solar powered green hydrogen production" },
+        image: { src: img.solarSunrise, alt: "Illustration: Solar powered green hydrogen production" },
         icon: "leaf",
         title: "Green Hydrogen Production",
         text: "Electrolysis components for renewable fuel and storage.",
       },
       {
-        image: { src: img.refineryPetrochemical, alt: "Petrochemical refinery" },
-        icon: "factory",
-        title: "Industrial Decarbonisation",
-        text: "Cleaner process-energy pathways for heavy industry.",
+        image: { src: img.fuelCellStack, alt: "Fuel cell stack assembly" },
+        icon: "layers",
+        title: "Fuel Cells & H₂ Storage",
+        text: "GDL, electrode supports and vent guards.",
       },
       {
-        image: { src: img.algae, alt: "Aquatic algae biomass" },
-        icon: "flask",
-        title: "Emerging Clean Tech",
-        text: "Bioprocess, water treatment and separation applications.",
+        image: { src: img.hydrogenFilterModule, alt: "Illustration: Hydrogen plant filter module" },
+        icon: "filter",
+        title: "BoP Filter Elements",
+        text: "Balance-of-plant filtration for hydrogen systems.",
       },
       {
-        image: { src: img.gasCylinderHall, alt: "Hydrogen storage cylinder hall" },
+        image: { src: img.gasCylinderHall, alt: "Illustration: Hydrogen storage cylinder hall" },
         icon: "container",
-        title: "Storage & Distribution",
-        text: "Support and filtration components for hydrogen handling.",
+        title: "Purification & Drying",
+        text: "Mesh internals for H₂ purification and drying skids.",
       },
     ],
   },
@@ -506,7 +510,7 @@ export const energyCleanTech: SolutionPageContent = {
   },
   tiles: [
     {
-      image: { src: img.electrolyserSplash, alt: "Electrolyser stack" },
+      image: { src: img.electrolyserSplash, alt: "Illustration: Electrolyser stack" },
       title: "Electrolyser Solutions",
       href: "/electrolyser-solutions",
     },
@@ -516,7 +520,7 @@ export const energyCleanTech: SolutionPageContent = {
       href: "/fuel-cell-solutions",
     },
     {
-      image: { src: img.knittedMacro, alt: "Knitted mesh detail" },
+      image: { src: img.knittedMacro, alt: "Illustration: Knitted mesh detail" },
       title: "Knitted Mesh Solutions",
       href: "/knitted-mesh-solutions",
     },
@@ -545,12 +549,12 @@ export const industriesApplications: SolutionPageContent = {
     {
       question: "How is metal mesh used in aerospace?",
       answer:
-        "Principally EMI shielding, where the mesh has to provide electromagnetic screening at low weight. BVK holds AS9100 for aerospace quality management.",
+        "EMI shielding is the aerospace application named in BVK literature.",
     },
     {
       question: "What does mesh do in pulp and paper production?",
       answer:
-        "Fibre moulding, paper forming, de-watering and filtering, and security watermark applications. This was the first industry BVK Group served, from 1963.",
+        "Fibre moulding, paper forming, de-watering and filtering, and security watermark applications.",
     },
     {
       question: "Can BVK supply mesh for an application not on this list?",
@@ -581,7 +585,7 @@ export const industriesApplications: SolutionPageContent = {
     { icon: "globe", title: "25+ Export Countries", text: "Presence wherever customers build." },
     { icon: "users", title: "300+ Employees", text: "An integrated weaving organisation." },
     { icon: "trending", title: "650+ MT p.a.", text: "Annual metal volume converted." },
-    { icon: "badge", title: "Multi-Sector Certified", text: "IATF, ISO, AS9100 and DSIR." },
+    { icon: "badge", title: "Multi-Sector Certified", text: "IATF, ISO and DSIR recognition." },
   ],
   overview: {
     eyebrow: "Overview",
@@ -634,79 +638,41 @@ export const industriesApplications: SolutionPageContent = {
   },
   features: {
     eyebrow: "Also served",
-    title: "Electronics and",
-    titleAccent: "architecture",
-    body: "Four further sectors take BVK mesh for reasons that have little to do with filtration — electrical behaviour, mechanical protection, or simply how it looks.",
+    title: "Further sectors",
+    titleAccent: "and applications",
+    body: "Beyond the headline industries, BVK literature names these further sectors and applications.",
     points: [
-      "Electronics — EMI shielding and precision screening components",
-      "Architecture — interior screens, facades and decorative metal fabric",
-      "Food & beverage — juicing and process separation",
-      "Plastic & polymer — fibre and filament production",
-      "Battery systems — cell separation and cooling applications",
-      "Sensor protection — mesh guards for instrumentation",
-      "E-mobility components — stainless and nickel alloy meshes to IATF standards",
-      "Bioreactors and healthcare — process separation in controlled environments",
+      "Electronics",
+      "Architecture — interiors and exteriors",
+      "Food & beverage — juicing",
+      "Plastic & polymer — fibre and filaments",
+      "Battery cell separation and cooling systems",
+      "Sensor protection",
+      "E-mobility components — stainless steel and nickel alloy meshes aligned with IATF standards",
     ],
     image: {
       src: img.industryElectronics,
-      alt: "Electronics manufacturing application for precision mesh",
+      alt: "Illustration: Electronics manufacturing application for precision mesh",
     },
-    badge: { title: "Deco Mesh Solutions", text: "the group's architectural mesh arm" },
+    badge: { title: "Ten industries", text: "one mesh capability" },
   },
   specs: {
-    caption: "Industry, application and typical mesh",
-    columns: ["Industry", "Applications served", "Typical mesh"],
+    caption: "Industries and the applications BVK serves",
+    columns: ["Industry", "Applications served"],
     rows: [
-      {
-        parameter: "Automotive",
-        value: "Drive technology, hydraulic filter, filter, EGR",
-        note: "Woven stainless, IATF 16949 control",
-      },
-      {
-        parameter: "Aerospace",
-        value: "EMI shielding",
-        note: "Woven copper and stainless, AS9100",
-      },
+      { parameter: "Automotive", value: "Drive technology, hydraulic filter, filter, EGR" },
+      { parameter: "Aerospace", value: "EMI shielding" },
       {
         parameter: "Pulp & Paper",
-        value: "Fibre moulding, paper forming, de-watering, security watermark",
-        note: "Woven stainless and bronze",
+        value: "Fibre moulding, paper forming, de-watering and filtering, security watermark",
       },
-      {
-        parameter: "Plastic & Polymer",
-        value: "Fibre and filaments",
-        note: "Woven stainless, multi-layer packs",
-      },
-      {
-        parameter: "Food & Beverage",
-        value: "Juicing, process separation",
-        note: "Woven 316L",
-      },
-      {
-        parameter: "Chemical",
-        value: "Filtration and separation, distillation",
-        note: "Woven 316L, 904L, Hastelloy C-22",
-      },
-      {
-        parameter: "Mining",
-        value: "Coal washing, mineral separation, FGD, fertilizers, gypsum",
-        note: "Heavy woven stainless",
-      },
-      {
-        parameter: "Energy",
-        value: "Electrolysis, fuel cells",
-        note: "Woven and knitted nickel, titanium, Crofer",
-      },
-      {
-        parameter: "Electronics",
-        value: "Shielding and precision screening",
-        note: "Fine woven copper and stainless",
-      },
-      {
-        parameter: "Architecture",
-        value: "Interiors, exteriors",
-        note: "Decorative woven and knitted mesh",
-      },
+      { parameter: "Plastic & Polymer", value: "Fibre and filaments" },
+      { parameter: "Food & Beverage", value: "Juicing" },
+      { parameter: "Chemical", value: "Filtration and separation, distillation" },
+      { parameter: "Mining", value: "Coal washing, mineral separation, FGD, fertilizers, gypsum" },
+      { parameter: "Energy", value: "Electrolysis, fuel cells" },
+      { parameter: "Electronics", value: "—" },
+      { parameter: "Architecture", value: "Interiors, exteriors" },
     ],
   },
   sustainability: sustainabilityBand,
@@ -718,25 +684,25 @@ export const industriesApplications: SolutionPageContent = {
       "A closer look at what the mesh is actually solving in each — because the duty, not the sector name, drives the specification.",
     cards: [
       {
-        image: { src: img.industryAerospace, alt: "Aerospace application" },
+        image: { src: img.industryAerospace, alt: "Illustration: Aerospace application" },
         icon: "plane",
         title: "Aerospace",
         text: "EMI shielding where weight and reliability both matter.",
       },
       {
-        image: { src: img.industryAutomotive, alt: "Automotive application" },
+        image: { src: img.industryAutomotive, alt: "Illustration: Automotive application" },
         icon: "truck",
         title: "Automotive",
         text: "Hydraulic and EGR filtration under IATF 16949 discipline.",
       },
       {
-        image: { src: img.industryEnergy, alt: "Energy application" },
+        image: { src: img.industryEnergy, alt: "Illustration: Energy application" },
         icon: "zap",
         title: "Energy",
         text: "Electrolysis and fuel cell stack internals.",
       },
       {
-        image: { src: img.industryElectronics, alt: "Electronics application" },
+        image: { src: img.industryElectronics, alt: "Illustration: Electronics application" },
         icon: "circuit",
         title: "Electronics",
         text: "Precision screening and shielding components.",
@@ -758,17 +724,17 @@ export const industriesApplications: SolutionPageContent = {
       {
         icon: "clipboard",
         title: "Automotive Discipline",
-        text: "IATF 16949 process control applied across all sectors, not just automotive.",
+        text: "Automotive work runs under the IATF 16949:2016 quality system.",
       },
       {
         icon: "flask",
         title: "Alloy Library",
-        text: "Fourteen catalogued materials, each already proven somewhere in the portfolio.",
+        text: "Fourteen catalogued materials with AISI/UNS designations.",
       },
       {
         icon: "handshake",
-        title: "Long Relationships",
-        text: "Export customers across 25+ countries, many of them repeat programmes.",
+        title: "Export Presence",
+        text: "Customers across 25+ countries.",
       },
     ],
   },
@@ -779,7 +745,7 @@ export const industriesApplications: SolutionPageContent = {
       href: "/industrial-filtration",
     },
     {
-      image: { src: img.electrolyzerPlant, alt: "Electrolyser plant" },
+      image: { src: img.electrolyzerPlant, alt: "Illustration: Electrolyser plant" },
       title: "Energy & Clean Tech",
       href: "/energy-clean-tech",
     },

@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { AlertCircle, Loader2, Send } from "lucide-react";
 
@@ -24,6 +25,12 @@ export default function RfqForm() {
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const form = event.currentTarget;
+
+    if (!new FormData(form).get("consent")) {
+      setState("error");
+      setError("Please confirm the privacy consent before submitting.");
+      return;
+    }
 
     setState("submitting");
     setError(null);
@@ -132,6 +139,23 @@ export default function RfqForm() {
         />
       </div>
 
+      <label className="flex items-start gap-3 text-sm leading-relaxed text-grey">
+        <input
+          type="checkbox"
+          name="consent"
+          required
+          className="mt-1 h-4 w-4 shrink-0 accent-[var(--color-brand-deep)]"
+        />
+        <span>
+          I agree that BVK Hydrotech may use these details to respond to my enquiry, as described
+          in the{" "}
+          <Link href="/privacy-policy" className="font-semibold text-brand-deep underline underline-offset-4">
+            Privacy Policy
+          </Link>
+          .
+        </span>
+      </label>
+
       {error && (
         <p role="alert" className="flex items-start gap-2.5 border border-red-200 bg-red-50 p-4 text-sm text-red-800">
           <AlertCircle className="mt-0.5 h-4 w-4 shrink-0" />
@@ -154,7 +178,7 @@ export default function RfqForm() {
           )}
         </button>
         <p className="text-xs leading-relaxed text-grey-soft">
-          We reply within one working day. Your details are used only to answer this enquiry.
+          Your details are used only to answer this enquiry.
         </p>
       </div>
     </form>

@@ -18,7 +18,7 @@ export const revalidate = 300;
 export const metadata: Metadata = {
   title: "Precision Mesh For The Hydrogen Economy",
   description:
-    "BVK Hydrotech engineers woven and knitted precision mesh for electrolyser stacks, fuel cell electrodes and gas diffusion layers. Single-piece up to 2.2 m, Nickel 201/202, titanium and stainless steel. IATF 16949 and ISO 9001 certified, exporting to 25+ countries since 1963.",
+    "BVK Hydrotech engineers woven and knitted precision mesh for electrolyser stacks, fuel cell electrodes and gas diffusion layers. Nickel 201/202, titanium and stainless steel, with large single-piece diameters. IATF 16949 and ISO 9001 certified, exporting to 25+ countries since 1963.",
   alternates: { canonical: "/" },
 };
 

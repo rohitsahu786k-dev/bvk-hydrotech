@@ -121,7 +121,7 @@ export const navigation: NavItem[] = [
     feature: {
       eyebrow: "Featured",
       title: "Precision mesh for green hydrogen electrolysers",
-      text: "Single-piece mesh up to 2.2 m in Nickel 201/202, titanium and stainless steel.",
+      text: "Nickel 201/202, titanium and stainless steel, with large single-piece diameters.",
       href: "/electrolyser-solutions",
       cta: "Explore electrolyser solutions",
       image: "/bvk-assets/hydrogen-pro-stack3.jpg",

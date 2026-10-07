@@ -16,7 +16,7 @@ import { NextResponse } from "next/server";
  * enquirer always gets a clean result.
  */
 
-const REQUIRED = ["name", "company", "email", "phone", "requirementType", "message"] as const;
+const REQUIRED = ["name", "company", "email", "phone", "requirementType", "message", "consent"] as const;
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 

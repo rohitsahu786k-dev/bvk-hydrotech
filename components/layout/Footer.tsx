@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import type { MenuLink, SiteSettings } from "@/lib/wordpress/home";
 
-const LOGO = `${process.env.NEXT_PUBLIC_WORDPRESS_URL ?? ""}/wp-content/uploads/BVK-Hydrotech-White-Logo.png`;
+const LOGO = "/media/BVK-Hydrotech-White-Logo.png";
 
 const fallbackSolutions: MenuLink[] = [
   { label: "Electrolyser Solutions", url: "/electrolyser-solutions" },

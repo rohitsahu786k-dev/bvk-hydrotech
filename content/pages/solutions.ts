@@ -26,7 +26,7 @@ export const electrolyserSolutions: SolutionPageContent = {
     secondary: { label: "Download Brochure", href: docs.hydrogenLeaflet, external: true },
     image: {
       src: img.electrolyserSplash,
-      alt: "Electrolyser stack surrounded by hydrogen bubbles in blue water",
+      alt: "Illustration: Electrolyser stack surrounded by hydrogen bubbles in blue water",
     },
   },
   benefits: [
@@ -59,7 +59,7 @@ export const electrolyserSolutions: SolutionPageContent = {
     action: { label: "Explore Our Solutions", href: "#components" },
     image: {
       src: img.hydrogenInspection,
-      alt: "Engineer inspecting an electrolyser assembly on a hydrogen plant platform",
+      alt: "Illustration: Engineer inspecting an electrolyser assembly on a hydrogen plant platform",
     },
     badge: { title: "Building Blocks", text: "for a cleaner hydrogen value chain" },
   },
@@ -71,7 +71,7 @@ export const electrolyserSolutions: SolutionPageContent = {
       "From porous transport layers to custom metal mesh components, engineered for reliable hydrogen generation.",
     image: {
       src: img.explodedStainless,
-      alt: "Exploded electrolyser assembly showing end plates, mesh layers and stack structure",
+      alt: "Illustration: Exploded electrolyser assembly showing end plates, mesh layers and stack structure",
     },
     callouts: [
       {
@@ -140,13 +140,13 @@ export const electrolyserSolutions: SolutionPageContent = {
     points: [
       "Wire diameter range from 0.05 mm to 0.30 mm",
       "Single, double and multi-end knitted mesh options",
-      "Single-piece diameter capability up to 2.2 m",
+      "Large single-piece diameters for seamless circular components",
       "Nickel 201/202, titanium, stainless steel and specialty alloys",
       "ASTM B164, ISO 9044 and ISO 22734-ready QMS references",
     ],
     image: {
       src: img.heatExchangerLine,
-      alt: "Precision electrolyser assemblies on a hydrogen plant production line",
+      alt: "Illustration: Precision electrolyser assemblies on a hydrogen plant production line",
     },
     badge: { title: "Stack-tunable porosity", text: "Conductivity and pore size set per cell" },
   },
@@ -166,8 +166,8 @@ export const electrolyserSolutions: SolutionPageContent = {
       },
       {
         parameter: "Single-piece diameter",
-        value: "Up to 2.2 m",
-        note: "Avoids seams in large circular stack components",
+        value: "Large single-piece sizes",
+        note: "Sized per product and application; avoids seams in large circular stack components",
       },
       {
         parameter: "Materials",
@@ -207,31 +207,31 @@ export const electrolyserSolutions: SolutionPageContent = {
     title: "Powering Multiple",
     titleAccent: "Industries",
     intro:
-      "BVK components support clean hydrogen production, storage, balance-of-plant systems and industrial decarbonisation.",
+      "BVK components support clean hydrogen production, storage and balance-of-plant systems.",
     cards: [
       {
-        image: { src: img.solarSunrise, alt: "Solar farm at sunrise powering green hydrogen production" },
+        image: { src: img.solarSunrise, alt: "Illustration: Solar farm at sunrise powering green hydrogen production" },
         icon: "leaf",
         title: "Green Hydrogen Production",
         text: "Electrolysis components for renewable fuel and storage.",
       },
       {
-        image: { src: img.refineryCleanEnergy, alt: "Clean energy refinery at golden hour" },
-        icon: "factory",
-        title: "Industrial Decarbonisation",
-        text: "Cleaner process-energy pathways for heavy industry.",
+        image: { src: img.hydrogenFilterModule, alt: "Illustration: Hydrogen plant filter module assembly" },
+        icon: "filter",
+        title: "BoP Filter Elements",
+        text: "Balance-of-plant filtration for hydrogen systems.",
       },
       {
-        image: { src: img.gasCylinderHall, alt: "Industrial gas cylinder storage hall" },
+        image: { src: img.gasCylinderHall, alt: "Illustration: Industrial gas cylinder storage hall" },
         icon: "box",
         title: "Hydrogen Storage & BoP",
         text: "Mesh elements for support, purification and drying skids.",
       },
       {
-        image: { src: img.mistNozzles, alt: "Precision stainless steel mist nozzles in operation" },
-        icon: "circuit",
-        title: "Specialty Gas Systems",
-        text: "High-purity hydrogen support for critical applications.",
+        image: { src: img.hydrogenFacility, alt: "Illustration: Hydrogen production facility" },
+        icon: "container",
+        title: "Purification & Drying",
+        text: "Mesh internals for H₂ purification and drying skids.",
       },
     ],
   },
@@ -266,17 +266,17 @@ export const electrolyserSolutions: SolutionPageContent = {
   },
   tiles: [
     {
-      image: { src: img.membraneRoll, alt: "Close-up of a precision metal mesh roll" },
+      image: { src: img.membraneRoll, alt: "Illustration: Close-up of a precision metal mesh roll" },
       title: "Advanced Mesh Materials",
       href: "/precision-mesh-solutions",
     },
     {
-      image: { src: img.knittedMacro, alt: "Macro detail of interwoven steel mesh" },
+      image: { src: img.knittedMacro, alt: "Illustration: Macro detail of interwoven steel mesh" },
       title: "Precision Component Manufacturing",
       href: "/engineering-manufacturing",
     },
     {
-      image: { src: img.mistNozzles, alt: "Quality inspection of precision stainless components" },
+      image: { src: img.flowLab, alt: "Illustration: Precision mesh flow laboratory" },
       title: "Quality & Performance Assurance",
       href: "/rd-cfd-prototyping",
     },
@@ -340,7 +340,7 @@ export const fuelCellSolutions: SolutionPageContent = {
     action: { label: "See Mesh Functions", href: "#components" },
     image: {
       src: img.heatExchangerLine,
-      alt: "Fuel cell stack components on an assembly line",
+      alt: "Illustration: Fuel cell stack components on an assembly line",
     },
     badge: { title: "AFC · SOFC · PEM", text: "compatible component families" },
   },
@@ -352,7 +352,7 @@ export const fuelCellSolutions: SolutionPageContent = {
       "Parameters are set to suit your cell: mass transport, electrical conductivity, pressure drop and mechanical strength are traded against each other deliberately, not by accident.",
     image: {
       src: img.explodedPlate,
-      alt: "Exploded plate assembly showing stacked fuel cell layers and mesh interlayers",
+      alt: "Illustration: Exploded plate assembly showing stacked fuel cell layers and mesh interlayers",
     },
     callouts: [
       {
@@ -447,31 +447,31 @@ export const fuelCellSolutions: SolutionPageContent = {
     title: "Fuel cells across",
     titleAccent: "mobility and power",
     intro:
-      "Fuel cell components built on BVK mesh appear wherever electrochemical power has to be compact, clean and reliable.",
+      "BVK mesh is compatible with three fuel cell families, and is also used for hydrogen storage protection.",
     cards: [
       {
-        image: { src: img.industryAutomotive, alt: "Automotive fuel cell components" },
-        icon: "truck",
-        title: "Mobility & Transport",
-        text: "Stack components for fuel cell drive systems.",
+        image: { src: img.fuelCellStack, alt: "Fuel cell stack assembly" },
+        icon: "layers",
+        title: "Alkaline Fuel Cells (AFC)",
+        text: "Mesh for electrode support, current collection and gas diffusion.",
       },
       {
-        image: { src: img.industryEnergy, alt: "Stationary hydrogen power installation" },
+        image: { src: img.fuelCellMesh, alt: "Fuel cell mesh components" },
         icon: "zap",
-        title: "Stationary Power",
-        text: "Backup and distributed generation installations.",
+        title: "Solid Oxide Fuel Cells (SOFC)",
+        text: "Woven and knitted mesh for electrode components.",
       },
       {
-        image: { src: img.industryAerospace, alt: "Aerospace application of fuel cell technology" },
-        icon: "plane",
-        title: "Aerospace & Defence",
-        text: "Lightweight power and EMI shielding components.",
+        image: { src: img.explodedPlate, alt: "Illustration: Exploded plate assembly showing stacked layers" },
+        icon: "wind",
+        title: "PEM Fuel Cells",
+        text: "Polymer electrolyte membrane stacks: mass transport and conductivity.",
       },
       {
-        image: { src: img.industryElectronics, alt: "Electronics and precision manufacturing" },
-        icon: "circuit",
-        title: "Specialty Systems",
-        text: "Precision components for low-volume, high-spec builds.",
+        image: { src: img.hydrogenFilterModule, alt: "Illustration: Hydrogen plant filter module" },
+        icon: "container",
+        title: "Hydrogen Storage Protection",
+        text: "GDL, electrode supports and vent guards.",
       },
     ],
   },
@@ -480,7 +480,7 @@ export const fuelCellSolutions: SolutionPageContent = {
     title: "Component supply that",
     titleAccent: "survives qualification",
     intro:
-      "Fuel cell programmes fail on repeatability more often than on first-sample performance. BVK is built around the second problem.",
+      "Process reliability ensures product accuracy — the result of collaboration between BVK and its customers.",
     cards: [
       {
         icon: "clipboard",
@@ -511,12 +511,12 @@ export const fuelCellSolutions: SolutionPageContent = {
       href: "/woven-mesh-solutions",
     },
     {
-      image: { src: img.knittedMacro, alt: "Knitted mesh macro detail" },
+      image: { src: img.knittedMacro, alt: "Illustration: Knitted mesh macro detail" },
       title: "Knitted Mesh Solutions",
       href: "/knitted-mesh-solutions",
     },
     {
-      image: { src: img.electrolyserSplash, alt: "Electrolyser stack in water" },
+      image: { src: img.electrolyserSplash, alt: "Illustration: Electrolyser stack in water" },
       title: "Electrolyser Solutions",
       href: "/electrolyser-solutions",
     },
@@ -636,7 +636,7 @@ export const precisionMeshSolutions: SolutionPageContent = {
     ],
     image: {
       src: img.stainlessMeshRoll,
-      alt: "Industrial stainless steel mesh roll",
+      alt: "Illustration: Industrial stainless steel mesh roll",
     },
     badge: { title: "Not sure?", text: "Send the duty — we will specify it" },
   },
@@ -669,25 +669,25 @@ export const precisionMeshSolutions: SolutionPageContent = {
       "The same weaving and knitting capability serves clean energy and long-established process industries, because the underlying engineering is the same.",
     cards: [
       {
-        image: { src: img.industryEnergy, alt: "Hydrogen and energy applications" },
+        image: { src: img.industryEnergy, alt: "Illustration: Hydrogen and energy applications" },
         icon: "zap",
         title: "Energy",
         text: "Electrolysis and fuel cell stack components.",
       },
       {
-        image: { src: img.industryAutomotive, alt: "Automotive filtration components" },
+        image: { src: img.industryAutomotive, alt: "Illustration: Automotive filtration components" },
         icon: "truck",
         title: "Automotive",
         text: "Drive technology, hydraulic filters, filters and EGR.",
       },
       {
-        image: { src: img.industryChemical, alt: "Chemical process plant" },
+        image: { src: img.industryChemical, alt: "Illustration: Chemical process plant" },
         icon: "flask",
         title: "Chemical",
         text: "Filtration, separation and distillation internals.",
       },
       {
-        image: { src: img.industryPulpPaper, alt: "Pulp and paper production line" },
+        image: { src: img.industryPulpPaper, alt: "Illustration: Pulp and paper production line" },
         icon: "layers",
         title: "Pulp & Paper",
         text: "Fibre moulding, paper forming and de-watering.",
@@ -699,12 +699,12 @@ export const precisionMeshSolutions: SolutionPageContent = {
     title: "Six decades of",
     titleAccent: "weaving discipline",
     intro:
-      "BVK Group entered technical mesh in 1963, when woven metallic mesh was still mostly a pulp and paper product. Everything since has been built on that weaving base.",
+      "BVK Group has worked in precision industrial filtration since 1963. Everything since has been built on that weaving base.",
     cards: [
       {
         icon: "building",
         title: "Integrated Plant",
-        text: "German-origin equipment and one of India's largest weaving platforms.",
+        text: "German-origin equipment on an integrated weaving platform.",
       },
       {
         icon: "globe",
@@ -730,7 +730,7 @@ export const precisionMeshSolutions: SolutionPageContent = {
       href: "/woven-mesh-solutions",
     },
     {
-      image: { src: img.knittedMacro, alt: "Knitted mesh macro detail" },
+      image: { src: img.knittedMacro, alt: "Illustration: Knitted mesh macro detail" },
       title: "Knitted Mesh Solutions",
       href: "/knitted-mesh-solutions",
     },
@@ -760,7 +760,7 @@ export const wovenMeshSolutions: SolutionPageContent = {
       { icon: "ruler", title: "Stable Aperture" },
       { icon: "filter", title: "Rated Filtration" },
       { icon: "zap", title: "Conductive Support" },
-      { icon: "shapes", title: "Weave Range" },
+      { icon: "flask", title: "Alloy Range" },
     ],
     primary: { label: "Specify Woven Mesh", href: "/contact" },
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
@@ -799,7 +799,7 @@ export const wovenMeshSolutions: SolutionPageContent = {
     action: { label: "See Mesh Functions", href: "#components" },
     image: {
       src: img.weavingMachine,
-      alt: "Precision mesh weaving machine in operation",
+      alt: "Illustration: Precision mesh weaving machine in operation",
     },
     badge: { title: "Weave to coating", text: "one controlled process route" },
   },
@@ -855,7 +855,7 @@ export const wovenMeshSolutions: SolutionPageContent = {
     ],
     image: {
       src: img.wireMeshLine,
-      alt: "Industrial wire mesh production line",
+      alt: "Illustration: Industrial wire mesh production line",
     },
     badge: { title: "DSIR-recognised", text: "in-house R&D centre" },
   },
@@ -914,25 +914,25 @@ export const wovenMeshSolutions: SolutionPageContent = {
       "Woven mesh has served industrial process plants for six decades. The same capability now goes into hydrogen equipment.",
     cards: [
       {
-        image: { src: img.industryPulpPaper, alt: "Paper forming line" },
+        image: { src: img.industryPulpPaper, alt: "Illustration: Paper forming line" },
         icon: "layers",
         title: "Pulp & Paper",
         text: "Fibre moulding, paper forming, de-watering, security watermark.",
       },
       {
-        image: { src: img.industryChemical, alt: "Chemical distillation column" },
+        image: { src: img.industryChemical, alt: "Illustration: Chemical distillation column" },
         icon: "flask",
         title: "Chemical",
         text: "Filtration, separation and distillation internals.",
       },
       {
-        image: { src: img.industryEnergy, alt: "Electrolysis equipment" },
+        image: { src: img.industryEnergy, alt: "Illustration: Electrolysis equipment" },
         icon: "zap",
         title: "Energy",
         text: "Electrode substrates, catalyst support and current collection.",
       },
       {
-        image: { src: img.industryMining, alt: "Mineral separation plant" },
+        image: { src: img.industryMining, alt: "Illustration: Mineral separation plant" },
         icon: "container",
         title: "Mining",
         text: "Coal washing, mineral separation, FGD, fertilizers, gypsum.",
@@ -970,7 +970,7 @@ export const wovenMeshSolutions: SolutionPageContent = {
   },
   tiles: [
     {
-      image: { src: img.knittedMacro, alt: "Knitted mesh macro detail" },
+      image: { src: img.knittedMacro, alt: "Illustration: Knitted mesh macro detail" },
       title: "Knitted Mesh Solutions",
       href: "/knitted-mesh-solutions",
     },
@@ -1011,7 +1011,7 @@ export const knittedMeshSolutions: SolutionPageContent = {
     secondary: { label: "Download Leaflet", href: docs.hydrogenLeaflet, external: true },
     image: {
       src: img.knittedMacro,
-      alt: "Macro view of interwoven knitted steel mesh",
+      alt: "Illustration: Macro view of interwoven knitted steel mesh",
     },
   },
   benefits: [
@@ -1032,7 +1032,7 @@ export const knittedMeshSolutions: SolutionPageContent = {
     },
     {
       icon: "spool",
-      title: "2.2 m Single Piece",
+      title: "Large Single Pieces",
       text: "Seamless components for large-scale assemblies.",
     },
   ],
@@ -1044,9 +1044,9 @@ export const knittedMeshSolutions: SolutionPageContent = {
     action: { label: "See the Knit Types", href: "#components" },
     image: {
       src: img.meshRollFactory,
-      alt: "Knitted mesh roll on the factory floor",
+      alt: "Illustration: Knitted mesh roll on the factory floor",
     },
-    badge: { title: "Up to 2.2 m", text: "single-piece diameter capability" },
+    badge: { title: "Single-piece", text: "large-diameter capability" },
   },
   components: {
     eyebrow: "Three knit types",
@@ -1101,7 +1101,7 @@ export const knittedMeshSolutions: SolutionPageContent = {
     ],
     image: {
       src: img.stainlessMeshRoll,
-      alt: "Knitted stainless steel mesh roll",
+      alt: "Illustration: Knitted stainless steel mesh roll",
     },
     badge: { title: "Corrugation 4–10 mm", text: "set against required elasticity" },
   },
@@ -1131,8 +1131,8 @@ export const knittedMeshSolutions: SolutionPageContent = {
       },
       {
         parameter: "Single-piece diameter",
-        value: "Up to 2.2 m",
-        note: "Seamless large-diameter assemblies",
+        value: "Large single-piece sizes",
+        note: "Seamless large-diameter assemblies, sized per application",
       },
       {
         parameter: "Corrugation",
@@ -1160,7 +1160,7 @@ export const knittedMeshSolutions: SolutionPageContent = {
       "Alkaline electrolysers, fuel cells and hydrogen balance-of-plant equipment are the core. Beyond them, anywhere a compressible, permeable metal layer is needed.",
     cards: [
       {
-        image: { src: img.electrolyserMotion, alt: "Alkaline electrolyser stack" },
+        image: { src: img.electrolyserMotion, alt: "Illustration: Alkaline electrolyser stack" },
         icon: "bolt",
         title: "Alkaline Electrolysers",
         text: "Nickel elastic elements, separators and stack core layers.",
@@ -1172,13 +1172,13 @@ export const knittedMeshSolutions: SolutionPageContent = {
         text: "GDL, electrode supports and vent guards.",
       },
       {
-        image: { src: img.hydrogenFilterModule, alt: "Hydrogen plant filter module" },
+        image: { src: img.hydrogenFilterModule, alt: "Illustration: Hydrogen plant filter module" },
         icon: "filter",
         title: "BoP Filter Elements",
         text: "Balance-of-plant filtration and support structures.",
       },
       {
-        image: { src: img.gasCylinderHall, alt: "Hydrogen purification and storage" },
+        image: { src: img.gasCylinderHall, alt: "Illustration: Hydrogen purification and storage" },
         icon: "container",
         title: "Purification & Drying",
         text: "Mesh internals for H₂ purification and drying skids.",
@@ -1216,7 +1216,7 @@ export const knittedMeshSolutions: SolutionPageContent = {
   },
   tiles: [
     {
-      image: { src: img.electrolyserSplash, alt: "Electrolyser stack" },
+      image: { src: img.electrolyserSplash, alt: "Illustration: Electrolyser stack" },
       title: "Electrolyser Solutions",
       href: "/electrolyser-solutions",
     },

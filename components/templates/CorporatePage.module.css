@@ -705,3 +705,74 @@
   .photoRow figure:hover :global(img), .checklistMedia:hover :global(img), .linkRows a:hover .linkThumb :global(img) { transform: scale(1.06); }
   .table tbody tr:hover { background: color-mix(in srgb, var(--color-brand-wash) 55%, #fff); }
 }
+
+/* ---------- DOWNLOAD CARDS ---------- */
+
+.downloadGrid {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  list-style: none;
+  padding: 0;
+}
+
+.downloadCard {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  gap: 0.75rem;
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  padding: 1.75rem;
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.3s,
+    box-shadow 0.35s;
+}
+
+.downloadFormat {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-brand-deep);
+}
+
+.downloadCard h3 {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--color-ink);
+}
+
+.downloadCard p {
+  flex: 1;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--color-grey);
+}
+
+.downloadAction {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-brand-deep);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .downloadCard:hover {
+    transform: translateY(-5px);
+    border-color: color-mix(in srgb, var(--color-brand-deep) 40%, transparent);
+    box-shadow: 0 22px 36px -24px rgb(0 0 0 / 0.35);
+  }
+}
+
+@media (max-width: 900px) {
+  .downloadGrid {
+    grid-template-columns: 1fr;
+  }
+}

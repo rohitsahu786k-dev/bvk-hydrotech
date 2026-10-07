@@ -172,6 +172,43 @@ export default function CorporatePage({ content }: { content: SolutionPageConten
         </section>
       )}
 
+      {/* DOWNLOADS — every document gets its own direct link. */}
+      {content.downloads && (
+        <section id="downloads" className="section bg-surface-raised">
+          <div className="shell">
+            <div className={styles.blockHead}>
+              <div>
+                <p className="eyebrow text-brand-deep">{content.downloads.eyebrow}</p>
+                <h2 className="display-section mt-6 max-w-3xl text-balance text-ink">
+                  <Headline title={content.downloads.title} accent={content.downloads.titleAccent} />
+                </h2>
+              </div>
+              <p className={styles.blockIntro}>{content.downloads.intro}</p>
+            </div>
+
+            <ul className={styles.downloadGrid}>
+              {content.downloads.items.map((item) => (
+                <li key={item.href}>
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.downloadCard}
+                  >
+                    <span className={styles.downloadFormat}>{item.format}</span>
+                    <h3>{item.title}</h3>
+                    <p>{item.text}</p>
+                    <span className={styles.downloadAction}>
+                      Download <Download aria-hidden className="h-4 w-4" />
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
       {/* CHECKLIST — dark panel beside a photograph. */}
       {content.features && (
         <section className={styles.checklistBand}>
