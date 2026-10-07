@@ -39,7 +39,7 @@ export default function SolutionsGrid({ solutions }: { solutions: SolutionCard[]
                     <Icon name={solution.iconName} className="h-5 w-5" />
                   </span>
 
-                  <h3 className="mt-7 font-display text-xl font-bold tracking-tight text-white">
+                  <h3 className="mt-7 font-display text-xl tracking-tight text-white">
                     {solution.title}
                   </h3>
 

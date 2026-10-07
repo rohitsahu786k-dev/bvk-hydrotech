@@ -44,7 +44,7 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
                 )}
 
                 <div className="flex flex-1 flex-col p-7">
-                  <h3 className="font-display text-lg font-bold tracking-tight text-ink">
+                  <h3 className="font-display text-lg tracking-tight text-ink">
                     {product.title}
                   </h3>
 
@@ -92,7 +92,7 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
                   className="card-light group flex h-full items-start gap-6 p-7"
                 >
                   <div className="flex-1">
-                    <h3 className="font-display text-lg font-bold tracking-tight text-ink">
+                    <h3 className="font-display text-lg tracking-tight text-ink">
                       {product.title}
                     </h3>
                     {product.description && (

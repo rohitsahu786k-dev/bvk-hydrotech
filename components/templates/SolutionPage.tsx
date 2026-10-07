@@ -78,7 +78,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
         <div className={`shell ${styles.heroLayout}`}>
           <div>
             <p className="text-xs font-semibold uppercase text-brand-deep">{hero.eyebrow}</p>
-            <h1 className="mt-5 font-display text-[clamp(3rem,7vw,6.4rem)] font-black leading-[0.92] text-black">
+            <h1 className="mt-5 font-display text-[clamp(3rem,7vw,6.4rem)] leading-[0.92] text-black">
               {hero.title}
               {hero.titleAccent && (
                 <span className="block text-brand-deep">{hero.titleAccent}</span>
@@ -145,7 +145,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               <p className="text-xs font-semibold uppercase text-brand-deep">
                 {content.overview.eyebrow}
               </p>
-              <h2 className="mt-4 font-display text-[clamp(2.2rem,4vw,4.2rem)] font-black leading-none text-black">
+              <h2 className="mt-4 font-display text-[clamp(2.2rem,4vw,4.2rem)] leading-none text-black">
                 <Headline title={content.overview.title} accent={content.overview.titleAccent} />
               </h2>
               <p className="mt-6 text-base leading-relaxed text-grey">
@@ -192,7 +192,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               <p className="text-xs font-semibold uppercase text-brand-deep">
                 {content.components.eyebrow}
               </p>
-              <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.8rem)] font-black leading-none">
+              <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.8rem)] leading-none">
                 <Headline
                   title={content.components.title}
                   accent={content.components.titleAccent}
@@ -241,7 +241,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               <p className="text-xs font-semibold uppercase text-brand-deep">
                 {content.process.eyebrow}
               </p>
-              <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.8rem)] font-black leading-none">
+              <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.8rem)] leading-none">
                 <Headline title={content.process.title} accent={content.process.titleAccent} />
               </h2>
               <p className="mt-5 text-grey">{content.process.intro}</p>
@@ -291,7 +291,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               <p className="text-xs font-semibold uppercase text-brand-deep">
                 {content.features.eyebrow}
               </p>
-              <h2 className="mt-4 font-display text-[clamp(2.1rem,4vw,4rem)] font-black leading-none">
+              <h2 className="mt-4 font-display text-[clamp(2.1rem,4vw,4rem)] leading-none">
                 <Headline title={content.features.title} accent={content.features.titleAccent} />
               </h2>
               <p className="mt-6 leading-relaxed text-grey">{content.features.body}</p>
@@ -330,7 +330,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
           <div className="shell">
             <div className="mx-auto max-w-3xl text-center">
               <p className="text-xs font-semibold uppercase text-brand-deep">Specifications</p>
-              <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.4rem)] font-black leading-none">
+              <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.4rem)] leading-none">
                 {content.specs.caption}
               </h2>
             </div>
@@ -378,7 +378,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               <p className="text-xs font-semibold uppercase text-brand-wash">
                 {content.sustainability.eyebrow}
               </p>
-              <h2 className="mt-4 font-display text-[clamp(2.5rem,5vw,5rem)] font-black leading-none">
+              <h2 className="mt-4 font-display text-[clamp(2.5rem,5vw,5rem)] leading-none">
                 {content.sustainability.title}
               </h2>
               <p className="mt-6 max-w-xl leading-relaxed text-white/85">
@@ -411,7 +411,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                 <p className="text-xs font-semibold uppercase text-brand-deep">
                   {content.applications.eyebrow}
                 </p>
-                <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.6rem)] font-black leading-none">
+                <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.6rem)] leading-none">
                   <Headline
                     title={content.applications.title}
                     accent={content.applications.titleAccent}
@@ -441,7 +441,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                         <BrandIcon>
                           <Icon className="h-5 w-5" />
                         </BrandIcon>
-                        <h3 className="mt-4 text-base font-bold leading-tight">{card.title}</h3>
+                        <h3 className="mt-4 text-base leading-tight">{card.title}</h3>
                         <p className="mt-2 text-xs leading-relaxed text-grey-mid">{card.text}</p>
                       </div>
                     </article>
@@ -460,7 +460,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               <p className="text-xs font-semibold uppercase text-brand-deep">
                 {content.why.eyebrow}
               </p>
-              <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.8rem)] font-black leading-none">
+              <h2 className="mt-4 font-display text-[clamp(2rem,4vw,3.8rem)] leading-none">
                 <Headline title={content.why.title} accent={content.why.titleAccent} />
               </h2>
               <p className="mt-5 text-grey">{content.why.intro}</p>
@@ -473,7 +473,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                     <BrandIcon>
                       <Icon className="h-5 w-5" />
                     </BrandIcon>
-                    <h3 className="mt-4 text-base font-bold">{card.title}</h3>
+                    <h3 className="mt-4 text-base">{card.title}</h3>
                     <p className="mt-2 text-sm leading-relaxed text-grey-mid">{card.text}</p>
                   </article>
                 );
@@ -503,7 +503,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                 aria-hidden
                 className="absolute inset-0 bg-gradient-to-t from-black/82 via-black/15 to-transparent"
               />
-              <h3 className="absolute bottom-7 left-7 max-w-xs font-display text-2xl font-black leading-tight">
+              <h3 className="absolute bottom-7 left-7 max-w-xs font-display text-2xl leading-tight">
                 {tile.title}
               </h3>
               <span
@@ -525,7 +525,7 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                 <p className="text-xs font-semibold uppercase text-brand-deep">
                   {content.cta.eyebrow}
                 </p>
-                <h2 className="mt-4 whitespace-pre-line font-display text-[clamp(2rem,4vw,3.8rem)] font-black leading-none text-black">
+                <h2 className="mt-4 whitespace-pre-line font-display text-[clamp(2rem,4vw,3.8rem)] leading-none text-black">
                   {content.cta.title}
                 </h2>
                 <p className="mt-5 max-w-xl text-grey">{content.cta.body}</p>

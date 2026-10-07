@@ -122,7 +122,7 @@ export default async function SitePage({ params }: PageProps) {
                 <div className="rich-text" dangerouslySetInnerHTML={{ __html: page!.content }} />
               ) : (
                 <div className="mx-auto max-w-2xl border border-hairline p-10 text-center">
-                  <h2 className="font-display text-xl font-bold tracking-tight text-ink">
+                  <h2 className="font-display text-xl tracking-tight text-ink">
                     {page!.title}
                   </h2>
                   <p className="mt-3 text-sm leading-relaxed text-grey">

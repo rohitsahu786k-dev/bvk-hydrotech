@@ -73,7 +73,7 @@ export default async function ContactPage() {
       <section className="section bg-surface">
         <div className="shell grid gap-14 lg:grid-cols-[1fr_1.4fr] lg:gap-20">
           <aside>
-            <h2 className="font-display text-xl font-bold tracking-tight text-ink">
+            <h2 className="font-display text-xl tracking-tight text-ink">
               Talk to our application engineers
             </h2>
             <span aria-hidden className="rule-green mt-5 block" />
@@ -150,7 +150,7 @@ export default async function ContactPage() {
           </aside>
 
           <div className="border border-hairline bg-surface-raised p-7 lg:p-10">
-            <h2 className="font-display text-lg font-bold tracking-tight text-ink">
+            <h2 className="font-display text-lg tracking-tight text-ink">
               Technical RFQ
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-grey">
@@ -171,10 +171,7 @@ export default async function ContactPage() {
         <div className="shell pt-16 lg:pt-20">
           <p className="eyebrow text-brand-deep">Location</p>
           <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-            <h2
-              id="location-heading"
-              className="font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl"
-            >
+            <h2 id="location-heading" className="font-display text-3xl tracking-tight text-ink sm:text-4xl">
               Find our Jaipur plant
             </h2>
             <a

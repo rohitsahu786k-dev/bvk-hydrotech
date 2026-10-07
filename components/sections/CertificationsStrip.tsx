@@ -26,10 +26,7 @@ export default function CertificationsStrip({
         <div className="flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
           <div>
             <p className="eyebrow text-brand-deep">Certifications</p>
-            <h2
-              id="certifications-heading"
-              className="mt-4 font-display text-3xl font-bold tracking-tight text-ink sm:text-4xl"
-            >
+            <h2 id="certifications-heading" className="mt-4 font-display text-3xl tracking-tight text-ink sm:text-4xl">
               {title}
             </h2>
           </div>

@@ -92,7 +92,7 @@ function uniqueLinks(primary: MenuLink[], fallback: MenuLink[]) {
 function Column({ title, links }: { title: string; links: MenuLink[] }) {
   return (
     <div>
-      <h3 className="text-xs font-semibold uppercase text-on-dark-faint">{title}</h3>
+      <h3 className="text-xs uppercase text-on-dark-faint">{title}</h3>
       <ul className="mt-5 space-y-3">
         {links.map((link) => (
           <li key={link.url}>
@@ -122,7 +122,7 @@ export default function Footer({ menus, settings }: FooterProps) {
         <div className="shell grid gap-8 py-10 lg:grid-cols-[1fr_auto] lg:items-center">
           <div>
             <p className="text-xs font-semibold uppercase text-brand">B2B technical enquiry</p>
-            <h2 className="mt-3 max-w-4xl font-display text-3xl font-bold text-white lg:text-4xl">
+            <h2 className="mt-3 max-w-4xl font-display text-3xl text-white lg:text-4xl">
               Need precision mesh matched to your stack, filter or industrial component?
             </h2>
             <p className="mt-4 max-w-3xl text-sm leading-relaxed text-on-dark-muted">
@@ -182,7 +182,7 @@ export default function Footer({ menus, settings }: FooterProps) {
             <Column title="Resources" links={resources} />
 
             <div>
-              <h3 className="text-xs font-semibold uppercase text-on-dark-faint">Product families</h3>
+              <h3 className="text-xs uppercase text-on-dark-faint">Product families</h3>
               <ul className="mt-5 space-y-3">
                 {productFamilies.map((item) => (
                   <li key={item} className="flex items-center gap-2 text-sm font-medium text-on-dark-muted">

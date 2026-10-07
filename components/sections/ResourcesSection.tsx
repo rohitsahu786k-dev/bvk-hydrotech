@@ -69,7 +69,7 @@ export default function ResourcesSection({ downloads }: { downloads: DownloadIte
                       {label}
                     </span>
 
-                    <h3 className="mt-4 font-display text-base font-bold leading-snug tracking-tight text-ink">
+                    <h3 className="mt-4 font-display text-base leading-snug tracking-tight text-ink">
                       {item.title}
                     </h3>
 

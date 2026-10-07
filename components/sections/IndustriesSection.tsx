@@ -165,10 +165,7 @@ export default function IndustriesSection({ industries }: { industries: Industry
                   aria-hidden
                   className="absolute inset-x-4 bottom-4 rounded-md bg-black/70 px-4 py-3 shadow-[0_10px_28px_-8px_rgba(0,0,0,0.8)] ring-1 ring-white/10 backdrop-blur-md"
                 >
-                  <h3
-                    className="font-display text-sm font-bold tracking-tight text-white"
-                    style={{ textShadow: "0 1px 4px rgba(0,0,0,0.9)" }}
-                  >
+                  <h3 className="font-display text-sm tracking-tight text-white" style={{ textShadow:"0 1px 4px rgba(0,0,0,0.9)" }}>
                     {industry.title}
                   </h3>
                   {industry.applications.length > 0 && (

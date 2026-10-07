@@ -52,7 +52,7 @@ export default async function ThankYouPage() {
 
           {downloads.length > 0 && (
             <div className="mt-16 border-t border-ink-line pt-10">
-              <h2 className="text-[0.6875rem] font-semibold uppercase tracking-[0.22em] text-on-dark-faint">
+              <h2 className="text-[0.6875rem] uppercase tracking-[0.22em] text-on-dark-faint">
                 While you wait
               </h2>
               <ul className="mt-6 space-y-3">

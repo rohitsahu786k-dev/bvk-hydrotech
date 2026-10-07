@@ -54,7 +54,7 @@
   margin-top: 1.25rem;
   max-width: 18ch;
   font-family: var(--font-display);
-  font-weight: 800;
+  font-weight: var(--weight-heading);
   font-size: clamp(2.5rem, 5.4vw, 4.75rem);
   line-height: 1.02;
   letter-spacing: -0.03em;
@@ -181,7 +181,7 @@
 .numberedTitle {
   margin-top: 1.25rem;
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: var(--weight-heading);
   font-size: 1.1875rem;
   line-height: 1.25;
   color: var(--color-ink);
@@ -377,7 +377,7 @@
 .timelineTitle {
   margin-top: 0.4375rem;
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: var(--weight-heading);
   font-size: 1.1875rem;
   color: var(--color-ink);
 }
@@ -413,7 +413,7 @@
 .photoRow figcaption h3 {
   margin-top: 1.25rem;
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: var(--weight-heading);
   font-size: 1.0625rem;
   color: var(--color-ink);
 }
@@ -444,7 +444,7 @@
 .reasonGrid h3 {
   margin-top: 1.25rem;
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: var(--weight-heading);
   font-size: 1.0625rem;
   line-height: 1.3;
   color: var(--color-ink);
@@ -541,7 +541,7 @@
 .linkRows h3 {
   flex: 1;
   font-family: var(--font-display);
-  font-weight: 700;
+  font-weight: var(--weight-heading);
   font-size: 1.25rem;
   color: var(--color-ink);
   transition: color 220ms var(--ease-out-soft);
@@ -568,7 +568,7 @@
   max-width: 20ch;
   white-space: pre-line;
   font-family: var(--font-display);
-  font-weight: 800;
+  font-weight: var(--weight-heading);
   font-size: clamp(1.875rem, 3.4vw, 3rem);
   line-height: 1.08;
   letter-spacing: -0.02em;
@@ -742,7 +742,7 @@
 .downloadCard h3 {
   font-family: var(--font-display);
   font-size: 1.25rem;
-  font-weight: 700;
+  font-weight: var(--weight-heading);
   line-height: 1.25;
   color: var(--color-ink);
 }
