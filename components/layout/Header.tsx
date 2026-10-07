@@ -182,69 +182,98 @@ export default function Header() {
           <>
             <div
               aria-hidden
-              className="pointer-events-none fixed inset-x-0 top-[5.5rem] bottom-0 hidden bg-black/45 xl:block"
+              className="pointer-events-none fixed inset-x-0 top-[5.5rem] bottom-0 hidden bg-black/20 xl:block"
             />
             <div
               id={`mega-${openItem.key}`}
               onPointerEnter={(e) => e.pointerType === "mouse" && cancelClose()}
-              className="mega-panel absolute inset-x-0 top-full hidden bg-ink text-white shadow-[0_28px_48px_-24px_rgb(0_0_0/0.55)] xl:block"
+              className="mega-panel absolute inset-x-0 top-full hidden border-b border-hairline bg-surface shadow-[0_24px_40px_-26px_rgb(0_0_0/0.35)] xl:block"
             >
-              <div className="shell grid gap-14 py-10 xl:grid-cols-[minmax(0,1fr)_22rem]">
-                {/* One running index across the groups, so the panel reads as a
-                    single catalogue rather than three stacked lists. */}
-                <div>
+              <div className="shell grid gap-12 py-8 xl:grid-cols-[minmax(0,1fr)_19rem]">
+                {/* Groups sit side by side so the panel stays short. A menu with
+                    one group spreads its links across the same three columns,
+                    so Capabilities and Resources fill the width too. */}
+                <div
+                  className={
+                    openItem.groups.length === 1
+                      ? "grid grid-cols-3 gap-x-8 gap-y-1"
+                      : "grid gap-x-8 gap-y-1"
+                  }
+                  style={
+                    openItem.groups.length > 1
+                      ? { gridTemplateColumns: `repeat(${openItem.groups.length}, minmax(0, 1fr))` }
+                      : undefined
+                  }
+                >
+                  {openItem.groups.length === 1 && (
+                    <p className="col-span-3 mb-2 flex items-center gap-3.5 text-[0.6875rem] uppercase tracking-[0.18em] text-brand-deep">
+                      {openItem.groups[0].title}
+                      <span aria-hidden className="h-px flex-1 bg-hairline" />
+                    </p>
+                  )}
+
                   {openItem.groups.map((group, groupIndex) => {
                     const offset = openItem.groups
                       .slice(0, groupIndex)
                       .reduce((sum, g) => sum + g.links.length, 0);
+                    const single = openItem.groups.length === 1;
+
+                    const rows = group.links.map((link, linkIndex) => {
+                      const current = pathname === link.href;
+                      const number = String(offset + linkIndex + 1).padStart(2, "0");
+                      return (
+                        <li key={link.href}>
+                          <Link
+                            href={link.href}
+                            aria-current={current ? "page" : undefined}
+                            className={`group flex items-start gap-3.5 rounded-sm px-3 py-2.5 transition-colors ${
+                              current ? "bg-brand-wash" : "hover:bg-surface-raised focus-visible:bg-surface-raised"
+                            }`}
+                          >
+                            <span
+                              aria-hidden
+                              className={`mt-0.5 shrink-0 text-[0.6875rem] tabular-nums ${
+                                current ? "text-brand-deep" : "text-grey-soft group-hover:text-brand-deep"
+                              }`}
+                            >
+                              {number}
+                            </span>
+                            <span className="min-w-0 flex-1">
+                              <span
+                                className={`flex items-center gap-1.5 font-display text-[0.9375rem] leading-snug ${
+                                  current ? "text-brand-deep" : "text-ink group-hover:text-brand-deep"
+                                }`}
+                              >
+                                {link.label}
+                                <ArrowRight
+                                  aria-hidden
+                                  className="h-3.5 w-3.5 shrink-0 -translate-x-1 opacity-0 transition duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                                />
+                              </span>
+                              <span className="mt-1 block text-[0.75rem] leading-snug text-grey">
+                                {link.spec}
+                              </span>
+                            </span>
+                          </Link>
+                        </li>
+                      );
+                    });
+
+                    // One group: each link becomes a column of its own, so the
+                    // three-link menus span the same width as Solutions.
+                    if (single) {
+                      return group.links.map((link, linkIndex) => (
+                        <ul key={link.href}>{rows[linkIndex]}</ul>
+                      ));
+                    }
 
                     return (
-                      <div key={group.title} className={groupIndex > 0 ? "mt-7" : undefined}>
-                        <p className="mb-1.5 flex items-center gap-3.5 text-[0.6875rem] uppercase tracking-[0.18em] text-brand">
+                      <div key={group.title}>
+                        <p className="mb-2 flex items-center gap-3.5 px-3 text-[0.6875rem] uppercase tracking-[0.18em] text-brand-deep">
                           {group.title}
-                          <span aria-hidden className="h-px flex-1 bg-ink-line" />
+                          <span aria-hidden className="h-px flex-1 bg-hairline" />
                         </p>
-                        <ul>
-                          {group.links.map((link, linkIndex) => {
-                            const current = pathname === link.href;
-                            const number = String(offset + linkIndex + 1).padStart(2, "0");
-                            return (
-                              <li key={link.href} className="border-b border-ink-line last:border-b-0">
-                                <Link
-                                  href={link.href}
-                                  aria-current={current ? "page" : undefined}
-                                  className={`group flex items-center gap-5 py-3.5 transition-[background-color,padding] duration-200 hover:bg-ink-raised hover:pl-5 focus-visible:bg-ink-raised focus-visible:pl-5 ${
-                                    current ? "bg-ink-raised pl-5" : ""
-                                  }`}
-                                >
-                                  <span aria-hidden className="w-7 shrink-0 text-xs text-brand-deep">
-                                    {number}
-                                  </span>
-                                  <span className="min-w-0 flex-1">
-                                    <span
-                                      className={`block font-display text-[1.1875rem] leading-tight transition-colors ${
-                                        current ? "text-brand" : "text-white group-hover:text-brand"
-                                      }`}
-                                    >
-                                      {link.label}
-                                    </span>
-                                    <span className="mt-1 block text-xs leading-snug text-on-dark-muted">
-                                      {link.spec}
-                                    </span>
-                                  </span>
-                                  <ArrowRight
-                                    aria-hidden
-                                    className={`h-4 w-4 shrink-0 text-brand transition duration-200 ${
-                                      current
-                                        ? "opacity-100"
-                                        : "-translate-x-1.5 opacity-0 group-hover:translate-x-0 group-hover:opacity-100"
-                                    }`}
-                                  />
-                                </Link>
-                              </li>
-                            );
-                          })}
-                        </ul>
+                        <ul>{rows}</ul>
                       </div>
                     );
                   })}
@@ -252,37 +281,33 @@ export default function Header() {
 
                 <Link
                   href={openItem.feature.href}
-                  className="group relative block min-h-[19rem] overflow-hidden border-l border-ink-line pl-9 text-white"
+                  className="group flex flex-col overflow-hidden rounded-sm border border-hairline bg-surface transition-colors hover:border-brand-deep"
                 >
-                  <span className="relative block h-full overflow-hidden">
+                  <span className="relative block h-28 overflow-hidden bg-ink">
                     <Image
                       src={openItem.feature.image}
                       alt=""
                       fill
-                      sizes="22rem"
+                      sizes="19rem"
                       className="object-cover transition duration-700 group-hover:scale-105"
                     />
-                    <span
-                      aria-hidden
-                      className="absolute inset-0 bg-gradient-to-t from-ink via-ink/35 to-transparent"
-                    />
-                    <span className="absolute inset-x-0 bottom-0 block p-6">
-                      <span className="block text-[0.6875rem] uppercase tracking-[0.18em] text-brand">
-                        {openItem.feature.eyebrow}
-                      </span>
-                      <span className="mt-2.5 block font-display text-[1.375rem] leading-tight">
-                        {openItem.feature.title}
-                      </span>
-                      <span className="mt-2 block text-[0.8125rem] leading-snug text-on-dark-muted">
-                        {openItem.feature.text}
-                      </span>
-                      <span className="mt-4 inline-flex items-center gap-2 text-[0.8125rem] font-medium text-brand">
-                        {openItem.feature.cta}
-                        <ArrowRight
-                          aria-hidden
-                          className="h-4 w-4 transition-transform group-hover:translate-x-1"
-                        />
-                      </span>
+                  </span>
+                  <span className="block p-5">
+                    <span className="block text-[0.6875rem] uppercase tracking-[0.18em] text-brand-deep">
+                      {openItem.feature.eyebrow}
+                    </span>
+                    <span className="mt-2 block font-display text-base leading-snug text-ink">
+                      {openItem.feature.title}
+                    </span>
+                    <span className="mt-1.5 block text-[0.75rem] leading-snug text-grey">
+                      {openItem.feature.text}
+                    </span>
+                    <span className="mt-3 inline-flex items-center gap-2 text-[0.75rem] font-medium text-brand-deep">
+                      {openItem.feature.cta}
+                      <ArrowRight
+                        aria-hidden
+                        className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1"
+                      />
                     </span>
                   </span>
                 </Link>
@@ -290,24 +315,24 @@ export default function Header() {
 
               {/* Hard numbers on every open, and enough weight that a
                   three-link panel still reads as finished. */}
-              <div className="border-t border-ink-line bg-ink-raised">
-                <div className="shell flex items-center justify-between gap-8 py-4">
-                  <div className="flex items-center gap-9">
+              <div className="border-t border-hairline bg-surface-raised">
+                <div className="shell flex items-center justify-between gap-8 py-3">
+                  <div className="flex items-center gap-8">
                     {navCredentials.map((credential) => (
-                      <span key={credential.value} className="flex items-baseline gap-2.5">
-                        <span className="font-display text-[1.1875rem] text-brand">
+                      <span key={credential.value} className="flex items-baseline gap-2">
+                        <span className="font-display text-[0.9375rem] text-brand-deep">
                           {credential.value}
                         </span>
-                        <span className="text-xs text-on-dark-muted">{credential.label}</span>
+                        <span className="text-[0.75rem] text-grey">{credential.label}</span>
                       </span>
                     ))}
-                    <span aria-hidden className="h-6 w-px bg-ink-line" />
-                    <span className="text-xs text-on-dark-muted">{navStandards}</span>
+                    <span aria-hidden className="h-4 w-px bg-hairline" />
+                    <span className="text-[0.75rem] text-grey">{navStandards}</span>
                   </div>
 
                   <Link
                     href="/contact"
-                    className="inline-flex items-center gap-2 border border-ink-line px-4 py-2.5 text-[0.8125rem] font-medium text-on-dark transition-colors hover:border-brand hover:text-brand"
+                    className="inline-flex items-center gap-2 text-[0.8125rem] font-medium text-brand-deep transition-colors hover:text-brand-dim"
                   >
                     Request a technical RFQ
                     <ArrowUpRight aria-hidden className="h-4 w-4" />
