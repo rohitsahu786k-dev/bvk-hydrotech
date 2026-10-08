@@ -2,11 +2,14 @@ import type { Metadata } from "next";
 import { getHomeData } from "@/lib/wordpress/home";
 import HeroCarousel from "@/components/sections/HeroCarousel";
 import StatsBand from "@/components/sections/StatsBand";
-import SolutionsGrid from "@/components/sections/SolutionsGrid";
+import HomeSolutionsDuo from "@/components/sections/HomeSolutionsDuo";
+import HomeMaterials from "@/components/sections/HomeMaterials";
+import HomeProcess from "@/components/sections/HomeProcess";
+import HomeRnd from "@/components/sections/HomeRnd";
+import HomeApplications from "@/components/sections/HomeApplications";
 import AboutSection from "@/components/sections/AboutSection";
 import KnitTypes from "@/components/sections/KnitTypes";
 import CertificationsStrip from "@/components/sections/CertificationsStrip";
-import IndustriesSection from "@/components/sections/IndustriesSection";
 import SustainabilitySection from "@/components/sections/SustainabilitySection";
 import ResourcesSection from "@/components/sections/ResourcesSection";
 import FaqAccordion from "@/components/sections/FaqAccordion";
@@ -36,10 +39,13 @@ export default async function HomePage() {
 
       <HeroCarousel slides={data.slides} />
       <StatsBand stats={data.stats} />
-      <SolutionsGrid solutions={data.solutions} />
+      <HomeSolutionsDuo />
       <AboutSection about={data.about} />
       <KnitTypes products={data.knitTypes} />
-      <IndustriesSection industries={data.industries} />
+      <HomeMaterials />
+      <HomeProcess />
+      <HomeRnd />
+      <HomeApplications />
       <SustainabilitySection
         title={data.sustainability.title}
         description={data.sustainability.description}

@@ -34,12 +34,12 @@ export default function SectionHeading({
         {eyebrow && (
           <p className={`eyebrow ${onDark ? "text-brand" : "text-brand-deep"}`}>{eyebrow}</p>
         )}
-        <h2 className={`display-section mt-5 text-balance ${onDark ? "text-white" : "text-ink"}`}>
+        <h2 className={`display-section pt-5 text-balance ${onDark ? "text-white" : "text-ink"}`}>
           {title}
         </h2>
         {description && (
           <p
-            className={`mt-5 text-base leading-relaxed lg:text-lg ${
+            className={`pt-5 text-base leading-relaxed lg:text-lg ${
               onDark ? "text-on-dark-muted" : "text-grey"
             }`}
           >
