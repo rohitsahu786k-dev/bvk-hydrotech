@@ -16,7 +16,12 @@ import { NextResponse } from "next/server";
  * enquirer always gets a clean result.
  */
 
-const REQUIRED = ["name", "company", "email", "phone", "requirementType", "message", "consent"] as const;
+const REQUIRED_TECHNICAL = ["name", "company", "email", "phone", "application", "message", "consent"] as const;
+const REQUIRED_GENERAL = ["name", "email", "phone", "message", "consent"] as const;
+
+/** Mirrors the client rules in components/forms/RfqForm.tsx. */
+const ALLOWED_EXTENSIONS = new Set(["pdf", "step", "stp", "dwg", "dxf", "xlsx", "jpg", "jpeg", "png"]);
+const MAX_FILE_BYTES = 20 * 1024 * 1024;
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -36,7 +41,8 @@ export async function POST(request: Request) {
     return NextResponse.json({ ok: true });
   }
 
-  const missing = REQUIRED.filter((field) => !str(form, field));
+  const general = str(form, "enquiryType") === "general";
+  const missing = (general ? REQUIRED_GENERAL : REQUIRED_TECHNICAL).filter((field) => !str(form, field));
   if (missing.length > 0) {
     return NextResponse.json(
       { ok: false, error: "Please complete every required field.", missing },
@@ -60,6 +66,18 @@ export async function POST(request: Request) {
     );
   }
 
+  const upload = form.get("attachment");
+  const attachment = upload instanceof File && upload.size > 0 ? upload : null;
+  if (attachment) {
+    const extension = attachment.name.split(".").pop()?.toLowerCase() ?? "";
+    if (!ALLOWED_EXTENSIONS.has(extension)) {
+      return NextResponse.json({ ok: false, error: "That file type is not supported." }, { status: 400 });
+    }
+    if (attachment.size > MAX_FILE_BYTES) {
+      return NextResponse.json({ ok: false, error: "The attached file is larger than 20 MB." }, { status: 400 });
+    }
+  }
+
   const enquiry = {
     receivedAt: new Date().toISOString(),
     name: str(form, "name"),
@@ -67,10 +85,19 @@ export async function POST(request: Request) {
     email,
     phone: str(form, "phone"),
     country: str(form, "country"),
-    requirementType: str(form, "requirementType"),
+    enquiryType: general ? "general" : "technical",
+    topic: str(form, "topic"),
+    application: str(form, "application"),
     material: str(form, "material"),
     wireDiameter: str(form, "wireDiameter"),
+    meshDensity: str(form, "meshDensity"),
+    meshType: str(form, "meshType"),
+    pieceSize: str(form, "pieceSize"),
+    surfaceTreatment: str(form, "surfaceTreatment"),
+    stage: str(form, "stage"),
     quantity: str(form, "quantity"),
+    timeline: str(form, "timeline"),
+    attachment: attachment ? { name: attachment.name, bytes: attachment.size } : null,
     message,
     source: str(form, "source"),
     landingPage: str(form, "landingPage"),

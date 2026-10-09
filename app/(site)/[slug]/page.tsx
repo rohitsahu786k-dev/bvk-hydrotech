@@ -5,6 +5,10 @@ import { ArrowRight } from "lucide-react";
 import PageHero from "@/components/sections/PageHero";
 import SolutionPage from "@/components/templates/SolutionPage";
 import CorporatePage from "@/components/templates/CorporatePage";
+import FuelCellPage, { FuelCellClosing } from "@/components/templates/FuelCellPage";
+import { fuelCell } from "@/content/fuel-cell";
+import FiltrationPage, { FiltrationClosing } from "@/components/templates/FiltrationPage";
+import { filtration } from "@/content/filtration";
 import FaqAccordion from "@/components/sections/FaqAccordion";
 import CertificationsStrip from "@/components/sections/CertificationsStrip";
 import { getPageFaqs, getPageSlugs, getSitePage } from "@/lib/wordpress/pages";
@@ -87,14 +91,18 @@ export default async function SitePage({ params }: PageProps) {
   // their schema as well.
   const [page, cmsFaqs] = await Promise.all([getSitePage(slug), getPageFaqs(slug)]);
 
+  // The Fuel Cell landing page carries its own reviewed FAQs and credentials-free layout.
+  const isFuelCell = slug === "fuel-cell-solutions";
+  const isFiltration = slug === "industrial-filtration";
+
   // CMS FAQs win; the content layer only fills pages an editor has not covered.
-  const faqs = cmsFaqs.length > 0 ? cmsFaqs : content?.faqs ?? [];
+  const faqs = isFuelCell ? fuelCell.faqs : isFiltration ? filtration.faqs : cmsFaqs.length > 0 ? cmsFaqs : content?.faqs ?? [];
 
   // A page needs either designed content or a CMS record to exist.
   if (!content && !page) notFound();
 
   const isLegal = LEGAL_SLUGS.has(slug);
-  const certifications = content && !isLegal ? await getCertifications() : [];
+  const certifications = content && !isLegal && !isFuelCell && !isFiltration ? await getCertifications() : [];
   const seo = pageSeo[slug];
 
   const schemas = [
@@ -108,7 +116,11 @@ export default async function SitePage({ params }: PageProps) {
       {schemas.length > 0 && <JsonLd data={schemas} />}
 
       {content ? (
-        isSolutionPage(slug) ? (
+        isFuelCell ? (
+          <FuelCellPage />
+        ) : isFiltration ? (
+          <FiltrationPage />
+        ) : isSolutionPage(slug) ? (
           <SolutionPage content={content} />
         ) : (
           <CorporatePage content={content} />
@@ -155,6 +167,9 @@ export default async function SitePage({ params }: PageProps) {
           description="Answers to the questions buyers and engineers ask most often about this part of our range."
         />
       )}
+
+      {isFuelCell && <FuelCellClosing />}
+      {isFiltration && <FiltrationClosing />}
     </>
   );
 }
