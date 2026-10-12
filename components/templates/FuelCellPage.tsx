@@ -3,6 +3,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { ArrowRight, ArrowUpRight, Check, Download } from "lucide-react";
 import { getIcon } from "@/lib/content/icons";
+import CtaBand from "@/components/sections/CtaBand";
 import { fuelCell as c } from "@/content/fuel-cell";
 
 /**
@@ -606,24 +607,12 @@ export function FuelCellClosing() {
         </div>
       </section>
 
-      <section className="on-ink relative isolate overflow-hidden bg-ink py-20 lg:py-24">
-        <Image src={c.finalCta.image} alt="" fill sizes="100vw" className="-z-20 object-cover" />
-        <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-r from-ink via-ink/85 to-ink/30" />
-        <div className="shell">
-          <div className="max-w-2xl">
-            <h2 className="font-display text-3xl leading-tight text-balance text-white lg:text-[2.5rem]">
-              {c.finalCta.title}
-            </h2>
-            <p className="pt-4 text-on-dark-muted">{c.finalCta.text}</p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              <Cta href={c.finalCta.primary.href}>{c.finalCta.primary.label}</Cta>
-              <Cta href={c.finalCta.secondary.href} variant="outline">
-                {c.finalCta.secondary.label}
-              </Cta>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CtaBand
+        title={c.finalCta.title}
+        body={c.finalCta.text}
+        primary={c.finalCta.primary}
+        secondary={c.finalCta.secondary}
+      />
     </>
   );
 }

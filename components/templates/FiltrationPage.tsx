@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, BadgeCheck, Check } from "lucide-react";
 import { getIcon } from "@/lib/content/icons";
+import CtaBand from "@/components/sections/CtaBand";
 import { filtration as c } from "@/content/filtration";
 import { Cta, Heading, cardHover } from "./FuelCellPage";
 
@@ -484,19 +485,11 @@ export default function FiltrationPage() {
 /** The closing CTA, rendered after the FAQ by the route. */
 export function FiltrationClosing() {
   return (
-    <section className="on-ink relative isolate overflow-hidden bg-ink py-16 lg:py-20">
-      <Image src={c.finalCta.image} alt="" fill sizes="100vw" className="-z-20 object-cover" />
-      <div aria-hidden className="absolute inset-0 -z-10 bg-ink/85" />
-      <div className="shell grid items-center gap-8 lg:grid-cols-[1fr_auto]">
-        <div className="max-w-2xl">
-          <p className="eyebrow text-brand">{c.finalCta.eyebrow}</p>
-          <h2 className="pt-4 font-display text-3xl leading-tight text-balance text-white lg:text-[2.25rem]">
-            {c.finalCta.title}
-          </h2>
-          <p className="pt-3 text-on-dark-muted">{c.finalCta.text}</p>
-        </div>
-        <Cta href={c.finalCta.primary.href}>{c.finalCta.primary.label}</Cta>
-      </div>
-    </section>
+    <CtaBand
+      eyebrow={c.finalCta.eyebrow}
+      title={c.finalCta.title}
+      body={c.finalCta.text}
+      primary={c.finalCta.primary}
+    />
   );
 }

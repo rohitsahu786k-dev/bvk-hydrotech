@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { ArrowRight, CheckCircle2, Download } from "lucide-react";
 import { getIcon } from "@/lib/content/icons";
 import type { LinkAction, SolutionPageContent } from "@/lib/content/types";
+import CtaBand from "@/components/sections/CtaBand";
 import styles from "./SolutionPage.module.css";
 
 /**
@@ -518,37 +519,13 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
       )}
 
       {content.cta && (
-        <section className={styles.cta}>
-          <div className="shell overflow-hidden rounded-lg bg-brand-wash">
-            <div className="relative grid min-h-[24rem] items-center overflow-hidden lg:grid-cols-[0.85fr_1.15fr]">
-              <div className="relative z-10 p-8 lg:p-12">
-                <p className="text-xs font-semibold uppercase text-brand-deep">
-                  {content.cta.eyebrow}
-                </p>
-                <h2 className="mt-4 whitespace-pre-line font-display text-[clamp(2rem,4vw,3.8rem)] leading-none text-black">
-                  {content.cta.title}
-                </h2>
-                <p className="mt-5 max-w-xl text-grey">{content.cta.body}</p>
-                <div className="mt-7 flex flex-wrap gap-4">
-                  <Action action={content.cta.primary} variant="solid" />
-                  {content.cta.secondary && (
-                    <Action action={content.cta.secondary} variant="outline" />
-                  )}
-                </div>
-              </div>
-              <div aria-hidden className="absolute inset-y-0 right-0 w-full lg:w-[58%]">
-                <Image
-                  src={content.cta.image.src}
-                  alt=""
-                  fill
-                  sizes="(min-width: 1024px) 55vw, 100vw"
-                  className="object-cover opacity-45 lg:opacity-100"
-                />
-                <div className="absolute inset-0 bg-gradient-to-r from-brand-wash via-brand-wash/65 to-transparent lg:from-brand-wash lg:via-brand-wash/35" />
-              </div>
-            </div>
-          </div>
-        </section>
+        <CtaBand
+          eyebrow={content.cta.eyebrow}
+          title={content.cta.title}
+          body={content.cta.body}
+          primary={content.cta.primary}
+          secondary={content.cta.secondary}
+        />
       )}
     </div>
   );

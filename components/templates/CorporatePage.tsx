@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowRight, ArrowUpRight, Check, Download } from "lucide-react";
 import { getIcon } from "@/lib/content/icons";
 import type { LinkAction, SolutionPageContent } from "@/lib/content/types";
+import CtaBand from "@/components/sections/CtaBand";
 import styles from "./CorporatePage.module.css";
 
 /**
@@ -439,23 +440,14 @@ export default function CorporatePage({ content }: { content: SolutionPageConten
         </section>
       )}
 
-      {/* CTA — ink band, green button, no photograph. */}
       {content.cta && (
-        <section className={styles.ctaBand}>
-          <div className={`shell ${styles.cta}`}>
-            <div>
-              <p className="eyebrow text-brand">{content.cta.eyebrow}</p>
-              <h2 className={styles.ctaTitle}>{content.cta.title}</h2>
-              <p className={styles.ctaBody}>{content.cta.body}</p>
-            </div>
-            <div className={styles.ctaActions}>
-              <Action action={content.cta.primary} variant="green" />
-              {content.cta.secondary && (
-                <Action action={content.cta.secondary} variant="outline" />
-              )}
-            </div>
-          </div>
-        </section>
+        <CtaBand
+          eyebrow={content.cta.eyebrow}
+          title={content.cta.title}
+          body={content.cta.body}
+          primary={content.cta.primary}
+          secondary={content.cta.secondary}
+        />
       )}
     </div>
   );

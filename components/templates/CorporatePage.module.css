@@ -547,48 +547,6 @@
   transition: color 220ms var(--ease-out-soft);
 }
 
-/* ---------- CTA ---------- */
-
-.ctaBand {
-  background: var(--color-ink-raised);
-  border-top: 1px solid var(--color-ink-line);
-  color: #fff;
-}
-
-.cta {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 3.5rem;
-  align-items: center;
-  padding-block: 5rem;
-}
-
-.ctaTitle {
-  margin-top: 1.5rem;
-  max-width: 20ch;
-  white-space: pre-line;
-  font-family: var(--font-display);
-  font-weight: var(--weight-heading);
-  font-size: clamp(1.875rem, 3.4vw, 3rem);
-  line-height: 1.08;
-  letter-spacing: -0.02em;
-  color: #fff;
-}
-
-.ctaBody {
-  margin-top: 1.25rem;
-  max-width: 62ch;
-  font-size: 0.9375rem;
-  line-height: 1.7;
-  color: var(--color-on-dark-muted);
-}
-
-.ctaActions {
-  display: flex;
-  flex-direction: column;
-  gap: 0.875rem;
-}
-
 /* ---------- RESPONSIVE ---------- */
 
 @media (max-width: 1100px) {
@@ -617,14 +575,9 @@
   .reasonGrid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .sustain,
-  .cta {
+  .sustain {
     grid-template-columns: 1fr;
     gap: 2.5rem;
-  }
-  .ctaActions {
-    flex-direction: row;
-    flex-wrap: wrap;
   }
 }
 
