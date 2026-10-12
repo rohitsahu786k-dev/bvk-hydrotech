@@ -97,7 +97,7 @@ export default function Header() {
       }}
     >
       <div ref={wrapRef} className="relative" onPointerLeave={(e) => e.pointerType === "mouse" && scheduleClose()}>
-        <div className="shell flex h-20 items-center justify-between gap-6 lg:h-[5.5rem]">
+        <div className="shell flex h-16 items-center justify-between gap-6 lg:h-[4.5rem]">
           <Link href="/" className="shrink-0" aria-label="BVK Hydrotech — home" onClick={closeMobile}>
             <Image
               src={LOGO}
@@ -182,7 +182,7 @@ export default function Header() {
           <>
             <div
               aria-hidden
-              className="pointer-events-none fixed inset-x-0 top-[5.5rem] bottom-0 hidden bg-black/20 xl:block"
+              className="pointer-events-none fixed inset-x-0 top-[4.5rem] bottom-0 hidden bg-black/20 xl:block"
             />
             <div
               id={`mega-${openItem.key}`}
@@ -348,7 +348,7 @@ export default function Header() {
       <div
         id="mobile-nav"
         hidden={!mobileOpen}
-        className="fixed inset-x-0 top-20 bottom-0 overflow-y-auto border-t border-hairline bg-surface xl:hidden"
+        className="fixed inset-x-0 top-16 bottom-0 overflow-y-auto border-t border-hairline bg-surface xl:hidden"
       >
         <nav aria-label="Primary (mobile)" className="shell flex flex-col py-4">
           {navigation.map((item) => {
