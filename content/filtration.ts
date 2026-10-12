@@ -214,20 +214,6 @@ export const filtration = {
     alt: "Stainless steel filter housings and process pipework in an industrial filtration plant",
   },
 
-  certifications: {
-    eyebrow: "Quality & Compliance",
-    title: "Certified quality, safety and compliance",
-    intro:
-      "Our manufacturing and quality systems support controlled production, traceability and consistent processes.",
-    items: [
-      { name: "ISO 9001:2015", note: "Quality Management", file: "iso-9001-2015-quality-management-system.webp" },
-      { name: "ISO 14001:2015", note: "Environmental Management", file: "iso-14001-2015-environmental-management-system.webp" },
-      { name: "ISO 45001:2018", note: "Occupational Health & Safety", file: "iso-45001-2018-occupational-health-safety-management-system.webp" },
-      { name: "IATF 16949:2016", note: "Automotive Quality", file: "iatf-16949-2016-automotive-quality-management-system.webp" },
-      { name: "DSIR Recognised", note: "In-house R&D Centre", file: "dsir-recognized-rd-centre.webp" },
-    ],
-  },
-
   faqs: [
     {
       question: "What industrial filtration applications can BVK support?",

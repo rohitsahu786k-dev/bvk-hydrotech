@@ -414,39 +414,6 @@ export default function FiltrationPage() {
           </div>
         </div>
       </section>
-
-      {/* ============ CERTIFICATIONS ============ */}
-      <section className="border-y border-hairline bg-surface-raised py-10 lg:py-12">
-        <div className="shell">
-          <div className="grid items-end gap-3 lg:grid-cols-[1fr_1fr] lg:gap-14">
-            <div>
-              <p className="eyebrow text-brand-deep">{c.certifications.eyebrow}</p>
-              <h2 className="mt-3 font-display text-ink">{c.certifications.title}</h2>
-            </div>
-            <p className="text-sm leading-relaxed text-grey">{c.certifications.intro}</p>
-          </div>
-
-          <ul className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-5">
-            {c.certifications.items.map((item) => (
-              <li key={item.name} className="flex flex-col items-center text-center">
-                <span className="flex h-20 w-20 items-center justify-center rounded-lg bg-surface p-2 ring-1 ring-hairline">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={`/media/${item.file}`}
-                    alt={item.name}
-                    width={72}
-                    height={72}
-                    loading="lazy"
-                    className="h-full w-full object-contain"
-                  />
-                </span>
-                <p className="mt-3 font-display text-sm text-ink">{item.name}</p>
-                <p className="mt-0.5 text-xs text-grey">{item.note}</p>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
     </div>
   );
 }

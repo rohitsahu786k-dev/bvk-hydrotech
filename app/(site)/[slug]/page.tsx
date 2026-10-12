@@ -102,7 +102,7 @@ export default async function SitePage({ params }: PageProps) {
   if (!content && !page) notFound();
 
   const isLegal = LEGAL_SLUGS.has(slug);
-  const certifications = content && !isLegal && !isFuelCell && !isFiltration ? await getCertifications() : [];
+  const certifications = content && !isLegal && !isFuelCell ? await getCertifications() : [];
   const seo = pageSeo[slug];
 
   const schemas = [
