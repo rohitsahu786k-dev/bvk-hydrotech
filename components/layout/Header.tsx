@@ -196,8 +196,8 @@ export default function Header() {
                     <div className="p-6">
                       <div className="mb-4 flex items-start justify-between gap-8">
                         <div>
-                          <p className="font-display text-xl leading-tight text-ink">{openItem.label}</p>
-                          <p className="mt-1 text-[0.8125rem] leading-snug text-grey">{openItem.blurb}</p>
+                          <p className="font-display text-lg leading-tight text-ink">{openItem.label}</p>
+                          <p className="mt-0.5 text-xs leading-snug text-grey">{openItem.blurb}</p>
                         </div>
                         <span aria-hidden className="mt-2 hidden h-1 w-14 rounded-full bg-brand 2xl:block" />
                       </div>
@@ -211,7 +211,7 @@ export default function Header() {
                         {openItem.groups.map((group) => (
                           <div key={group.title}>
                             {openItem.groups.length > 1 && (
-                              <p className="mb-1.5 px-2.5 text-[0.6875rem] font-semibold uppercase tracking-wider text-grey-mid">
+                              <p className="mb-1 px-2 text-[0.625rem] font-semibold uppercase tracking-wider text-grey-mid">
                                 {group.title}
                               </p>
                             )}
@@ -228,33 +228,33 @@ export default function Header() {
                                     <Link
                                       href={link.href}
                                       aria-current={current ? "page" : undefined}
-                                      className={`group flex items-start gap-3 rounded-xl p-2.5 transition-colors ${
+                                      className={`group flex items-start gap-2.5 rounded-lg p-2 transition-colors ${
                                         current ? "bg-brand-wash" : "hover:bg-brand-wash/60 focus-visible:bg-brand-wash/60"
                                       }`}
                                     >
                                       <span
                                         aria-hidden
-                                        className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition-colors duration-200 ${
+                                        className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-md transition-colors duration-200 ${
                                           current
                                             ? "bg-brand text-white"
                                             : "bg-brand-wash text-brand-deep group-hover:bg-brand group-hover:text-white"
                                         }`}
                                       >
-                                        <Icon className="h-4 w-4" />
+                                        <Icon className="h-3.5 w-3.5" />
                                       </span>
                                       <span className="min-w-0 flex-1">
                                         <span
-                                          className={`flex items-center gap-1.5 font-display text-[0.9375rem] leading-snug ${
+                                          className={`flex items-center gap-1.5 font-display text-[0.8125rem] leading-snug ${
                                             current ? "text-brand-deep" : "text-ink group-hover:text-brand-deep"
                                           }`}
                                         >
                                           {link.label}
                                           <ArrowRight
                                             aria-hidden
-                                            className="h-3.5 w-3.5 shrink-0 -translate-x-1 opacity-0 transition duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                                            className="h-3 w-3 shrink-0 -translate-x-1 opacity-0 transition duration-200 group-hover:translate-x-0 group-hover:opacity-100"
                                           />
                                         </span>
-                                        <span className="mt-0.5 block text-xs leading-snug text-grey">
+                                        <span className="mt-0.5 block text-[0.6875rem] leading-snug text-grey">
                                           {link.description}
                                         </span>
                                       </span>
@@ -270,7 +270,7 @@ export default function Header() {
 
                     <Link
                       href={openItem.feature.href}
-                      className="group relative isolate flex min-h-[15rem] flex-col justify-end overflow-hidden bg-ink p-6"
+                      className="group relative isolate flex min-h-[13rem] flex-col justify-end overflow-hidden bg-ink p-5"
                     >
                       <Image
                         src={openItem.feature.image}
@@ -280,38 +280,38 @@ export default function Header() {
                         className="-z-20 object-cover transition duration-700 group-hover:scale-105"
                       />
                       <span aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/70 to-ink/10" />
-                      <span className="w-fit rounded-full bg-brand px-3 py-1 text-[0.6875rem] font-semibold uppercase tracking-wider text-white">
+                      <span className="w-fit rounded-full bg-brand px-2.5 py-0.5 text-[0.625rem] font-semibold uppercase tracking-wider text-white">
                         {openItem.feature.eyebrow}
                       </span>
-                      <span className="mt-3 block font-display text-lg leading-snug text-white">
+                      <span className="mt-2.5 block font-display text-[0.9375rem] leading-snug text-white">
                         {openItem.feature.title}
                       </span>
-                      <span className="mt-1.5 block text-[0.8125rem] leading-snug text-on-dark-muted">
+                      <span className="mt-1 block text-[0.6875rem] leading-snug text-on-dark-muted">
                         {openItem.feature.text}
                       </span>
-                      <span className="mt-4 inline-flex items-center gap-2 text-[0.8125rem] font-semibold text-white">
+                      <span className="mt-3 inline-flex items-center gap-2 text-xs font-semibold text-white">
                         {openItem.feature.cta}
-                        <span className="flex h-7 w-7 items-center justify-center rounded-full bg-white/15 transition-colors group-hover:bg-brand">
+                        <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white/15 transition-colors group-hover:bg-brand">
                           <ArrowRight aria-hidden className="h-3.5 w-3.5" />
                         </span>
                       </span>
                     </Link>
                   </div>
 
-                  <div className="flex items-center justify-between gap-8 shrink-0 border-t border-hairline bg-surface-raised px-6 py-3">
+                  <div className="flex items-center justify-between gap-8 shrink-0 border-t border-hairline bg-surface-raised px-6 py-2.5">
                     <div className="flex items-center gap-7">
                       {navCredentials.map((credential) => (
                         <span key={credential.value} className="flex items-baseline gap-2">
-                          <span className="font-display text-base text-brand-deep">{credential.value}</span>
-                          <span className="text-xs text-grey">{credential.label}</span>
+                          <span className="font-display text-sm text-brand-deep">{credential.value}</span>
+                          <span className="text-[0.6875rem] text-grey">{credential.label}</span>
                         </span>
                       ))}
                       <span aria-hidden className="h-4 w-px bg-hairline" />
-                      <span className="text-xs text-grey">{navStandards}</span>
+                      <span className="text-[0.6875rem] text-grey">{navStandards}</span>
                     </div>
                     <Link
                       href="/contact"
-                      className="inline-flex items-center gap-2 text-sm font-semibold text-brand-deep transition-colors hover:text-brand-dim"
+                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-brand-deep transition-colors hover:text-brand-dim"
                     >
                       Request a technical RFQ
                       <ArrowUpRight aria-hidden className="h-4 w-4" />
