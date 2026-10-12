@@ -6,6 +6,7 @@ import { ArrowLeft, ArrowRight, ArrowUpRight, MessagesSquare } from "lucide-reac
 import BlogCard, { PostMeta } from "@/components/blog/BlogCard";
 import BlogHero from "@/components/blog/BlogHero";
 import CtaBand from "@/components/sections/CtaBand";
+import ScrollCarousel from "@/components/ui/ScrollCarousel";
 import { JsonLd, organisationId } from "@/lib/seo/jsonLd";
 import { formatPostDate, getPost, getPosts } from "@/lib/wordpress/blog";
 
@@ -53,7 +54,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   if (!post) notFound();
 
   const others = all.filter((p) => p.id !== post.id);
-  const related = others.slice(0, 3);
+  const related = others.slice(0, 9);
 
   const schema = [
     {
@@ -185,12 +186,12 @@ export default async function BlogPostPage({ params }: PageProps) {
               <h2 className="font-display text-ink">Keep reading</h2>
               <span aria-hidden className="h-px flex-1 bg-hairline" />
             </div>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {related.map((p) => (
-                <BlogCard key={p.id} post={p} />
-              ))}
-            </div>
           </div>
+          <ScrollCarousel label="More articles">
+            {related.map((p) => (
+              <BlogCard key={p.id} post={p} />
+            ))}
+          </ScrollCarousel>
         </section>
       )}
 
