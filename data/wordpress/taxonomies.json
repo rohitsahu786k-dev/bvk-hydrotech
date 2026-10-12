@@ -1,0 +1,214 @@
+{
+ "category": {
+  "name": "Categories",
+  "slug": "category",
+  "description": "",
+  "types": [
+   "post"
+  ],
+  "hierarchical": true,
+  "rest_base": "categories",
+  "rest_namespace": "wp/v2",
+  "_links": {
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+    }
+   ],
+   "wp:items": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/categories"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ "post_tag": {
+  "name": "Tags",
+  "slug": "post_tag",
+  "description": "",
+  "types": [
+   "post"
+  ],
+  "hierarchical": false,
+  "rest_base": "tags",
+  "rest_namespace": "wp/v2",
+  "_links": {
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+    }
+   ],
+   "wp:items": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/tags"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ "nav_menu": {
+  "name": "Navigation Menus",
+  "slug": "nav_menu",
+  "description": "",
+  "types": [
+   "nav_menu_item"
+  ],
+  "hierarchical": false,
+  "rest_base": "menus",
+  "rest_namespace": "wp/v2",
+  "_links": {
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+    }
+   ],
+   "wp:items": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/menus"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ "wp_pattern_category": {
+  "name": "Pattern Categories",
+  "slug": "wp_pattern_category",
+  "description": "",
+  "types": [
+   "wp_block"
+  ],
+  "hierarchical": false,
+  "rest_base": "wp_pattern_category",
+  "rest_namespace": "wp/v2",
+  "_links": {
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+    }
+   ],
+   "wp:items": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/wp_pattern_category"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ "bvk_product_category": {
+  "name": "Product Categories",
+  "slug": "bvk_product_category",
+  "description": "",
+  "types": [
+   "bvk_product"
+  ],
+  "hierarchical": true,
+  "rest_base": "product-categories",
+  "rest_namespace": "wp/v2",
+  "_links": {
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+    }
+   ],
+   "wp:items": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/product-categories"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ "bvk_industry_tag": {
+  "name": "Industry Tags",
+  "slug": "bvk_industry_tag",
+  "description": "",
+  "types": [
+   "bvk_product",
+   "bvk_service",
+   "bvk_case_study"
+  ],
+  "hierarchical": false,
+  "rest_base": "industry-tags",
+  "rest_namespace": "wp/v2",
+  "_links": {
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+    }
+   ],
+   "wp:items": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industry-tags"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ "bvk_material": {
+  "name": "Materials",
+  "slug": "bvk_material",
+  "description": "",
+  "types": [
+   "bvk_product"
+  ],
+  "hierarchical": false,
+  "rest_base": "materials",
+  "rest_namespace": "wp/v2",
+  "_links": {
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+    }
+   ],
+   "wp:items": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/materials"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+}

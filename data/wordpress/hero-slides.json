@@ -1,0 +1,952 @@
+[
+ {
+  "id": 111,
+  "date": "2026-09-21T12:53:06",
+  "date_gmt": "2026-09-21T12:53:06",
+  "guid": {
+   "rendered": "https://dev.bhavcreations.in/bvk_hero_slide/hero-sustainability/"
+  },
+  "modified": "2026-09-22T04:47:15",
+  "modified_gmt": "2026-09-22T04:47:15",
+  "slug": "hero-sustainability",
+  "status": "publish",
+  "type": "bvk_hero_slide",
+  "link": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-sustainability",
+  "title": {
+   "rendered": "50% Renewable Today. 100% Tomorrow."
+  },
+  "menu_order": 0,
+  "template": "",
+  "meta": {
+   "_acf_changed": false
+  },
+  "acf": {
+   "image_desktop": 387,
+   "image_mobile": 395,
+   "focal_point": "center",
+   "eyebrow": "SUSTAINABLE ENGINEERING",
+   "title": "Engineering Progress. Responsibly.",
+   "title_muted": "",
+   "subtitle": "Combining precision manufacturing, clean-energy applications and a responsible approach to the future.",
+   "cta_text": "Explore Sustainability",
+   "cta_url": "/sustainability",
+   "cta2_text": "Discover BVK Hydrotech",
+   "cta2_url": "/about",
+   "is_active": true,
+   "sort_order": 5
+  },
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>50% Renewable Today. 100% Tomorrow. - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"50% Renewable Today. 100% Tomorrow. - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_hero_slide=hero-sustainability\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:15+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-sustainability\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-sustainability\",\"name\":\"50% Renewable Today. 100% Tomorrow. - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:06+00:00\",\"dateModified\":\"2026-09-22T04:47:15+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-sustainability#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-sustainability\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-sustainability#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"50% Renewable Today. 100% Tomorrow.\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "50% Renewable Today. 100% Tomorrow. - BVK Hydrotech",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "50% Renewable Today. 100% Tomorrow. - BVK Hydrotech",
+   "og_url": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-sustainability",
+   "og_site_name": "BVK Hydrotech",
+   "article_modified_time": "2026-09-22T04:47:15+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-sustainability",
+      "url": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-sustainability",
+      "name": "50% Renewable Today. 100% Tomorrow. - BVK Hydrotech",
+      "isPartOf": {
+       "@id": "https://dev.bhavcreations.in/#website"
+      },
+      "datePublished": "2026-09-21T12:53:06+00:00",
+      "dateModified": "2026-09-22T04:47:15+00:00",
+      "breadcrumb": {
+       "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-sustainability#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://dev.bhavcreations.in/?bvk_hero_slide=hero-sustainability"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-sustainability#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dev.bhavcreations.in/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "50% Renewable Today. 100% Tomorrow."
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://dev.bhavcreations.in/#website",
+      "url": "https://dev.bhavcreations.in/",
+      "name": "BVK Hydrotech",
+      "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
+      "publisher": {
+       "@id": "https://dev.bhavcreations.in/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://dev.bhavcreations.in/#organization",
+      "name": "BVK Hydrotech",
+      "url": "https://dev.bhavcreations.in/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
+       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "width": 1774,
+       "height": 887,
+       "caption": "BVK Hydrotech"
+      },
+      "image": {
+       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/111",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_hero_slide"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 1,
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/111/revisions"
+    }
+   ],
+   "predecessor-version": [
+    {
+     "id": 199,
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/111/revisions/199"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=111"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 110,
+  "date": "2026-09-21T12:53:06",
+  "date_gmt": "2026-09-21T12:53:06",
+  "guid": {
+   "rendered": "https://dev.bhavcreations.in/bvk_hero_slide/hero-fuel-cell-components/"
+  },
+  "modified": "2026-09-22T04:47:15",
+  "modified_gmt": "2026-09-22T04:47:15",
+  "slug": "hero-fuel-cell-components",
+  "status": "publish",
+  "type": "bvk_hero_slide",
+  "link": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-fuel-cell-components",
+  "title": {
+   "rendered": "Fuel Cell Electrode Components"
+  },
+  "menu_order": 0,
+  "template": "",
+  "meta": {
+   "_acf_changed": false
+  },
+  "acf": {
+   "image_desktop": 388,
+   "image_mobile": 393,
+   "focal_point": "center",
+   "eyebrow": "R&D • CFD • PROTOTYPING",
+   "title": "Engineering Before Manufacturing.",
+   "title_muted": "",
+   "subtitle": "Simulation, material selection, prototyping and validation to optimise performance before production begins.",
+   "cta_text": "Explore R&D Capabilities",
+   "cta_url": "/rd-cfd-prototyping",
+   "cta2_text": "Discuss Your Application",
+   "cta2_url": "/contact",
+   "is_active": true,
+   "sort_order": 4
+  },
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Fuel Cell Electrode Components - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Fuel Cell Electrode Components - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_hero_slide=hero-fuel-cell-components\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:15+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-fuel-cell-components\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-fuel-cell-components\",\"name\":\"Fuel Cell Electrode Components - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:06+00:00\",\"dateModified\":\"2026-09-22T04:47:15+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-fuel-cell-components#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-fuel-cell-components\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-fuel-cell-components#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Fuel Cell Electrode Components\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Fuel Cell Electrode Components - BVK Hydrotech",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Fuel Cell Electrode Components - BVK Hydrotech",
+   "og_url": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-fuel-cell-components",
+   "og_site_name": "BVK Hydrotech",
+   "article_modified_time": "2026-09-22T04:47:15+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-fuel-cell-components",
+      "url": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-fuel-cell-components",
+      "name": "Fuel Cell Electrode Components - BVK Hydrotech",
+      "isPartOf": {
+       "@id": "https://dev.bhavcreations.in/#website"
+      },
+      "datePublished": "2026-09-21T12:53:06+00:00",
+      "dateModified": "2026-09-22T04:47:15+00:00",
+      "breadcrumb": {
+       "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-fuel-cell-components#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://dev.bhavcreations.in/?bvk_hero_slide=hero-fuel-cell-components"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-fuel-cell-components#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dev.bhavcreations.in/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Fuel Cell Electrode Components"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://dev.bhavcreations.in/#website",
+      "url": "https://dev.bhavcreations.in/",
+      "name": "BVK Hydrotech",
+      "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
+      "publisher": {
+       "@id": "https://dev.bhavcreations.in/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://dev.bhavcreations.in/#organization",
+      "name": "BVK Hydrotech",
+      "url": "https://dev.bhavcreations.in/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
+       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "width": 1774,
+       "height": 887,
+       "caption": "BVK Hydrotech"
+      },
+      "image": {
+       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/110",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_hero_slide"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 1,
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/110/revisions"
+    }
+   ],
+   "predecessor-version": [
+    {
+     "id": 198,
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/110/revisions/198"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=110"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 109,
+  "date": "2026-09-21T12:53:05",
+  "date_gmt": "2026-09-21T12:53:05",
+  "guid": {
+   "rendered": "https://dev.bhavcreations.in/bvk_hero_slide/hero-single-piece-2-2m/"
+  },
+  "modified": "2026-09-22T04:47:14",
+  "modified_gmt": "2026-09-22T04:47:14",
+  "slug": "hero-single-piece-2-2m",
+  "status": "publish",
+  "type": "bvk_hero_slide",
+  "link": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-single-piece-2-2m",
+  "title": {
+   "rendered": "Knitted Mesh Up To 2.2 m In A Single Piece"
+  },
+  "menu_order": 0,
+  "template": "",
+  "meta": {
+   "_acf_changed": false
+  },
+  "acf": {
+   "image_desktop": 390,
+   "image_mobile": 394,
+   "focal_point": "center",
+   "eyebrow": "ENGINEERING & MANUFACTURING",
+   "title": "From Precision Engineering to Scalable Manufacturing.",
+   "title_muted": "",
+   "subtitle": "Integrated manufacturing capabilities built to deliver consistent quality from prototype to production.",
+   "cta_text": "Explore Our Capabilities",
+   "cta_url": "/engineering-manufacturing",
+   "cta2_text": "View Manufacturing",
+   "cta2_url": "/engineering-manufacturing",
+   "is_active": true,
+   "sort_order": 3
+  },
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Knitted Mesh Up To 2.2 m In A Single Piece - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Knitted Mesh Up To 2.2 m In A Single Piece - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_hero_slide=hero-single-piece-2-2m\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:14+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-single-piece-2-2m\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-single-piece-2-2m\",\"name\":\"Knitted Mesh Up To 2.2 m In A Single Piece - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:05+00:00\",\"dateModified\":\"2026-09-22T04:47:14+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-single-piece-2-2m#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-single-piece-2-2m\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-single-piece-2-2m#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Knitted Mesh Up To 2.2 m In A Single Piece\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Knitted Mesh Up To 2.2 m In A Single Piece - BVK Hydrotech",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Knitted Mesh Up To 2.2 m In A Single Piece - BVK Hydrotech",
+   "og_url": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-single-piece-2-2m",
+   "og_site_name": "BVK Hydrotech",
+   "article_modified_time": "2026-09-22T04:47:14+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-single-piece-2-2m",
+      "url": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-single-piece-2-2m",
+      "name": "Knitted Mesh Up To 2.2 m In A Single Piece - BVK Hydrotech",
+      "isPartOf": {
+       "@id": "https://dev.bhavcreations.in/#website"
+      },
+      "datePublished": "2026-09-21T12:53:05+00:00",
+      "dateModified": "2026-09-22T04:47:14+00:00",
+      "breadcrumb": {
+       "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-single-piece-2-2m#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://dev.bhavcreations.in/?bvk_hero_slide=hero-single-piece-2-2m"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-single-piece-2-2m#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dev.bhavcreations.in/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Knitted Mesh Up To 2.2 m In A Single Piece"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://dev.bhavcreations.in/#website",
+      "url": "https://dev.bhavcreations.in/",
+      "name": "BVK Hydrotech",
+      "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
+      "publisher": {
+       "@id": "https://dev.bhavcreations.in/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://dev.bhavcreations.in/#organization",
+      "name": "BVK Hydrotech",
+      "url": "https://dev.bhavcreations.in/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
+       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "width": 1774,
+       "height": 887,
+       "caption": "BVK Hydrotech"
+      },
+      "image": {
+       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/109",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_hero_slide"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 1,
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/109/revisions"
+    }
+   ],
+   "predecessor-version": [
+    {
+     "id": 197,
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/109/revisions/197"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=109"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 108,
+  "date": "2026-09-21T12:53:04",
+  "date_gmt": "2026-09-21T12:53:04",
+  "guid": {
+   "rendered": "https://dev.bhavcreations.in/bvk_hero_slide/hero-indian-agility-german-precision/"
+  },
+  "modified": "2026-09-22T04:47:14",
+  "modified_gmt": "2026-09-22T04:47:14",
+  "slug": "hero-indian-agility-german-precision",
+  "status": "publish",
+  "type": "bvk_hero_slide",
+  "link": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-indian-agility-german-precision",
+  "title": {
+   "rendered": "Indian Agility. German Precision."
+  },
+  "menu_order": 0,
+  "template": "",
+  "meta": {
+   "_acf_changed": false
+  },
+  "acf": {
+   "image_desktop": 389,
+   "image_mobile": 392,
+   "focal_point": "center",
+   "eyebrow": "PRECISION MESH SOLUTIONS",
+   "title": "Engineered Mesh. Built Around Your Application.",
+   "title_muted": "",
+   "subtitle": "Woven and knitted metal mesh solutions developed for performance, conductivity, permeability and precision.",
+   "cta_text": "Explore Mesh Solutions",
+   "cta_url": "/precision-mesh-solutions",
+   "cta2_text": "Talk to an Expert",
+   "cta2_url": "/contact",
+   "is_active": true,
+   "sort_order": 2
+  },
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Indian Agility. German Precision. - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Indian Agility. German Precision. - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_hero_slide=hero-indian-agility-german-precision\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:14+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-indian-agility-german-precision\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-indian-agility-german-precision\",\"name\":\"Indian Agility. German Precision. - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:04+00:00\",\"dateModified\":\"2026-09-22T04:47:14+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-indian-agility-german-precision#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-indian-agility-german-precision\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-indian-agility-german-precision#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Indian Agility. German Precision.\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Indian Agility. German Precision. - BVK Hydrotech",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Indian Agility. German Precision. - BVK Hydrotech",
+   "og_url": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-indian-agility-german-precision",
+   "og_site_name": "BVK Hydrotech",
+   "article_modified_time": "2026-09-22T04:47:14+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-indian-agility-german-precision",
+      "url": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-indian-agility-german-precision",
+      "name": "Indian Agility. German Precision. - BVK Hydrotech",
+      "isPartOf": {
+       "@id": "https://dev.bhavcreations.in/#website"
+      },
+      "datePublished": "2026-09-21T12:53:04+00:00",
+      "dateModified": "2026-09-22T04:47:14+00:00",
+      "breadcrumb": {
+       "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-indian-agility-german-precision#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://dev.bhavcreations.in/?bvk_hero_slide=hero-indian-agility-german-precision"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-indian-agility-german-precision#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dev.bhavcreations.in/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Indian Agility. German Precision."
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://dev.bhavcreations.in/#website",
+      "url": "https://dev.bhavcreations.in/",
+      "name": "BVK Hydrotech",
+      "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
+      "publisher": {
+       "@id": "https://dev.bhavcreations.in/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://dev.bhavcreations.in/#organization",
+      "name": "BVK Hydrotech",
+      "url": "https://dev.bhavcreations.in/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
+       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "width": 1774,
+       "height": 887,
+       "caption": "BVK Hydrotech"
+      },
+      "image": {
+       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/108",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_hero_slide"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 1,
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/108/revisions"
+    }
+   ],
+   "predecessor-version": [
+    {
+     "id": 196,
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/108/revisions/196"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=108"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ },
+ {
+  "id": 107,
+  "date": "2026-09-21T12:53:04",
+  "date_gmt": "2026-09-21T12:53:04",
+  "guid": {
+   "rendered": "https://dev.bhavcreations.in/bvk_hero_slide/hero-precision-mesh-hydrogen/"
+  },
+  "modified": "2026-09-22T04:47:13",
+  "modified_gmt": "2026-09-22T04:47:13",
+  "slug": "hero-precision-mesh-hydrogen",
+  "status": "publish",
+  "type": "bvk_hero_slide",
+  "link": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-precision-mesh-hydrogen",
+  "title": {
+   "rendered": "Precision Mesh For The Hydrogen Economy"
+  },
+  "menu_order": 0,
+  "template": "",
+  "meta": {
+   "_acf_changed": false
+  },
+  "acf": {
+   "image_desktop": 386,
+   "image_mobile": 391,
+   "focal_point": "center",
+   "eyebrow": "HYDROGEN TECHNOLOGY",
+   "title": "Precision Mesh for the Hydrogen Economy.",
+   "title_muted": "",
+   "subtitle": "Engineered mesh and electrode solutions designed for electrolyser and fuel cell applications.",
+   "cta_text": "Explore Electrolyser Solutions",
+   "cta_url": "/electrolyser-solutions",
+   "cta2_text": "Request a Quote",
+   "cta2_url": "/contact",
+   "is_active": true,
+   "sort_order": 1
+  },
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Precision Mesh For The Hydrogen Economy - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Precision Mesh For The Hydrogen Economy - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_hero_slide=hero-precision-mesh-hydrogen\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:13+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-precision-mesh-hydrogen\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-precision-mesh-hydrogen\",\"name\":\"Precision Mesh For The Hydrogen Economy - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:04+00:00\",\"dateModified\":\"2026-09-22T04:47:13+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-precision-mesh-hydrogen#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-precision-mesh-hydrogen\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_hero_slide=hero-precision-mesh-hydrogen#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Precision Mesh For The Hydrogen Economy\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head_json": {
+   "title": "Precision Mesh For The Hydrogen Economy - BVK Hydrotech",
+   "robots": {
+    "index": "noindex",
+    "follow": "follow",
+    "max-snippet": "max-snippet:-1",
+    "max-image-preview": "max-image-preview:large",
+    "max-video-preview": "max-video-preview:-1"
+   },
+   "og_locale": "en_US",
+   "og_type": "article",
+   "og_title": "Precision Mesh For The Hydrogen Economy - BVK Hydrotech",
+   "og_url": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-precision-mesh-hydrogen",
+   "og_site_name": "BVK Hydrotech",
+   "article_modified_time": "2026-09-22T04:47:13+00:00",
+   "twitter_card": "summary_large_image",
+   "schema": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-precision-mesh-hydrogen",
+      "url": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-precision-mesh-hydrogen",
+      "name": "Precision Mesh For The Hydrogen Economy - BVK Hydrotech",
+      "isPartOf": {
+       "@id": "https://dev.bhavcreations.in/#website"
+      },
+      "datePublished": "2026-09-21T12:53:04+00:00",
+      "dateModified": "2026-09-22T04:47:13+00:00",
+      "breadcrumb": {
+       "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-precision-mesh-hydrogen#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://dev.bhavcreations.in/?bvk_hero_slide=hero-precision-mesh-hydrogen"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://dev.bhavcreations.in/?bvk_hero_slide=hero-precision-mesh-hydrogen#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://dev.bhavcreations.in/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Precision Mesh For The Hydrogen Economy"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://dev.bhavcreations.in/#website",
+      "url": "https://dev.bhavcreations.in/",
+      "name": "BVK Hydrotech",
+      "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
+      "publisher": {
+       "@id": "https://dev.bhavcreations.in/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://dev.bhavcreations.in/#organization",
+      "name": "BVK Hydrotech",
+      "url": "https://dev.bhavcreations.in/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
+       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "width": 1774,
+       "height": 887,
+       "caption": "BVK Hydrotech"
+      },
+      "image": {
+       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+      }
+     }
+    ]
+   }
+  },
+  "_links": {
+   "self": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/107",
+     "targetHints": {
+      "allow": [
+       "GET"
+      ]
+     }
+    }
+   ],
+   "collection": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides"
+    }
+   ],
+   "about": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_hero_slide"
+    }
+   ],
+   "version-history": [
+    {
+     "count": 1,
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/107/revisions"
+    }
+   ],
+   "predecessor-version": [
+    {
+     "id": 195,
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/hero-slides/107/revisions/195"
+    }
+   ],
+   "wp:attachment": [
+    {
+     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=107"
+    }
+   ],
+   "curies": [
+    {
+     "name": "wp",
+     "href": "https://api.w.org/{rel}",
+     "templated": true
+    }
+   ]
+  }
+ }
+]
