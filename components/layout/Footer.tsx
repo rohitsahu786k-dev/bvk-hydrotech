@@ -94,14 +94,14 @@ function uniqueLinks(primary: MenuLink[], fallback: MenuLink[]) {
 function Column({ title, links }: { title: string; links: MenuLink[] }) {
   return (
     <div>
-      <h3 className="font-display text-base text-white">{title}</h3>
+      <h3 className="font-display text-sm text-white">{title}</h3>
       <span aria-hidden className="mt-3 block h-0.5 w-8 rounded-full bg-brand" />
-      <ul className="mt-5 space-y-3">
+      <ul className="mt-4 space-y-2.5">
         {links.map((link) => (
           <li key={link.url}>
             <Link
               href={link.url}
-              className="text-sm text-on-dark-muted transition-colors hover:text-white"
+              className="text-[0.8125rem] text-on-dark-muted transition-colors hover:text-white"
             >
               {link.label}
             </Link>
@@ -125,12 +125,12 @@ function ContactItem({
     <div className="flex gap-4">
       <span
         aria-hidden
-        className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg border border-ink-line bg-ink-panel text-brand"
+        className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-ink-line bg-ink-panel text-brand"
       >
         <Icon className="h-5 w-5" />
       </span>
-      <div className="min-w-0 text-sm leading-relaxed text-on-dark-muted">
-        <p className="mb-1 text-xs font-semibold uppercase tracking-wider text-on-dark-faint">{label}</p>
+      <div className="min-w-0 text-[0.8125rem] leading-relaxed text-on-dark-muted">
+        <p className="mb-1 text-[0.6875rem] font-semibold uppercase tracking-wider text-on-dark-faint">{label}</p>
         {children}
       </div>
     </div>
@@ -158,13 +158,13 @@ export default function Footer({ menus, settings }: FooterProps) {
       />
 
       <footer className="on-ink bg-ink text-on-dark">
-        <div className="shell pt-16 lg:pt-20">
+        <div className="shell pt-12 lg:pt-16">
           {/* Key facts */}
           <ul className="grid grid-cols-2 overflow-hidden rounded-2xl border border-ink-line bg-ink-raised lg:grid-cols-4">
             {facts.map(({ icon: Icon, value, label }, index) => (
               <li
                 key={label}
-                className={`flex items-center gap-4 p-6 ${
+                className={`flex items-center gap-3.5 p-5 ${
                   index > 0 ? "lg:border-l lg:border-ink-line" : ""
                 } ${index % 2 === 1 ? "border-l border-ink-line lg:border-l" : ""} ${
                   index > 1 ? "border-t border-ink-line lg:border-t-0" : ""
@@ -177,22 +177,22 @@ export default function Footer({ menus, settings }: FooterProps) {
                   <Icon className="h-5 w-5" />
                 </span>
                 <span>
-                  <span className="block font-display text-xl leading-tight text-white">{value}</span>
-                  <span className="mt-0.5 block text-xs text-on-dark-faint">{label}</span>
+                  <span className="block font-display text-lg leading-tight text-white">{value}</span>
+                  <span className="mt-0.5 block text-[0.6875rem] text-on-dark-faint">{label}</span>
                 </span>
               </li>
             ))}
           </ul>
 
           {/* Brand + link columns */}
-          <div className="grid gap-12 py-14 lg:py-16 xl:grid-cols-[1.1fr_2fr] xl:gap-20">
+          <div className="grid gap-12 py-12 lg:py-14 xl:grid-cols-[1.1fr_2fr] xl:gap-20">
             <div>
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={LOGO} alt="BVK Hydrotech" width={170} height={85} className="h-12 w-auto" />
-              <p className="mt-6 max-w-sm font-display text-lg leading-snug text-white">
+              <img src={LOGO} alt="BVK Hydrotech" width={170} height={85} className="h-10 w-auto" />
+              <p className="mt-5 max-w-sm font-display text-base leading-snug text-white">
                 {settings.tagline ?? "Indian Agility. German Precision. Performance Engineered."}
               </p>
-              <p className="mt-4 max-w-sm text-sm leading-relaxed text-on-dark-muted">
+              <p className="mt-3 max-w-sm text-[0.8125rem] leading-relaxed text-on-dark-muted">
                 Precision woven mesh, knitted mesh and custom metal mesh components for green
                 hydrogen, fuel cells, industrial filtration and clean-energy manufacturing.
               </p>
@@ -220,14 +220,14 @@ export default function Footer({ menus, settings }: FooterProps) {
               <Column title="Company" links={company} />
               <Column title="Resources" links={resources} />
               <div>
-                <h3 className="font-display text-base text-white">Product families</h3>
+                <h3 className="font-display text-sm text-white">Product families</h3>
                 <span aria-hidden className="mt-3 block h-0.5 w-8 rounded-full bg-brand" />
-                <ul className="mt-5 space-y-3">
+                <ul className="mt-4 space-y-2.5">
                   {productFamilies.map((item) => (
                     <li key={item}>
                       <Link
                         href="/precision-mesh-solutions"
-                        className="text-sm text-on-dark-muted transition-colors hover:text-white"
+                        className="text-[0.8125rem] text-on-dark-muted transition-colors hover:text-white"
                       >
                         {item}
                       </Link>
@@ -236,7 +236,7 @@ export default function Footer({ menus, settings }: FooterProps) {
                 </ul>
                 <Link
                   href="/precision-mesh-solutions"
-                  className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-brand transition-colors hover:text-white"
+                  className="mt-5 inline-flex items-center gap-1.5 text-[0.8125rem] font-semibold text-brand transition-colors hover:text-white"
                 >
                   View product range
                   <ArrowUpRight aria-hidden className="h-4 w-4" />
@@ -284,7 +284,7 @@ export default function Footer({ menus, settings }: FooterProps) {
               {credentials.map((credential) => (
                 <span
                   key={credential}
-                  className="inline-flex items-center gap-2 rounded-full border border-ink-line bg-ink-panel px-3.5 py-2 text-xs font-semibold text-on-dark-muted"
+                  className="inline-flex items-center gap-2 rounded-full border border-ink-line bg-ink-panel px-3 py-1.5 text-[0.6875rem] font-semibold text-on-dark-muted"
                 >
                   <ShieldCheck aria-hidden className="h-3.5 w-3.5 text-brand" />
                   {credential}
@@ -295,7 +295,7 @@ export default function Footer({ menus, settings }: FooterProps) {
         </div>
 
         <div className="border-t border-ink-line">
-          <div className="shell flex flex-col gap-4 py-6 text-xs text-on-dark-faint lg:flex-row lg:items-center lg:justify-between">
+          <div className="shell flex flex-col gap-4 py-5 text-[0.6875rem] text-on-dark-faint lg:flex-row lg:items-center lg:justify-between">
             <p>
               {settings.copyright ??
                 `© ${year} BVK Hydrotech India Pvt. Ltd. A BVK Group Company. All rights reserved.`}

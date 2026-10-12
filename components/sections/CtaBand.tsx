@@ -65,8 +65,16 @@ export default function CtaBand({
 
   return (
     <section id={id} className={`cta-band on-ink relative isolate overflow-hidden bg-ink ${className}`}>
-      <Image src={CTA_BG} alt="" fill sizes="100vw" className="-z-10 object-cover" />
-      <div aria-hidden className="absolute inset-0 -z-10 bg-ink/20" />
+      {/* The pattern is a wide 4:1 strip with its waves on the left and right
+          edges. Plain cover would crop exactly those edges on a tall band, so it
+          fills the band from md up and anchors left on phones. */}
+      <Image
+        src={CTA_BG}
+        alt=""
+        fill
+        sizes="100vw"
+        className="-z-10 object-cover object-left md:object-fill"
+      />
 
       <div className="shell section">
         <div className="max-w-3xl">

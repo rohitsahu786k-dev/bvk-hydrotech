@@ -191,13 +191,13 @@ export default function Header() {
               className="mega-panel absolute inset-x-0 top-full hidden pt-3 xl:block"
             >
               <div className="shell">
-                <div className="overflow-hidden rounded-2xl border border-hairline bg-surface shadow-[0_32px_64px_-24px_rgb(0_0_0/0.4)]">
-                  <div className="grid xl:grid-cols-[minmax(0,1fr)_22rem]">
-                    <div className="p-8 pb-7">
-                      <div className="mb-6 flex items-start justify-between gap-8">
+                <div className="flex max-h-[75vh] flex-col overflow-hidden rounded-2xl border border-hairline bg-surface shadow-[0_32px_64px_-24px_rgb(0_0_0/0.4)]">
+                  <div className="grid min-h-0 flex-1 overflow-y-auto xl:grid-cols-[minmax(0,1fr)_20rem]">
+                    <div className="p-6">
+                      <div className="mb-4 flex items-start justify-between gap-8">
                         <div>
-                          <p className="font-display text-2xl leading-tight text-ink">{openItem.label}</p>
-                          <p className="mt-1.5 max-w-md text-sm leading-relaxed text-grey">{openItem.blurb}</p>
+                          <p className="font-display text-xl leading-tight text-ink">{openItem.label}</p>
+                          <p className="mt-1 text-[0.8125rem] leading-snug text-grey">{openItem.blurb}</p>
                         </div>
                         <span aria-hidden className="mt-2 hidden h-1 w-14 rounded-full bg-brand 2xl:block" />
                       </div>
@@ -211,7 +211,7 @@ export default function Header() {
                         {openItem.groups.map((group) => (
                           <div key={group.title}>
                             {openItem.groups.length > 1 && (
-                              <p className="mb-2 px-3.5 text-xs font-semibold uppercase tracking-wider text-grey-mid">
+                              <p className="mb-1.5 px-2.5 text-[0.6875rem] font-semibold uppercase tracking-wider text-grey-mid">
                                 {group.title}
                               </p>
                             )}
@@ -228,23 +228,23 @@ export default function Header() {
                                     <Link
                                       href={link.href}
                                       aria-current={current ? "page" : undefined}
-                                      className={`group flex items-start gap-4 rounded-xl p-3.5 transition-colors ${
+                                      className={`group flex items-start gap-3 rounded-xl p-2.5 transition-colors ${
                                         current ? "bg-brand-wash" : "hover:bg-brand-wash/60 focus-visible:bg-brand-wash/60"
                                       }`}
                                     >
                                       <span
                                         aria-hidden
-                                        className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-lg transition-colors duration-200 ${
+                                        className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg transition-colors duration-200 ${
                                           current
                                             ? "bg-brand text-white"
                                             : "bg-brand-wash text-brand-deep group-hover:bg-brand group-hover:text-white"
                                         }`}
                                       >
-                                        <Icon className="h-5 w-5" />
+                                        <Icon className="h-4 w-4" />
                                       </span>
                                       <span className="min-w-0 flex-1">
                                         <span
-                                          className={`flex items-center gap-1.5 font-display text-base leading-snug ${
+                                          className={`flex items-center gap-1.5 font-display text-[0.9375rem] leading-snug ${
                                             current ? "text-brand-deep" : "text-ink group-hover:text-brand-deep"
                                           }`}
                                         >
@@ -254,7 +254,7 @@ export default function Header() {
                                             className="h-3.5 w-3.5 shrink-0 -translate-x-1 opacity-0 transition duration-200 group-hover:translate-x-0 group-hover:opacity-100"
                                           />
                                         </span>
-                                        <span className="mt-1 block text-[0.8125rem] leading-snug text-grey">
+                                        <span className="mt-0.5 block text-xs leading-snug text-grey">
                                           {link.description}
                                         </span>
                                       </span>
@@ -270,26 +270,26 @@ export default function Header() {
 
                     <Link
                       href={openItem.feature.href}
-                      className="group relative isolate flex min-h-[20rem] flex-col justify-end overflow-hidden bg-ink p-7"
+                      className="group relative isolate flex min-h-[15rem] flex-col justify-end overflow-hidden bg-ink p-6"
                     >
                       <Image
                         src={openItem.feature.image}
                         alt=""
                         fill
-                        sizes="22rem"
+                        sizes="20rem"
                         className="-z-20 object-cover transition duration-700 group-hover:scale-105"
                       />
                       <span aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/70 to-ink/10" />
                       <span className="w-fit rounded-full bg-brand px-3 py-1 text-[0.6875rem] font-semibold uppercase tracking-wider text-white">
                         {openItem.feature.eyebrow}
                       </span>
-                      <span className="mt-4 block font-display text-xl leading-snug text-white">
+                      <span className="mt-3 block font-display text-lg leading-snug text-white">
                         {openItem.feature.title}
                       </span>
-                      <span className="mt-2 block text-sm leading-snug text-on-dark-muted">
+                      <span className="mt-1.5 block text-[0.8125rem] leading-snug text-on-dark-muted">
                         {openItem.feature.text}
                       </span>
-                      <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-white">
+                      <span className="mt-4 inline-flex items-center gap-2 text-[0.8125rem] font-semibold text-white">
                         {openItem.feature.cta}
                         <span className="flex h-7 w-7 items-center justify-center rounded-full bg-white/15 transition-colors group-hover:bg-brand">
                           <ArrowRight aria-hidden className="h-3.5 w-3.5" />
@@ -298,7 +298,7 @@ export default function Header() {
                     </Link>
                   </div>
 
-                  <div className="flex items-center justify-between gap-8 border-t border-hairline bg-surface-raised px-8 py-3.5">
+                  <div className="flex items-center justify-between gap-8 shrink-0 border-t border-hairline bg-surface-raised px-6 py-3">
                     <div className="flex items-center gap-7">
                       {navCredentials.map((credential) => (
                         <span key={credential.value} className="flex items-baseline gap-2">
