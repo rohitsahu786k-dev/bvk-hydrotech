@@ -9,6 +9,23 @@
 import { mediaUrl, rewriteMedia } from "@/lib/media";
 import { plainText } from "@/lib/seo/jsonLd";
 
+export interface PostFaq {
+  question: string;
+  answer: string;
+}
+
+/** An in-article call to action authored in the "Blog Post CTAs" custom fields. */
+export interface PostCta {
+  after: number;
+  eyebrow: string;
+  title: string;
+  text: string;
+  label: string;
+  url: string;
+  label2: string;
+  url2: string;
+}
+
 export interface BlogPost {
   id: number;
   slug: string;
@@ -21,6 +38,11 @@ export interface BlogPost {
   minutes: number;
   image: { src: string; alt: string } | null;
   category: { name: string; slug: string } | null;
+  /** From the "Page FAQs" custom fields, in the editor's sort order. */
+  faqs: PostFaq[];
+  ctas: PostCta[];
+  /** Straight from the Yoast SEO plugin. */
+  seo: { title: string | null; description: string | null; image: string | null };
 }
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -45,12 +67,35 @@ function decode(text: string) {
     .trim();
 }
 
+const text = (value: unknown) => (typeof value === "string" ? value.trim() : "");
+
 function toPost(raw: any): BlogPost {
   const media = raw._embedded?.["wp:featuredmedia"]?.[0];
   const terms: any[] = raw._embedded?.["wp:term"]?.[0] ?? [];
   const category = terms.find((t) => t.slug !== "uncategorized") ?? null;
   const content = rewriteMedia<string>(raw.content?.rendered ?? "");
   const words = plainText(content).split(" ").filter(Boolean).length;
+  const acf = rewriteMedia<any>(raw.acf && !Array.isArray(raw.acf) ? raw.acf : {});
+  const yoast = raw.yoast_head_json ?? {};
+
+  const faqs: PostFaq[] = (Array.isArray(acf.faqs) ? acf.faqs : [])
+    .filter((row: any) => text(row?.question) && text(row?.answer))
+    .sort((a: any, b: any) => (Number(a.sort_order) || 0) - (Number(b.sort_order) || 0))
+    .map((row: any) => ({ question: text(row.question), answer: text(row.answer) }));
+
+  const ctas: PostCta[] = (Array.isArray(acf.post_ctas) ? acf.post_ctas : [])
+    .filter((row: any) => text(row?.title) && text(row?.button_url))
+    .map((row: any) => ({
+      after: Math.max(1, Number(row.after_paragraph) || 3),
+      eyebrow: text(row.eyebrow),
+      title: text(row.title),
+      text: text(row.text),
+      label: text(row.button_label) || "Request technical RFQ",
+      url: text(row.button_url),
+      label2: text(row.secondary_label),
+      url2: text(row.secondary_url),
+    }))
+    .sort((a: PostCta, b: PostCta) => a.after - b.after);
 
   return {
     id: raw.id,
@@ -65,6 +110,13 @@ function toPost(raw: any): BlogPost {
       ? { src: mediaUrl(media.source_url), alt: media.alt_text || decode(plainText(raw.title?.rendered ?? "")) }
       : null,
     category: category ? { name: decode(category.name), slug: category.slug } : null,
+    faqs,
+    ctas,
+    seo: {
+      title: text(yoast.title) || null,
+      description: text(yoast.description) || text(yoast.og_description) || null,
+      image: yoast.og_image?.[0]?.url ? mediaUrl(yoast.og_image[0].url) : null,
+    },
   };
 }
 

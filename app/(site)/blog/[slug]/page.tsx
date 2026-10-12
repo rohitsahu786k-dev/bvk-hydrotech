@@ -7,14 +7,41 @@ import BlogCard, { PostMeta } from "@/components/blog/BlogCard";
 import BlogHero from "@/components/blog/BlogHero";
 import CtaBand from "@/components/sections/CtaBand";
 import ScrollCarousel from "@/components/ui/ScrollCarousel";
-import { JsonLd, organisationId } from "@/lib/seo/jsonLd";
-import { formatPostDate, getPost, getPosts } from "@/lib/wordpress/blog";
+import FaqAccordion from "@/components/sections/FaqAccordion";
+import PostCta from "@/components/blog/PostCta";
+import { JsonLd, faqSchema, organisationId } from "@/lib/seo/jsonLd";
+import { formatPostDate, getPost, getPosts, type PostCta as PostCtaData } from "@/lib/wordpress/blog";
 
 export const revalidate = 900;
 
 type PageProps = { params: Promise<{ slug: string }> };
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bvkhydrotech.com";
+
+type Segment = { html: string } | { cta: PostCtaData };
+
+/**
+ * Cuts the article body after the paragraph each call to action asks for. A
+ * call to action that asks for a paragraph beyond the end lands at the end.
+ */
+function withCtas(html: string, ctas: PostCtaData[]): Segment[] {
+  if (ctas.length === 0) return [{ html }];
+  const ends: number[] = [];
+  const close = /<\/p>/gi;
+  let hit: RegExpExecArray | null;
+  while ((hit = close.exec(html))) ends.push(hit.index + hit[0].length);
+
+  const segments: Segment[] = [];
+  let cursor = 0;
+  for (const cta of ctas) {
+    const cut = ends[Math.min(cta.after, ends.length) - 1] ?? html.length;
+    if (cut > cursor) segments.push({ html: html.slice(cursor, cut) });
+    segments.push({ cta });
+    cursor = Math.max(cursor, cut);
+  }
+  if (cursor < html.length) segments.push({ html: html.slice(cursor) });
+  return segments;
+}
 
 export async function generateStaticParams() {
   const posts = await getPosts();
@@ -26,24 +53,30 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const post = await getPost(slug);
   if (!post) return {};
 
+  // Title, description and share image come from the Yoast SEO plugin;
+  // the post's own title, excerpt and featured image only fill the gaps.
+  const title = post.seo.title ?? post.title;
+  const description = post.seo.description ?? (post.excerpt || undefined);
+  const image = post.seo.image ?? post.image?.src;
+
   return {
-    title: post.title,
-    description: post.excerpt || undefined,
+    title: { absolute: title },
+    description,
     alternates: { canonical: `/blog/${post.slug}` },
     openGraph: {
       type: "article",
-      title: post.title,
-      description: post.excerpt || undefined,
+      title,
+      description,
       url: `/blog/${post.slug}`,
       publishedTime: post.date,
       modifiedTime: post.modified,
-      images: post.image ? [post.image.src] : undefined,
+      images: image ? [image] : undefined,
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
-      description: post.excerpt || undefined,
-      images: post.image ? [post.image.src] : undefined,
+      title,
+      description,
+      images: image ? [image] : undefined,
     },
   };
 }
@@ -56,7 +89,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   const others = all.filter((p) => p.id !== post.id);
   const related = others.slice(0, 9);
 
-  const schema = [
+  const schema: Record<string, unknown>[] = [
     {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
@@ -79,6 +112,9 @@ export default async function BlogPostPage({ params }: PageProps) {
       publisher: { "@id": organisationId },
     },
   ];
+
+  const faqLd = faqSchema(post.faqs);
+  if (faqLd) schema.push(faqLd);
 
   return (
     <>
@@ -124,10 +160,17 @@ export default async function BlogPostPage({ params }: PageProps) {
               </p>
             )}
 
-            <div
-              className="rich-text article-body max-w-none"
-              dangerouslySetInnerHTML={{ __html: post.content }}
-            />
+            {withCtas(post.content, post.ctas).map((segment, index) =>
+              "cta" in segment ? (
+                <PostCta key={index} cta={segment.cta} />
+              ) : (
+                <div
+                  key={index}
+                  className="rich-text article-body max-w-none"
+                  dangerouslySetInnerHTML={{ __html: segment.html }}
+                />
+              ),
+            )}
 
             <div className="mt-12 flex flex-wrap items-center justify-between gap-4 border-t border-hairline pt-6">
               <PostMeta post={post} />
@@ -178,6 +221,14 @@ export default async function BlogPostPage({ params }: PageProps) {
           </aside>
         </div>
       </section>
+
+      {post.faqs.length > 0 && (
+        <FaqAccordion
+          faqs={post.faqs}
+          title="Frequently asked questions"
+          description="Quick answers on the topic of this article."
+        />
+      )}
 
       {related.length > 0 && (
         <section className="border-t border-hairline bg-surface-raised py-12 lg:py-14">

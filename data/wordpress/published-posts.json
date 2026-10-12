@@ -2,51 +2,101 @@
  {
   "id": 539,
   "slug": "how-to-choose-filter-mesh-for-industrial-filtration",
-  "link": "https://dev.bhavcreations.in/how-to-choose-filter-mesh-for-industrial-filtration/"
+  "link": "https://dev.bhavcreations.in/how-to-choose-filter-mesh-for-industrial-filtration/",
+  "yoast": {
+   "title": "How to Choose the Right Metal Filter Mesh | BVK Hydrotech",
+   "desc": "Six process inputs decide the right metal filter mesh: fluid, particles, conditions, material, form and service environment. A practical selection guide.",
+   "kw": "metal filter mesh"
+  }
  },
  {
   "id": 540,
   "slug": "woven-vs-knitted-metal-mesh-differences-and-applications",
-  "link": "https://dev.bhavcreations.in/woven-vs-knitted-metal-mesh-differences-and-applications/"
+  "link": "https://dev.bhavcreations.in/woven-vs-knitted-metal-mesh-differences-and-applications/",
+  "yoast": {
+   "title": "Woven vs Knitted Metal Mesh: Differences and Uses | BVK Hydrotech",
+   "desc": "Woven mesh gives a precise, stable opening; knitted mesh gives flexibility and compressibility. See how each is made and where each one belongs.",
+   "kw": "woven vs knitted metal mesh"
+  }
  },
  {
   "id": 541,
   "slug": "mesh-count-vs-micron-rating-filtration",
-  "link": "https://dev.bhavcreations.in/mesh-count-vs-micron-rating-filtration/"
+  "link": "https://dev.bhavcreations.in/mesh-count-vs-micron-rating-filtration/",
+  "yoast": {
+   "title": "Mesh Count vs Micron Rating: How to Read Filter Ratings | BVK Hydrotech",
+   "desc": "Mesh count, aperture and micron rating describe an opening in three different ways. Learn how they relate and why a micron figure alone can mislead.",
+   "kw": "mesh count vs micron"
+  }
  },
  {
   "id": 542,
   "slug": "pressure-drop-in-metal-filter-mesh-wire-diameter-open-area",
-  "link": "https://dev.bhavcreations.in/pressure-drop-in-metal-filter-mesh-wire-diameter-open-area/"
+  "link": "https://dev.bhavcreations.in/pressure-drop-in-metal-filter-mesh-wire-diameter-open-area/",
+  "yoast": {
+   "title": "Pressure Drop in Metal Filter Mesh: What Controls It | BVK Hydrotech",
+   "desc": "Wire diameter, aperture, open area, velocity and fouling set the pressure drop across a metal mesh filter. See how to lower it without losing retention.",
+   "kw": "pressure drop filter mesh"
+  }
  },
  {
   "id": 543,
   "slug": "choosing-mesh-alloy-corrosion-resistance-stainless-nickel-titanium",
-  "link": "https://dev.bhavcreations.in/choosing-mesh-alloy-corrosion-resistance-stainless-nickel-titanium/"
+  "link": "https://dev.bhavcreations.in/choosing-mesh-alloy-corrosion-resistance-stainless-nickel-titanium/",
+  "yoast": {
+   "title": "Choosing a Mesh Alloy: Stainless Steel, Nickel or Titanium | BVK Hydrotech",
+   "desc": "304, 316L, nickel, Hastelloy or titanium? A practical guide to matching a metal mesh alloy to chlorides, caustic, acids and temperature.",
+   "kw": "corrosion resistant mesh alloy"
+  }
  },
  {
   "id": 544,
   "slug": "knitted-mesh-in-green-hydrogen-electrolysers",
-  "link": "https://dev.bhavcreations.in/knitted-mesh-in-green-hydrogen-electrolysers/"
+  "link": "https://dev.bhavcreations.in/knitted-mesh-in-green-hydrogen-electrolysers/",
+  "yoast": {
+   "title": "Knitted Metal Mesh in Green Hydrogen Electrolysers | BVK Hydrotech",
+   "desc": "Knitted metal mesh serves electrolyser stacks as elastic elements, gas diffusion layers and separators. Learn what it does and what to specify.",
+   "kw": "knitted mesh electrolyser"
+  }
  },
  {
   "id": 545,
   "slug": "nickel-mesh-for-alkaline-water-electrolysis",
-  "link": "https://dev.bhavcreations.in/nickel-mesh-for-alkaline-water-electrolysis/"
+  "link": "https://dev.bhavcreations.in/nickel-mesh-for-alkaline-water-electrolysis/",
+  "yoast": {
+   "title": "Nickel Mesh for Alkaline Water Electrolysis | BVK Hydrotech",
+   "desc": "Nickel 201 and 202 mesh is widely used in alkaline electrolysers as electrode substrate and elastic element. See why nickel suits caustic service.",
+   "kw": "nickel mesh alkaline electrolysis"
+  }
  },
  {
   "id": 546,
   "slug": "metal-mesh-for-fuel-cell-gas-diffusion-and-current-collection",
-  "link": "https://dev.bhavcreations.in/metal-mesh-for-fuel-cell-gas-diffusion-and-current-collection/"
+  "link": "https://dev.bhavcreations.in/metal-mesh-for-fuel-cell-gas-diffusion-and-current-collection/",
+  "yoast": {
+   "title": "Metal Mesh in Fuel Cells: Gas Diffusion and Current Collection | BVK Hydrotech",
+   "desc": "How metal mesh supports fuel cell stacks: gas diffusion, current collection and electrode support across AFC, PEM and SOFC designs.",
+   "kw": "fuel cell metal mesh"
+  }
  },
  {
   "id": 547,
   "slug": "annealing-coating-and-surface-treatment-of-metal-mesh",
-  "link": "https://dev.bhavcreations.in/annealing-coating-and-surface-treatment-of-metal-mesh/"
+  "link": "https://dev.bhavcreations.in/annealing-coating-and-surface-treatment-of-metal-mesh/",
+  "yoast": {
+   "title": "Annealing, Coating and Surface Treatment of Metal Mesh | BVK Hydrotech",
+   "desc": "Annealing relieves stress, coatings add function and cleaning protects performance. See what each metal mesh treatment changes and when to specify it.",
+   "kw": "annealing metal mesh"
+  }
  },
  {
   "id": 548,
   "slug": "how-to-write-an-rfq-for-custom-metal-mesh",
-  "link": "https://dev.bhavcreations.in/how-to-write-an-rfq-for-custom-metal-mesh/"
+  "link": "https://dev.bhavcreations.in/how-to-write-an-rfq-for-custom-metal-mesh/",
+  "yoast": {
+   "title": "How to Write an RFQ for Custom Metal Mesh | BVK Hydrotech",
+   "desc": "A clear RFQ gets a faster, more accurate quote. Use this checklist to specify custom woven or knitted mesh: application, material, form, quantity and drawings.",
+   "kw": "RFQ custom metal mesh"
+  }
  }
 ]
