@@ -8,7 +8,6 @@ import {
   Mail,
   MapPin,
   Phone,
-  ShieldCheck,
   Users,
 } from "lucide-react";
 import CtaBand from "@/components/sections/CtaBand";
@@ -59,7 +58,14 @@ const productFamilies = [
   "Laser-cut Mesh Parts",
 ];
 
-const credentials = ["ISO 9001", "IATF 16949", "ISO 14001", "ISO 45001", "DSIR R&D"];
+/** Badge artwork lives in the media library; shown small on white tiles. */
+const credentials = [
+  { name: "ISO 9001:2015", file: "iso-9001-2015-quality-management-system.webp" },
+  { name: "IATF 16949:2016", file: "iatf-16949-2016-automotive-quality-management-system.webp" },
+  { name: "ISO 14001:2015", file: "iso-14001-2015-environmental-management-system.webp" },
+  { name: "ISO 45001:2018", file: "iso-45001-2018-occupational-health-safety-management-system.webp" },
+  { name: "DSIR recognised R&D", file: "dsir-recognized-rd-centre.webp" },
+];
 
 const facts = [
   { icon: Building2, value: "Since 1963", label: "Group heritage" },
@@ -154,7 +160,6 @@ export default function Footer({ menus, settings }: FooterProps) {
         title="Need precision mesh matched to your stack, filter or industrial component?"
         body="Share drawings, material preference, target porosity, duty condition and expected volume. BVK Hydrotech can support material selection, samples and repeat supply."
         primary={{ label: "Request technical RFQ", href: "/contact#enquiry" }}
-        secondary={{ label: "General enquiry", href: "/contact#enquiry-general" }}
       />
 
       <footer className="on-ink bg-ink text-on-dark">
@@ -245,52 +250,53 @@ export default function Footer({ menus, settings }: FooterProps) {
             </div>
           </div>
 
-          {/* Contact + certifications */}
-          <div className="grid gap-10 border-t border-ink-line py-10 lg:grid-cols-[1fr_auto] lg:items-center">
-            <address className="grid gap-8 not-italic md:grid-cols-3">
-              {settings.address && (
-                <ContactItem icon={MapPin} label="Plant & office">
-                  <span className="whitespace-pre-line">{settings.address}</span>
-                </ContactItem>
-              )}
-              {settings.phone && (
-                <ContactItem icon={Phone} label="Call">
-                  <a
-                    href={`tel:${settings.phone.replace(/\s/g, "")}`}
-                    className="block transition-colors hover:text-white"
-                  >
-                    {settings.phone}
-                  </a>
-                  {settings.phone2 && (
-                    <a
-                      href={`tel:${settings.phone2.replace(/\s/g, "")}`}
-                      className="block transition-colors hover:text-white"
-                    >
+          {/* Contact (two lines each) + certification badges */}
+          <div className="grid gap-8 border-t border-ink-line py-8 lg:grid-cols-[1.5fr_1fr_1fr_auto] lg:items-center">
+            {settings.address && (
+              <ContactItem icon={MapPin} label="Plant & office">
+                {settings.address.replace(/\s*\n\s*/g, ", ")}
+              </ContactItem>
+            )}
+            {settings.phone && (
+              <ContactItem icon={Phone} label="Call">
+                <a href={`tel:${settings.phone.replace(/\s/g, "")}`} className="transition-colors hover:text-white">
+                  {settings.phone}
+                </a>
+                {settings.phone2 && (
+                  <>
+                    {" / "}
+                    <a href={`tel:${settings.phone2.replace(/\s/g, "")}`} className="transition-colors hover:text-white">
                       {settings.phone2}
                     </a>
-                  )}
-                </ContactItem>
-              )}
-              {settings.email && (
-                <ContactItem icon={Mail} label="Email">
-                  <a href={`mailto:${settings.email}`} className="transition-colors hover:text-white">
-                    {settings.email}
-                  </a>
-                </ContactItem>
-              )}
-            </address>
+                  </>
+                )}
+              </ContactItem>
+            )}
+            {settings.email && (
+              <ContactItem icon={Mail} label="Email">
+                <a href={`mailto:${settings.email}`} className="transition-colors hover:text-white">
+                  {settings.email}
+                </a>
+              </ContactItem>
+            )}
 
-            <div className="flex flex-wrap gap-2 lg:max-w-sm lg:justify-end">
+            <ul aria-label="Certifications" className="flex items-center gap-2 lg:justify-end">
               {credentials.map((credential) => (
-                <span
-                  key={credential}
-                  className="inline-flex items-center gap-2 rounded-full border border-ink-line bg-ink-panel px-3 py-1.5 text-[0.6875rem] font-semibold text-on-dark-muted"
-                >
-                  <ShieldCheck aria-hidden className="h-3.5 w-3.5 text-brand" />
-                  {credential}
-                </span>
+                <li key={credential.name} title={credential.name}>
+                  <span className="flex h-11 w-11 items-center justify-center rounded-md bg-white p-1">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={`/media/${credential.file}`}
+                      alt={credential.name}
+                      width={36}
+                      height={36}
+                      loading="lazy"
+                      className="h-full w-full object-contain"
+                    />
+                  </span>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         </div>
 
