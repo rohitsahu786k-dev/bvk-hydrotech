@@ -77,7 +77,7 @@ export default function CtaBand({
       />
 
       <div className="shell py-10 lg:py-12">
-        <div className="max-w-3xl">
+        <div className="w-full lg:w-[40%]">
           {eyebrow ? (
             <p className="eyebrow text-brand">{eyebrow}</p>
           ) : (
