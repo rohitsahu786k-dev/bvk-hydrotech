@@ -15,6 +15,7 @@ interface CtaBandProps {
   phone?: string | null;
   email?: string | null;
   id?: string;
+  className?: string;
 }
 
 function CtaLink({ action, variant }: { action: LinkAction; variant: "green" | "outline" }) {
@@ -58,11 +59,12 @@ export default function CtaBand({
   phone,
   email,
   id,
+  className = "",
 }: CtaBandProps) {
   if (!title) return null;
 
   return (
-    <section id={id} className="on-ink relative isolate overflow-hidden bg-ink">
+    <section id={id} className={`cta-band on-ink relative isolate overflow-hidden bg-ink ${className}`}>
       <Image src={CTA_BG} alt="" fill sizes="100vw" className="-z-10 object-cover" />
       <div aria-hidden className="absolute inset-0 -z-10 bg-ink/20" />
 

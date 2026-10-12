@@ -672,3 +672,8 @@ h6 * {
     line-height: 1.6 !important;
   }
 }
+
+/* A page that closes on its own CtaBand does not repeat the footer one. */
+main:has(.cta-band) + .footer-cta {
+  display: none;
+}

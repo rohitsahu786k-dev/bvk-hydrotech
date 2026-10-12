@@ -53,6 +53,8 @@ export interface NavFeature {
 export interface NavItem {
   key: string;
   label: string;
+  /** One sentence under the menu title in the desktop panel. */
+  blurb: string;
   groups: NavGroup[];
   feature: NavFeature;
 }
@@ -61,6 +63,7 @@ export const navigation: NavItem[] = [
   {
     key: "solutions",
     label: "Solutions",
+    blurb: "Mesh, components and application solutions for hydrogen and industry.",
     groups: [
       {
         title: "Hydrogen & fuel cells",
@@ -139,6 +142,7 @@ export const navigation: NavItem[] = [
   {
     key: "capabilities",
     label: "Capabilities",
+    blurb: "From engineering to prototype, under one roof.",
     groups: [
       {
         title: "How we make it",
@@ -179,6 +183,7 @@ export const navigation: NavItem[] = [
   {
     key: "company",
     label: "Company",
+    blurb: "A BVK Group company from Jaipur, weaving technical mesh since 1963.",
     groups: [
       {
         title: "BVK Hydrotech",
@@ -219,6 +224,7 @@ export const navigation: NavItem[] = [
   {
     key: "resources",
     label: "Resources",
+    blurb: "Brochures, technical insight and answers for vendor qualification.",
     groups: [
       {
         title: "Learn and download",
