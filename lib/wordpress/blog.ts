@@ -135,6 +135,30 @@ export async function getPosts(limit = 24): Promise<BlogPost[]> {
   }
 }
 
+export const POSTS_PER_PAGE = 20;
+
+/** One page of the blog index, newest first, with the total page count. */
+export async function getPostsPage(
+  page = 1,
+  perPage = POSTS_PER_PAGE,
+): Promise<{ posts: BlogPost[]; totalPages: number }> {
+  try {
+    const response = await fetch(
+      `${base()}/wp-json/wp/v2/posts?per_page=${perPage}&page=${page}&status=publish&_embed=wp:featuredmedia,wp:term`,
+      { next: { revalidate: 900, tags: ["wp-posts"] } },
+    );
+    if (!response.ok) return { posts: [], totalPages: 1 };
+    const rows: any[] = await response.json();
+    return {
+      posts: rows.filter((row) => !SAMPLE_SLUGS.has(row.slug)).map(toPost),
+      totalPages: Math.max(1, Number(response.headers.get("x-wp-totalpages")) || 1),
+    };
+  } catch (error) {
+    console.error("getPostsPage failed:", error);
+    return { posts: [], totalPages: 1 };
+  }
+}
+
 export async function getPost(slug: string): Promise<BlogPost | null> {
   if (SAMPLE_SLUGS.has(slug)) return null;
   try {

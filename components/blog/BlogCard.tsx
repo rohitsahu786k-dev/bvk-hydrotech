@@ -36,7 +36,7 @@ export function PostImage({
 
 export function PostMeta({ post, className = "" }: { post: BlogPost; className?: string }) {
   return (
-    <p className={`flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-grey-mid ${className}`}>
+    <p className={`flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] leading-none text-grey-mid ${className}`}>
       <time dateTime={post.date}>{formatPostDate(post.date)}</time>
       <span aria-hidden className="h-1 w-1 rounded-full bg-hairline" />
       <span className="inline-flex items-center gap-1">
@@ -64,15 +64,15 @@ export default function BlogCard({ post }: { post: BlogPost }) {
           )}
         </span>
 
-        <span className="flex flex-1 flex-col p-5">
+        <span className="flex flex-1 flex-col gap-3 p-5">
           <PostMeta post={post} />
-          <h3 className="mt-3 font-display text-lg leading-snug text-ink transition-colors group-hover:text-brand-deep">
+          <h3 className="font-display text-lg leading-snug text-ink transition-colors group-hover:text-brand-deep">
             {post.title}
           </h3>
           {post.excerpt && (
-            <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-grey">{post.excerpt}</p>
+            <p className="line-clamp-3 text-[12px] leading-relaxed text-grey">{post.excerpt}</p>
           )}
-          <span className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-semibold text-brand-deep">
+          <span className="mt-auto inline-flex items-center gap-2 pt-2 text-sm font-semibold text-brand-deep">
             Read article
             <ArrowRight
               aria-hidden
