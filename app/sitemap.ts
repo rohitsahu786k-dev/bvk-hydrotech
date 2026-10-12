@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { getPageSlugs } from "@/lib/wordpress/pages";
 import { contentSlugs } from "@/content";
 import { noindexSlugs } from "@/content/seo";
+import { getPosts } from "@/lib/wordpress/blog";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bvkhydrotech.com";
 
@@ -30,7 +31,7 @@ const PRIORITY: Record<string, number> = {
 };
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const cmsPages = await getPageSlugs();
+  const [cmsPages, posts] = await Promise.all([getPageSlugs(), getPosts()]);
   const modified = new Map(cmsPages.map((p) => [p.slug, p.modified]));
 
   // The designed pages always appear, whether or not the CMS responded.
@@ -46,6 +47,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "monthly",
       priority: 0.9,
     },
+    {
+      url: `${siteUrl}/blog`,
+      lastModified: posts[0] ? new Date(posts[0].modified) : new Date(),
+      changeFrequency: "weekly",
+      priority: 0.6,
+    },
+    ...posts.map((post) => ({
+      url: `${siteUrl}/blog/${post.slug}`,
+      lastModified: new Date(post.modified),
+      changeFrequency: "monthly" as const,
+      priority: 0.5,
+    })),
     ...slugs.map((slug) => {
       const last = modified.get(slug);
       return {

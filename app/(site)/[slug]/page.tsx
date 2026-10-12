@@ -128,7 +128,7 @@ export default async function SitePage({ params }: PageProps) {
       ) : (
         <>
           <PageHero hero={page!.hero} title={page!.title} />
-          <section className="section bg-surface">
+          <section className="bg-surface py-[50px]">
             <div className="shell">
               {page!.content ? (
                 <div className="rich-text" dangerouslySetInnerHTML={{ __html: page!.content }} />

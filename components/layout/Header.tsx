@@ -197,7 +197,6 @@ export default function Header() {
                       <div className="mb-4 flex items-start justify-between gap-8">
                         <div>
                           <p className="font-display text-lg leading-tight text-ink">{openItem.label}</p>
-                          <p className="mt-0.5 text-xs leading-snug text-grey">{openItem.blurb}</p>
                         </div>
                         <span aria-hidden className="mt-2 hidden h-1 w-14 rounded-full bg-brand 2xl:block" />
                       </div>
@@ -255,7 +254,7 @@ export default function Header() {
                                           />
                                         </span>
                                         <span className="mt-0.5 block text-[0.6875rem] leading-snug text-grey">
-                                          {link.description}
+                                          {link.tagline}
                                         </span>
                                       </span>
                                     </Link>
@@ -285,9 +284,6 @@ export default function Header() {
                       </span>
                       <span className="mt-2.5 block font-display text-[0.9375rem] leading-snug text-white">
                         {openItem.feature.title}
-                      </span>
-                      <span className="mt-1 block text-[0.6875rem] leading-snug text-on-dark-muted">
-                        {openItem.feature.text}
                       </span>
                       <span className="mt-3 inline-flex items-center gap-2 text-xs font-semibold text-white">
                         {openItem.feature.cta}

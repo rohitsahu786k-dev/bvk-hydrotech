@@ -76,30 +76,30 @@ export default function CtaBand({
         className="-z-10 object-cover object-left md:object-fill"
       />
 
-      <div className="shell section">
+      <div className="shell py-10 lg:py-12">
         <div className="max-w-3xl">
           {eyebrow ? (
             <p className="eyebrow text-brand">{eyebrow}</p>
           ) : (
             <span aria-hidden className="rule-green block" />
           )}
-          <h2 className="display-section mt-8 whitespace-pre-line text-balance text-white">
+          <h2 className="display-section mt-4 whitespace-pre-line text-balance text-white">
             {title}
           </h2>
 
           {body && (
-            <p className="mt-6 text-base leading-relaxed text-on-dark-muted lg:text-lg">{body}</p>
+            <p className="mt-3 text-sm leading-relaxed text-on-dark-muted lg:text-base">{body}</p>
           )}
 
           {(primary || secondary) && (
-            <div className="mt-10 flex flex-wrap items-center gap-4">
+            <div className="mt-6 flex flex-wrap items-center gap-3">
               {primary && <CtaLink action={primary} variant="green" />}
               {secondary && <CtaLink action={secondary} variant="outline" />}
             </div>
           )}
 
           {(phone || email) && (
-            <div className="mt-12 flex flex-wrap items-center gap-x-10 gap-y-4 border-t border-ink-line pt-8">
+            <div className="mt-7 flex flex-wrap items-center gap-x-10 gap-y-3 border-t border-ink-line pt-5">
               {phone && (
                 <a
                   href={`tel:${phone.replace(/\s/g, "")}`}

@@ -37,6 +37,7 @@ const fallbackCompany: MenuLink[] = [
 const fallbackResources: MenuLink[] = [
   { label: "Resources / Downloads", url: "/resources" },
   { label: "Insights / Knowledge Center", url: "/insights" },
+  { label: "Blog", url: "/blog" },
   { label: "FAQs", url: "/faqs" },
   { label: "Contact / Request a Quote", url: "/contact" },
 ];
