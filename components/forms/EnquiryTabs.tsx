@@ -11,10 +11,10 @@ const TABS: { mode: EnquiryMode; label: string; hash: string }[] = [
 /**
  * The enquiry form with a switch between the full technical RFQ and a short
  * general enquiry. The intent cards above the form link to #enquiry or
- * #enquiry-general, so the hash picks the tab.
+ * #enquiry-general, so the hash picks the tab. General is the default.
  */
 export default function EnquiryTabs() {
-  const [mode, setMode] = useState<EnquiryMode>("technical");
+  const [mode, setMode] = useState<EnquiryMode>("general");
 
   useEffect(() => {
     const fromHash = () => {
