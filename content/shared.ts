@@ -11,7 +11,7 @@ export const sustainabilityBand: NonNullable<SolutionPageContent["sustainability
   title: "Powering a cleaner planet",
   body: "Woven and knitted mesh support electrolysers and fuel cells across the green hydrogen value chain. BVK also powers 50%+ of its energy needs through renewables, with a goal of becoming 100% self-reliant.",
   stats: [
-    { icon: "leaf", value: "50%+", text: "Energy needs powered by renewables" },
+    { icon: "turbine", value: "50%+", text: "Energy needs powered by renewables" },
     { icon: "recycle", value: "100%", text: "Renewable self-reliance goal" },
   ],
   image: { src: img.forestValley, alt: "" },

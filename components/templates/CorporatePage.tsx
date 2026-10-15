@@ -4,6 +4,7 @@ import { ArrowRight, ArrowUpRight, Check, Download } from "lucide-react";
 import { getIcon } from "@/lib/content/icons";
 import type { LinkAction, SolutionPageContent } from "@/lib/content/types";
 import CtaBand from "@/components/sections/CtaBand";
+import GroupCompanies from "@/components/sections/GroupCompanies";
 import LeadershipTeam from "@/components/sections/LeadershipTeam";
 import styles from "./CorporatePage.module.css";
 
@@ -248,6 +249,8 @@ export default function CorporatePage({ content }: { content: SolutionPageConten
           </div>
         </section>
       )}
+
+      {content.groupCompanies && <GroupCompanies section={content.groupCompanies} />}
 
       {content.team && <LeadershipTeam team={content.team} />}
 

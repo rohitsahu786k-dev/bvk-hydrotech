@@ -44,7 +44,7 @@ export const about: SolutionPageContent = {
     subtitle:
       "A BVK Group company from Jaipur, weaving technical mesh since 1963 — now applying six decades of filtration discipline to green hydrogen and fuel cells.",
     features: [
-      { icon: "factory", title: "Since 1963" },
+      { icon: "calendar", title: "Since 1963" },
       { icon: "users", title: "300+ Employees" },
       { icon: "globe", title: "25+ Countries" },
       { icon: "trending", title: "650+ MT p.a." },
@@ -52,15 +52,15 @@ export const about: SolutionPageContent = {
     primary: { label: "Talk to Our Team", href: "/contact" },
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
     image: {
-      src: img.weavingFloor,
-      alt: "BVK weaving production floor in Jaipur",
+      src: img.weavingMes,
+      alt: "Weaving floor with looms and the MES control station at BVK in Jaipur",
     },
   },
   benefits: [
-    { icon: "building", title: "Founded 1963", text: "Four generations of family ownership." },
+    { icon: "calendar", title: "Founded 1963", text: "Four generations of family ownership." },
     { icon: "factory", title: "Integrated Plant", text: "Weaving to finishing in one facility." },
     { icon: "globe", title: "German Equipment", text: "Equipment origin: Germany." },
-    { icon: "recycle", title: "50%+ Renewable", text: "Of current energy consumption." },
+    { icon: "turbine", title: "50%+ Renewable", text: "Of current energy consumption." },
   ],
   overview: {
     eyebrow: "The group",
@@ -69,8 +69,8 @@ export const about: SolutionPageContent = {
     body: "BVK Group is a diversified enterprise with a presence in precision industrial filtration, IT & Infocom, education and real estate since 1963. BVK strives to embrace customer satisfaction through continuous improvement in its products and services. The group's long-standing experience across multiple industrial filtration segments allows it to offer customised and value-engineered solutions for challenging process environments.",
     action: { label: "See Our Capability", href: "/engineering-manufacturing" },
     image: {
-      src: img.team,
-      alt: "BVK group community and team activity",
+      src: img.teamGroup,
+      alt: "The BVK team standing together on the factory floor",
     },
     badge: { title: "Four generations", text: "of family ownership" },
   },
@@ -81,8 +81,8 @@ export const about: SolutionPageContent = {
     intro:
       "BVK's competent technical team, multiple certifications and nearly two decades of experience in the energy space generate trust for long-term relationships.",
     image: {
-      src: img.gembaBoard,
-      alt: "Quality management board on the BVK shop floor",
+      src: img.gembaReview,
+      alt: "BVK team reviewing the Gemba quality board",
     },
     callouts: [
       {
@@ -129,6 +129,51 @@ export const about: SolutionPageContent = {
       alt: "Stainless steel material storage at the BVK plant",
     },
     badge: { title: "Jaipur, Rajasthan", text: "Industrial Area, Jhotwara" },
+  },
+  groupCompanies: {
+    eyebrow: "The BVK Group",
+    title: "Six companies,",
+    titleAccent: "one family",
+    intro:
+      "A diversified enterprise with a presence in precision industrial filtration, IT & Infocom, education and real estate since 1963. BVK Hydrotech is the group's hydrogen and energy mesh arm.",
+    companies: [
+      {
+        name: "BVK Hydrotech",
+        note: "Precision mesh for hydrogen, fuel cells and filtration",
+        logo: { src: "/bvk-assets/group-logos/bvk-hydrotech-logo.webp", alt: "BVK Hydrotech logo" },
+        current: true,
+      },
+      {
+        name: "WMW India (WMW Industries Ltd.)",
+        note: "Technical woven mesh solutions",
+        logo: { src: "/bvk-assets/group-logos/wmw-industries-logo.webp", alt: "WMW Metal Fabrics Ltd and WMW Industries Ltd logo" },
+        href: "https://www.wmwindia.com/",
+      },
+      {
+        name: "Deco Mesh Solutions",
+        note: "Architectural mesh",
+        logo: { src: "/bvk-assets/group-logos/deco-mesh-solutions-logo.webp", alt: "Deco Mesh Solutions logo" },
+        href: "https://www.bvkgroup.in/products/deco-mesh-solutions",
+      },
+      {
+        name: "BVK Infrasoft",
+        note: "IT & Infocom",
+        logo: { src: "/bvk-assets/group-logos/bvk-infrasoft-logo.webp", alt: "BVK Infrasoft logo" },
+        href: "https://www.bvkgroup.in/bvk-infrasoft",
+      },
+      {
+        name: "Disha Foundation",
+        note: "Center for special education",
+        logo: { src: "/bvk-assets/group-logos/disha-foundation-logo.webp", alt: "Disha Foundation, Center for Special Education, logo" },
+        href: "https://dishafoundation.org/",
+      },
+      {
+        name: "The Jeypore School",
+        note: "For alternative education",
+        logo: { src: "/bvk-assets/group-logos/the-jeypore-school-logo.webp", alt: "The Jeypore School logo" },
+        href: "https://thejeyporeschool.org/",
+      },
+    ],
   },
   team: {
     eyebrow: "Leadership",
@@ -179,11 +224,6 @@ export const about: SolutionPageContent = {
         focus: ["Global sales", "Business development", "Product roadmap"],
       },
     ],
-    more: {
-      text: "Read the full leadership profiles on",
-      label: "bvkgroup.in",
-      href: "https://www.bvkgroup.in/about-us/meet-our-leadership",
-    },
   },
   specs: {
     caption: "BVK Hydrotech at a glance",
@@ -275,12 +315,12 @@ export const about: SolutionPageContent = {
       href: "/engineering-manufacturing",
     },
     {
-      image: { src: img.flowLab, alt: "Illustration: R&D laboratory" },
+      image: { src: img.flowLab, alt: "Engineers reviewing a flow simulation of a mesh component at BVK" },
       title: "R&D, CFD & Prototyping",
       href: "/rd-cfd-prototyping",
     },
     {
-      image: { src: img.solarMountains, alt: "Illustration: Solar farm" },
+      image: { src: img.solarMountains, alt: "Rooftop solar installation at the BVK plant in Jaipur" },
       title: "Sustainability",
       href: "/sustainability",
     },
@@ -303,7 +343,7 @@ export const sustainability: SolutionPageContent = {
     subtitle:
       "More than half of BVK's energy already comes from renewables, packaging is fully reusable, and the ESG target is set at 2030 — because a clean-energy supply chain is only as clean as its suppliers.",
     features: [
-      { icon: "leaf", title: "50%+ Renewable" },
+      { icon: "turbine", title: "50%+ Renewable" },
       { icon: "recycle", title: "Circular Packaging" },
       { icon: "target", title: "ESG by 2030" },
       { icon: "users", title: "20% Women" },
@@ -312,7 +352,7 @@ export const sustainability: SolutionPageContent = {
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
     image: {
       src: img.solarMountains,
-      alt: "Illustration: Solar farm beneath mountain skies",
+      alt: "Rooftop solar installation at the BVK plant in Jaipur",
     },
   },
   benefits: [
@@ -344,8 +384,8 @@ export const sustainability: SolutionPageContent = {
     body: "BVK prioritises Environmental, Social and Governance objectives as a move towards reducing carbon emissions and achieving ESG goals. A notable aspect of these initiatives is that 50% of our energy consumption currently comes from renewable sources, and our goal is to become 100% self-reliant with renewable sources. For customers building low-carbon equipment, that matters: an electrolyser component made with coal-fired electricity carries that footprint into your product.",
     action: { label: "See Our Commitments", href: "#components" },
     image: {
-      src: img.algae,
-      alt: "Illustration: Sunlit aquatic algae garden representing natural carbon capture",
+      src: img.womenTechnician,
+      alt: "BVK technician holding a woven mesh sample on the weaving floor",
     },
     badge: { title: "Helping customers", text: "achieve their own ESG goals" },
   },
@@ -356,8 +396,8 @@ export const sustainability: SolutionPageContent = {
     intro:
       "Six areas from BVK's sustainability programme.",
     image: {
-      src: img.solarSunrise,
-      alt: "Illustration: Solar farm at sunrise",
+      src: img.dishaChildren,
+      alt: "Children celebrating at the Disha Foundation, the BVK Group school for children with special needs",
     },
     callouts: [
       {
@@ -457,7 +497,7 @@ export const sustainability: SolutionPageContent = {
     title: "100% self-reliant on renewables",
     body: "Half of BVK's energy consumption already comes from renewable sources. The remaining half is the work in progress, and the target date for the wider ESG programme is 2030.",
     stats: [
-      { icon: "leaf", value: "50%+", text: "Energy needs powered by renewables today" },
+      { icon: "turbine", value: "50%+", text: "Energy needs powered by renewables today" },
       { icon: "target", value: "2030", text: "Horizon for the full ESG programme" },
     ],
     image: { src: img.forestValley, alt: "" },
@@ -503,7 +543,7 @@ export const sustainability: SolutionPageContent = {
       href: "/engineering-manufacturing",
     },
     {
-      image: { src: img.team, alt: "BVK team" },
+      image: { src: img.teamHands, alt: "BVK team members joining hands in the boardroom" },
       title: "About BVK Hydrotech",
       href: "/about",
     },

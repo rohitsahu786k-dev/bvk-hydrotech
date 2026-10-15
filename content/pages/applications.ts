@@ -15,7 +15,7 @@ export const industrialFiltration: SolutionPageContent = {
       { icon: "filter", title: "Rated Retention" },
       { icon: "gauge", title: "Controlled ΔP" },
       { icon: "shield", title: "Corrosion Matched" },
-      { icon: "route", title: "Repeat Supply" },
+      { icon: "forklift", title: "Repeat Supply" },
     ],
     primary: { label: "Specify a Filter Element", href: "/contact" },
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
@@ -236,7 +236,7 @@ export const industrialFiltration: SolutionPageContent = {
       href: "/process-treatments",
     },
     {
-      image: { src: img.flowLab, alt: "Illustration: Mesh flow testing laboratory" },
+      image: { src: img.flowLab, alt: "Engineers reviewing a flow simulation of a mesh component at BVK" },
       title: "R&D, CFD & Prototyping",
       href: "/rd-cfd-prototyping",
     },
@@ -312,7 +312,15 @@ export const energyCleanTech: SolutionPageContent = {
       "Mesh is not one component in a hydrogen plant. It appears at six separate points, each with its own specification.",
     image: {
       src: img.explodedElectrolyser,
-      alt: "Illustration: Exploded electrolyser stack infographic showing mesh layers",
+      alt: "Exploded electrolyser stack: end plate, membrane, perforated plates, bipolar plates, gaskets and tie rods",
+      labels: [
+        { title: "Membranes", text: "High-performance membrane materials for efficient electrolysis", x: 4, y: 3, w: 23, dot: [345, 300] },
+        { title: "Bipolar Plates", text: "Corrosion-resistant, precision-engineered plates", x: 33, y: 3, w: 24, dot: [590, 290] },
+        { title: "Flow Distribution Solutions", text: "Uniform flow for higher efficiency and durability", x: 77, y: 3, w: 21, dot: [1500, 296] },
+        { title: "Gaskets & Seals", text: "Reliable sealing for long operational life", x: 30, y: 84, w: 22, dot: [712, 560] },
+        { title: "Electrode Support Materials", text: "Engineered for stability and high conductivity", x: 55, y: 84, w: 22, dot: [1080, 590] },
+        { title: "Custom Components", text: "Tailored to meet specific system requirements", x: 79, y: 84, w: 19, dot: [1400, 650] },
+      ],
     },
     callouts: [
       {
@@ -390,7 +398,7 @@ export const energyCleanTech: SolutionPageContent = {
     ],
     image: {
       src: img.solarMountains,
-      alt: "Illustration: Solar farm beneath mountain skies",
+      alt: "Rooftop solar installation at the BVK plant in Jaipur",
     },
     badge: { title: "Helping customers", text: "achieve their own ESG goals" },
   },
@@ -572,7 +580,7 @@ export const industriesApplications: SolutionPageContent = {
       { icon: "globe", title: "25+ Countries" },
       { icon: "shapes", title: "10 Industries" },
       { icon: "flask", title: "14 Alloys" },
-      { icon: "factory", title: "Since 1963" },
+      { icon: "calendar", title: "Since 1963" },
     ],
     primary: { label: "Find Your Application", href: "#components" },
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },

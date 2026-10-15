@@ -9,7 +9,7 @@ export const resources: SolutionPageContent = {
     {
       question: "Which brochures can I download?",
       answer:
-        "Three: the Green Energy Brochure covering precision woven mesh for electrolysers and fuel cells, the Knitted Mesh Brochure covering functional advantages and parameters, and the Green Hydrogen Knitted Mesh leaflet covering knit types and stack applications. All open as PDFs.",
+        "Four: the Green Energy Brochure covering precision woven mesh for electrolysers and fuel cells, the Filter Elements brochure covering woven mesh layers for high-efficiency filter elements, the Knitted Mesh Brochure covering functional advantages and parameters, and the Green Hydrogen Knitted Mesh leaflet covering knit types and stack applications. All open as PDFs.",
     },
     {
       question: "Which certifications does BVK refer to?",
@@ -42,7 +42,7 @@ export const resources: SolutionPageContent = {
     },
   },
   benefits: [
-    { icon: "file", title: "Three Brochures", text: "Green energy, knitted mesh and hydrogen." },
+    { icon: "file", title: "Four Brochures", text: "Green energy, filter elements, knitted mesh and hydrogen." },
     { icon: "badge", title: "Credentials", text: "IATF, ISO and DSIR recognition." },
     { icon: "flask", title: "Material Data", text: "Fourteen alloys with AISI/UNS designations." },
     { icon: "headset", title: "Direct Contact", text: "For anything specific to your component." },
@@ -63,7 +63,7 @@ export const resources: SolutionPageContent = {
     eyebrow: "Downloads",
     title: "Available",
     titleAccent: "documents",
-    intro: "Three documents covering the product range. Each opens as a PDF in a new tab.",
+    intro: "Four documents covering the product range. Each opens as a PDF in a new tab.",
     items: [
       {
         title: "Green Energy Brochure",
@@ -78,6 +78,12 @@ export const resources: SolutionPageContent = {
         format: "PDF · Leaflet",
       },
       {
+        title: "Filter Elements Brochure",
+        text: "Woven mesh for high-efficiency filter elements: protective, support and sleeve layers, flow-fatigue and pressure stability, materials and the filter types it suits.",
+        href: docs.filterElements,
+        format: "PDF · Brochure",
+      },
+      {
         title: "Knitted Mesh Brochure",
         text: "Functional advantages, key parameters, finishing and forming options, and the BVK competitive edge for knitted mesh.",
         href: docs.knittedMesh,
@@ -89,11 +95,12 @@ export const resources: SolutionPageContent = {
     eyebrow: "Inside the documents",
     title: "What the brochures",
     titleAccent: "cover",
-    body: "Together the three documents cover the company, the product range and the process behind it.",
+    body: "Together the four documents cover the company, the product range and the process behind it.",
     points: [
       "Fourteen-alloy material table with material number, description and AISI/UNS designation",
       "Company credentials, certifications and industries served",
       "Process capability: treatments, coatings and quality control",
+      "Filter element mesh: protective, support and sleeve layers, and the filter types they suit",
       "Knit types and their stack applications",
       "Knitted mesh parameters: wire diameter, knit type, forming and finishing",
       "Sustainability and ESG commitments",
@@ -102,7 +109,7 @@ export const resources: SolutionPageContent = {
       src: img.materialRacks,
       alt: "Stainless steel material storage racks at the BVK plant",
     },
-    badge: { title: "Three documents", text: "PDF, opens in a new tab" },
+    badge: { title: "Four documents", text: "PDF, opens in a new tab" },
   },
   why: {
     eyebrow: "Using these documents",
@@ -145,7 +152,7 @@ export const resources: SolutionPageContent = {
       href: "/knitted-mesh-solutions",
     },
     {
-      image: { src: img.flowLab, alt: "Illustration: R&D laboratory" },
+      image: { src: img.flowLab, alt: "Engineers reviewing a flow simulation of a mesh component at BVK" },
       title: "R&D, CFD & Prototyping",
       href: "/rd-cfd-prototyping",
     },
@@ -226,7 +233,7 @@ export const insights: SolutionPageContent = {
     action: { label: "Read the Notes", href: "#components" },
     image: {
       src: img.meshTestingLab,
-      alt: "Illustration: Mesh flow testing laboratory",
+      alt: "Quality engineer inspecting a woven mesh roll at BVK",
     },
     badge: { title: "Six checkpoints", text: "before specifying mesh" },
   },
@@ -285,7 +292,7 @@ export const insights: SolutionPageContent = {
     ],
     image: {
       src: img.flowLab,
-      alt: "Illustration: Precision mesh flow laboratory with analysis display",
+      alt: "Engineers reviewing a flow simulation of a mesh component at BVK",
     },
     badge: { title: "Nine inputs", text: "turn an enquiry into a specification" },
   },

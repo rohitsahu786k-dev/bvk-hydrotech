@@ -228,7 +228,7 @@ export const engineeringManufacturing: SolutionPageContent = {
       href: "/process-treatments",
     },
     {
-      image: { src: img.flowLab, alt: "Illustration: Flow testing laboratory" },
+      image: { src: img.flowLab, alt: "Engineers reviewing a flow simulation of a mesh component at BVK" },
       title: "R&D, CFD & Prototyping",
       href: "/rd-cfd-prototyping",
     },
@@ -308,8 +308,8 @@ export const processTreatments: SolutionPageContent = {
     intro:
       "Each one changes a different property. Most components use two or three in sequence.",
     image: {
-      src: img.membraneRoll,
-      alt: "Illustration: Treated precision mesh roll close up",
+      src: img.meshRollFactory,
+      alt: "Woven mesh roll running through a heat treatment line at BVK",
     },
     callouts: [
       {
@@ -353,8 +353,8 @@ export const processTreatments: SolutionPageContent = {
       "Surface-area enhancement that improves hydrogen production and stack efficiency",
     ],
     image: {
-      src: img.mistNozzlesFactory,
-      alt: "Illustration: Precision coating and treatment equipment in a stainless steel factory",
+      src: img.surfaceCoating,
+      alt: "Surface coating line at the BVK plant",
     },
     badge: { title: "Coating pattern", text: "defined, not incidental" },
   },
@@ -441,7 +441,7 @@ export const processTreatments: SolutionPageContent = {
       href: "/engineering-manufacturing",
     },
     {
-      image: { src: img.flowLab, alt: "Illustration: Flow testing laboratory" },
+      image: { src: img.flowLab, alt: "Engineers reviewing a flow simulation of a mesh component at BVK" },
       title: "R&D, CFD & Prototyping",
       href: "/rd-cfd-prototyping",
     },
@@ -499,7 +499,7 @@ export const rdCfdPrototyping: SolutionPageContent = {
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
     image: {
       src: img.flowLab,
-      alt: "Illustration: Precision mesh flow laboratory with simulation display",
+      alt: "Engineers reviewing a flow simulation of a mesh component at BVK",
     },
   },
   benefits: [
@@ -532,7 +532,7 @@ export const rdCfdPrototyping: SolutionPageContent = {
     action: { label: "See the Test Suite", href: "#components" },
     image: {
       src: img.meshTestingLab,
-      alt: "Illustration: Industrial mesh flow testing laboratory",
+      alt: "Quality engineer inspecting a woven mesh roll at BVK",
     },
     badge: { title: "DSIR recognised", text: "Dept. of Scientific & Industrial Research" },
   },
@@ -544,7 +544,7 @@ export const rdCfdPrototyping: SolutionPageContent = {
       "These services adhere to norms established between BVK and the customer, so the result is evidence both sides accept.",
     image: {
       src: img.meshRollFactory,
-      alt: "Illustration: Mesh samples prepared for laboratory evaluation",
+      alt: "Woven mesh roll running through a heat treatment line at BVK",
     },
     callouts: [
       {

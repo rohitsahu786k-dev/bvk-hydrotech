@@ -5,6 +5,7 @@ import { ArrowRight, CheckCircle2, Download } from "lucide-react";
 import { getIcon } from "@/lib/content/icons";
 import type { LinkAction, SolutionPageContent } from "@/lib/content/types";
 import CtaBand from "@/components/sections/CtaBand";
+import LabelledImage from "@/components/ui/LabelledImage";
 import styles from "./SolutionPage.module.css";
 
 /**
@@ -202,35 +203,53 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
               <p className="mt-5 text-grey">{content.components.intro}</p>
             </div>
 
-            <div className={styles.diagram}>
-              <div className={styles.callouts}>
-                {content.components.callouts
-                  .filter((_, i) => i % 2 === 0)
-                  .map((point) => (
-                    <div key={point.title}>
-                      <h3>{point.title}</h3>
-                      <p>{point.text}</p>
-                    </div>
+            {content.components.image.labels ? (
+              <div className="mt-12">
+                <LabelledImage
+                  src={content.components.image.src}
+                  alt={content.components.image.alt}
+                  labels={content.components.image.labels}
+                />
+                <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {content.components.callouts.map((point) => (
+                    <li key={point.title} className="rounded-xl border border-hairline bg-surface p-5">
+                      <h3 className="font-display text-base text-ink">{point.title}</h3>
+                      <p className="mt-1.5 text-sm leading-relaxed text-grey">{point.text}</p>
+                    </li>
                   ))}
+                </ul>
               </div>
-              <Image
-                src={content.components.image.src}
-                alt={content.components.image.alt}
-                width={1536}
-                height={864}
-                sizes="(min-width: 1280px) 1180px, 92vw"
-              />
-              <div className={styles.callouts}>
-                {content.components.callouts
-                  .filter((_, i) => i % 2 === 1)
-                  .map((point) => (
-                    <div key={point.title}>
-                      <h3>{point.title}</h3>
-                      <p>{point.text}</p>
-                    </div>
-                  ))}
+            ) : (
+              <div className={styles.diagram}>
+                <div className={styles.callouts}>
+                  {content.components.callouts
+                    .filter((_, i) => i % 2 === 0)
+                    .map((point) => (
+                      <div key={point.title}>
+                        <h3>{point.title}</h3>
+                        <p>{point.text}</p>
+                      </div>
+                    ))}
+                </div>
+                <Image
+                  src={content.components.image.src}
+                  alt={content.components.image.alt}
+                  width={1536}
+                  height={864}
+                  sizes="(min-width: 1280px) 1180px, 92vw"
+                />
+                <div className={styles.callouts}>
+                  {content.components.callouts
+                    .filter((_, i) => i % 2 === 1)
+                    .map((point) => (
+                      <div key={point.title}>
+                        <h3>{point.title}</h3>
+                        <p>{point.text}</p>
+                      </div>
+                    ))}
+                </div>
               </div>
-            </div>
+            )}
           </div>
         </section>
       )}

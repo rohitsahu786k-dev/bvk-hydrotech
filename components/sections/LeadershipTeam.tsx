@@ -64,42 +64,32 @@ export default function LeadershipTeam({ team }: { team: TeamSection }) {
                   <span className="absolute left-4 top-4 rounded-full bg-brand px-3 py-1 text-[0.625rem] font-semibold uppercase tracking-wider text-white shadow-lg">
                     {member.role}
                   </span>
-
-                  <a
-                    href={member.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={member.linkedinLabel ?? `${member.name} on LinkedIn`}
-                    className="absolute right-4 top-4 flex h-10 w-10 items-center justify-center rounded-full bg-white text-[#0A66C2] shadow-lg transition duration-300 hover:scale-110 hover:bg-brand hover:text-white focus-visible:scale-110"
-                  >
-                    <LinkedInIcon className="h-[1.125rem] w-[1.125rem]" />
-                  </a>
                 </div>
 
-                <div className="relative flex flex-1 flex-col px-6 pb-6 pt-2">
-                  <h3 className="font-display text-xl leading-tight text-white">{member.name}</h3>
-                  <p className="mt-1 text-xs font-semibold uppercase tracking-wider text-brand">
+                <div className="relative flex flex-1 flex-col px-7 pb-8 pt-6">
+                  <h3 className="font-display text-lg leading-tight text-white">{member.name}</h3>
+                  <p className="mt-2 text-[0.6875rem] font-semibold uppercase tracking-wider text-brand">
                     {member.role}
                     <span className="text-on-dark-faint"> · {member.company}</span>
                   </p>
 
-                  <p className="mt-4 text-[0.8125rem] leading-relaxed text-on-dark-muted">{member.bio}</p>
+                  <p className="mt-5 text-xs leading-relaxed text-on-dark-muted">{member.bio}</p>
 
-                  <ul className="mt-4 flex flex-wrap gap-2">
+                  <ul className="mt-5 flex flex-wrap gap-1.5">
                     {member.focus.map((item) => (
                       <li
                         key={item}
-                        className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-1 text-[0.6875rem] text-on-dark-muted"
+                        className="rounded-full border border-white/10 bg-white/[0.03] px-2.5 py-1 text-[0.625rem] text-on-dark-muted"
                       >
                         {item}
                       </li>
                     ))}
                   </ul>
 
-                  <div className="mt-auto flex items-end justify-between gap-4 border-t border-white/10 pt-5">
+                  <div className="mt-auto flex items-end justify-between gap-4 border-t border-white/10 pt-6">
                     <p className="flex items-baseline gap-2">
-                      <span className="font-display text-3xl leading-none text-brand">{member.years}</span>
-                      <span className="text-[0.6875rem] leading-tight text-on-dark-faint">
+                      <span className="font-display text-2xl leading-none text-brand">{member.years}</span>
+                      <span className="text-[0.625rem] leading-tight text-on-dark-faint">
                         years of leadership
                         <br />
                         experience
@@ -109,7 +99,7 @@ export default function LeadershipTeam({ team }: { team: TeamSection }) {
                       href={member.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs font-semibold text-white transition-colors hover:text-brand"
+                      className="inline-flex items-center gap-1.5 text-[0.6875rem] font-semibold text-white transition-colors hover:text-brand"
                     >
                       <LinkedInIcon className="h-3.5 w-3.5" />
                       LinkedIn
@@ -121,21 +111,6 @@ export default function LeadershipTeam({ team }: { team: TeamSection }) {
             </li>
           ))}
         </ul>
-
-        {team.more && (
-          <p className="mt-10 text-center text-sm text-on-dark-muted">
-            {team.more.text}{" "}
-            <a
-              href={team.more.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 font-semibold text-brand transition-colors hover:text-white"
-            >
-              {team.more.label}
-              <ArrowUpRight aria-hidden className="h-4 w-4" />
-            </a>
-          </p>
-        )}
       </div>
     </section>
   );

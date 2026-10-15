@@ -9,11 +9,26 @@ import type { IconName } from "./icons";
  * fixed order below, so the whole site reads as one system.
  */
 
+/** A label drawn on top of an image, with a pointer to a spot on the artwork. */
+export interface ImageLabel {
+  title: string;
+  text?: string;
+  /** Left and top of the label, as a percentage of the 16:9 frame. */
+  x: number;
+  y: number;
+  /** Width of the label, as a percentage of the frame. */
+  w: number;
+  /** Where the pointer lands, in pixels on the 1600 x 900 artwork. */
+  dot: [number, number];
+}
+
 export interface Media {
   /** Absolute URL or site-relative path. */
   src: string;
   /** Required. Empty string only for decorative background art. */
   alt: string;
+  /** Text labels and pointers drawn over the image (see LabelledImage). */
+  labels?: ImageLabel[];
 }
 
 export interface IconCard {
@@ -176,6 +191,9 @@ export interface SolutionPageContent {
     cards: IconCard[];
   };
 
+  /** The BVK Group companies under their official logos. */
+  groupCompanies?: GroupCompaniesSection;
+
   /** Leadership portraits with LinkedIn links. */
   team?: TeamSection;
 
@@ -206,13 +224,29 @@ export interface TeamMember {
   focus: string[];
 }
 
+export interface GroupCompany {
+  name: string;
+  note: string;
+  logo: Media;
+  /** Official site. Omit for the company the page belongs to. */
+  href?: string;
+  current?: boolean;
+}
+
+export interface GroupCompaniesSection {
+  eyebrow: string;
+  title: string;
+  titleAccent?: string;
+  intro: string;
+  companies: GroupCompany[];
+}
+
 export interface TeamSection {
   eyebrow: string;
   title: string;
   titleAccent?: string;
   intro: string;
   members: TeamMember[];
-  more?: { text: string; label: string; href: string };
 }
 
 /** Per-page search metadata, kept beside the content it describes. */

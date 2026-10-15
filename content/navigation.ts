@@ -112,7 +112,7 @@ export const navigation: NavItem[] = [
             label: "Knitted Mesh Solutions",
             href: "/knitted-mesh-solutions",
             tagline: "Stacks, GDLs, elastic elements",
-            spec: "Wire 0.05–0.30 mm · single piece up to 2.2 m diameter",
+            spec: "Wire 0.05–0.30 mm · large single-piece diameters",
             description: "Single, double and multi-end knits for stacks, GDLs and elastic elements.",
             icon: Network,
           },

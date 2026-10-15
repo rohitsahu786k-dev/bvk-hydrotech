@@ -12,8 +12,9 @@ const MEDIA = "/media";
 const u = (file: string) => `${MEDIA}/${file}`;
 
 export const docs = {
-  greenEnergy: u("green-energy-brochure.pdf"),
-  knittedMesh: u("bvk-knitted-mesh-brochure.pdf"),
+  greenEnergy: u("Green-Energy-Brochure_Digital.pdf"),
+  filterElements: u("Filter-Elements_Digital.pdf"),
+  knittedMesh: u("Knitted-Mesh-Brochure_no-marks.pdf"),
   hydrogenLeaflet: u("green-hydrogen-knitted-mesh-solutions-leaflet.pdf"),
   brandGuidelines: u("bvk-hydrotech-brand-guidelines.pdf"),
 };
@@ -29,9 +30,9 @@ export const img = {
   hydrogenFilterModule: u("hydrogen_plant_filter_module_assembly.webp"),
   electrolyzerPlant: u("cinematic_stainless_steel_electrolyzer_plant.webp"),
   electrolyserStackRender: u("bvk-hydrogen-electrolyser-stack.jpeg"),
-  explodedElectrolyser: u("exploded_electrolyzer_stack_infographic.png"),
+  explodedElectrolyser: u("Exploded-Stainless-Steel-Heat-Exchanger-Assembly.png"),
   explodedElectrolyserDiagram: u("exploded_electrolyzer_component_diagram.png"),
-  explodedStainless: u("exploded_stainless_steel_heat_exchanger_assembly.png"),
+  explodedStainless: u("Exploded-Stainless-Steel-Filter-Assembly.png"),
   explodedPlate: u("exploded_plate_heat_exchanger_assembly.png"),
   heatExchangerLine: u("industrial_heat_exchanger_assembly_line.png"),
   gasCylinderHall: u("symmetrical_industrial_gas_cylinder_hall.png"),
@@ -43,17 +44,19 @@ export const img = {
 
   // Mesh product
   wovenMeshSurface: u("bvk-precision-woven-mesh-surface.png"),
-  meshRoll: u("bvk-metal-mesh-roll.png"),
-  stainlessMesh: u("bvk-stainless-steel-mesh.jpeg"),
-  copperMesh: u("bvk-copper-metal-mesh.jpeg"),
-  blackMesh: u("bvk-black-metal-mesh.jpeg"),
+  meshRoll: u("bvk-precision-woven-mesh-roll-hd.jpg"),
+  stainlessMesh: u("bvk-voltra-plus-double-wire-knitted-mesh-hd.jpg"),
+  copperMesh: u("bvk-expanded-copper-mesh-macro-hd.jpg"),
+  blackMesh: u("bvk-voltra-max-multi-end-knitted-mesh-hd.jpg"),
   knittedMacro: u("interwoven_steel_mesh_in_macro_detail.png"),
   membraneRoll: u("advanced_silver_membrane_roll_close_up.png"),
   stainlessMeshRoll: u("industrial_stainless_steel_mesh_roll.webp"),
-  meshRollFactory: u("industrial_mesh_roll_in_a_cool_factory_setting.webp"),
+  meshRollFactory: u("bvk-mesh-roll-continuous-heat-treatment-line.webp"),
+  surfaceCoating: u("bvk-surface-coating-line-plant.webp"),
   engineeredMeshRender: u("bvk-engineered-mesh-component-render.png"),
-  cylindricalStack: u("bvk-engineered-cylindrical-stack-tube-1.png"),
-  filterElementCutaway: u("bvk-filter-element-cutaway.png"),
+  cylindricalStack: u("bvk-engineered-cylindrical-knitted-tube-hd.jpg"),
+  filterElementCutaway: u("bvk-filter-element-cutaway-hd.png"),
+  texLightDisc: u("bvk-tex-light-ultra-fine-mesh-disc-hd.jpg"),
 
   // Plant and process — the genuine photography in the library
   weavingFloor: u("bvk-factory-weaving-production-floor.jpeg"),
@@ -62,11 +65,17 @@ export const img = {
   slitting: u("bvk-precision-slitting-process.jpeg"),
   materialRacks: u("bvk-stainless-steel-material-storage-racks.jpeg"),
   gembaBoard: u("bvk-gemba-quality-management-board.jpeg"),
-  team: u("bvk-company-team-factory.jpeg"),
+  team: u("bvk-production-team-with-woven-mesh-roll.webp"),
+  teamGroup: u("bvk-leadership-and-engineering-team-portrait.webp"),
+  teamHands: u("bvk-team-collaboration-hands-together.webp"),
+  gembaReview: u("bvk-gemba-review-team-quality-board.webp"),
+  weavingMes: u("bvk-weaving-floor-mes-control-station.webp"),
+  womenTechnician: u("bvk-technician-holding-woven-mesh-weaving-floor.webp"),
+  dishaChildren: u("DSC_5119.jpg"),
 
   // Laboratory and simulation
-  flowLab: u("precision_mesh_flow_laboratory.webp"),
-  meshTestingLab: u("industrial_mesh_flow_testing_lab.webp"),
+  flowLab: u("bvk-engineers-reviewing-cfd-simulation.webp"),
+  meshTestingLab: u("bvk-quality-engineer-inspecting-mesh-roll.webp"),
   weavingMachine: u("precision_mesh_weaving_machine.webp"),
   wireMeshLine: u("industrial_wire_mesh_production_line.webp"),
   mistNozzles: u("precision_stainless_mist_nozzles.png"),
@@ -85,7 +94,7 @@ export const img = {
   // Environment and energy
   forestValley: u("misty_sunrise_over_a_forested_river_valley.png"),
   solarSunrise: u("sunrise_solar_farm_and_mountains.png"),
-  solarMountains: u("solar_farm_beneath_mountain_skies.png"),
+  solarMountains: u("bvk-rooftop-solar-installation-jaipur-plant.webp"),
   algae: u("sunlit_aquatic_algae_garden.png"),
   refineryCleanEnergy: u("golden_hour_clean_energy_refinery.png"),
   refineryPetrochemical: u("golden_hour_petrochemical_refinery.png"),

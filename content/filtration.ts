@@ -25,7 +25,7 @@ export const filtration = {
       { icon: "truck", title: "Reliable Supply" },
     ],
     primary: { label: "Explore Our Filtration Solutions", href: "#applications" },
-    secondary: { label: "Download Brochure", href: docs.greenEnergy },
+    secondary: { label: "Download Brochure", href: docs.filterElements },
     image: `${IMG}/hero.webp`,
     alt: "Stainless steel filter cartridges, a filter housing and a roll of woven mesh",
   },
@@ -110,13 +110,15 @@ export const filtration = {
     eyebrow: "Filtration Media Selection",
     columns: ["Parameter", "Typical Range / Options", "Notes"],
     rows: [
-      ["Material", "Stainless steel, nickel, titanium, custom alloys", "Selected based on fluid, temperature and corrosion"],
-      ["Mesh Type", "Woven or knitted", "As per application requirement"],
+      ["Material", "Stainless steel (304L, 316, 316L, 317L, 200 series), phosphor bronze, nickel, Inconel, Hastelloy, titanium, aluminium", "Selected based on fluid, temperature and corrosion"],
+      ["Mesh Type", "Woven or knitted; hybrid metal-and-synthetic (PET, PTFE, PE, PP) meshes", "As per application requirement"],
+      ["Role in the Element", "Protective fabric, support fabric or woven sleeve between filter layers", "Supports flow-fatigue stability (ISO 23181) and dirt-holding capacity"],
       ["Filtration Rating", "Custom (micron level)", "Depends on mesh construction and wire diameter"],
       ["Thickness", "Application specific", "Custom options available"],
       ["Width", "Standard or custom", "Wider widths available for certain constructions"],
       ["Form", "Sheet, roll, tube, disc, spool", "Cut-to-size and fabricated components"],
       ["Surface Treatment", "Cleaning, annealing, coating (as applicable)", "Based on application needs"],
+      ["Compatible Filters", "Fuel, air and gas, oil, hydraulic and suction filters; noise dampening", "Confirmed against the application"],
     ] as [string, string, string][],
   },
 
@@ -228,7 +230,7 @@ export const filtration = {
     {
       question: "Which materials are available for filtration mesh?",
       answer:
-        "Depending on the application: stainless steel, nickel and nickel-based alloys, titanium, copper, aluminium, carbon steel and specialty materials.",
+        "Depending on the application: stainless steel (304L, 316, 316L, 317L and 200 series), phosphor bronze, nickel, Inconel, Hastelloy, titanium and aluminium, plus hybrid meshes that combine metal with synthetic yarns such as PET, PTFE, PE and PP.",
     },
     {
       question: "Can filtration mesh be customized?",

@@ -60,13 +60,14 @@ const productFamilies = [
   "Laser-cut Mesh Parts",
 ];
 
-/** Badge artwork lives in the media library; shown small on white tiles. */
+/** The certification marks, as supplied by the certification body, from the media library. */
 const credentials = [
-  { name: "ISO 9001:2015", file: "iso-9001-2015-quality-management-system.webp" },
-  { name: "IATF 16949:2016", file: "iatf-16949-2016-automotive-quality-management-system.webp" },
-  { name: "ISO 14001:2015", file: "iso-14001-2015-environmental-management-system.webp" },
-  { name: "ISO 45001:2018", file: "iso-45001-2018-occupational-health-safety-management-system.webp" },
-  { name: "DSIR recognised R&D", file: "dsir-recognized-rd-centre.webp" },
+  { name: "ISO 9001:2015", file: "ISO-9001-2015-English.png" },
+  { name: "IATF 16949:2016", file: "IATF-16949.png" },
+  { name: "EN 9100 / AS9100", file: "EN-AS-9100-English.jpg" },
+  { name: "ISO 14001:2015", file: "ISO-14001-2015-English.png" },
+  { name: "ISO 45001:2018", file: "ISO-45001-English.png" },
+  { name: "DSIR recognised R&D", file: "dsir-certification.png" },
 ];
 
 const facts = [

@@ -36,6 +36,7 @@ yarn-error.log*
 
 # oversized source asset kept local; optimized JPG is committed
 /public/bvk-assets/knitted-tube-1.png
+/BVK Hydrotech Website Material*
 
 # env files (can opt-in for committing if needed)
 .env*

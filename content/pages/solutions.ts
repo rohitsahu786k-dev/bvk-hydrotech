@@ -71,7 +71,14 @@ export const electrolyserSolutions: SolutionPageContent = {
       "From porous transport layers to custom metal mesh components, engineered for reliable hydrogen generation.",
     image: {
       src: img.explodedStainless,
-      alt: "Illustration: Exploded electrolyser assembly showing end plates, mesh layers and stack structure",
+      alt: "Exploded electrolyser assembly: knitted mesh gas diffusion layers, woven mesh cathode and anode electrodes and the membrane between end plates",
+      labels: [
+        { title: "Knitted Mesh GDL", x: 18, y: 8, w: 15, dot: [385, 330] },
+        { title: "Woven Mesh Electrode (Cathode)", x: 30, y: 3, w: 20, dot: [560, 285] },
+        { title: "Woven Mesh Electrode (Anode)", x: 54, y: 3, w: 20, dot: [880, 285] },
+        { title: "Knitted Mesh GDL", x: 73, y: 8, w: 15, dot: [1060, 330] },
+        { title: "Membrane / Separator", x: 44, y: 82, w: 20, dot: [735, 520] },
+      ],
     },
     callouts: [
       {
@@ -276,7 +283,7 @@ export const electrolyserSolutions: SolutionPageContent = {
       href: "/engineering-manufacturing",
     },
     {
-      image: { src: img.flowLab, alt: "Illustration: Precision mesh flow laboratory" },
+      image: { src: img.flowLab, alt: "Engineers reviewing a flow simulation of a mesh component at BVK" },
       title: "Quality & Performance Assurance",
       href: "/rd-cfd-prototyping",
     },
@@ -299,7 +306,7 @@ export const fuelCellSolutions: SolutionPageContent = {
       "Woven and knitted metal mesh for gas diffusion, current collection and electrode support in AFC, SOFC and PEM stacks.",
     features: [
       { icon: "zap", title: "High Conductivity" },
-      { icon: "wind", title: "Gas Diffusion" },
+      { icon: "bubble", title: "Gas Diffusion" },
       { icon: "layers", title: "Electrode Support" },
       { icon: "target", title: "Low Pressure Drop" },
     ],
@@ -352,7 +359,7 @@ export const fuelCellSolutions: SolutionPageContent = {
       "Parameters are set to suit your cell: mass transport, electrical conductivity, pressure drop and mechanical strength are traded against each other deliberately, not by accident.",
     image: {
       src: img.explodedPlate,
-      alt: "Illustration: Exploded plate assembly showing stacked fuel cell layers and mesh interlayers",
+      alt: "Exploded plate assembly showing stacked fuel cell layers and mesh interlayers",
     },
     callouts: [
       {
@@ -1044,7 +1051,7 @@ export const knittedMeshSolutions: SolutionPageContent = {
     action: { label: "See the Knit Types", href: "#components" },
     image: {
       src: img.meshRollFactory,
-      alt: "Illustration: Knitted mesh roll on the factory floor",
+      alt: "Woven mesh roll running through a heat treatment line at BVK",
     },
     badge: { title: "Single-piece", text: "large-diameter capability" },
   },
