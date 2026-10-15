@@ -4,6 +4,7 @@ import { ArrowRight, ArrowUpRight, Check, Download } from "lucide-react";
 import { getIcon } from "@/lib/content/icons";
 import type { LinkAction, SolutionPageContent } from "@/lib/content/types";
 import CtaBand from "@/components/sections/CtaBand";
+import LeadershipTeam from "@/components/sections/LeadershipTeam";
 import styles from "./CorporatePage.module.css";
 
 /**
@@ -247,6 +248,8 @@ export default function CorporatePage({ content }: { content: SolutionPageConten
           </div>
         </section>
       )}
+
+      {content.team && <LeadershipTeam team={content.team} />}
 
       {/* SPEC TABLE — square, ink header, zebra rows. */}
       {content.specs && (

@@ -176,6 +176,9 @@ export interface SolutionPageContent {
     cards: IconCard[];
   };
 
+  /** Leadership portraits with LinkedIn links. */
+  team?: TeamSection;
+
   /** Three full-bleed cross-links. */
   tiles?: Tile[];
 
@@ -187,6 +190,29 @@ export interface SolutionPageContent {
     secondary?: LinkAction;
     image: Media;
   };
+}
+
+export interface TeamMember {
+  name: string;
+  role: string;
+  company: string;
+  bio: string;
+  image: Media;
+  /** A LinkedIn profile, or the company page when no personal one is confirmed. */
+  linkedin: string;
+  linkedinLabel?: string;
+  /** Years of leadership experience, as BVK states them. */
+  years: string;
+  focus: string[];
+}
+
+export interface TeamSection {
+  eyebrow: string;
+  title: string;
+  titleAccent?: string;
+  intro: string;
+  members: TeamMember[];
+  more?: { text: string; label: string; href: string };
 }
 
 /** Per-page search metadata, kept beside the content it describes. */

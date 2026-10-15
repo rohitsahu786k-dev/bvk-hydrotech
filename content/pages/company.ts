@@ -130,6 +130,61 @@ export const about: SolutionPageContent = {
     },
     badge: { title: "Jaipur, Rajasthan", text: "Industrial Area, Jhotwara" },
   },
+  team: {
+    eyebrow: "Leadership",
+    title: "The family behind",
+    titleAccent: "the mesh",
+    intro:
+      "BVK is run by three people from the Khaitan family, who carry a business started in 1963 into its fourth generation. Between them they set the group's direction, run its operations and open its markets overseas.",
+    members: [
+      {
+        name: "Basantt Khaitan",
+        role: "Chairman",
+        company: "BVK Group",
+        bio: "Over five decades of building family enterprises. He forged technical collaborations and joint ventures with global technology partners and helped make BVK India's largest maker of metal-based technical textiles, present in more than 25 countries.",
+        image: {
+          src: "/bvk-assets/team/basantt-khaitan-chairman-bvk-group.webp",
+          alt: "Portrait of Basantt Khaitan, Chairman of BVK Group",
+        },
+        // No personal profile could be confirmed; this is the group's company page.
+        linkedin: "https://in.linkedin.com/company/bvk-group-india",
+        linkedinLabel: "BVK Group India on LinkedIn",
+        years: "50+",
+        focus: ["Governance", "Long-term planning", "Innovation", "Sustainability"],
+      },
+      {
+        name: "Madhur Khaitan",
+        role: "Managing Director",
+        company: "BVK Group",
+        bio: "Eighteen years of leadership with a global, forward-looking outlook. He drives transformation across the group, including Industry 4.0 practices and technologies, and leads key operations with a focus on agility, efficiency and modernisation.",
+        image: {
+          src: "/bvk-assets/team/madhur-khaitan-managing-director-bvk-group.webp",
+          alt: "Portrait of Madhur Khaitan, Managing Director of BVK Group",
+        },
+        linkedin: "https://www.linkedin.com/in/madhur-khaitan-006a1632/",
+        years: "18",
+        focus: ["Operations", "Industry 4.0", "Modernisation", "Efficiency"],
+      },
+      {
+        name: "Harsh Khaitan",
+        role: "Joint Managing Director",
+        company: "BVK Group",
+        bio: "A decade of leadership, expanding BVK's footprint overseas. He oversees global sales, marketing and business development, and leads the product enhancement roadmap with a focus on innovation, customer-centric design and performance.",
+        image: {
+          src: "/bvk-assets/team/harsh-khaitan-joint-managing-director-bvk-group.webp",
+          alt: "Portrait of Harsh Khaitan, Joint Managing Director of BVK Group",
+        },
+        linkedin: "https://www.linkedin.com/in/harshkhaitan/",
+        years: "10",
+        focus: ["Global sales", "Business development", "Product roadmap"],
+      },
+    ],
+    more: {
+      text: "Read the full leadership profiles on",
+      label: "bvkgroup.in",
+      href: "https://www.bvkgroup.in/about-us/meet-our-leadership",
+    },
+  },
   specs: {
     caption: "BVK Hydrotech at a glance",
     columns: ["Field", "Detail"],
