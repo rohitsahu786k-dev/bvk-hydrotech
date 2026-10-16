@@ -129,6 +129,8 @@ export interface SolutionPageContent {
     titleAccent?: string;
     intro: string;
     image: Media;
+    /** Render a transparent diagram smaller and centred instead of full width. */
+    compactImage?: boolean;
     callouts: Callout[];
   };
 

@@ -598,9 +598,10 @@ export const precisionMeshSolutions: SolutionPageContent = {
     intro:
       "Six decisions stand between an enquiry and a part that works. BVK makes all six in-house, which is why they stay consistent from the first sample to the hundredth batch.",
     image: {
-      src: "/bvk-assets/precision-mesh/03_precision_mesh_capability_surface_1920x1080.webp",
-      alt: "Precision woven mesh surface at close range",
+      src: "/bvk-assets/precision-mesh/01_precision_mesh_hero_transparent_1920x1080.webp",
+      alt: "Roll of precision woven mesh",
     },
+    compactImage: true,
     callouts: [
       {
         title: "Material Selection",
@@ -732,7 +733,7 @@ export const precisionMeshSolutions: SolutionPageContent = {
   },
   tiles: [
     {
-      image: { src: "/bvk-assets/precision-mesh/10_woven_mesh_solutions_card_1200x800.webp", alt: "Woven mesh surface detail" },
+      image: { src: "/bvk-assets/precision-mesh/03_precision_mesh_capability_surface_1920x1080.webp", alt: "Woven mesh surface detail" },
       title: "Woven Mesh Solutions",
       href: "/woven-mesh-solutions",
     },

@@ -165,7 +165,8 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                 src={content.overview.image.src}
                 alt={content.overview.image.alt}
                 fill
-                sizes="(min-width: 1024px) 48vw, 100vw"
+                quality={90}
+                sizes="(min-width: 1024px) 80vw, 100vw"
                 className="object-cover"
               />
               {content.overview.badge && (
@@ -236,6 +237,8 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                   alt={content.components.image.alt}
                   width={1536}
                   height={864}
+                  quality={90}
+                  className={content.components.compactImage ? styles.diagramCompact : undefined}
                   sizes="(min-width: 1280px) 1180px, 92vw"
                 />
                 <div className={styles.callouts}>
@@ -331,7 +334,8 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                 alt={content.features.image.alt}
                 fill
                 loading="eager"
-                sizes="(min-width: 1024px) 48vw, 100vw"
+                quality={90}
+                sizes="(min-width: 1024px) 80vw, 100vw"
                 className="object-cover"
               />
               {content.features.badge && (
@@ -453,7 +457,8 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                           alt={card.image.alt}
                           fill
                           loading="eager"
-                          sizes="(min-width: 1280px) 20vw, 45vw"
+                          quality={90}
+                          sizes="(min-width: 1280px) 40vw, 90vw"
                           className="object-cover"
                         />
                       </div>
@@ -516,7 +521,8 @@ export default function SolutionPage({ content }: { content: SolutionPageContent
                 alt={tile.image.alt}
                 fill
                 loading="eager"
-                sizes="(min-width: 1024px) 33vw, 100vw"
+                quality={90}
+                sizes="(min-width: 1024px) 66vw, 100vw"
                 className="object-cover transition duration-700 group-hover:scale-105"
               />
               <div

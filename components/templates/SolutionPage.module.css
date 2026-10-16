@@ -39,6 +39,7 @@
 .components > div > div:first-child { max-width: 880px; }
 .diagram { margin-top: 45px; }
 .diagram > img { display: block; width: 100%; height: auto; margin: -40px 0 -35px; }
+.diagram > .diagramCompact { width: 60%; max-width: 700px; margin: -10px auto -10px; }
 .callouts { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 100px; padding: 0 24px; }
 .callouts > div { position: relative; border-left: 1px solid var(--color-brand); padding-left: 15px; max-width: 235px; }
 .callouts > div::before { content: ""; position: absolute; width: 10px; height: 10px; border-radius: 50%; background: var(--color-brand); left: -5px; top: 3px; }
