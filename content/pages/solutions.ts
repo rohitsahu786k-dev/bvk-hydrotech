@@ -1019,8 +1019,8 @@ export const knittedMeshSolutions: SolutionPageContent = {
     primary: { label: "Discuss Knitted Mesh", href: "/contact" },
     secondary: { label: "Download Leaflet", href: docs.hydrogenLeaflet, external: true },
     image: {
-      src: img.knittedMacro,
-      alt: "Illustration: Macro view of interwoven knitted steel mesh",
+      src: "/bvk-assets/knitted-mesh/01_Knitted_Mesh_Filter_Cartridge_Transparent.webp",
+      alt: "Illustration: pleated knitted mesh filter cartridge with end caps",
     },
   },
   benefits: [
@@ -1052,8 +1052,8 @@ export const knittedMeshSolutions: SolutionPageContent = {
     body: "BVK Hydrotech knits single, double and multi-end mesh on single-needle and double-needle machines built for green hydrogen work. The knitted loop structure gives you something a woven sheet cannot: porosity that stays open under compression, and a material that will deform into the shape of the component instead of fighting it. That is why it ends up in gas diffusion layers, separators and nickel elastic elements.",
     action: { label: "See the Knit Types", href: "#components" },
     image: {
-      src: img.meshRollFactory,
-      alt: "Woven mesh roll running through a heat treatment line at BVK",
+      src: "/bvk-assets/knitted-mesh/03_Knitted_Mesh_Manufacturing_Line.webp",
+      alt: "Illustration: mesh roll running through a manufacturing line",
     },
     badge: { title: "Single-piece", text: "large-diameter capability" },
   },
@@ -1064,9 +1064,10 @@ export const knittedMeshSolutions: SolutionPageContent = {
     intro:
       "Density is the primary lever. Each of the three knit types sits at a different point on it, and each maps to a different position in the stack.",
     image: {
-      src: img.engineeredMeshRender,
-      alt: "Engineered knitted mesh component render",
+      src: "/bvk-assets/knitted-mesh/01_Knitted_Mesh_Filter_Cartridge_Transparent.webp",
+      alt: "Illustration: pleated knitted mesh filter cartridge with end caps",
     },
+    compactImage: true,
     callouts: [
       {
         title: "Voltra Lite — Low Density",
@@ -1109,8 +1110,8 @@ export const knittedMeshSolutions: SolutionPageContent = {
       "Treatments — degreased, annealed, coated or plated",
     ],
     image: {
-      src: img.stainlessMeshRoll,
-      alt: "Illustration: Knitted stainless steel mesh roll",
+      src: "/bvk-assets/knitted-mesh/02_Knitted_Wire_Mesh_Industrial_Closeup.webp",
+      alt: "Illustration: knitted wire mesh showing the interlocking loop structure",
     },
     badge: { title: "Corrugation 4–10 mm", text: "set against required elasticity" },
   },
