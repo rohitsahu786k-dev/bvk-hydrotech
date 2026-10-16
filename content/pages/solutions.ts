@@ -773,8 +773,8 @@ export const wovenMeshSolutions: SolutionPageContent = {
     primary: { label: "Specify Woven Mesh", href: "/contact" },
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
     image: {
-      src: img.wovenMeshSurface,
-      alt: "Precision woven wire mesh surface",
+      src: "/bvk-assets/woven-mesh/woven-roll-range.webp",
+      alt: "Rolls of woven metal mesh in different wire diameters and apertures",
     },
   },
   benefits: [
@@ -818,9 +818,10 @@ export const wovenMeshSolutions: SolutionPageContent = {
     intro:
       "Three functions carry most woven mesh applications. Each one is set by a different weaving parameter, which is why they can be tuned independently.",
     image: {
-      src: img.stainlessMesh,
-      alt: "Stainless steel woven mesh sample",
+      src: "/bvk-assets/woven-mesh/woven-curved-sheet.webp",
+      alt: "Curved sheet of woven metal mesh showing the interlaced wire structure",
     },
+    compactImage: true,
     callouts: [
       {
         title: "Porosity Control",
@@ -983,7 +984,7 @@ export const wovenMeshSolutions: SolutionPageContent = {
       href: "/knitted-mesh-solutions",
     },
     {
-      image: { src: img.filterElementCutaway, alt: "Filter element cutaway" },
+      image: { src: "/bvk-assets/woven-mesh/woven-filter-discs.webp", alt: "Woven mesh filter discs with stainless steel rims" },
       title: "Industrial Filtration",
       href: "/industrial-filtration",
     },
