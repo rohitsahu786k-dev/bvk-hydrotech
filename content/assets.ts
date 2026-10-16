@@ -45,6 +45,7 @@ export const img = {
   // Mesh product
   wovenMeshSurface: u("bvk-precision-woven-mesh-surface.png"),
   meshRoll: u("bvk-precision-woven-mesh-roll-hd.jpg"),
+  meshRollCutout: "/bvk-assets/stainless-steel-mesh-roll-cutout.png",
   stainlessMesh: u("bvk-voltra-plus-double-wire-knitted-mesh-hd.jpg"),
   copperMesh: u("bvk-expanded-copper-mesh-macro-hd.jpg"),
   blackMesh: u("bvk-voltra-max-multi-end-knitted-mesh-hd.jpg"),

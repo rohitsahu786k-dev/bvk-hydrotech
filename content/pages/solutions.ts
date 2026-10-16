@@ -553,8 +553,8 @@ export const precisionMeshSolutions: SolutionPageContent = {
     primary: { label: "Request a Recommendation", href: "/contact" },
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
     image: {
-      src: img.meshRoll,
-      alt: "Roll of precision metal mesh",
+      src: img.meshRollCutout,
+      alt: "Roll of precision stainless steel mesh",
     },
   },
   benefits: [
@@ -586,7 +586,7 @@ export const precisionMeshSolutions: SolutionPageContent = {
     body: "Woven mesh and knitted mesh solve different problems. Woven mesh gives you a stable, repeatable opening — the right answer when retention and flow have to be predictable. Knitted mesh gives you porosity and the ability to deform into a shape — the right answer when the part has to fit a stack or absorb load. The first thing BVK does on any enquiry is work out which of the two your component actually needs.",
     action: { label: "Compare the Families", href: "#components" },
     image: {
-      src: img.weavingFloor,
+      src: "/bvk-assets/precision-mesh/02_precision_mesh_weaving_factory_1600x950.webp",
       alt: "BVK weaving production floor with looms in operation",
     },
     badge: { title: "Since 1963", text: "integrated weaving plant in Jaipur" },
@@ -598,7 +598,7 @@ export const precisionMeshSolutions: SolutionPageContent = {
     intro:
       "Six decisions stand between an enquiry and a part that works. BVK makes all six in-house, which is why they stay consistent from the first sample to the hundredth batch.",
     image: {
-      src: img.wovenMeshSurface,
+      src: "/bvk-assets/precision-mesh/03_precision_mesh_capability_surface_1920x1080.webp",
       alt: "Precision woven mesh surface at close range",
     },
     callouts: [
@@ -642,7 +642,7 @@ export const precisionMeshSolutions: SolutionPageContent = {
       "Elastic element, demister or compressible layer — choose knitted",
     ],
     image: {
-      src: img.stainlessMeshRoll,
+      src: "/bvk-assets/precision-mesh/04_woven_vs_knitted_selection_1600x1000.webp",
       alt: "Illustration: Industrial stainless steel mesh roll",
     },
     badge: { title: "Not sure?", text: "Send the duty — we will specify it" },
@@ -676,25 +676,25 @@ export const precisionMeshSolutions: SolutionPageContent = {
       "The same weaving and knitting capability serves clean energy and long-established process industries, because the underlying engineering is the same.",
     cards: [
       {
-        image: { src: img.industryEnergy, alt: "Illustration: Hydrogen and energy applications" },
+        image: { src: "/bvk-assets/precision-mesh/06_energy_hydrogen_card_900x540.webp", alt: "Illustration: Hydrogen and energy applications" },
         icon: "zap",
         title: "Energy",
         text: "Electrolysis and fuel cell stack components.",
       },
       {
-        image: { src: img.industryAutomotive, alt: "Illustration: Automotive filtration components" },
+        image: { src: "/bvk-assets/precision-mesh/07_automotive_card_900x540.webp", alt: "Illustration: Automotive filtration components" },
         icon: "truck",
         title: "Automotive",
         text: "Drive technology, hydraulic filters, filters and EGR.",
       },
       {
-        image: { src: img.industryChemical, alt: "Illustration: Chemical process plant" },
+        image: { src: "/bvk-assets/precision-mesh/08_chemical_processing_card_900x540.webp", alt: "Illustration: Chemical process plant" },
         icon: "flask",
         title: "Chemical",
         text: "Filtration, separation and distillation internals.",
       },
       {
-        image: { src: img.industryPulpPaper, alt: "Illustration: Pulp and paper production line" },
+        image: { src: "/bvk-assets/precision-mesh/09_pulp_paper_filtration_card_900x540.webp", alt: "Illustration: Pulp and paper production line" },
         icon: "layers",
         title: "Pulp & Paper",
         text: "Fibre moulding, paper forming and de-watering.",
@@ -732,17 +732,17 @@ export const precisionMeshSolutions: SolutionPageContent = {
   },
   tiles: [
     {
-      image: { src: img.wovenMeshSurface, alt: "Woven mesh surface detail" },
+      image: { src: "/bvk-assets/precision-mesh/10_woven_mesh_solutions_card_1200x800.webp", alt: "Woven mesh surface detail" },
       title: "Woven Mesh Solutions",
       href: "/woven-mesh-solutions",
     },
     {
-      image: { src: img.knittedMacro, alt: "Illustration: Knitted mesh macro detail" },
+      image: { src: "/bvk-assets/precision-mesh/11_knitted_mesh_solutions_card_1200x800.webp", alt: "Illustration: Knitted mesh macro detail" },
       title: "Knitted Mesh Solutions",
       href: "/knitted-mesh-solutions",
     },
     {
-      image: { src: img.annealing, alt: "Annealing furnace line" },
+      image: { src: "/bvk-assets/precision-mesh/12_process_and_treatments_card_1200x800.webp", alt: "Annealing furnace line" },
       title: "Process & Treatments",
       href: "/process-treatments",
     },
