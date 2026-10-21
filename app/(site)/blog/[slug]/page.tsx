@@ -1,3 +1,4 @@
+import { stripListBullets } from "@/lib/wordpress/encoding";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -167,7 +168,7 @@ export default async function BlogPostPage({ params }: PageProps) {
                 <div
                   key={index}
                   className="rich-text article-body max-w-none"
-                  dangerouslySetInnerHTML={{ __html: segment.html }}
+                  dangerouslySetInnerHTML={{ __html: stripListBullets(segment.html) }}
                 />
               ),
             )}

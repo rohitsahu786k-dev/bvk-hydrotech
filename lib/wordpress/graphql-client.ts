@@ -1,3 +1,4 @@
+import { readJson } from "./encoding";
 /**
  * GraphQL Client for WordPress WPGraphQL
  * All requests to WPGraphQL go through this centralized client
@@ -68,7 +69,7 @@ export async function fetchGraphQL<T = unknown>(
       throw new Error(`GraphQL request failed: ${response.status} ${response.statusText}`);
     }
 
-    const json: GraphQLResponse<T> = await response.json();
+    const json: GraphQLResponse<T> = await readJson(response);
 
     if (json.errors && json.errors.length > 0) {
       console.error("GraphQL Errors:", json.errors);

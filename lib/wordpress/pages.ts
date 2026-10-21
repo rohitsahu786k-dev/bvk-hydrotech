@@ -1,3 +1,4 @@
+import { readJson } from "./encoding";
 /**
  * Generic WordPress pages for the /[slug] route.
  *
@@ -129,7 +130,7 @@ export async function getPageFaqs(slug: string): Promise<FaqItem[]> {
       next: { revalidate: 900, tags: ["wp-pages", `wp-page-${slug}`] },
     });
     if (!response.ok) return [];
-    const pages = await response.json();
+    const pages = await readJson<Array<{ acf?: { faqs?: any[] } }>>(response);
     const faqs = pages?.[0]?.acf?.faqs ?? [];
 
     return faqs

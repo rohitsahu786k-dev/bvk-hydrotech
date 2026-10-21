@@ -1,3 +1,4 @@
+import { stripListBullets } from "@/lib/wordpress/encoding";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -131,7 +132,7 @@ export default async function SitePage({ params }: PageProps) {
           <section className="bg-surface py-[50px]">
             <div className="shell">
               {page!.content ? (
-                <div className="rich-text" dangerouslySetInnerHTML={{ __html: page!.content }} />
+                <div className="rich-text" dangerouslySetInnerHTML={{ __html: stripListBullets(page!.content) }} />
               ) : (
                 <div className="mx-auto max-w-2xl border border-hairline p-10 text-center">
                   <h2 className="font-display text-xl tracking-tight text-ink">

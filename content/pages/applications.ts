@@ -266,8 +266,8 @@ export const energyCleanTech: SolutionPageContent = {
     primary: { label: "Talk to Our Experts", href: "/contact" },
     secondary: { label: "Download Brochure", href: docs.greenEnergy, external: true },
     image: {
-      src: img.electrolyzerPlant,
-      alt: "Illustration: Stainless steel electrolyser plant installation",
+      src: img.electrolyserMotion,
+      alt: "Stainless steel electrolyser stack producing hydrogen",
     },
   },
   benefits: [
@@ -299,8 +299,8 @@ export const energyCleanTech: SolutionPageContent = {
     body: "Renewable energy is increasingly important as more governments and companies look for clean energy sources, and fuel cells and electrolysers present a significant opportunity. For a number of functions across both products, woven mesh is a preferred option in the industry: its shape, porosity and bonding capability make it a versatile choice. BVK supplies that mesh — and, where the component needs to compress or conform, the knitted equivalent.",
     action: { label: "See the Applications", href: "#components" },
     image: {
-      src: img.hydrogenFacility,
-      alt: "Illustration: Hydrogen production facility in a mountain landscape",
+      src: "/bvk-assets/fuel-cell/overview.webp",
+      alt: "Electrolyser stacks on an assembly bench",
     },
     badge: { title: "Nearly two decades", text: "of experience in the energy space" },
   },
@@ -468,13 +468,13 @@ export const energyCleanTech: SolutionPageContent = {
         text: "Electrolysis components for renewable fuel and storage.",
       },
       {
-        image: { src: img.fuelCellStack, alt: "Fuel cell stack assembly" },
+        image: { src: "/bvk-assets/fuel-cell/hero.webp", alt: "Exploded fuel cell stack assembly" },
         icon: "layers",
         title: "Fuel Cells & H₂ Storage",
         text: "GDL, electrode supports and vent guards.",
       },
       {
-        image: { src: img.hydrogenFilterModule, alt: "Illustration: Hydrogen plant filter module" },
+        image: { src: "/bvk-assets/filtration/metal-mesh-filter-element-flanged-housing.webp", alt: "Metal mesh filter element in a flanged housing" },
         icon: "filter",
         title: "BoP Filter Elements",
         text: "Balance-of-plant filtration for hydrogen systems.",

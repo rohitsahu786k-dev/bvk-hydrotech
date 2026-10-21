@@ -1,3 +1,4 @@
+import { readJson } from "./encoding";
 /**
  * Blog posts over the WordPress REST API.
  *
@@ -127,7 +128,7 @@ export async function getPosts(limit = 24): Promise<BlogPost[]> {
       { next: { revalidate: 900, tags: ["wp-posts"] } },
     );
     if (!response.ok) return [];
-    const rows: any[] = await response.json();
+    const rows: any[] = await readJson(response);
     return rows.filter((row) => !SAMPLE_SLUGS.has(row.slug)).map(toPost);
   } catch (error) {
     console.error("getPosts failed:", error);
@@ -148,7 +149,7 @@ export async function getPostsPage(
       { next: { revalidate: 900, tags: ["wp-posts"] } },
     );
     if (!response.ok) return { posts: [], totalPages: 1 };
-    const rows: any[] = await response.json();
+    const rows: any[] = await readJson(response);
     return {
       posts: rows.filter((row) => !SAMPLE_SLUGS.has(row.slug)).map(toPost),
       totalPages: Math.max(1, Number(response.headers.get("x-wp-totalpages")) || 1),
@@ -167,7 +168,7 @@ export async function getPost(slug: string): Promise<BlogPost | null> {
       { next: { revalidate: 900, tags: ["wp-posts", `wp-post-${slug}`] } },
     );
     if (!response.ok) return null;
-    const rows: any[] = await response.json();
+    const rows: any[] = await readJson(response);
     return rows[0] ? toPost(rows[0]) : null;
   } catch (error) {
     console.error(`getPost(${slug}) failed:`, error);

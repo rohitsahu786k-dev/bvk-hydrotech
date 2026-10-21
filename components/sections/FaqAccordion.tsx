@@ -3,6 +3,7 @@
 import * as Accordion from "@radix-ui/react-accordion";
 import { ChevronDown } from "lucide-react";
 import Link from "next/link";
+import { stripListBullets } from "@/lib/wordpress/encoding";
 import type { FaqItem } from "@/lib/wordpress/home";
 import SectionHeading from "./SectionHeading";
 
@@ -72,7 +73,7 @@ export default function FaqAccordion({
               <Accordion.Content className="overflow-hidden data-[state=closed]:animate-none">
                 <div
                   className="rich-text ml-[3.25rem] border-l-2 border-brand-deep/30 py-1 pl-4 pr-6 pb-5"
-                  dangerouslySetInnerHTML={{ __html: faq.answer }}
+                  dangerouslySetInnerHTML={{ __html: stripListBullets(faq.answer) }}
                 />
               </Accordion.Content>
             </Accordion.Item>

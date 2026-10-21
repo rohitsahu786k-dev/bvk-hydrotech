@@ -48,7 +48,7 @@ export default function FiltrationPage() {
   return (
     <div>
       {/* ============ HERO ============ */}
-      <section className="relative overflow-hidden bg-surface-raised pt-[4.5rem]">
+      <section className="relative overflow-hidden bg-surface pt-[4.5rem]">
         <div className="shell grid items-center gap-8 py-10 lg:grid-cols-[1fr_1.15fr] lg:gap-12 lg:py-12">
           <div>
             <p className="eyebrow text-brand-deep">{c.hero.eyebrow}</p>
