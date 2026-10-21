@@ -669,8 +669,8 @@ h6 * {
   }
 }
 
-/* A page that closes on its own CtaBand does not repeat the footer one. */
-main:has(.cta-band) ~ .footer-cta {
+/* One closing CTA for the whole site: the footer's. Page-level bands are hidden. */
+main .cta-band {
   display: none;
 }
 

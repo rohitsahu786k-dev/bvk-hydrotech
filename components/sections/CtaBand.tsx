@@ -77,7 +77,8 @@ export default function CtaBand({
       />
 
       <div className="shell py-10 lg:py-12">
-        <div className="w-full lg:w-[40%]">
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
+        <div className="w-full lg:w-[55%]">
           {eyebrow ? (
             <p className="eyebrow text-brand">{eyebrow}</p>
           ) : (
@@ -89,13 +90,6 @@ export default function CtaBand({
 
           {body && (
             <p className="mt-3 text-sm leading-relaxed text-on-dark-muted lg:text-base">{body}</p>
-          )}
-
-          {(primary || secondary) && (
-            <div className="mt-6 flex flex-wrap items-center gap-3">
-              {primary && <CtaLink action={primary} variant="green" />}
-              {secondary && <CtaLink action={secondary} variant="outline" />}
-            </div>
           )}
 
           {(phone || email) && (
@@ -118,6 +112,14 @@ export default function CtaBand({
                   {email}
                 </a>
               )}
+            </div>
+          )}
+        </div>
+
+          {(primary || secondary) && (
+            <div className="flex flex-wrap items-center gap-3 lg:shrink-0 lg:justify-end">
+              {primary && <CtaLink action={primary} variant="green" />}
+              {secondary && <CtaLink action={secondary} variant="outline" />}
             </div>
           )}
         </div>

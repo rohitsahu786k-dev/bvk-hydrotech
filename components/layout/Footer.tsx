@@ -87,7 +87,7 @@ function Column({ title, links }: { title: string; links: MenuLink[] }) {
               href={link.url}
               className="text-[0.8125rem] text-on-dark-muted transition-colors hover:text-white"
             >
-              {link.label}
+              {/request a quote/i.test(link.label) ? "Contact" : link.label}
             </Link>
           </li>
         ))}
