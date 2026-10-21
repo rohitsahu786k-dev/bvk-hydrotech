@@ -1,15 +1,5 @@
 import Link from "next/link";
-import {
-  ArrowUpRight,
-  Building2,
-  Factory,
-  FileText,
-  Globe2,
-  Mail,
-  MapPin,
-  Phone,
-  Users,
-} from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 import CtaBand from "@/components/sections/CtaBand";
 import LinkedInIcon from "@/components/ui/LinkedInIcon";
 import type { MenuLink, SiteSettings } from "@/lib/wordpress/home";
@@ -40,7 +30,7 @@ const fallbackResources: MenuLink[] = [
   { label: "Insights / Knowledge Center", url: "/insights" },
   { label: "Blog", url: "/blog" },
   { label: "FAQs", url: "/faqs" },
-  { label: "Contact / Request a Quote", url: "/contact" },
+  { label: "Contact", url: "/contact" },
 ];
 
 /** Used when the CMS legal menu is empty, so these never disappear. */
@@ -49,15 +39,6 @@ const fallbackLegal: MenuLink[] = [
   { label: "Terms & Conditions", url: "/terms-and-conditions" },
   { label: "Cookie Policy", url: "/cookie-policy" },
   { label: "Disclaimer", url: "/disclaimer" },
-];
-
-const productFamilies = [
-  "Stainless Steel Mesh",
-  "Nickel 201 / 202 Mesh",
-  "Titanium Mesh",
-  "Copper Mesh",
-  "Knitted Mesh Rolls",
-  "Laser-cut Mesh Parts",
 ];
 
 /** The certification marks, as supplied by the certification body, from the media library. */
@@ -70,12 +51,6 @@ const credentials = [
   { name: "DSIR recognised R&D", file: "dsir-certification.png" },
 ];
 
-const facts = [
-  { icon: Building2, value: "Since 1963", label: "Group heritage" },
-  { icon: Globe2, value: "25+", label: "Export countries" },
-  { icon: Factory, value: "650+ MT", label: "Metal a year" },
-  { icon: Users, value: "300+", label: "People" },
-];
 
 interface FooterProps {
   menus: { footer1: MenuLink[]; footer2: MenuLink[]; footer3: MenuLink[]; legal: MenuLink[] };
@@ -91,12 +66,21 @@ function uniqueLinks(primary: MenuLink[], fallback: MenuLink[]) {
   });
 }
 
+/** Collapses a multi-line address to one line. */
+const oneLine = (value: string) =>
+  value
+    .split("\n")
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .join(", ");
+
+const telHref = (value: string) => `tel:${value.split(" ").join("")}`;
+
 function Column({ title, links }: { title: string; links: MenuLink[] }) {
   return (
     <div>
       <h3 className="font-display text-sm text-white">{title}</h3>
-      <span aria-hidden className="mt-3 block h-0.5 w-8 rounded-full bg-brand" />
-      <ul className="mt-4 space-y-2.5">
+      <ul className="mt-3 space-y-1.5">
         {links.map((link) => (
           <li key={link.url}>
             <Link
@@ -112,31 +96,6 @@ function Column({ title, links }: { title: string; links: MenuLink[] }) {
   );
 }
 
-function ContactItem({
-  icon: Icon,
-  label,
-  children,
-}: {
-  icon: typeof Mail;
-  label: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div className="flex gap-4">
-      <span
-        aria-hidden
-        className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-ink-line bg-ink-panel text-brand"
-      >
-        <Icon className="h-5 w-5" />
-      </span>
-      <div className="min-w-0 text-[0.8125rem] leading-relaxed text-on-dark-muted">
-        <p className="mb-1 text-[0.6875rem] font-semibold uppercase tracking-wider text-on-dark-faint">{label}</p>
-        {children}
-      </div>
-    </div>
-  );
-}
-
 export default function Footer({ menus, settings }: FooterProps) {
   const year = new Date().getFullYear();
   const solutions = uniqueLinks(menus.footer1, fallbackSolutions);
@@ -147,143 +106,97 @@ export default function Footer({ menus, settings }: FooterProps) {
   return (
     <>
       {/* The site-wide closing CTA. Pages that end on their own CtaBand hide
-          this one (see .footer-cta in globals.css), so a page never shows two. */}
+          this one (see .footer-cta in globals.css), so a page never shows two.
+          The technical RFQ form is not public; first contact is the general enquiry. */}
       <CtaBand
         className="footer-cta"
         eyebrow="B2B technical enquiry"
         title="Need precision mesh matched to your stack, filter or industrial component?"
-        body="Share drawings, material preference, target porosity, duty condition and expected volume. BVK Hydrotech can support material selection, samples and repeat supply."
-        primary={{ label: "Request technical RFQ", href: "/contact#enquiry" }}
+        body="Tell us about your application and our engineers will get back to you."
+        primary={{ label: "Contact our team", href: "/contact#enquiry-general" }}
       />
 
       <footer className="on-ink bg-ink text-on-dark">
-        <div className="shell pt-12 lg:pt-16">
-          {/* Key facts */}
-          <ul className="grid grid-cols-2 overflow-hidden rounded-2xl border border-ink-line bg-ink-raised lg:grid-cols-4">
-            {facts.map(({ icon: Icon, value, label }, index) => (
-              <li
-                key={label}
-                className={`flex items-center gap-3.5 p-5 ${
-                  index > 0 ? "lg:border-l lg:border-ink-line" : ""
-                } ${index % 2 === 1 ? "border-l border-ink-line lg:border-l" : ""} ${
-                  index > 1 ? "border-t border-ink-line lg:border-t-0" : ""
-                }`}
+        <div className="shell grid gap-8 py-8 lg:grid-cols-[1.3fr_repeat(3,1fr)_1.3fr] lg:gap-10">
+          <div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={LOGO} alt="BVK Hydrotech" width={170} height={85} className="h-8 w-auto" />
+            <p className="max-w-xs pt-3 text-[0.8125rem] leading-snug text-on-dark-muted">
+              {settings.tagline ?? "Indian Agility. German Precision. Performance Engineered."}
+            </p>
+            {settings.linkedin && (
+              <a
+                href={settings.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="BVK Group on LinkedIn"
+                className="mt-4 inline-flex h-9 w-9 items-center justify-center rounded-md border border-ink-line text-on-dark-muted transition hover:border-brand hover:text-white"
               >
-                <span
-                  aria-hidden
-                  className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-brand/10 text-brand"
-                >
-                  <Icon className="h-5 w-5" />
-                </span>
-                <span>
-                  <span className="block font-display text-lg leading-tight text-white">{value}</span>
-                  <span className="mt-0.5 block text-[0.6875rem] text-on-dark-faint">{label}</span>
-                </span>
-              </li>
-            ))}
-          </ul>
-
-          {/* Brand + link columns */}
-          <div className="grid gap-12 py-12 lg:py-14 xl:grid-cols-[1.1fr_2fr] xl:gap-20">
-            <div>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={LOGO} alt="BVK Hydrotech" width={170} height={85} className="h-10 w-auto" />
-              <p className="mt-5 max-w-sm font-display text-base leading-snug text-white">
-                {settings.tagline ?? "Indian Agility. German Precision. Performance Engineered."}
-              </p>
-              <p className="mt-3 max-w-sm text-[0.8125rem] leading-relaxed text-on-dark-muted">
-                Precision woven mesh, knitted mesh and custom metal mesh components for green
-                hydrogen, fuel cells, industrial filtration and clean-energy manufacturing.
-              </p>
-              <div className="mt-7 flex flex-wrap items-center gap-3">
-                <Link href="/resources" className="btn btn-outline-light">
-                  <FileText aria-hidden className="h-4 w-4 text-brand" />
-                  Download brochures
-                </Link>
-                {settings.linkedin && (
-                  <a
-                    href={settings.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="BVK Group on LinkedIn"
-                    className="inline-flex h-12 w-12 items-center justify-center rounded-md border border-ink-line text-on-dark-muted transition hover:border-brand hover:text-white"
-                  >
-                    <LinkedInIcon className="h-4 w-4" />
-                  </a>
-                )}
-              </div>
-            </div>
-
-            <div className="grid gap-10 sm:grid-cols-2 xl:grid-cols-4">
-              <Column title="Solutions" links={solutions} />
-              <Column title="Company" links={company} />
-              <Column title="Resources" links={resources} />
-              <div>
-                <h3 className="font-display text-sm text-white">Product families</h3>
-                <span aria-hidden className="mt-3 block h-0.5 w-8 rounded-full bg-brand" />
-                <ul className="mt-4 space-y-2.5">
-                  {productFamilies.map((item) => (
-                    <li key={item}>
-                      <Link
-                        href="/precision-mesh-solutions"
-                        className="text-[0.8125rem] text-on-dark-muted transition-colors hover:text-white"
-                      >
-                        {item}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-                <Link
-                  href="/precision-mesh-solutions"
-                  className="mt-5 inline-flex items-center gap-1.5 text-[0.8125rem] font-semibold text-brand transition-colors hover:text-white"
-                >
-                  View product range
-                  <ArrowUpRight aria-hidden className="h-4 w-4" />
-                </Link>
-              </div>
-            </div>
+                <LinkedInIcon className="h-4 w-4" />
+              </a>
+            )}
           </div>
 
-          {/* Contact (two lines each) + certification badges */}
-          <div className="grid gap-8 border-t border-ink-line py-8 lg:grid-cols-[1.5fr_1fr_1fr_auto] lg:items-center">
-            {settings.address && (
-              <ContactItem icon={MapPin} label="Plant & office">
-                {settings.address.replace(/\s*\n\s*/g, ", ")}
-              </ContactItem>
-            )}
-            {settings.phone && (
-              <ContactItem icon={Phone} label="Call">
-                <a href={`tel:${settings.phone.replace(/\s/g, "")}`} className="transition-colors hover:text-white">
-                  {settings.phone}
-                </a>
-                {settings.phone2 && (
-                  <>
-                    {" / "}
-                    <a href={`tel:${settings.phone2.replace(/\s/g, "")}`} className="transition-colors hover:text-white">
-                      {settings.phone2}
-                    </a>
-                  </>
-                )}
-              </ContactItem>
-            )}
-            {settings.email && (
-              <ContactItem icon={Mail} label="Email">
-                <a href={`mailto:${settings.email}`} className="transition-colors hover:text-white">
-                  {settings.email}
-                </a>
-              </ContactItem>
-            )}
+          <Column title="Solutions" links={solutions} />
+          <Column title="Company" links={company} />
+          <Column title="Resources" links={resources} />
 
-            <ul aria-label="Certifications" className="flex items-center gap-2 lg:justify-end">
+          <div>
+            <h3 className="font-display text-sm text-white">Contact</h3>
+            <ul className="mt-3 space-y-2 text-[0.8125rem] leading-snug text-on-dark-muted">
+              {settings.address && (
+                <li className="flex gap-2">
+                  <MapPin aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-brand" />
+                  <span>{oneLine(settings.address)}</span>
+                </li>
+              )}
+              {settings.phone && (
+                <li className="flex gap-2">
+                  <Phone aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-brand" />
+                  <span>
+                    <a href={telHref(settings.phone)} className="transition-colors hover:text-white">
+                      {settings.phone}
+                    </a>
+                    {settings.phone2 && (
+                      <>
+                        {" / "}
+                        <a href={telHref(settings.phone2)} className="transition-colors hover:text-white">
+                          {settings.phone2}
+                        </a>
+                      </>
+                    )}
+                  </span>
+                </li>
+              )}
+              {settings.email && (
+                <li className="flex gap-2">
+                  <Mail aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-brand" />
+                  <a href={`mailto:${settings.email}`} className="transition-colors hover:text-white">
+                    {settings.email}
+                  </a>
+                </li>
+              )}
+            </ul>
+          </div>
+        </div>
+
+        <div className="border-t border-ink-line">
+          <div className="shell flex flex-col gap-3 py-4 text-[0.75rem] text-on-dark-faint lg:flex-row lg:items-center lg:justify-between">
+            <p>
+              {settings.copyright ??
+                `© ${year} BVK Hydrotech India Pvt. Ltd. A BVK Group Company. All rights reserved.`}
+            </p>
+
+            <ul aria-label="Certifications" className="flex items-center gap-1.5">
               {credentials.map((credential) => (
                 <li key={credential.name} title={credential.name}>
-                  <span className="flex h-11 w-11 items-center justify-center rounded-md bg-white p-1">
+                  <span className="flex h-8 w-8 items-center justify-center rounded bg-white p-0.5">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={`/media/${credential.file}`}
                       alt={credential.name}
-                      width={36}
-                      height={36}
+                      width={28}
+                      height={28}
                       loading="lazy"
                       className="h-full w-full object-contain"
                     />
@@ -291,16 +204,8 @@ export default function Footer({ menus, settings }: FooterProps) {
                 </li>
               ))}
             </ul>
-          </div>
-        </div>
 
-        <div className="border-t border-ink-line">
-          <div className="shell flex flex-col gap-4 py-5 text-[0.6875rem] text-on-dark-faint lg:flex-row lg:items-center lg:justify-between">
-            <p>
-              {settings.copyright ??
-                `© ${year} BVK Hydrotech India Pvt. Ltd. A BVK Group Company. All rights reserved.`}
-            </p>
-            <ul className="flex flex-wrap gap-x-6 gap-y-2">
+            <ul className="flex flex-wrap gap-x-5 gap-y-1">
               {legal.map((link) => (
                 <li key={link.url}>
                   <Link href={link.url} className="transition-colors hover:text-on-dark-muted">

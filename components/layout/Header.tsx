@@ -160,7 +160,7 @@ export default function Header() {
 
           <div className="flex items-center gap-3">
             <Link href="/contact" className="btn btn-green hidden !px-5 !py-3 sm:inline-flex">
-              Request RFQ
+              Contact Us
               <ArrowUpRight aria-hidden className="h-4 w-4" />
             </Link>
 
@@ -392,7 +392,7 @@ export default function Header() {
             Contact
           </Link>
           <Link href="/contact" onClick={closeMobile} className="btn btn-green mt-6">
-            Request Technical RFQ
+            Contact Us
             <ArrowUpRight aria-hidden className="h-4 w-4" />
           </Link>
         </nav>

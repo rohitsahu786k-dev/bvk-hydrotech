@@ -163,7 +163,11 @@ export default async function SitePage({ params }: PageProps) {
       {faqs.length > 0 && (
         <FaqAccordion
           faqs={faqs}
-          title={`${content?.breadcrumb ?? page?.title} FAQs`}
+          title={
+            /faqs?$/i.test(content?.breadcrumb ?? "")
+              ? "Frequently asked questions"
+              : `${content?.breadcrumb ?? page?.title} FAQs`
+          }
           description="Answers to the questions buyers and engineers ask most often about this part of our range."
         />
       )}

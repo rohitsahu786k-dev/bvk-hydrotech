@@ -50,13 +50,13 @@ export const metadata: Metadata = {
 
 const intents = [
   {
-    href: "#enquiry",
+    href: "#enquiry-general",
     icon: ClipboardList,
-    title: "Technical RFQ",
-    text: "Share specifications, drawings and application details.",
+    title: "Product Enquiry",
+    text: "Tell us about your application and what you need.",
   },
   {
-    href: "#enquiry",
+    href: "#enquiry-general",
     icon: MessagesSquare,
     title: "Application Engineering",
     text: "Discuss your application with our technical experts.",
@@ -132,12 +132,12 @@ export default async function ContactPage() {
       <JsonLd data={schemas} />
 
       <PageHero
-        title="Contact & RFQ"
+        title="Contact"
         hero={{
           badge: "CONTACT",
           title: "Start a technical enquiry",
           subtitle:
-            "Share your requirements, drawings and application details. Our engineering team will get back with a suitable material recommendation and indicative lead time.",
+            "Tell us about your application. Our engineering team will get in touch to understand your requirement and take it forward.",
           image: null,
           buttonText: null,
           buttonUrl: null,
@@ -379,8 +379,8 @@ export default async function ContactPage() {
 
       <FaqAccordion
         faqs={faqs}
-        title="Contact & RFQ FAQs"
-        description="Questions about sharing requirements, drawings and technical enquiry details."
+        title="Contact FAQs"
+        description="Questions about getting in touch and what happens next."
       />
 
       <CertificationsStrip items={certifications} />
