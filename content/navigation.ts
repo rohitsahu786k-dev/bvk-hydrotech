@@ -5,7 +5,6 @@ import {
   Droplets,
   Factory,
   FileText,
-  Filter,
   Flame,
   FlaskConical,
   Globe2,
@@ -66,10 +65,10 @@ export const navigation: NavItem[] = [
   {
     key: "solutions",
     label: "Solutions",
-    blurb: "Mesh, components and application solutions for hydrogen and industry.",
+    blurb: "Mesh and components for hydrogen and industry.",
     groups: [
       {
-        title: "Hydrogen & fuel cells",
+        title: "Solutions",
         links: [
           {
             label: "Electrolyser Solutions",
@@ -115,27 +114,6 @@ export const navigation: NavItem[] = [
             spec: "Wire 0.05–0.30 mm · large single-piece diameters",
             description: "Single, double and multi-end knits for stacks, GDLs and elastic elements.",
             icon: Network,
-          },
-        ],
-      },
-      {
-        title: "Applications",
-        links: [
-          {
-            label: "Industrial Filtration",
-            href: "/industrial-filtration",
-            tagline: "Filter mesh and elements",
-            spec: "Candles · pleated filters · discs · screen cylinders",
-            description: "Filter mesh and elements for separation, de-watering and process protection.",
-            icon: Filter,
-          },
-          {
-            label: "Energy & Clean Tech",
-            href: "/energy-clean-tech",
-            tagline: "Electrolysis to balance of plant",
-            spec: "Electrolysis · fuel cells · purification · balance of plant",
-            description: "Components for electrolysis, hydrogen purification and balance-of-plant.",
-            icon: Leaf,
           },
         ],
       },

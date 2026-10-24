@@ -1,22 +1,20 @@
 import Image from "next/image";
 import InfiniteSlider from "@/components/ui/InfiniteSlider";
-import type { Certification } from "@/lib/wordpress/home";
+import { certifications } from "@/content/certifications";
 
 /**
  * Quality credentials. B2B buyers screen on these before they read anything
  * else, so they get a clear white carousel band near the bottom of the page.
  */
 export default function CertificationsStrip({
-  items,
   title = "Certified quality, safety and compliance",
   description = "Recognised management systems and compliance badges supporting precision mesh manufacturing for industrial, energy and aerospace applications.",
 }: {
-  items: Certification[];
+  /** Kept so existing call sites compile; the set of marks is fixed. */
+  items?: unknown;
   title?: string;
   description?: string;
 }) {
-  if (!items.length) return null;
-
   return (
     <section
       aria-labelledby="certifications-heading"
@@ -39,28 +37,21 @@ export default function CertificationsStrip({
           durationOnHover={110}
           className="mt-10 [mask-image:linear-gradient(to_right,transparent,black_6%,black_94%,transparent)]"
         >
-          {items.map((cert) => (
+          {certifications.map((cert) => (
             <div
-              key={cert.title}
+              key={cert.name}
               className="flex h-48 w-52 shrink-0 flex-col items-center justify-center border border-hairline bg-white p-6 text-center"
             >
-              {cert.logo?.sourceUrl ? (
-                <span className="relative block h-24 w-28">
-                  <Image
-                    src={cert.logo.sourceUrl}
-                    alt={cert.logo.altText || cert.standard || cert.title}
-                    fill
-                    sizes="112px"
-                    className="object-contain"
-                  />
-                </span>
-              ) : (
-                <span aria-hidden className="block h-0.5 w-10 bg-brand" />
-              )}
-
-              <p className="mt-5 min-h-10 text-sm font-semibold leading-tight text-ink">
-                {cert.standard || cert.title}
-              </p>
+              <span className="relative block h-24 w-28">
+                <Image
+                  src={`/media/${cert.file}`}
+                  alt={cert.name}
+                  fill
+                  sizes="112px"
+                  className="object-contain"
+                />
+              </span>
+              <p className="mt-5 min-h-10 text-sm font-semibold leading-tight text-ink">{cert.name}</p>
             </div>
           ))}
         </InfiniteSlider>
