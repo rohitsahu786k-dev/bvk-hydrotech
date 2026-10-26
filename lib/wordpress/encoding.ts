@@ -1,3 +1,5 @@
+import { SITE_EMAIL } from "@/lib/site";
+
 /**
  * Some WordPress content was saved with UTF-8 bytes read as Windows-1252, so a
  * bullet arrives as "â€¢" and a dash as "â€“". Repair those sequences before
@@ -26,9 +28,12 @@ const REPAIRS: [RegExp, string][] = [
   [/Â(?=\s|\u00a0)/g, ""],
 ];
 
+/** Older addresses still sitting in WordPress content. */
+const OLD_EMAILS = /(?:info|marketing|sales|enquiry|contact)@(?:bvkgroup\.in|wmwindia\.com|bvkhydrotech\.in)/gi;
+
 export function repairText(text: string): string {
-  if (!/[âÂÃ]/.test(text)) return text;
-  let out = text;
+  let out = text.replace(OLD_EMAILS, SITE_EMAIL);
+  if (!/[âÂÃ]/.test(out)) return out;
   for (const [pattern, to] of REPAIRS) out = out.replace(pattern, to);
   return out;
 }

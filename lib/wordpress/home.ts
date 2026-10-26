@@ -7,6 +7,7 @@
  * copy; the fallbacks exist only so a half-populated CMS still renders.
  */
 
+import { SITE_EMAIL } from "@/lib/site";
 import fetchGraphQL from "./graphql-client";
 
 // ---------------------------------------------------------------------------
@@ -447,7 +448,7 @@ function normalise(raw: any): HomeData {
     settings: {
       phone: s.sitePhone,
       phone2: s.sitePhone2,
-      email: s.siteEmail,
+      email: SITE_EMAIL,
       address: s.siteAddress,
       factoryAddress: s.factoryAddress,
       linkedin: s.socialLinkedin,

@@ -1,8 +1,7 @@
-import type { NextConfig } from "next";
-
 const mediaHost = (process.env.NEXT_PUBLIC_WORDPRESS_URL ?? "https://dev.bhavcreations.in").replace(/\/$/, "");
 
-const nextConfig: NextConfig = {
+/** @type {import("next").NextConfig} */
+const nextConfig = {
   // Media is served from this site's own /media path; see lib/media.ts.
   async rewrites() {
     return [{ source: "/media/:path*", destination: `${mediaHost}/wp-content/uploads/:path*` }];
