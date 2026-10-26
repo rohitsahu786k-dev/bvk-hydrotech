@@ -6,7 +6,7 @@ import { readJson } from "./encoding";
 
 import { rewriteMedia } from "@/lib/media";
 
-const GRAPHQL_URL = process.env.WORDPRESS_GRAPHQL_URL || "https://dev.bhavcreations.in/graphql";
+const GRAPHQL_URL = process.env.WORDPRESS_GRAPHQL_URL || "https://admin.bvkhydrotech.com/graphql";
 const WP_USERNAME = process.env.WORDPRESS_USERNAME;
 const WP_APP_PASSWORD = process.env.WORDPRESS_APP_PASSWORD;
 

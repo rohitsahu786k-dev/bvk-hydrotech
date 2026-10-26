@@ -1,4 +1,4 @@
-const mediaHost = (process.env.NEXT_PUBLIC_WORDPRESS_URL ?? "https://dev.bhavcreations.in").replace(/\/$/, "");
+const mediaHost = (process.env.NEXT_PUBLIC_WORDPRESS_URL ?? "https://admin.bvkhydrotech.com").replace(/\/$/, "");
 
 /** @type {import("next").NextConfig} */
 const nextConfig = {
@@ -8,6 +8,11 @@ const nextConfig = {
   },
   images: {
     remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "admin.bvkhydrotech.com",
+        pathname: "/wp-content/uploads/**",
+      },
       {
         protocol: "https",
         hostname: "dev.bhavcreations.in",

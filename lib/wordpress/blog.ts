@@ -51,7 +51,7 @@ export interface BlogPost {
 const SAMPLE_SLUGS = new Set(["hello-world"]);
 
 function base() {
-  return (process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://dev.bhavcreations.in").replace(/\/$/, "");
+  return (process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://admin.bvkhydrotech.com").replace(/\/$/, "");
 }
 
 function decode(text: string) {
