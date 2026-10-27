@@ -1,3 +1,4 @@
+import { OG_DEFAULT } from "@/lib/seo/defaults";
 import type { Metadata } from "next";
 import BlogListing from "@/components/blog/BlogListing";
 
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Articles from BVK Hydrotech engineers on mesh materials, knitted and woven construction, electrolyser and fuel cell components, and filtration.",
   alternates: { canonical: "/blog" },
-  openGraph: { type: "website", url: "/blog", title: "BVK Hydrotech Blog" },
+  openGraph: { type: "website", url: "/blog", title: "BVK Hydrotech Blog", images: [OG_DEFAULT] },
 };
 
 export default function BlogIndexPage() {

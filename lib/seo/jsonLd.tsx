@@ -50,6 +50,7 @@ export function organisationSchema(settings: {
     name: "BVK Hydrotech India Pvt. Ltd.",
     alternateName: "BVK Hydrotech",
     url: siteUrl,
+    logo: `${siteUrl}/bvk-assets/bvk-hydrotech-logo-line.png`,
     foundingDate: "1963",
     description:
       "Manufacturer of precision woven and knitted metal mesh for green hydrogen electrolysers, fuel cells and industrial filtration.",
@@ -74,7 +75,7 @@ export function organisationSchema(settings: {
           "ISO 9001:2015",
           "ISO 14001:2015",
           "ISO 45001:2018",
-          "ISO 50001:2018",
+          "EN 9100 / AS9100",
           "DSIR Recognised R&D Centre",
         ],
   };

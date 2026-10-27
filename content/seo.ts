@@ -32,7 +32,7 @@ export const pageSeo: Record<string, PageSeo> = {
   },
 
   "precision-mesh-solutions": {
-    title: "Precision Wire Mesh Solutions | Woven & Knitted Metal Mesh",
+    title: "Precision Wire Mesh | Woven & Knitted Metal Mesh",
     description:
       "Precision wire mesh engineered to your duty: woven and knitted metal mesh in 14 catalogued alloys, with treatment, forming and cutting in one plant.",
     keywords: [
@@ -97,7 +97,7 @@ export const pageSeo: Record<string, PageSeo> = {
   },
 
   "knitted-mesh-solutions": {
-    title: "Knitted Wire Mesh | GDL, Elastic Elements & Stack Components",
+    title: "Knitted Wire Mesh | GDL & Elastic Elements",
     description:
       "Single, double and multi-end knitted wire mesh in nickel, titanium and stainless steel. Wire 0.05–0.30 mm, large single-piece diameters.",
     keywords: [
@@ -120,9 +120,9 @@ export const pageSeo: Record<string, PageSeo> = {
   },
 
   "electrolyser-solutions": {
-    title: "Electrolyser Mesh for Green Hydrogen Stacks | Alkaline & PEM",
+    title: "Electrolyser Mesh for Green Hydrogen | Alkaline & PEM",
     description:
-      "Electrolyser mesh for alkaline and PEM stacks: GDL and PTL layers, catalyst support, current collection and nickel elastic elements. Large single-piece diameters.",
+      "Electrolyser mesh for alkaline and PEM stacks: GDL and PTL layers, catalyst support, current collection and nickel elastic elements. Single-piece large sizes.",
     keywords: [
       "electrolyser mesh",
       "alkaline electrolyser components",
@@ -143,7 +143,7 @@ export const pageSeo: Record<string, PageSeo> = {
   },
 
   "fuel-cell-solutions": {
-    title: "Fuel Cell Mesh | Gas Diffusion & Electrode Support Components",
+    title: "Fuel Cell Mesh | Gas Diffusion & Electrode Support",
     description:
       "Fuel cell mesh for gas diffusion, current collection and electrode support in AFC, SOFC and PEM stacks. Specified against conductivity and pressure drop.",
     keywords: [
@@ -171,7 +171,7 @@ export const pageSeo: Record<string, PageSeo> = {
   },
 
   "industrial-filtration": {
-    title: "Industrial Filtration Mesh & Filter Elements | BVK Hydrotech",
+    title: "Industrial Filtration Mesh & Filter Elements",
     description:
       "Industrial filtration mesh and elements for separation, de-watering and process protection: filter candles, pleated filters, discs and screen cylinders.",
     keywords: [
@@ -214,7 +214,7 @@ export const pageSeo: Record<string, PageSeo> = {
   },
 
   "engineering-manufacturing": {
-    title: "Wire Mesh Manufacturing | Integrated Plant & Quality Systems",
+    title: "Wire Mesh Manufacturing | Integrated Plant & Quality",
     description:
       "Wire mesh manufacturing on German-origin equipment with Industry 4.0 control, Total Quality Management, Production Part Approval and 100% traceability.",
     keywords: [
@@ -235,7 +235,7 @@ export const pageSeo: Record<string, PageSeo> = {
   },
 
   "process-treatments": {
-    title: "Wire Mesh Treatment, Coating & Forming | Process Capability",
+    title: "Wire Mesh Coating, Forming & Treatment | BVK",
     description:
       "Wire mesh surface treatment and forming: micro-structure annealing, modulated coating, corrugation 4–10 mm, flattening, slitting and laser cutting.",
     keywords: [
@@ -257,7 +257,7 @@ export const pageSeo: Record<string, PageSeo> = {
   },
 
   "rd-cfd-prototyping": {
-    title: "Mesh CFD Simulation & Prototyping | DSIR-Recognised R&D",
+    title: "Mesh CFD & Prototyping | DSIR-Recognised R&D",
     description:
       "Mesh CFD simulation, rapid prototyping, air permeability topography, grain structure examination and stress testing from a DSIR-recognised R&D centre.",
     keywords: [
@@ -339,7 +339,7 @@ export const pageSeo: Record<string, PageSeo> = {
   },
 
   insights: {
-    title: "Mesh Engineering Guide | How Mesh Specifications Are Made",
+    title: "Mesh Engineering Guide | Mesh Specifications",
     description:
       "A mesh engineering guide: woven versus knitted, retention against pressure drop, treatment effects, alloy choice and what to validate before scale-up.",
     keywords: [
@@ -381,33 +381,33 @@ export const pageSeo: Record<string, PageSeo> = {
   // Legal pages. Thin by nature, so they carry a plain title and a low sitemap
   // priority rather than keyword targeting.
   "privacy-policy": {
-    title: "Privacy Policy",
+    title: "Privacy Policy | BVK Hydrotech",
     description:
-      "How BVK Hydrotech India Pvt. Ltd. collects, uses, stores and protects personal data submitted through this website.",
+      "How BVK Hydrotech India Pvt. Ltd. collects, uses, stores and protects personal data submitted through this website, and the choices you have over it.",
     keywords: ["BVK Hydrotech privacy policy"],
   },
   "terms-of-use": {
-    title: "Terms & Conditions",
+    title: "Terms & Conditions | BVK Hydrotech",
     description:
-      "The terms and conditions governing use of the BVK Hydrotech website and any enquiry submitted through it.",
+      "The terms and conditions governing use of the BVK Hydrotech website, its published technical information and any enquiry submitted through it.",
     keywords: ["BVK Hydrotech terms and conditions"],
   },
   "terms-and-conditions": {
-    title: "Terms & Conditions",
+    title: "Terms & Conditions | BVK Hydrotech",
     description:
-      "The terms and conditions governing use of the BVK Hydrotech website and any enquiry submitted through it.",
+      "The terms and conditions governing use of the BVK Hydrotech website, its published technical information and any enquiry submitted through it.",
     keywords: ["BVK Hydrotech terms and conditions"],
   },
   "cookie-policy": {
-    title: "Cookie Policy",
+    title: "Cookie Policy | BVK Hydrotech",
     description:
-      "How BVK Hydrotech uses cookies and similar technologies on this website, and how to control them.",
+      "How BVK Hydrotech uses cookies and similar technologies on this website, what each is used for, and how you can control or switch them off.",
     keywords: ["BVK Hydrotech cookie policy"],
   },
   disclaimer: {
-    title: "Disclaimer",
+    title: "Disclaimer | BVK Hydrotech",
     description:
-      "Disclaimer covering the technical information, specifications and material published on the BVK Hydrotech website.",
+      "Disclaimer covering the technical information, specifications and material published on the BVK Hydrotech website, and the limits of its use.",
     keywords: ["BVK Hydrotech disclaimer"],
   },
 };

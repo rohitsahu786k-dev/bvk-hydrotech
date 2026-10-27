@@ -1,3 +1,4 @@
+import { OG_DEFAULT } from "@/lib/seo/defaults";
 import { stripListBullets } from "@/lib/wordpress/encoding";
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -59,7 +60,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const title = seo?.title || page?.seo.title || page?.title;
   const description =
     seo?.description || page?.seo.description || page?.hero.subtitle || undefined;
-  const image = content?.hero.image.src ?? page?.hero.image?.sourceUrl;
+  const image = content?.hero.image.src ?? page?.hero.image?.sourceUrl ?? OG_DEFAULT.url;
 
   return {
     title: seo?.title ? { absolute: seo.title } : title,

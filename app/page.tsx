@@ -14,15 +14,24 @@ import SustainabilitySection from "@/components/sections/SustainabilitySection";
 import ResourcesSection from "@/components/sections/ResourcesSection";
 import FaqAccordion from "@/components/sections/FaqAccordion";
 import CtaSection from "@/components/sections/CtaSection";
+import { OG_DEFAULT } from "@/lib/seo/defaults";
 import { JsonLd, faqSchema } from "@/lib/seo/jsonLd";
 
 export const revalidate = 300;
 
 export const metadata: Metadata = {
-  title: "Precision Mesh For The Hydrogen Economy",
+  title: { absolute: "BVK Hydrotech | Precision Mesh for Electrolysers & Fuel Cells" },
   description:
-    "BVK Hydrotech engineers woven and knitted precision mesh for electrolyser stacks, fuel cell electrodes and gas diffusion layers. Nickel 201/202, titanium and stainless steel, with large single-piece diameters. IATF 16949 and ISO 9001 certified, exporting to 25+ countries since 1963.",
+    "Woven and knitted precision mesh for electrolyser stacks, fuel cells and filtration. Nickel, titanium and stainless steel. IATF 16949 certified since 1963.",
   alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    url: "/",
+    title: "BVK Hydrotech | Precision Mesh for Electrolysers & Fuel Cells",
+    description:
+      "Woven and knitted precision mesh for electrolyser stacks, fuel cells and filtration. IATF 16949 certified since 1963.",
+    images: [OG_DEFAULT],
+  },
 };
 
 export default async function HomePage() {

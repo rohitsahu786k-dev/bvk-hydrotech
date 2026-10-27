@@ -34,7 +34,7 @@ export default function HomeSolutionsDuo() {
             >
               <Image
                 src={card.image}
-                alt=""
+                alt={card.title}
                 fill
                 sizes="(min-width: 1024px) 46vw, 100vw"
                 className="-z-10 object-cover object-top transition-transform duration-[1400ms] ease-out group-hover:scale-105 lg:object-[60%_50%]"

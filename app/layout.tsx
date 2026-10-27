@@ -4,13 +4,14 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import MotionObserver from "@/components/ui/MotionObserver";
 import { getChrome } from "@/lib/wordpress/home";
+import { OG_DEFAULT } from "@/lib/seo/defaults";
 import { JsonLd, organisationSchema, websiteSchema } from "@/lib/seo/jsonLd";
 
 const siteName = process.env.NEXT_PUBLIC_SITE_NAME || "BVK Hydrotech";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bvkhydrotech.com";
 
 const description =
-  "BVK Hydrotech engineers woven and knitted precision mesh for green hydrogen electrolysers, fuel cells and industrial filtration. Nickel 201/202, titanium and stainless steel, with large single-piece diameters. IATF 16949 and ISO 9001 certified, exporting to 25+ countries since 1963.";
+  "Precision woven and knitted metal mesh for green hydrogen electrolysers, fuel cells and industrial filtration. IATF 16949 certified, exporting to 25+ countries.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -52,11 +53,13 @@ export const metadata: Metadata = {
     siteName,
     title: `${siteName} | Precision Mesh For Electrolysers & Fuel Cells`,
     description,
+    images: [OG_DEFAULT],
   },
   twitter: {
     card: "summary_large_image",
     title: `${siteName} | Precision Mesh For Electrolysers & Fuel Cells`,
     description,
+    images: [OG_DEFAULT.url],
   },
   alternates: { canonical: "/" },
   verification: { google: process.env.GOOGLE_SEARCH_CONSOLE_ID },

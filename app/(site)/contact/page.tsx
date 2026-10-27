@@ -1,3 +1,4 @@
+import { OG_DEFAULT } from "@/lib/seo/defaults";
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
@@ -45,6 +46,7 @@ export const metadata: Metadata = {
     description:
       "Send drawings, cell chemistry and target porosity. Our application engineers reply with a material recommendation, mesh design and indicative lead time.",
     url: "/contact",
+    images: [OG_DEFAULT],
   },
 };
 
