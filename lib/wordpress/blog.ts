@@ -1,3 +1,4 @@
+import { wordpressOrigin } from "@/lib/site";
 import { readJson } from "./encoding";
 /**
  * Blog posts over the WordPress REST API.
@@ -51,7 +52,7 @@ export interface BlogPost {
 const SAMPLE_SLUGS = new Set(["hello-world"]);
 
 function base() {
-  return (process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://admin.bvkhydrotech.com").replace(/\/$/, "");
+  return wordpressOrigin();
 }
 
 function decode(text: string) {

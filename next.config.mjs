@@ -1,4 +1,11 @@
-const mediaHost = (process.env.NEXT_PUBLIC_WORDPRESS_URL ?? "https://admin.bvkhydrotech.com").replace(/\/$/, "");
+// Only the origin matters: the login URL (/manage-wp) is not where uploads live.
+const mediaHost = (() => {
+  try {
+    return new URL(process.env.NEXT_PUBLIC_WORDPRESS_URL ?? "https://admin.bvkhydrotech.com").origin;
+  } catch {
+    return "https://admin.bvkhydrotech.com";
+  }
+})();
 
 /** @type {import("next").NextConfig} */
 const nextConfig = {

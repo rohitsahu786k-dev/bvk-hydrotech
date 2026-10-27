@@ -1,3 +1,4 @@
+import { wordpressOrigin } from "@/lib/site";
 import { readJson } from "./encoding";
 /**
  * Generic WordPress pages for the /[slug] route.
@@ -125,7 +126,7 @@ export async function getPageSlugs(): Promise<{ slug: string; modified?: string 
 
 export async function getPageFaqs(slug: string): Promise<FaqItem[]> {
   try {
-    const base = process.env.NEXT_PUBLIC_WORDPRESS_URL || "https://admin.bvkhydrotech.com";
+    const base = wordpressOrigin();
     const response = await fetch(`${base.replace(/\/$/, "")}/wp-json/wp/v2/pages?slug=${encodeURIComponent(slug)}&status=publish&_fields=acf`, {
       next: { revalidate: 900, tags: ["wp-pages", `wp-page-${slug}`] },
     });
