@@ -17,6 +17,12 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
   const productHref = (slug: string) =>
     slug.includes("woven") ? "/woven-mesh-solutions" : "/knitted-mesh-solutions";
 
+  // Card artwork for the two product families, used when the CMS record has no picture.
+  const familyImage = (slug: string) =>
+    slug.includes("woven")
+      ? "/bvk-assets/woven-mesh/woven-wave-sheet.webp"
+      : "/bvk-assets/precision-mesh/11_knitted_mesh_solutions_card_1200x800.webp";
+
   return (
     <section className="section bg-surface-raised">
       <div className="shell">
@@ -89,17 +95,30 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
               <li key={product.slug}>
                 <Link
                   href={productHref(product.slug)}
-                  className="card-light group flex h-full items-start gap-6 p-7"
+                  className="card-light group flex h-full flex-col overflow-hidden sm:flex-row sm:items-stretch"
                 >
-                  <div className="flex-1">
-                    <h3 className="font-display text-lg tracking-tight text-ink">
-                      {product.title}
-                    </h3>
-                    {product.description && (
-                      <p className="mt-2.5 text-sm leading-relaxed text-grey">{product.description}</p>
-                    )}
+                  <div className="relative aspect-[3/2] w-full shrink-0 overflow-hidden bg-surface-raised sm:aspect-auto sm:w-2/5">
+                    <Image
+                      src={familyImage(product.slug)}
+                      alt={product.title}
+                      fill
+                      sizes="(min-width: 1024px) 20vw, (min-width: 640px) 40vw, 100vw"
+                      className={`transition-transform duration-700 group-hover:scale-105 ${
+                        product.slug.includes("woven") ? "object-contain p-3" : "object-cover"
+                      }`}
+                    />
                   </div>
-                  <ArrowUpRight className="mt-1 h-5 w-5 shrink-0 text-brand-deep transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  <div className="flex flex-1 items-start gap-4 p-7">
+                    <div className="flex-1">
+                      <h3 className="font-display text-lg tracking-tight text-ink">
+                        {product.title}
+                      </h3>
+                      {product.description && (
+                        <p className="mt-2.5 text-sm leading-relaxed text-grey">{product.description}</p>
+                      )}
+                    </div>
+                    <ArrowUpRight className="mt-1 h-5 w-5 shrink-0 text-brand-deep transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </div>
                 </Link>
               </li>
             ))}
