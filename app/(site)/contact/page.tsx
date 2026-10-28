@@ -5,14 +5,12 @@ import {
   Activity,
   ArrowRight,
   ArrowUpRight,
-  ClipboardList,
   FileText,
   FlaskConical,
   Grid3x3,
   Layers,
   Mail,
   MapPin,
-  MessagesSquare,
   Phone,
   Settings,
   Truck,
@@ -49,27 +47,6 @@ export const metadata: Metadata = {
     images: [OG_DEFAULT],
   },
 };
-
-const intents = [
-  {
-    href: "#enquiry-general",
-    icon: ClipboardList,
-    title: "Product Enquiry",
-    text: "Tell us about your application and what you need.",
-  },
-  {
-    href: "#enquiry-general",
-    icon: MessagesSquare,
-    title: "Application Engineering",
-    text: "Discuss your application with our technical experts.",
-  },
-  {
-    href: "#enquiry-general",
-    icon: Mail,
-    title: "General Enquiry",
-    text: "For partnerships, distributors and other enquiries.",
-  },
-];
 
 const capabilities = [
   { icon: Activity, title: "CFD-supported engineering" },
@@ -147,31 +124,6 @@ export default async function ContactPage() {
           button2Url: null,
         }}
       />
-
-      {/* Intent cards, overlapping the hero's lower edge. */}
-      <section aria-label="Enquiry type" className="relative z-10 -mt-10">
-        <div className="shell grid gap-4 md:grid-cols-3">
-          {intents.map(({ href, icon: Icon, title, text }) => (
-            <a
-              key={title}
-              href={href}
-              className="group flex items-center gap-4 rounded-lg border border-hairline bg-surface p-5 transition-colors duration-300 hover:border-brand-deep/50"
-            >
-              <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-brand-deep text-white">
-                <Icon aria-hidden className="h-5 w-5" />
-              </span>
-              <span className="flex-1">
-                <span className="block font-display text-base text-ink">{title}</span>
-                <span className="block text-grey">{text}</span>
-              </span>
-              <ArrowRight
-                aria-hidden
-                className="h-4 w-4 shrink-0 text-brand-deep transition-transform duration-300 group-hover:translate-x-1"
-              />
-            </a>
-          ))}
-        </div>
-      </section>
 
       <section id="enquiry" className="section scroll-mt-24 bg-surface">
         <div className="shell grid gap-6 lg:grid-cols-[18rem_minmax(0,1fr)_12rem]">
