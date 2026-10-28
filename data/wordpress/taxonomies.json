@@ -12,12 +12,12 @@
   "_links": {
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/taxonomies"
     }
    ],
    "wp:items": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/categories"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/categories"
     }
    ],
    "curies": [
@@ -42,12 +42,12 @@
   "_links": {
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/taxonomies"
     }
    ],
    "wp:items": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/tags"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/tags"
     }
    ],
    "curies": [
@@ -72,12 +72,12 @@
   "_links": {
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/taxonomies"
     }
    ],
    "wp:items": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/menus"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/menus"
     }
    ],
    "curies": [
@@ -102,12 +102,12 @@
   "_links": {
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/taxonomies"
     }
    ],
    "wp:items": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/wp_pattern_category"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/wp_pattern_category"
     }
    ],
    "curies": [
@@ -132,12 +132,12 @@
   "_links": {
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/taxonomies"
     }
    ],
    "wp:items": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/product-categories"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/product-categories"
     }
    ],
    "curies": [
@@ -164,12 +164,12 @@
   "_links": {
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/taxonomies"
     }
    ],
    "wp:items": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industry-tags"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industry-tags"
     }
    ],
    "curies": [
@@ -194,12 +194,12 @@
   "_links": {
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/taxonomies"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/taxonomies"
     }
    ],
    "wp:items": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/materials"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/materials"
     }
    ],
    "curies": [

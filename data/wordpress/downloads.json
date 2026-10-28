@@ -4,14 +4,14 @@
   "date": "2026-09-21T12:53:34",
   "date_gmt": "2026-09-21T12:53:34",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/"
+   "rendered": "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/"
   },
   "modified": "2026-09-22T04:47:38",
   "modified_gmt": "2026-09-22T04:47:38",
   "slug": "green-hydrogen-knitted-mesh-leaflet",
   "status": "publish",
   "type": "bvk_download",
-  "link": "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/",
+  "link": "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/",
   "title": {
    "rendered": "Green Hydrogen Knitted Mesh Solutions"
   },
@@ -38,12 +38,76 @@
    "hentry"
   ],
   "acf": {
-   "download_file": 49,
+   "download_file": {
+    "ID": 49,
+    "id": 49,
+    "title": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+    "filename": "green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+    "filesize": 711276,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+    "link": "https://admin.bvkhydrotech.com/products/voltra-lite/green-hydrogen-knitted-mesh-solutions-leaflet/",
+    "alt": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "green-hydrogen-knitted-mesh-solutions-leaflet",
+    "status": "inherit",
+    "uploaded_to": 120,
+    "date": "2026-09-21 12:29:48",
+    "modified": "2026-09-21 12:53:13",
+    "menu_order": 0,
+    "mime_type": "application/pdf",
+    "type": "application",
+    "subtype": "pdf",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+   },
+   "download_file_source": {
+    "label": "Download File (PDF)",
+    "type": "file",
+    "formatted_value": {
+     "ID": 49,
+     "id": 49,
+     "title": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+     "filename": "green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+     "filesize": 711276,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+     "link": "https://admin.bvkhydrotech.com/products/voltra-lite/green-hydrogen-knitted-mesh-solutions-leaflet/",
+     "alt": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "green-hydrogen-knitted-mesh-solutions-leaflet",
+     "status": "inherit",
+     "uploaded_to": 120,
+     "date": "2026-09-21 12:29:48",
+     "modified": "2026-09-21 12:53:13",
+     "menu_order": 0,
+     "mime_type": "application/pdf",
+     "type": "application",
+     "subtype": "pdf",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+    }
+   },
    "download_type": "datasheet",
+   "download_type_source": {
+    "label": "File Type",
+    "type": "select",
+    "formatted_value": "datasheet"
+   },
    "description": "Voltra Lite, Voltra + and Voltra Max knit types mapped to electrolyser stack applications.",
-   "is_featured": true
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Voltra Lite, Voltra + and Voltra Max knit types mapped to electrolyser stack applications."
+   },
+   "is_featured": true,
+   "is_featured_source": {
+    "label": "Featured Download",
+    "type": "true_false",
+    "formatted_value": true
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Green Hydrogen Knitted Mesh Solutions - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Green Hydrogen Knitted Mesh Solutions - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:38+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/tube1-scaled.png\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1440\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/\",\"name\":\"Green Hydrogen Knitted Mesh Solutions - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/tube1-scaled.png\",\"datePublished\":\"2026-09-21T12:53:34+00:00\",\"dateModified\":\"2026-09-22T04:47:38+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/tube1-scaled.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/tube1-scaled.png\",\"width\":2560,\"height\":1440,\"caption\":\"Tube1\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Downloads\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Green Hydrogen Knitted Mesh Solutions\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Green Hydrogen Knitted Mesh Solutions - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Green Hydrogen Knitted Mesh Solutions - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:38+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/tube1-scaled.png\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1440\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/\",\"name\":\"Green Hydrogen Knitted Mesh Solutions - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/tube1-scaled.png\",\"datePublished\":\"2026-09-21T12:53:34+00:00\",\"dateModified\":\"2026-09-22T04:47:38+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/tube1-scaled.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/tube1-scaled.png\",\"width\":2560,\"height\":1440,\"caption\":\"Tube1\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-hydrogen-knitted-mesh-leaflet\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Downloads\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Green Hydrogen Knitted Mesh Solutions\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Green Hydrogen Knitted Mesh Solutions - BVK Hydrotech",
    "robots": {
@@ -56,14 +120,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Green Hydrogen Knitted Mesh Solutions - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/",
+   "og_url": "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T04:47:38+00:00",
    "og_image": [
     {
      "width": 2560,
      "height": 1440,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/tube1-scaled.png",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/tube1-scaled.png",
      "type": "image/png"
     }
    ],
@@ -73,30 +137,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/",
-      "url": "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/",
+      "@id": "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/",
+      "url": "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/",
       "name": "Green Hydrogen Knitted Mesh Solutions - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/tube1-scaled.png",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/tube1-scaled.png",
       "datePublished": "2026-09-21T12:53:34+00:00",
       "dateModified": "2026-09-22T04:47:38+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/"
+         "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/"
         ]
        }
       ]
@@ -104,28 +168,28 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/tube1-scaled.png",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/tube1-scaled.png",
+      "@id": "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/tube1-scaled.png",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/tube1-scaled.png",
       "width": 2560,
       "height": 1440,
       "caption": "Tube1"
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/downloads/green-hydrogen-knitted-mesh-leaflet/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/downloads/green-hydrogen-knitted-mesh-leaflet/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Downloads",
-        "item": "https://dev.bhavcreations.in/downloads/"
+        "item": "https://admin.bvkhydrotech.com/downloads/"
        },
        {
         "@type": "ListItem",
@@ -136,19 +200,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -161,21 +225,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -184,7 +248,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads/152",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads/152",
      "targetHints": {
       "allow": [
        "GET"
@@ -194,35 +258,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_download"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_download"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads/152/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads/152/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 232,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads/152/revisions/232"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads/152/revisions/232"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/74"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/74"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=152"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=152"
     }
    ],
    "curies": [
@@ -239,14 +303,14 @@
   "date": "2026-09-21T12:53:34",
   "date_gmt": "2026-09-21T12:53:34",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/"
+   "rendered": "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/"
   },
   "modified": "2026-09-22T04:47:37",
   "modified_gmt": "2026-09-22T04:47:37",
   "slug": "knitted-mesh-brochure",
   "status": "publish",
   "type": "bvk_download",
-  "link": "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/",
+  "link": "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/",
   "title": {
    "rendered": "Knitted Mesh Solutions Brochure"
   },
@@ -273,12 +337,76 @@
    "hentry"
   ],
   "acf": {
-   "download_file": 36,
+   "download_file": {
+    "ID": 36,
+    "id": 36,
+    "title": "BVK Knitted Mesh Brochure",
+    "filename": "bvk-knitted-mesh-brochure.pdf",
+    "filesize": 1650110,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-knitted-mesh-brochure.pdf",
+    "link": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/bvk-knitted-mesh-brochure/",
+    "alt": "BVK Knitted Mesh Brochure",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "bvk-knitted-mesh-brochure",
+    "status": "inherit",
+    "uploaded_to": 124,
+    "date": "2026-09-21 12:26:51",
+    "modified": "2026-09-21 12:53:16",
+    "menu_order": 0,
+    "mime_type": "application/pdf",
+    "type": "application",
+    "subtype": "pdf",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+   },
+   "download_file_source": {
+    "label": "Download File (PDF)",
+    "type": "file",
+    "formatted_value": {
+     "ID": 36,
+     "id": 36,
+     "title": "BVK Knitted Mesh Brochure",
+     "filename": "bvk-knitted-mesh-brochure.pdf",
+     "filesize": 1650110,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-knitted-mesh-brochure.pdf",
+     "link": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/bvk-knitted-mesh-brochure/",
+     "alt": "BVK Knitted Mesh Brochure",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "bvk-knitted-mesh-brochure",
+     "status": "inherit",
+     "uploaded_to": 124,
+     "date": "2026-09-21 12:26:51",
+     "modified": "2026-09-21 12:53:16",
+     "menu_order": 0,
+     "mime_type": "application/pdf",
+     "type": "application",
+     "subtype": "pdf",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+    }
+   },
    "download_type": "brochure",
+   "download_type_source": {
+    "label": "File Type",
+    "type": "select",
+    "formatted_value": "brochure"
+   },
    "description": "Functional advantages and key parameters of knitted mesh, tailored to application needs.",
-   "is_featured": true
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Functional advantages and key parameters of knitted mesh, tailored to application needs."
+   },
+   "is_featured": true,
+   "is_featured_source": {
+    "label": "Featured Download",
+    "type": "true_false",
+    "formatted_value": true
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Knitted Mesh Solutions Brochure - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Knitted Mesh Solutions Brochure - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:37+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/mesh-roll.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"630\" />\n\t<meta property=\"og:image:height\" content=\"420\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/knitted-mesh-brochure\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/knitted-mesh-brochure\\/\",\"name\":\"Knitted Mesh Solutions Brochure - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/knitted-mesh-brochure\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/knitted-mesh-brochure\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll.jpeg\",\"datePublished\":\"2026-09-21T12:53:34+00:00\",\"dateModified\":\"2026-09-22T04:47:37+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/knitted-mesh-brochure\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/knitted-mesh-brochure\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/knitted-mesh-brochure\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll.jpeg\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll.jpeg\",\"width\":630,\"height\":420,\"caption\":\"Mesh Roll\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/knitted-mesh-brochure\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Downloads\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Knitted Mesh Solutions Brochure\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Knitted Mesh Solutions Brochure - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Knitted Mesh Solutions Brochure - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:37+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"630\" />\n\t<meta property=\"og:image:height\" content=\"420\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/knitted-mesh-brochure\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/knitted-mesh-brochure\\/\",\"name\":\"Knitted Mesh Solutions Brochure - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/knitted-mesh-brochure\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/knitted-mesh-brochure\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mesh-roll.jpeg\",\"datePublished\":\"2026-09-21T12:53:34+00:00\",\"dateModified\":\"2026-09-22T04:47:37+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/knitted-mesh-brochure\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/knitted-mesh-brochure\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/knitted-mesh-brochure\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mesh-roll.jpeg\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mesh-roll.jpeg\",\"width\":630,\"height\":420,\"caption\":\"Mesh Roll\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/knitted-mesh-brochure\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Downloads\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Knitted Mesh Solutions Brochure\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Knitted Mesh Solutions Brochure - BVK Hydrotech",
    "robots": {
@@ -291,14 +419,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Knitted Mesh Solutions Brochure - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/",
+   "og_url": "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T04:47:37+00:00",
    "og_image": [
     {
      "width": 630,
      "height": 420,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -308,30 +436,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/",
-      "url": "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/",
+      "@id": "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/",
+      "url": "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/",
       "name": "Knitted Mesh Solutions Brochure - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll.jpeg",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
       "datePublished": "2026-09-21T12:53:34+00:00",
       "dateModified": "2026-09-22T04:47:37+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/"
+         "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/"
         ]
        }
       ]
@@ -339,28 +467,28 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll.jpeg",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll.jpeg",
+      "@id": "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
       "width": 630,
       "height": 420,
       "caption": "Mesh Roll"
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/downloads/knitted-mesh-brochure/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/downloads/knitted-mesh-brochure/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Downloads",
-        "item": "https://dev.bhavcreations.in/downloads/"
+        "item": "https://admin.bvkhydrotech.com/downloads/"
        },
        {
         "@type": "ListItem",
@@ -371,19 +499,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -396,21 +524,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -419,7 +547,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads/151",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads/151",
      "targetHints": {
       "allow": [
        "GET"
@@ -429,35 +557,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_download"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_download"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads/151/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads/151/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 231,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads/151/revisions/231"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads/151/revisions/231"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/63"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/63"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=151"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=151"
     }
    ],
    "curies": [
@@ -474,14 +602,14 @@
   "date": "2026-09-21T12:53:33",
   "date_gmt": "2026-09-21T12:53:33",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/downloads/green-energy-brochure/"
+   "rendered": "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/"
   },
   "modified": "2026-09-22T04:47:37",
   "modified_gmt": "2026-09-22T04:47:37",
   "slug": "green-energy-brochure",
   "status": "publish",
   "type": "bvk_download",
-  "link": "https://dev.bhavcreations.in/downloads/green-energy-brochure/",
+  "link": "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/",
   "title": {
    "rendered": "Green Energy — Precision Woven Mesh Solutions"
   },
@@ -508,12 +636,76 @@
    "hentry"
   ],
   "acf": {
-   "download_file": 48,
+   "download_file": {
+    "ID": 48,
+    "id": 48,
+    "title": "Green Energy Brochure",
+    "filename": "green-energy-brochure.pdf",
+    "filesize": 5511397,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-energy-brochure.pdf",
+    "link": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/green-energy-brochure/",
+    "alt": "Green Energy Brochure",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "green-energy-brochure",
+    "status": "inherit",
+    "uploaded_to": 123,
+    "date": "2026-09-21 12:29:43",
+    "modified": "2026-09-21 12:53:15",
+    "menu_order": 0,
+    "mime_type": "application/pdf",
+    "type": "application",
+    "subtype": "pdf",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+   },
+   "download_file_source": {
+    "label": "Download File (PDF)",
+    "type": "file",
+    "formatted_value": {
+     "ID": 48,
+     "id": 48,
+     "title": "Green Energy Brochure",
+     "filename": "green-energy-brochure.pdf",
+     "filesize": 5511397,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-energy-brochure.pdf",
+     "link": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/green-energy-brochure/",
+     "alt": "Green Energy Brochure",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "green-energy-brochure",
+     "status": "inherit",
+     "uploaded_to": 123,
+     "date": "2026-09-21 12:29:43",
+     "modified": "2026-09-21 12:53:15",
+     "menu_order": 0,
+     "mime_type": "application/pdf",
+     "type": "application",
+     "subtype": "pdf",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+    }
+   },
    "download_type": "brochure",
+   "download_type_source": {
+    "label": "File Type",
+    "type": "select",
+    "formatted_value": "brochure"
+   },
    "description": "Woven mesh for electrolysers and fuel cells: capability, materials, certifications and sustainability.",
-   "is_featured": true
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Woven mesh for electrolysers and fuel cells: capability, materials, certifications and sustainability."
+   },
+   "is_featured": true,
+   "is_featured_source": {
+    "label": "Featured Download",
+    "type": "true_false",
+    "formatted_value": true
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Green Energy — Precision Woven Mesh Solutions - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Green Energy — Precision Woven Mesh Solutions - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/downloads/green-energy-brochure/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:37+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/hydrogen-pro-stack3-scaled.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1440\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-energy-brochure\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-energy-brochure\\/\",\"name\":\"Green Energy — Precision Woven Mesh Solutions - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-energy-brochure\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-energy-brochure\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/hydrogen-pro-stack3-scaled.jpeg\",\"datePublished\":\"2026-09-21T12:53:33+00:00\",\"dateModified\":\"2026-09-22T04:47:37+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-energy-brochure\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-energy-brochure\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-energy-brochure\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/hydrogen-pro-stack3-scaled.jpeg\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/hydrogen-pro-stack3-scaled.jpeg\",\"width\":2560,\"height\":1440,\"caption\":\"Hydrogen Pro Stack3\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/green-energy-brochure\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Downloads\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/downloads\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Green Energy — Precision Woven Mesh Solutions\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Green Energy — Precision Woven Mesh Solutions - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Green Energy — Precision Woven Mesh Solutions - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/downloads/green-energy-brochure/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:37+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/hydrogen-pro-stack3-scaled.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1440\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-energy-brochure\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-energy-brochure\\/\",\"name\":\"Green Energy — Precision Woven Mesh Solutions - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-energy-brochure\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-energy-brochure\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/hydrogen-pro-stack3-scaled.jpeg\",\"datePublished\":\"2026-09-21T12:53:33+00:00\",\"dateModified\":\"2026-09-22T04:47:37+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-energy-brochure\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-energy-brochure\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-energy-brochure\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/hydrogen-pro-stack3-scaled.jpeg\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/hydrogen-pro-stack3-scaled.jpeg\",\"width\":2560,\"height\":1440,\"caption\":\"Hydrogen Pro Stack3\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/green-energy-brochure\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Downloads\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/downloads\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Green Energy — Precision Woven Mesh Solutions\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Green Energy — Precision Woven Mesh Solutions - BVK Hydrotech",
    "robots": {
@@ -526,14 +718,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Green Energy — Precision Woven Mesh Solutions - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/downloads/green-energy-brochure/",
+   "og_url": "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T04:47:37+00:00",
    "og_image": [
     {
      "width": 2560,
      "height": 1440,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/hydrogen-pro-stack3-scaled.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/hydrogen-pro-stack3-scaled.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -543,30 +735,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/downloads/green-energy-brochure/",
-      "url": "https://dev.bhavcreations.in/downloads/green-energy-brochure/",
+      "@id": "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/",
+      "url": "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/",
       "name": "Green Energy — Precision Woven Mesh Solutions - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/downloads/green-energy-brochure/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/downloads/green-energy-brochure/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/hydrogen-pro-stack3-scaled.jpeg",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/hydrogen-pro-stack3-scaled.jpeg",
       "datePublished": "2026-09-21T12:53:33+00:00",
       "dateModified": "2026-09-22T04:47:37+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/downloads/green-energy-brochure/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/downloads/green-energy-brochure/"
+         "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/"
         ]
        }
       ]
@@ -574,28 +766,28 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/downloads/green-energy-brochure/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/hydrogen-pro-stack3-scaled.jpeg",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/hydrogen-pro-stack3-scaled.jpeg",
+      "@id": "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/hydrogen-pro-stack3-scaled.jpeg",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/hydrogen-pro-stack3-scaled.jpeg",
       "width": 2560,
       "height": 1440,
       "caption": "Hydrogen Pro Stack3"
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/downloads/green-energy-brochure/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/downloads/green-energy-brochure/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Downloads",
-        "item": "https://dev.bhavcreations.in/downloads/"
+        "item": "https://admin.bvkhydrotech.com/downloads/"
        },
        {
         "@type": "ListItem",
@@ -606,19 +798,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -631,21 +823,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -654,7 +846,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads/150",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads/150",
      "targetHints": {
       "allow": [
        "GET"
@@ -664,35 +856,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_download"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_download"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads/150/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads/150/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 230,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/downloads/150/revisions/230"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/downloads/150/revisions/230"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/51"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/51"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=150"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=150"
     }
    ],
    "curies": [

@@ -4,14 +4,14 @@
   "date": "2026-09-22T10:20:24",
   "date_gmt": "2026-09-22T10:20:24",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/?bvk_certification=rohs-compliant"
+   "rendered": "https://admin.bvkhydrotech.com/?bvk_certification=rohs-compliant"
   },
   "modified": "2026-09-22T10:20:24",
   "modified_gmt": "2026-09-22T10:20:24",
   "slug": "rohs-compliant",
   "status": "publish",
   "type": "bvk_certification",
-  "link": "https://dev.bhavcreations.in/?bvk_certification=rohs-compliant",
+  "link": "https://admin.bvkhydrotech.com/?bvk_certification=rohs-compliant",
   "title": {
    "rendered": "RoHS Compliant"
   },
@@ -22,13 +22,126 @@
    "_acf_changed": false
   },
   "acf": {
-   "logo": 383,
+   "logo": {
+    "ID": 383,
+    "id": 383,
+    "title": "RoHS Compliant",
+    "filename": "rohs-compliant.webp",
+    "filesize": 53298,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant.webp",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=383",
+    "alt": "RoHS compliant certification badge",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "rohs-compliant-2",
+    "status": "inherit",
+    "uploaded_to": 385,
+    "date": "2026-09-22 10:00:52",
+    "modified": "2026-09-22 10:20:38",
+    "menu_order": 0,
+    "mime_type": "image/webp",
+    "type": "image",
+    "subtype": "webp",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 1254,
+    "height": 1254,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant-150x150.webp",
+     "thumbnail-width": 150,
+     "thumbnail-height": 150,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant-300x300.webp",
+     "medium-width": 300,
+     "medium-height": 300,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant-768x768.webp",
+     "medium_large-width": 768,
+     "medium_large-height": 768,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant-1024x1024.webp",
+     "large-width": 800,
+     "large-height": 800,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant.webp",
+     "1536x1536-width": 1254,
+     "1536x1536-height": 1254,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant.webp",
+     "2048x2048-width": 1254,
+     "2048x2048-height": 1254
+    }
+   },
+   "logo_source": {
+    "label": "Logo / Badge",
+    "type": "image",
+    "formatted_value": {
+     "ID": 383,
+     "id": 383,
+     "title": "RoHS Compliant",
+     "filename": "rohs-compliant.webp",
+     "filesize": 53298,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant.webp",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=383",
+     "alt": "RoHS compliant certification badge",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "rohs-compliant-2",
+     "status": "inherit",
+     "uploaded_to": 385,
+     "date": "2026-09-22 10:00:52",
+     "modified": "2026-09-22 10:20:38",
+     "menu_order": 0,
+     "mime_type": "image/webp",
+     "type": "image",
+     "subtype": "webp",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 1254,
+     "height": 1254,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant-150x150.webp",
+      "thumbnail-width": 150,
+      "thumbnail-height": 150,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant-300x300.webp",
+      "medium-width": 300,
+      "medium-height": 300,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant-768x768.webp",
+      "medium_large-width": 768,
+      "medium_large-height": 768,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant-1024x1024.webp",
+      "large-width": 800,
+      "large-height": 800,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant.webp",
+      "1536x1536-width": 1254,
+      "1536x1536-height": 1254,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/rohs-compliant.webp",
+      "2048x2048-width": 1254,
+      "2048x2048-height": 1254
+     }
+    }
+   },
    "standard": "RoHS Compliant",
+   "standard_source": {
+    "label": "Standard",
+    "type": "text",
+    "formatted_value": "RoHS Compliant"
+   },
    "issuer": "Restriction of Hazardous Substances",
+   "issuer_source": {
+    "label": "Issuing Body",
+    "type": "text",
+    "formatted_value": "Restriction of Hazardous Substances"
+   },
    "description": "Compliance badge for restricted hazardous substances requirements.",
-   "sort_order": 10
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Compliance badge for restricted hazardous substances requirements."
+   },
+   "sort_order": 10,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "10"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>RoHS Compliant - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"RoHS Compliant - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_certification=rohs-compliant\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=rohs-compliant\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=rohs-compliant\",\"name\":\"RoHS Compliant - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-22T10:20:24+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=rohs-compliant#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=rohs-compliant\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=rohs-compliant#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"RoHS Compliant\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>RoHS Compliant - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"RoHS Compliant - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/?bvk_certification=rohs-compliant\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=rohs-compliant\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=rohs-compliant\",\"name\":\"RoHS Compliant - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"datePublished\":\"2026-09-22T10:20:24+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=rohs-compliant#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=rohs-compliant\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=rohs-compliant#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"RoHS Compliant\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "RoHS Compliant - BVK Hydrotech",
    "robots": {
@@ -41,7 +154,7 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "RoHS Compliant - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/?bvk_certification=rohs-compliant",
+   "og_url": "https://admin.bvkhydrotech.com/?bvk_certification=rohs-compliant",
    "og_site_name": "BVK Hydrotech",
    "twitter_card": "summary_large_image",
    "schema": {
@@ -49,35 +162,35 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=rohs-compliant",
-      "url": "https://dev.bhavcreations.in/?bvk_certification=rohs-compliant",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=rohs-compliant",
+      "url": "https://admin.bvkhydrotech.com/?bvk_certification=rohs-compliant",
       "name": "RoHS Compliant - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "datePublished": "2026-09-22T10:20:24+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/?bvk_certification=rohs-compliant#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/?bvk_certification=rohs-compliant#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/?bvk_certification=rohs-compliant"
+         "https://admin.bvkhydrotech.com/?bvk_certification=rohs-compliant"
         ]
        }
       ]
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=rohs-compliant#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=rohs-compliant#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
@@ -88,19 +201,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -113,21 +226,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -136,7 +249,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications/385",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications/385",
      "targetHints": {
       "allow": [
        "GET"
@@ -146,17 +259,17 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_certification"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_certification"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=385"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=385"
     }
    ],
    "curies": [
@@ -173,14 +286,14 @@
   "date": "2026-09-22T10:20:22",
   "date_gmt": "2026-09-22T10:20:22",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/?bvk_certification=reach-compliant"
+   "rendered": "https://admin.bvkhydrotech.com/?bvk_certification=reach-compliant"
   },
   "modified": "2026-09-22T10:20:22",
   "modified_gmt": "2026-09-22T10:20:22",
   "slug": "reach-compliant",
   "status": "publish",
   "type": "bvk_certification",
-  "link": "https://dev.bhavcreations.in/?bvk_certification=reach-compliant",
+  "link": "https://admin.bvkhydrotech.com/?bvk_certification=reach-compliant",
   "title": {
    "rendered": "REACH Compliant"
   },
@@ -191,13 +304,126 @@
    "_acf_changed": false
   },
   "acf": {
-   "logo": 382,
+   "logo": {
+    "ID": 382,
+    "id": 382,
+    "title": "REACH Compliant",
+    "filename": "reach-compliant.webp",
+    "filesize": 63064,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant.webp",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=382",
+    "alt": "REACH compliant certification badge",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "reach-compliant-2",
+    "status": "inherit",
+    "uploaded_to": 384,
+    "date": "2026-09-22 10:00:50",
+    "modified": "2026-09-22 10:20:38",
+    "menu_order": 0,
+    "mime_type": "image/webp",
+    "type": "image",
+    "subtype": "webp",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 1254,
+    "height": 1254,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant-150x150.webp",
+     "thumbnail-width": 150,
+     "thumbnail-height": 150,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant-300x300.webp",
+     "medium-width": 300,
+     "medium-height": 300,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant-768x768.webp",
+     "medium_large-width": 768,
+     "medium_large-height": 768,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant-1024x1024.webp",
+     "large-width": 800,
+     "large-height": 800,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant.webp",
+     "1536x1536-width": 1254,
+     "1536x1536-height": 1254,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant.webp",
+     "2048x2048-width": 1254,
+     "2048x2048-height": 1254
+    }
+   },
+   "logo_source": {
+    "label": "Logo / Badge",
+    "type": "image",
+    "formatted_value": {
+     "ID": 382,
+     "id": 382,
+     "title": "REACH Compliant",
+     "filename": "reach-compliant.webp",
+     "filesize": 63064,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant.webp",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=382",
+     "alt": "REACH compliant certification badge",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "reach-compliant-2",
+     "status": "inherit",
+     "uploaded_to": 384,
+     "date": "2026-09-22 10:00:50",
+     "modified": "2026-09-22 10:20:38",
+     "menu_order": 0,
+     "mime_type": "image/webp",
+     "type": "image",
+     "subtype": "webp",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 1254,
+     "height": 1254,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant-150x150.webp",
+      "thumbnail-width": 150,
+      "thumbnail-height": 150,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant-300x300.webp",
+      "medium-width": 300,
+      "medium-height": 300,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant-768x768.webp",
+      "medium_large-width": 768,
+      "medium_large-height": 768,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant-1024x1024.webp",
+      "large-width": 800,
+      "large-height": 800,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant.webp",
+      "1536x1536-width": 1254,
+      "1536x1536-height": 1254,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/reach-compliant.webp",
+      "2048x2048-width": 1254,
+      "2048x2048-height": 1254
+     }
+    }
+   },
    "standard": "REACH Compliant",
+   "standard_source": {
+    "label": "Standard",
+    "type": "text",
+    "formatted_value": "REACH Compliant"
+   },
    "issuer": "European Chemicals Agency",
+   "issuer_source": {
+    "label": "Issuing Body",
+    "type": "text",
+    "formatted_value": "European Chemicals Agency"
+   },
    "description": "Compliance badge for responsible chemical and material declarations.",
-   "sort_order": 9
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Compliance badge for responsible chemical and material declarations."
+   },
+   "sort_order": 9,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "9"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>REACH Compliant - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"REACH Compliant - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_certification=reach-compliant\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=reach-compliant\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=reach-compliant\",\"name\":\"REACH Compliant - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-22T10:20:22+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=reach-compliant#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=reach-compliant\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=reach-compliant#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"REACH Compliant\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>REACH Compliant - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"REACH Compliant - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/?bvk_certification=reach-compliant\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=reach-compliant\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=reach-compliant\",\"name\":\"REACH Compliant - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"datePublished\":\"2026-09-22T10:20:22+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=reach-compliant#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=reach-compliant\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=reach-compliant#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"REACH Compliant\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "REACH Compliant - BVK Hydrotech",
    "robots": {
@@ -210,7 +436,7 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "REACH Compliant - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/?bvk_certification=reach-compliant",
+   "og_url": "https://admin.bvkhydrotech.com/?bvk_certification=reach-compliant",
    "og_site_name": "BVK Hydrotech",
    "twitter_card": "summary_large_image",
    "schema": {
@@ -218,35 +444,35 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=reach-compliant",
-      "url": "https://dev.bhavcreations.in/?bvk_certification=reach-compliant",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=reach-compliant",
+      "url": "https://admin.bvkhydrotech.com/?bvk_certification=reach-compliant",
       "name": "REACH Compliant - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "datePublished": "2026-09-22T10:20:22+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/?bvk_certification=reach-compliant#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/?bvk_certification=reach-compliant#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/?bvk_certification=reach-compliant"
+         "https://admin.bvkhydrotech.com/?bvk_certification=reach-compliant"
         ]
        }
       ]
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=reach-compliant#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=reach-compliant#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
@@ -257,19 +483,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -282,21 +508,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -305,7 +531,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications/384",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications/384",
      "targetHints": {
       "allow": [
        "GET"
@@ -315,17 +541,17 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_certification"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_certification"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=384"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=384"
     }
    ],
    "curies": [
@@ -342,14 +568,14 @@
   "date": "2026-09-21T12:53:13",
   "date_gmt": "2026-09-21T12:53:13",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/bvk_certification/iso-22734-ready/"
+   "rendered": "https://admin.bvkhydrotech.com/bvk_certification/iso-22734-ready/"
   },
   "modified": "2026-09-22T10:20:22",
   "modified_gmt": "2026-09-22T10:20:22",
   "slug": "iso-50001-2018-energy-management-system",
   "status": "publish",
   "type": "bvk_certification",
-  "link": "https://dev.bhavcreations.in/?bvk_certification=iso-50001-2018-energy-management-system",
+  "link": "https://admin.bvkhydrotech.com/?bvk_certification=iso-50001-2018-energy-management-system",
   "title": {
    "rendered": "ISO 50001:2018 Energy Management System"
   },
@@ -360,13 +586,126 @@
    "_acf_changed": false
   },
   "acf": {
-   "logo": 381,
+   "logo": {
+    "ID": 381,
+    "id": 381,
+    "title": "ISO 50001:2018 Energy Management System",
+    "filename": "iso-50001-2018-energy-management-system.webp",
+    "filesize": 80784,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system.webp",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=381",
+    "alt": "ISO 50001 2018 energy management system certification badge",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "iso-50001-2018-energy-management-system-2",
+    "status": "inherit",
+    "uploaded_to": 119,
+    "date": "2026-09-22 10:00:48",
+    "modified": "2026-09-22 10:20:37",
+    "menu_order": 0,
+    "mime_type": "image/webp",
+    "type": "image",
+    "subtype": "webp",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 1254,
+    "height": 1254,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system-150x150.webp",
+     "thumbnail-width": 150,
+     "thumbnail-height": 150,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system-300x300.webp",
+     "medium-width": 300,
+     "medium-height": 300,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system-768x768.webp",
+     "medium_large-width": 768,
+     "medium_large-height": 768,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system-1024x1024.webp",
+     "large-width": 800,
+     "large-height": 800,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system.webp",
+     "1536x1536-width": 1254,
+     "1536x1536-height": 1254,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system.webp",
+     "2048x2048-width": 1254,
+     "2048x2048-height": 1254
+    }
+   },
+   "logo_source": {
+    "label": "Logo / Badge",
+    "type": "image",
+    "formatted_value": {
+     "ID": 381,
+     "id": 381,
+     "title": "ISO 50001:2018 Energy Management System",
+     "filename": "iso-50001-2018-energy-management-system.webp",
+     "filesize": 80784,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system.webp",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=381",
+     "alt": "ISO 50001 2018 energy management system certification badge",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "iso-50001-2018-energy-management-system-2",
+     "status": "inherit",
+     "uploaded_to": 119,
+     "date": "2026-09-22 10:00:48",
+     "modified": "2026-09-22 10:20:37",
+     "menu_order": 0,
+     "mime_type": "image/webp",
+     "type": "image",
+     "subtype": "webp",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 1254,
+     "height": 1254,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system-150x150.webp",
+      "thumbnail-width": 150,
+      "thumbnail-height": 150,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system-300x300.webp",
+      "medium-width": 300,
+      "medium-height": 300,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system-768x768.webp",
+      "medium_large-width": 768,
+      "medium_large-height": 768,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system-1024x1024.webp",
+      "large-width": 800,
+      "large-height": 800,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system.webp",
+      "1536x1536-width": 1254,
+      "1536x1536-height": 1254,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/iso-50001-2018-energy-management-system.webp",
+      "2048x2048-width": 1254,
+      "2048x2048-height": 1254
+     }
+    }
+   },
    "standard": "ISO 50001:2018",
+   "standard_source": {
+    "label": "Standard",
+    "type": "text",
+    "formatted_value": "ISO 50001:2018"
+   },
    "issuer": "International Organization for Standardization",
+   "issuer_source": {
+    "label": "Issuing Body",
+    "type": "text",
+    "formatted_value": "International Organization for Standardization"
+   },
    "description": "Energy management system for continuous efficiency improvement.",
-   "sort_order": 8
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Energy management system for continuous efficiency improvement."
+   },
+   "sort_order": 8,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "8"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>ISO 50001:2018 Energy Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"ISO 50001:2018 Energy Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_certification=iso-50001-2018-energy-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T10:20:22+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-50001-2018-energy-management-system\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-50001-2018-energy-management-system\",\"name\":\"ISO 50001:2018 Energy Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:13+00:00\",\"dateModified\":\"2026-09-22T10:20:22+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-50001-2018-energy-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-50001-2018-energy-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-50001-2018-energy-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"ISO 50001:2018 Energy Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>ISO 50001:2018 Energy Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"ISO 50001:2018 Energy Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/?bvk_certification=iso-50001-2018-energy-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T10:20:22+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-50001-2018-energy-management-system\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-50001-2018-energy-management-system\",\"name\":\"ISO 50001:2018 Energy Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"datePublished\":\"2026-09-21T12:53:13+00:00\",\"dateModified\":\"2026-09-22T10:20:22+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-50001-2018-energy-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-50001-2018-energy-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-50001-2018-energy-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"ISO 50001:2018 Energy Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "ISO 50001:2018 Energy Management System - BVK Hydrotech",
    "robots": {
@@ -379,7 +718,7 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "ISO 50001:2018 Energy Management System - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/?bvk_certification=iso-50001-2018-energy-management-system",
+   "og_url": "https://admin.bvkhydrotech.com/?bvk_certification=iso-50001-2018-energy-management-system",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T10:20:22+00:00",
    "twitter_card": "summary_large_image",
@@ -388,36 +727,36 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-50001-2018-energy-management-system",
-      "url": "https://dev.bhavcreations.in/?bvk_certification=iso-50001-2018-energy-management-system",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-50001-2018-energy-management-system",
+      "url": "https://admin.bvkhydrotech.com/?bvk_certification=iso-50001-2018-energy-management-system",
       "name": "ISO 50001:2018 Energy Management System - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "datePublished": "2026-09-21T12:53:13+00:00",
       "dateModified": "2026-09-22T10:20:22+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-50001-2018-energy-management-system#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-50001-2018-energy-management-system#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/?bvk_certification=iso-50001-2018-energy-management-system"
+         "https://admin.bvkhydrotech.com/?bvk_certification=iso-50001-2018-energy-management-system"
         ]
        }
       ]
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-50001-2018-energy-management-system#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-50001-2018-energy-management-system#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
@@ -428,19 +767,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -453,21 +792,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -476,7 +815,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications/119",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications/119",
      "targetHints": {
       "allow": [
        "GET"
@@ -486,17 +825,17 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_certification"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_certification"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=119"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=119"
     }
    ],
    "curies": [
@@ -513,14 +852,14 @@
   "date": "2026-09-21T12:53:12",
   "date_gmt": "2026-09-21T12:53:12",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/bvk_certification/iso-9044/"
+   "rendered": "https://admin.bvkhydrotech.com/bvk_certification/iso-9044/"
   },
-  "modified": "2026-09-22T10:20:21",
-  "modified_gmt": "2026-09-22T10:20:21",
+  "modified": "2026-10-15T17:19:24",
+  "modified_gmt": "2026-10-15T17:19:24",
   "slug": "iso-45001-2018-occupational-health-safety-management-system",
   "status": "publish",
   "type": "bvk_certification",
-  "link": "https://dev.bhavcreations.in/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system",
+  "link": "https://admin.bvkhydrotech.com/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system",
   "title": {
    "rendered": "ISO 45001:2018 Occupational Health &#038; Safety Management System"
   },
@@ -531,13 +870,126 @@
    "_acf_changed": false
   },
   "acf": {
-   "logo": 380,
+   "logo": {
+    "ID": 583,
+    "id": 583,
+    "title": "ISO 45001-English",
+    "filename": "ISO-45001-English.png",
+    "filesize": 45012,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English.png",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=583",
+    "alt": "",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "iso-45001-english",
+    "status": "inherit",
+    "uploaded_to": 118,
+    "date": "2026-10-15 17:15:15",
+    "modified": "2026-10-15 17:19:24",
+    "menu_order": 0,
+    "mime_type": "image/png",
+    "type": "image",
+    "subtype": "png",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 808,
+    "height": 666,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English-150x124.png",
+     "thumbnail-width": 150,
+     "thumbnail-height": 124,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English-300x247.png",
+     "medium-width": 300,
+     "medium-height": 247,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English-768x633.png",
+     "medium_large-width": 768,
+     "medium_large-height": 633,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English.png",
+     "large-width": 800,
+     "large-height": 659,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English.png",
+     "1536x1536-width": 808,
+     "1536x1536-height": 666,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English.png",
+     "2048x2048-width": 808,
+     "2048x2048-height": 666
+    }
+   },
+   "logo_source": {
+    "label": "Logo / Badge",
+    "type": "image",
+    "formatted_value": {
+     "ID": 583,
+     "id": 583,
+     "title": "ISO 45001-English",
+     "filename": "ISO-45001-English.png",
+     "filesize": 45012,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English.png",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=583",
+     "alt": "",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "iso-45001-english",
+     "status": "inherit",
+     "uploaded_to": 118,
+     "date": "2026-10-15 17:15:15",
+     "modified": "2026-10-15 17:19:24",
+     "menu_order": 0,
+     "mime_type": "image/png",
+     "type": "image",
+     "subtype": "png",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 808,
+     "height": 666,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English-150x124.png",
+      "thumbnail-width": 150,
+      "thumbnail-height": 124,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English-300x247.png",
+      "medium-width": 300,
+      "medium-height": 247,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English-768x633.png",
+      "medium_large-width": 768,
+      "medium_large-height": 633,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English.png",
+      "large-width": 800,
+      "large-height": 659,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English.png",
+      "1536x1536-width": 808,
+      "1536x1536-height": 666,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-45001-English.png",
+      "2048x2048-width": 808,
+      "2048x2048-height": 666
+     }
+    }
+   },
    "standard": "ISO 45001:2018",
+   "standard_source": {
+    "label": "Standard",
+    "type": "text",
+    "formatted_value": "ISO 45001:2018"
+   },
    "issuer": "International Organization for Standardization",
+   "issuer_source": {
+    "label": "Issuing Body",
+    "type": "text",
+    "formatted_value": "International Organization for Standardization"
+   },
    "description": "Occupational health and safety management across the manufacturing footprint.",
-   "sort_order": 7
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Occupational health and safety management across the manufacturing footprint."
+   },
+   "sort_order": 7,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "7"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>ISO 45001:2018 Occupational Health &amp; Safety Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"ISO 45001:2018 Occupational Health &amp; Safety Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T10:20:21+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system\",\"name\":\"ISO 45001:2018 Occupational Health & Safety Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:12+00:00\",\"dateModified\":\"2026-09-22T10:20:21+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"ISO 45001:2018 Occupational Health &#038; Safety Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>ISO 45001:2018 Occupational Health &amp; Safety Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"ISO 45001:2018 Occupational Health &amp; Safety Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-10-15T17:19:24+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system\",\"name\":\"ISO 45001:2018 Occupational Health & Safety Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"datePublished\":\"2026-09-21T12:53:12+00:00\",\"dateModified\":\"2026-10-15T17:19:24+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"ISO 45001:2018 Occupational Health &#038; Safety Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "ISO 45001:2018 Occupational Health & Safety Management System - BVK Hydrotech",
    "robots": {
@@ -550,45 +1002,45 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "ISO 45001:2018 Occupational Health & Safety Management System - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system",
+   "og_url": "https://admin.bvkhydrotech.com/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system",
    "og_site_name": "BVK Hydrotech",
-   "article_modified_time": "2026-09-22T10:20:21+00:00",
+   "article_modified_time": "2026-10-15T17:19:24+00:00",
    "twitter_card": "summary_large_image",
    "schema": {
     "@context": "https://schema.org",
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system",
-      "url": "https://dev.bhavcreations.in/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system",
+      "url": "https://admin.bvkhydrotech.com/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system",
       "name": "ISO 45001:2018 Occupational Health & Safety Management System - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "datePublished": "2026-09-21T12:53:12+00:00",
-      "dateModified": "2026-09-22T10:20:21+00:00",
+      "dateModified": "2026-10-15T17:19:24+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system"
+         "https://admin.bvkhydrotech.com/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system"
         ]
        }
       ]
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-45001-2018-occupational-health-safety-management-system#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
@@ -599,19 +1051,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -624,21 +1076,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -647,7 +1099,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications/118",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications/118",
      "targetHints": {
       "allow": [
        "GET"
@@ -657,17 +1109,17 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_certification"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_certification"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=118"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=118"
     }
    ],
    "curies": [
@@ -684,14 +1136,14 @@
   "date": "2026-09-21T12:53:11",
   "date_gmt": "2026-09-21T12:53:11",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/bvk_certification/astm-b164/"
+   "rendered": "https://admin.bvkhydrotech.com/bvk_certification/astm-b164/"
   },
-  "modified": "2026-09-22T10:20:21",
-  "modified_gmt": "2026-09-22T10:20:21",
+  "modified": "2026-10-15T17:19:23",
+  "modified_gmt": "2026-10-15T17:19:23",
   "slug": "iso-14001-2015-environmental-management-system",
   "status": "publish",
   "type": "bvk_certification",
-  "link": "https://dev.bhavcreations.in/?bvk_certification=iso-14001-2015-environmental-management-system",
+  "link": "https://admin.bvkhydrotech.com/?bvk_certification=iso-14001-2015-environmental-management-system",
   "title": {
    "rendered": "ISO 14001:2015 Environmental Management System"
   },
@@ -702,13 +1154,126 @@
    "_acf_changed": false
   },
   "acf": {
-   "logo": 379,
+   "logo": {
+    "ID": 582,
+    "id": 582,
+    "title": "ISO 14001-2015-English",
+    "filename": "ISO-14001-2015-English.png",
+    "filesize": 48117,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English.png",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=582",
+    "alt": "",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "iso-14001-2015-english",
+    "status": "inherit",
+    "uploaded_to": 117,
+    "date": "2026-10-15 17:15:12",
+    "modified": "2026-10-15 17:19:23",
+    "menu_order": 0,
+    "mime_type": "image/png",
+    "type": "image",
+    "subtype": "png",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 808,
+    "height": 666,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English-150x124.png",
+     "thumbnail-width": 150,
+     "thumbnail-height": 124,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English-300x247.png",
+     "medium-width": 300,
+     "medium-height": 247,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English-768x633.png",
+     "medium_large-width": 768,
+     "medium_large-height": 633,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English.png",
+     "large-width": 800,
+     "large-height": 659,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English.png",
+     "1536x1536-width": 808,
+     "1536x1536-height": 666,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English.png",
+     "2048x2048-width": 808,
+     "2048x2048-height": 666
+    }
+   },
+   "logo_source": {
+    "label": "Logo / Badge",
+    "type": "image",
+    "formatted_value": {
+     "ID": 582,
+     "id": 582,
+     "title": "ISO 14001-2015-English",
+     "filename": "ISO-14001-2015-English.png",
+     "filesize": 48117,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English.png",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=582",
+     "alt": "",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "iso-14001-2015-english",
+     "status": "inherit",
+     "uploaded_to": 117,
+     "date": "2026-10-15 17:15:12",
+     "modified": "2026-10-15 17:19:23",
+     "menu_order": 0,
+     "mime_type": "image/png",
+     "type": "image",
+     "subtype": "png",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 808,
+     "height": 666,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English-150x124.png",
+      "thumbnail-width": 150,
+      "thumbnail-height": 124,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English-300x247.png",
+      "medium-width": 300,
+      "medium-height": 247,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English-768x633.png",
+      "medium_large-width": 768,
+      "medium_large-height": 633,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English.png",
+      "large-width": 800,
+      "large-height": 659,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English.png",
+      "1536x1536-width": 808,
+      "1536x1536-height": 666,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-14001-2015-English.png",
+      "2048x2048-width": 808,
+      "2048x2048-height": 666
+     }
+    }
+   },
    "standard": "ISO 14001:2015",
+   "standard_source": {
+    "label": "Standard",
+    "type": "text",
+    "formatted_value": "ISO 14001:2015"
+   },
    "issuer": "International Organization for Standardization",
+   "issuer_source": {
+    "label": "Issuing Body",
+    "type": "text",
+    "formatted_value": "International Organization for Standardization"
+   },
    "description": "Environmental management system supporting ESG and operational commitments.",
-   "sort_order": 6
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Environmental management system supporting ESG and operational commitments."
+   },
+   "sort_order": 6,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "6"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>ISO 14001:2015 Environmental Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"ISO 14001:2015 Environmental Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_certification=iso-14001-2015-environmental-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T10:20:21+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-14001-2015-environmental-management-system\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-14001-2015-environmental-management-system\",\"name\":\"ISO 14001:2015 Environmental Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:11+00:00\",\"dateModified\":\"2026-09-22T10:20:21+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-14001-2015-environmental-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-14001-2015-environmental-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-14001-2015-environmental-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"ISO 14001:2015 Environmental Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>ISO 14001:2015 Environmental Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"ISO 14001:2015 Environmental Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/?bvk_certification=iso-14001-2015-environmental-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-10-15T17:19:23+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-14001-2015-environmental-management-system\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-14001-2015-environmental-management-system\",\"name\":\"ISO 14001:2015 Environmental Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"datePublished\":\"2026-09-21T12:53:11+00:00\",\"dateModified\":\"2026-10-15T17:19:23+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-14001-2015-environmental-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-14001-2015-environmental-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-14001-2015-environmental-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"ISO 14001:2015 Environmental Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "ISO 14001:2015 Environmental Management System - BVK Hydrotech",
    "robots": {
@@ -721,45 +1286,45 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "ISO 14001:2015 Environmental Management System - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/?bvk_certification=iso-14001-2015-environmental-management-system",
+   "og_url": "https://admin.bvkhydrotech.com/?bvk_certification=iso-14001-2015-environmental-management-system",
    "og_site_name": "BVK Hydrotech",
-   "article_modified_time": "2026-09-22T10:20:21+00:00",
+   "article_modified_time": "2026-10-15T17:19:23+00:00",
    "twitter_card": "summary_large_image",
    "schema": {
     "@context": "https://schema.org",
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-14001-2015-environmental-management-system",
-      "url": "https://dev.bhavcreations.in/?bvk_certification=iso-14001-2015-environmental-management-system",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-14001-2015-environmental-management-system",
+      "url": "https://admin.bvkhydrotech.com/?bvk_certification=iso-14001-2015-environmental-management-system",
       "name": "ISO 14001:2015 Environmental Management System - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "datePublished": "2026-09-21T12:53:11+00:00",
-      "dateModified": "2026-09-22T10:20:21+00:00",
+      "dateModified": "2026-10-15T17:19:23+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-14001-2015-environmental-management-system#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-14001-2015-environmental-management-system#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/?bvk_certification=iso-14001-2015-environmental-management-system"
+         "https://admin.bvkhydrotech.com/?bvk_certification=iso-14001-2015-environmental-management-system"
         ]
        }
       ]
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-14001-2015-environmental-management-system#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-14001-2015-environmental-management-system#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
@@ -770,19 +1335,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -795,21 +1360,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -818,7 +1383,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications/117",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications/117",
      "targetHints": {
       "allow": [
        "GET"
@@ -828,17 +1393,17 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_certification"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_certification"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=117"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=117"
     }
    ],
    "curies": [
@@ -855,14 +1420,14 @@
   "date": "2026-09-21T12:53:11",
   "date_gmt": "2026-09-21T12:53:11",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/bvk_certification/dsir-rdi-recognised/"
+   "rendered": "https://admin.bvkhydrotech.com/bvk_certification/dsir-rdi-recognised/"
   },
-  "modified": "2026-09-22T10:20:20",
-  "modified_gmt": "2026-09-22T10:20:20",
+  "modified": "2026-10-15T17:19:23",
+  "modified_gmt": "2026-10-15T17:19:23",
   "slug": "iso-9001-2015-quality-management-system",
   "status": "publish",
   "type": "bvk_certification",
-  "link": "https://dev.bhavcreations.in/?bvk_certification=iso-9001-2015-quality-management-system",
+  "link": "https://admin.bvkhydrotech.com/?bvk_certification=iso-9001-2015-quality-management-system",
   "title": {
    "rendered": "ISO 9001:2015 Quality Management System"
   },
@@ -873,13 +1438,126 @@
    "_acf_changed": false
   },
   "acf": {
-   "logo": 378,
+   "logo": {
+    "ID": 581,
+    "id": 581,
+    "title": "ISO 9001-2015-English",
+    "filename": "ISO-9001-2015-English.png",
+    "filesize": 43394,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English.png",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=581",
+    "alt": "",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "iso-9001-2015-english",
+    "status": "inherit",
+    "uploaded_to": 116,
+    "date": "2026-10-15 17:15:11",
+    "modified": "2026-10-15 17:19:23",
+    "menu_order": 0,
+    "mime_type": "image/png",
+    "type": "image",
+    "subtype": "png",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 808,
+    "height": 666,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English-150x124.png",
+     "thumbnail-width": 150,
+     "thumbnail-height": 124,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English-300x247.png",
+     "medium-width": 300,
+     "medium-height": 247,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English-768x633.png",
+     "medium_large-width": 768,
+     "medium_large-height": 633,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English.png",
+     "large-width": 800,
+     "large-height": 659,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English.png",
+     "1536x1536-width": 808,
+     "1536x1536-height": 666,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English.png",
+     "2048x2048-width": 808,
+     "2048x2048-height": 666
+    }
+   },
+   "logo_source": {
+    "label": "Logo / Badge",
+    "type": "image",
+    "formatted_value": {
+     "ID": 581,
+     "id": 581,
+     "title": "ISO 9001-2015-English",
+     "filename": "ISO-9001-2015-English.png",
+     "filesize": 43394,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English.png",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=581",
+     "alt": "",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "iso-9001-2015-english",
+     "status": "inherit",
+     "uploaded_to": 116,
+     "date": "2026-10-15 17:15:11",
+     "modified": "2026-10-15 17:19:23",
+     "menu_order": 0,
+     "mime_type": "image/png",
+     "type": "image",
+     "subtype": "png",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 808,
+     "height": 666,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English-150x124.png",
+      "thumbnail-width": 150,
+      "thumbnail-height": 124,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English-300x247.png",
+      "medium-width": 300,
+      "medium-height": 247,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English-768x633.png",
+      "medium_large-width": 768,
+      "medium_large-height": 633,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English.png",
+      "large-width": 800,
+      "large-height": 659,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English.png",
+      "1536x1536-width": 808,
+      "1536x1536-height": 666,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/ISO-9001-2015-English.png",
+      "2048x2048-width": 808,
+      "2048x2048-height": 666
+     }
+    }
+   },
    "standard": "ISO 9001:2015",
+   "standard_source": {
+    "label": "Standard",
+    "type": "text",
+    "formatted_value": "ISO 9001:2015"
+   },
    "issuer": "International Organization for Standardization",
+   "issuer_source": {
+    "label": "Issuing Body",
+    "type": "text",
+    "formatted_value": "International Organization for Standardization"
+   },
    "description": "Quality management system certification across weaving, treatment and inspection.",
-   "sort_order": 5
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Quality management system certification across weaving, treatment and inspection."
+   },
+   "sort_order": 5,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "5"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>ISO 9001:2015 Quality Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"ISO 9001:2015 Quality Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_certification=iso-9001-2015-quality-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T10:20:20+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-9001-2015-quality-management-system\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-9001-2015-quality-management-system\",\"name\":\"ISO 9001:2015 Quality Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:11+00:00\",\"dateModified\":\"2026-09-22T10:20:20+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-9001-2015-quality-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-9001-2015-quality-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iso-9001-2015-quality-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"ISO 9001:2015 Quality Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>ISO 9001:2015 Quality Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"ISO 9001:2015 Quality Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/?bvk_certification=iso-9001-2015-quality-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-10-15T17:19:23+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-9001-2015-quality-management-system\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-9001-2015-quality-management-system\",\"name\":\"ISO 9001:2015 Quality Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"datePublished\":\"2026-09-21T12:53:11+00:00\",\"dateModified\":\"2026-10-15T17:19:23+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-9001-2015-quality-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-9001-2015-quality-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iso-9001-2015-quality-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"ISO 9001:2015 Quality Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "ISO 9001:2015 Quality Management System - BVK Hydrotech",
    "robots": {
@@ -892,45 +1570,45 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "ISO 9001:2015 Quality Management System - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/?bvk_certification=iso-9001-2015-quality-management-system",
+   "og_url": "https://admin.bvkhydrotech.com/?bvk_certification=iso-9001-2015-quality-management-system",
    "og_site_name": "BVK Hydrotech",
-   "article_modified_time": "2026-09-22T10:20:20+00:00",
+   "article_modified_time": "2026-10-15T17:19:23+00:00",
    "twitter_card": "summary_large_image",
    "schema": {
     "@context": "https://schema.org",
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-9001-2015-quality-management-system",
-      "url": "https://dev.bhavcreations.in/?bvk_certification=iso-9001-2015-quality-management-system",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-9001-2015-quality-management-system",
+      "url": "https://admin.bvkhydrotech.com/?bvk_certification=iso-9001-2015-quality-management-system",
       "name": "ISO 9001:2015 Quality Management System - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "datePublished": "2026-09-21T12:53:11+00:00",
-      "dateModified": "2026-09-22T10:20:20+00:00",
+      "dateModified": "2026-10-15T17:19:23+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-9001-2015-quality-management-system#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-9001-2015-quality-management-system#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/?bvk_certification=iso-9001-2015-quality-management-system"
+         "https://admin.bvkhydrotech.com/?bvk_certification=iso-9001-2015-quality-management-system"
         ]
        }
       ]
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=iso-9001-2015-quality-management-system#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iso-9001-2015-quality-management-system#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
@@ -941,19 +1619,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -966,21 +1644,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -989,7 +1667,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications/116",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications/116",
      "targetHints": {
       "allow": [
        "GET"
@@ -999,17 +1677,17 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_certification"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_certification"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=116"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=116"
     }
    ],
    "curies": [
@@ -1026,14 +1704,14 @@
   "date": "2026-09-21T12:53:10",
   "date_gmt": "2026-09-21T12:53:10",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/bvk_certification/iso-45001-2018/"
+   "rendered": "https://admin.bvkhydrotech.com/bvk_certification/iso-45001-2018/"
   },
-  "modified": "2026-09-22T10:20:20",
-  "modified_gmt": "2026-09-22T10:20:20",
+  "modified": "2026-10-15T17:19:23",
+  "modified_gmt": "2026-10-15T17:19:23",
   "slug": "iatf-16949-2016-automotive-quality-management-system",
   "status": "publish",
   "type": "bvk_certification",
-  "link": "https://dev.bhavcreations.in/?bvk_certification=iatf-16949-2016-automotive-quality-management-system",
+  "link": "https://admin.bvkhydrotech.com/?bvk_certification=iatf-16949-2016-automotive-quality-management-system",
   "title": {
    "rendered": "IATF 16949:2016 Automotive Quality Management System"
   },
@@ -1044,13 +1722,126 @@
    "_acf_changed": false
   },
   "acf": {
-   "logo": 377,
+   "logo": {
+    "ID": 580,
+    "id": 580,
+    "title": "IATF 16949",
+    "filename": "IATF-16949.png",
+    "filesize": 40237,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949.png",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=580",
+    "alt": "",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "iatf-16949",
+    "status": "inherit",
+    "uploaded_to": 115,
+    "date": "2026-10-15 17:15:09",
+    "modified": "2026-10-15 17:19:23",
+    "menu_order": 0,
+    "mime_type": "image/png",
+    "type": "image",
+    "subtype": "png",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 808,
+    "height": 666,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949-150x124.png",
+     "thumbnail-width": 150,
+     "thumbnail-height": 124,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949-300x247.png",
+     "medium-width": 300,
+     "medium-height": 247,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949-768x633.png",
+     "medium_large-width": 768,
+     "medium_large-height": 633,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949.png",
+     "large-width": 800,
+     "large-height": 659,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949.png",
+     "1536x1536-width": 808,
+     "1536x1536-height": 666,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949.png",
+     "2048x2048-width": 808,
+     "2048x2048-height": 666
+    }
+   },
+   "logo_source": {
+    "label": "Logo / Badge",
+    "type": "image",
+    "formatted_value": {
+     "ID": 580,
+     "id": 580,
+     "title": "IATF 16949",
+     "filename": "IATF-16949.png",
+     "filesize": 40237,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949.png",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=580",
+     "alt": "",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "iatf-16949",
+     "status": "inherit",
+     "uploaded_to": 115,
+     "date": "2026-10-15 17:15:09",
+     "modified": "2026-10-15 17:19:23",
+     "menu_order": 0,
+     "mime_type": "image/png",
+     "type": "image",
+     "subtype": "png",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 808,
+     "height": 666,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949-150x124.png",
+      "thumbnail-width": 150,
+      "thumbnail-height": 124,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949-300x247.png",
+      "medium-width": 300,
+      "medium-height": 247,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949-768x633.png",
+      "medium_large-width": 768,
+      "medium_large-height": 633,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949.png",
+      "large-width": 800,
+      "large-height": 659,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949.png",
+      "1536x1536-width": 808,
+      "1536x1536-height": 666,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/IATF-16949.png",
+      "2048x2048-width": 808,
+      "2048x2048-height": 666
+     }
+    }
+   },
    "standard": "IATF 16949:2016",
+   "standard_source": {
+    "label": "Standard",
+    "type": "text",
+    "formatted_value": "IATF 16949:2016"
+   },
    "issuer": "International Automotive Task Force",
+   "issuer_source": {
+    "label": "Issuing Body",
+    "type": "text",
+    "formatted_value": "International Automotive Task Force"
+   },
    "description": "Automotive quality management system covering series and service part production.",
-   "sort_order": 4
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Automotive quality management system covering series and service part production."
+   },
+   "sort_order": 4,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "4"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>IATF 16949:2016 Automotive Quality Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"IATF 16949:2016 Automotive Quality Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_certification=iatf-16949-2016-automotive-quality-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T10:20:20+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iatf-16949-2016-automotive-quality-management-system\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iatf-16949-2016-automotive-quality-management-system\",\"name\":\"IATF 16949:2016 Automotive Quality Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:10+00:00\",\"dateModified\":\"2026-09-22T10:20:20+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iatf-16949-2016-automotive-quality-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iatf-16949-2016-automotive-quality-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=iatf-16949-2016-automotive-quality-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"IATF 16949:2016 Automotive Quality Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>IATF 16949:2016 Automotive Quality Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"IATF 16949:2016 Automotive Quality Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/?bvk_certification=iatf-16949-2016-automotive-quality-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-10-15T17:19:23+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iatf-16949-2016-automotive-quality-management-system\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iatf-16949-2016-automotive-quality-management-system\",\"name\":\"IATF 16949:2016 Automotive Quality Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"datePublished\":\"2026-09-21T12:53:10+00:00\",\"dateModified\":\"2026-10-15T17:19:23+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iatf-16949-2016-automotive-quality-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iatf-16949-2016-automotive-quality-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=iatf-16949-2016-automotive-quality-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"IATF 16949:2016 Automotive Quality Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "IATF 16949:2016 Automotive Quality Management System - BVK Hydrotech",
    "robots": {
@@ -1063,45 +1854,45 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "IATF 16949:2016 Automotive Quality Management System - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/?bvk_certification=iatf-16949-2016-automotive-quality-management-system",
+   "og_url": "https://admin.bvkhydrotech.com/?bvk_certification=iatf-16949-2016-automotive-quality-management-system",
    "og_site_name": "BVK Hydrotech",
-   "article_modified_time": "2026-09-22T10:20:20+00:00",
+   "article_modified_time": "2026-10-15T17:19:23+00:00",
    "twitter_card": "summary_large_image",
    "schema": {
     "@context": "https://schema.org",
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=iatf-16949-2016-automotive-quality-management-system",
-      "url": "https://dev.bhavcreations.in/?bvk_certification=iatf-16949-2016-automotive-quality-management-system",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iatf-16949-2016-automotive-quality-management-system",
+      "url": "https://admin.bvkhydrotech.com/?bvk_certification=iatf-16949-2016-automotive-quality-management-system",
       "name": "IATF 16949:2016 Automotive Quality Management System - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "datePublished": "2026-09-21T12:53:10+00:00",
-      "dateModified": "2026-09-22T10:20:20+00:00",
+      "dateModified": "2026-10-15T17:19:23+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/?bvk_certification=iatf-16949-2016-automotive-quality-management-system#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iatf-16949-2016-automotive-quality-management-system#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/?bvk_certification=iatf-16949-2016-automotive-quality-management-system"
+         "https://admin.bvkhydrotech.com/?bvk_certification=iatf-16949-2016-automotive-quality-management-system"
         ]
        }
       ]
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=iatf-16949-2016-automotive-quality-management-system#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=iatf-16949-2016-automotive-quality-management-system#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
@@ -1112,19 +1903,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -1137,21 +1928,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -1160,7 +1951,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications/115",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications/115",
      "targetHints": {
       "allow": [
        "GET"
@@ -1170,17 +1961,17 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_certification"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_certification"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=115"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=115"
     }
    ],
    "curies": [
@@ -1197,14 +1988,14 @@
   "date": "2026-09-21T12:53:09",
   "date_gmt": "2026-09-21T12:53:09",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/bvk_certification/iso-14001-2015/"
+   "rendered": "https://admin.bvkhydrotech.com/bvk_certification/iso-14001-2015/"
   },
-  "modified": "2026-09-22T10:20:19",
-  "modified_gmt": "2026-09-22T10:20:19",
+  "modified": "2026-10-15T17:19:22",
+  "modified_gmt": "2026-10-15T17:19:22",
   "slug": "dsir-recognized-rd-centre",
   "status": "publish",
   "type": "bvk_certification",
-  "link": "https://dev.bhavcreations.in/?bvk_certification=dsir-recognized-rd-centre",
+  "link": "https://admin.bvkhydrotech.com/?bvk_certification=dsir-recognized-rd-centre",
   "title": {
    "rendered": "DSIR Recognized R&#038;D Centre"
   },
@@ -1215,13 +2006,126 @@
    "_acf_changed": false
   },
   "acf": {
-   "logo": 376,
+   "logo": {
+    "ID": 578,
+    "id": 578,
+    "title": "dsir-certification",
+    "filename": "dsir-certification.png",
+    "filesize": 15654,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=578",
+    "alt": "",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "dsir-certification",
+    "status": "inherit",
+    "uploaded_to": 114,
+    "date": "2026-10-15 17:15:06",
+    "modified": "2026-10-15 17:19:22",
+    "menu_order": 0,
+    "mime_type": "image/png",
+    "type": "image",
+    "subtype": "png",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 250,
+    "height": 250,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification-150x150.png",
+     "thumbnail-width": 150,
+     "thumbnail-height": 150,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+     "medium-width": 250,
+     "medium-height": 250,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+     "medium_large-width": 250,
+     "medium_large-height": 250,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+     "large-width": 250,
+     "large-height": 250,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+     "1536x1536-width": 250,
+     "1536x1536-height": 250,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+     "2048x2048-width": 250,
+     "2048x2048-height": 250
+    }
+   },
+   "logo_source": {
+    "label": "Logo / Badge",
+    "type": "image",
+    "formatted_value": {
+     "ID": 578,
+     "id": 578,
+     "title": "dsir-certification",
+     "filename": "dsir-certification.png",
+     "filesize": 15654,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=578",
+     "alt": "",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "dsir-certification",
+     "status": "inherit",
+     "uploaded_to": 114,
+     "date": "2026-10-15 17:15:06",
+     "modified": "2026-10-15 17:19:22",
+     "menu_order": 0,
+     "mime_type": "image/png",
+     "type": "image",
+     "subtype": "png",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 250,
+     "height": 250,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification-150x150.png",
+      "thumbnail-width": 150,
+      "thumbnail-height": 150,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+      "medium-width": 250,
+      "medium-height": 250,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+      "medium_large-width": 250,
+      "medium_large-height": 250,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+      "large-width": 250,
+      "large-height": 250,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+      "1536x1536-width": 250,
+      "1536x1536-height": 250,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/dsir-certification.png",
+      "2048x2048-width": 250,
+      "2048x2048-height": 250
+     }
+    }
+   },
    "standard": "DSIR Recognized R&D Centre",
+   "standard_source": {
+    "label": "Standard",
+    "type": "text",
+    "formatted_value": "DSIR Recognized R&D Centre"
+   },
    "issuer": "Department of Scientific & Industrial Research, Government of India",
+   "issuer_source": {
+    "label": "Issuing Body",
+    "type": "text",
+    "formatted_value": "Department of Scientific & Industrial Research, Government of India"
+   },
    "description": "In-house R&D recognition supporting development and applied research programmes.",
-   "sort_order": 3
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "In-house R&D recognition supporting development and applied research programmes."
+   },
+   "sort_order": 3,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "3"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>DSIR Recognized R&amp;D Centre - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"DSIR Recognized R&amp;D Centre - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_certification=dsir-recognized-rd-centre\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T10:20:19+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=dsir-recognized-rd-centre\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=dsir-recognized-rd-centre\",\"name\":\"DSIR Recognized R&D Centre - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:09+00:00\",\"dateModified\":\"2026-09-22T10:20:19+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=dsir-recognized-rd-centre#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=dsir-recognized-rd-centre\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=dsir-recognized-rd-centre#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"DSIR Recognized R&#038;D Centre\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>DSIR Recognized R&amp;D Centre - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"DSIR Recognized R&amp;D Centre - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/?bvk_certification=dsir-recognized-rd-centre\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-10-15T17:19:22+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=dsir-recognized-rd-centre\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=dsir-recognized-rd-centre\",\"name\":\"DSIR Recognized R&D Centre - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"datePublished\":\"2026-09-21T12:53:09+00:00\",\"dateModified\":\"2026-10-15T17:19:22+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=dsir-recognized-rd-centre#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=dsir-recognized-rd-centre\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=dsir-recognized-rd-centre#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"DSIR Recognized R&#038;D Centre\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "DSIR Recognized R&D Centre - BVK Hydrotech",
    "robots": {
@@ -1234,45 +2138,45 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "DSIR Recognized R&D Centre - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/?bvk_certification=dsir-recognized-rd-centre",
+   "og_url": "https://admin.bvkhydrotech.com/?bvk_certification=dsir-recognized-rd-centre",
    "og_site_name": "BVK Hydrotech",
-   "article_modified_time": "2026-09-22T10:20:19+00:00",
+   "article_modified_time": "2026-10-15T17:19:22+00:00",
    "twitter_card": "summary_large_image",
    "schema": {
     "@context": "https://schema.org",
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=dsir-recognized-rd-centre",
-      "url": "https://dev.bhavcreations.in/?bvk_certification=dsir-recognized-rd-centre",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=dsir-recognized-rd-centre",
+      "url": "https://admin.bvkhydrotech.com/?bvk_certification=dsir-recognized-rd-centre",
       "name": "DSIR Recognized R&D Centre - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "datePublished": "2026-09-21T12:53:09+00:00",
-      "dateModified": "2026-09-22T10:20:19+00:00",
+      "dateModified": "2026-10-15T17:19:22+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/?bvk_certification=dsir-recognized-rd-centre#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/?bvk_certification=dsir-recognized-rd-centre#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/?bvk_certification=dsir-recognized-rd-centre"
+         "https://admin.bvkhydrotech.com/?bvk_certification=dsir-recognized-rd-centre"
         ]
        }
       ]
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=dsir-recognized-rd-centre#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=dsir-recognized-rd-centre#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
@@ -1283,19 +2187,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -1308,21 +2212,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -1331,7 +2235,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications/114",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications/114",
      "targetHints": {
       "allow": [
        "GET"
@@ -1341,17 +2245,17 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_certification"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_certification"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=114"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=114"
     }
    ],
    "curies": [
@@ -1368,14 +2272,14 @@
   "date": "2026-09-21T12:53:09",
   "date_gmt": "2026-09-21T12:53:09",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/bvk_certification/iso-9001-2015/"
+   "rendered": "https://admin.bvkhydrotech.com/bvk_certification/iso-9001-2015/"
   },
   "modified": "2026-09-22T10:20:19",
   "modified_gmt": "2026-09-22T10:20:19",
   "slug": "ce-marking-conformite-europeenne",
   "status": "publish",
   "type": "bvk_certification",
-  "link": "https://dev.bhavcreations.in/?bvk_certification=ce-marking-conformite-europeenne",
+  "link": "https://admin.bvkhydrotech.com/?bvk_certification=ce-marking-conformite-europeenne",
   "title": {
    "rendered": "CE Marking Conformite Europeenne"
   },
@@ -1386,13 +2290,126 @@
    "_acf_changed": false
   },
   "acf": {
-   "logo": 375,
+   "logo": {
+    "ID": 375,
+    "id": 375,
+    "title": "CE Marking Conformite Europeenne",
+    "filename": "ce-marking-conformite-europeenne.webp",
+    "filesize": 61174,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne.webp",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=375",
+    "alt": "CE marking European conformity certification badge",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "ce-marking-conformite-europeenne-2",
+    "status": "inherit",
+    "uploaded_to": 113,
+    "date": "2026-09-22 10:00:32",
+    "modified": "2026-09-22 10:20:35",
+    "menu_order": 0,
+    "mime_type": "image/webp",
+    "type": "image",
+    "subtype": "webp",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 1536,
+    "height": 1024,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne-150x100.webp",
+     "thumbnail-width": 150,
+     "thumbnail-height": 100,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne-300x200.webp",
+     "medium-width": 300,
+     "medium-height": 200,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne-768x512.webp",
+     "medium_large-width": 768,
+     "medium_large-height": 512,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne-1024x683.webp",
+     "large-width": 800,
+     "large-height": 534,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne.webp",
+     "1536x1536-width": 1536,
+     "1536x1536-height": 1024,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne.webp",
+     "2048x2048-width": 1536,
+     "2048x2048-height": 1024
+    }
+   },
+   "logo_source": {
+    "label": "Logo / Badge",
+    "type": "image",
+    "formatted_value": {
+     "ID": 375,
+     "id": 375,
+     "title": "CE Marking Conformite Europeenne",
+     "filename": "ce-marking-conformite-europeenne.webp",
+     "filesize": 61174,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne.webp",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=375",
+     "alt": "CE marking European conformity certification badge",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "ce-marking-conformite-europeenne-2",
+     "status": "inherit",
+     "uploaded_to": 113,
+     "date": "2026-09-22 10:00:32",
+     "modified": "2026-09-22 10:20:35",
+     "menu_order": 0,
+     "mime_type": "image/webp",
+     "type": "image",
+     "subtype": "webp",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 1536,
+     "height": 1024,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne-150x100.webp",
+      "thumbnail-width": 150,
+      "thumbnail-height": 100,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne-300x200.webp",
+      "medium-width": 300,
+      "medium-height": 200,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne-768x512.webp",
+      "medium_large-width": 768,
+      "medium_large-height": 512,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne-1024x683.webp",
+      "large-width": 800,
+      "large-height": 534,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne.webp",
+      "1536x1536-width": 1536,
+      "1536x1536-height": 1024,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/ce-marking-conformite-europeenne.webp",
+      "2048x2048-width": 1536,
+      "2048x2048-height": 1024
+     }
+    }
+   },
    "standard": "CE Marking",
+   "standard_source": {
+    "label": "Standard",
+    "type": "text",
+    "formatted_value": "CE Marking"
+   },
    "issuer": "European Conformity",
+   "issuer_source": {
+    "label": "Issuing Body",
+    "type": "text",
+    "formatted_value": "European Conformity"
+   },
    "description": "European conformity badge for applicable product compliance requirements.",
-   "sort_order": 2
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "European conformity badge for applicable product compliance requirements."
+   },
+   "sort_order": 2,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "2"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>CE Marking Conformite Europeenne - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"CE Marking Conformite Europeenne - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_certification=ce-marking-conformite-europeenne\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T10:20:19+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=ce-marking-conformite-europeenne\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=ce-marking-conformite-europeenne\",\"name\":\"CE Marking Conformite Europeenne - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:09+00:00\",\"dateModified\":\"2026-09-22T10:20:19+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=ce-marking-conformite-europeenne#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=ce-marking-conformite-europeenne\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=ce-marking-conformite-europeenne#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"CE Marking Conformite Europeenne\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>CE Marking Conformite Europeenne - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"CE Marking Conformite Europeenne - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/?bvk_certification=ce-marking-conformite-europeenne\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T10:20:19+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=ce-marking-conformite-europeenne\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=ce-marking-conformite-europeenne\",\"name\":\"CE Marking Conformite Europeenne - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"datePublished\":\"2026-09-21T12:53:09+00:00\",\"dateModified\":\"2026-09-22T10:20:19+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=ce-marking-conformite-europeenne#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=ce-marking-conformite-europeenne\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=ce-marking-conformite-europeenne#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"CE Marking Conformite Europeenne\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "CE Marking Conformite Europeenne - BVK Hydrotech",
    "robots": {
@@ -1405,7 +2422,7 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "CE Marking Conformite Europeenne - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/?bvk_certification=ce-marking-conformite-europeenne",
+   "og_url": "https://admin.bvkhydrotech.com/?bvk_certification=ce-marking-conformite-europeenne",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T10:20:19+00:00",
    "twitter_card": "summary_large_image",
@@ -1414,36 +2431,36 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=ce-marking-conformite-europeenne",
-      "url": "https://dev.bhavcreations.in/?bvk_certification=ce-marking-conformite-europeenne",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=ce-marking-conformite-europeenne",
+      "url": "https://admin.bvkhydrotech.com/?bvk_certification=ce-marking-conformite-europeenne",
       "name": "CE Marking Conformite Europeenne - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "datePublished": "2026-09-21T12:53:09+00:00",
       "dateModified": "2026-09-22T10:20:19+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/?bvk_certification=ce-marking-conformite-europeenne#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/?bvk_certification=ce-marking-conformite-europeenne#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/?bvk_certification=ce-marking-conformite-europeenne"
+         "https://admin.bvkhydrotech.com/?bvk_certification=ce-marking-conformite-europeenne"
         ]
        }
       ]
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=ce-marking-conformite-europeenne#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=ce-marking-conformite-europeenne#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
@@ -1454,19 +2471,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -1479,21 +2496,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -1502,7 +2519,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications/113",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications/113",
      "targetHints": {
       "allow": [
        "GET"
@@ -1512,17 +2529,17 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_certification"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_certification"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=113"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=113"
     }
    ],
    "curies": [
@@ -1539,14 +2556,14 @@
   "date": "2026-09-21T12:53:07",
   "date_gmt": "2026-09-21T12:53:07",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/bvk_certification/iatf-16949-2016/"
+   "rendered": "https://admin.bvkhydrotech.com/bvk_certification/iatf-16949-2016/"
   },
-  "modified": "2026-09-22T10:20:18",
-  "modified_gmt": "2026-09-22T10:20:18",
+  "modified": "2026-10-15T17:19:22",
+  "modified_gmt": "2026-10-15T17:19:22",
   "slug": "as9100-aerospace-quality-management-system",
   "status": "publish",
   "type": "bvk_certification",
-  "link": "https://dev.bhavcreations.in/?bvk_certification=as9100-aerospace-quality-management-system",
+  "link": "https://admin.bvkhydrotech.com/?bvk_certification=as9100-aerospace-quality-management-system",
   "title": {
    "rendered": "AS9100 Aerospace Quality Management System"
   },
@@ -1557,13 +2574,126 @@
    "_acf_changed": false
   },
   "acf": {
-   "logo": 374,
+   "logo": {
+    "ID": 579,
+    "id": 579,
+    "title": "EN AS 9100-English",
+    "filename": "EN-AS-9100-English.jpg",
+    "filesize": 98359,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English.jpg",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=579",
+    "alt": "",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "en-as-9100-english",
+    "status": "inherit",
+    "uploaded_to": 112,
+    "date": "2026-10-15 17:15:07",
+    "modified": "2026-10-15 17:19:22",
+    "menu_order": 0,
+    "mime_type": "image/jpeg",
+    "type": "image",
+    "subtype": "jpeg",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 808,
+    "height": 666,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English-150x124.jpg",
+     "thumbnail-width": 150,
+     "thumbnail-height": 124,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English-300x247.jpg",
+     "medium-width": 300,
+     "medium-height": 247,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English-768x633.jpg",
+     "medium_large-width": 768,
+     "medium_large-height": 633,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English.jpg",
+     "large-width": 800,
+     "large-height": 659,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English.jpg",
+     "1536x1536-width": 808,
+     "1536x1536-height": 666,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English.jpg",
+     "2048x2048-width": 808,
+     "2048x2048-height": 666
+    }
+   },
+   "logo_source": {
+    "label": "Logo / Badge",
+    "type": "image",
+    "formatted_value": {
+     "ID": 579,
+     "id": 579,
+     "title": "EN AS 9100-English",
+     "filename": "EN-AS-9100-English.jpg",
+     "filesize": 98359,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English.jpg",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=579",
+     "alt": "",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "en-as-9100-english",
+     "status": "inherit",
+     "uploaded_to": 112,
+     "date": "2026-10-15 17:15:07",
+     "modified": "2026-10-15 17:19:22",
+     "menu_order": 0,
+     "mime_type": "image/jpeg",
+     "type": "image",
+     "subtype": "jpeg",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 808,
+     "height": 666,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English-150x124.jpg",
+      "thumbnail-width": 150,
+      "thumbnail-height": 124,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English-300x247.jpg",
+      "medium-width": 300,
+      "medium-height": 247,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English-768x633.jpg",
+      "medium_large-width": 768,
+      "medium_large-height": 633,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English.jpg",
+      "large-width": 800,
+      "large-height": 659,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English.jpg",
+      "1536x1536-width": 808,
+      "1536x1536-height": 666,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/EN-AS-9100-English.jpg",
+      "2048x2048-width": 808,
+      "2048x2048-height": 666
+     }
+    }
+   },
    "standard": "AS9100",
+   "standard_source": {
+    "label": "Standard",
+    "type": "text",
+    "formatted_value": "AS9100"
+   },
    "issuer": "Aerospace Quality Management System",
+   "issuer_source": {
+    "label": "Issuing Body",
+    "type": "text",
+    "formatted_value": "Aerospace Quality Management System"
+   },
    "description": "Aerospace-sector quality management certification for controlled, traceable manufacturing processes.",
-   "sort_order": 1
+   "description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Aerospace-sector quality management certification for controlled, traceable manufacturing processes."
+   },
+   "sort_order": 1,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "1"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>AS9100 Aerospace Quality Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"AS9100 Aerospace Quality Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/?bvk_certification=as9100-aerospace-quality-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T10:20:18+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=as9100-aerospace-quality-management-system\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=as9100-aerospace-quality-management-system\",\"name\":\"AS9100 Aerospace Quality Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"datePublished\":\"2026-09-21T12:53:07+00:00\",\"dateModified\":\"2026-09-22T10:20:18+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=as9100-aerospace-quality-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=as9100-aerospace-quality-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/?bvk_certification=as9100-aerospace-quality-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"AS9100 Aerospace Quality Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>AS9100 Aerospace Quality Management System - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"AS9100 Aerospace Quality Management System - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/?bvk_certification=as9100-aerospace-quality-management-system\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-10-15T17:19:22+00:00\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=as9100-aerospace-quality-management-system\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=as9100-aerospace-quality-management-system\",\"name\":\"AS9100 Aerospace Quality Management System - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"datePublished\":\"2026-09-21T12:53:07+00:00\",\"dateModified\":\"2026-10-15T17:19:22+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=as9100-aerospace-quality-management-system#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=as9100-aerospace-quality-management-system\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/?bvk_certification=as9100-aerospace-quality-management-system#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"AS9100 Aerospace Quality Management System\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "AS9100 Aerospace Quality Management System - BVK Hydrotech",
    "robots": {
@@ -1576,45 +2706,45 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "AS9100 Aerospace Quality Management System - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/?bvk_certification=as9100-aerospace-quality-management-system",
+   "og_url": "https://admin.bvkhydrotech.com/?bvk_certification=as9100-aerospace-quality-management-system",
    "og_site_name": "BVK Hydrotech",
-   "article_modified_time": "2026-09-22T10:20:18+00:00",
+   "article_modified_time": "2026-10-15T17:19:22+00:00",
    "twitter_card": "summary_large_image",
    "schema": {
     "@context": "https://schema.org",
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=as9100-aerospace-quality-management-system",
-      "url": "https://dev.bhavcreations.in/?bvk_certification=as9100-aerospace-quality-management-system",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=as9100-aerospace-quality-management-system",
+      "url": "https://admin.bvkhydrotech.com/?bvk_certification=as9100-aerospace-quality-management-system",
       "name": "AS9100 Aerospace Quality Management System - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "datePublished": "2026-09-21T12:53:07+00:00",
-      "dateModified": "2026-09-22T10:20:18+00:00",
+      "dateModified": "2026-10-15T17:19:22+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/?bvk_certification=as9100-aerospace-quality-management-system#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/?bvk_certification=as9100-aerospace-quality-management-system#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/?bvk_certification=as9100-aerospace-quality-management-system"
+         "https://admin.bvkhydrotech.com/?bvk_certification=as9100-aerospace-quality-management-system"
         ]
        }
       ]
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/?bvk_certification=as9100-aerospace-quality-management-system#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/?bvk_certification=as9100-aerospace-quality-management-system#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
@@ -1625,19 +2755,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -1650,21 +2780,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -1673,7 +2803,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications/112",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications/112",
      "targetHints": {
       "allow": [
        "GET"
@@ -1683,17 +2813,17 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/certifications"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/certifications"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_certification"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_certification"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=112"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=112"
     }
    ],
    "curies": [

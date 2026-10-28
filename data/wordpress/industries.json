@@ -4,14 +4,14 @@
   "date": "2026-09-21T12:53:26",
   "date_gmt": "2026-09-21T12:53:26",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/industries/architecture/"
+   "rendered": "https://admin.bvkhydrotech.com/industries/architecture/"
   },
   "modified": "2026-09-22T04:47:31",
   "modified_gmt": "2026-09-22T04:47:31",
   "slug": "architecture",
   "status": "publish",
   "type": "bvk_industry",
-  "link": "https://dev.bhavcreations.in/industries/architecture/",
+  "link": "https://admin.bvkhydrotech.com/industries/architecture/",
   "title": {
    "rendered": "Architecture"
   },
@@ -39,12 +39,37 @@
   ],
   "acf": {
    "short_description": "Interior and exterior architectural mesh in decorative alloys.",
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Interior and exterior architectural mesh in decorative alloys."
+   },
    "icon_name": "Building2",
-   "banner_image": null,
+   "icon_name_source": {
+    "label": "Lucide Icon Name",
+    "type": "text",
+    "formatted_value": "Building2"
+   },
+   "banner_image": false,
+   "banner_image_source": {
+    "label": "Industry Banner Image",
+    "type": "image",
+    "formatted_value": false
+   },
    "applications": "Interiors\nExteriors",
-   "sort_order": 10
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Interiors\nExteriors"
+   },
+   "sort_order": 10,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "10"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Architecture - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Architecture - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/industries/architecture/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:31+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/mesh-roll-copy-scaled.png\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1708\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/architecture\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/architecture\\/\",\"name\":\"Architecture - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/architecture\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/architecture\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"datePublished\":\"2026-09-21T12:53:26+00:00\",\"dateModified\":\"2026-09-22T04:47:31+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/architecture\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/industries\\/architecture\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/architecture\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"width\":2560,\"height\":1708,\"caption\":\"Mesh Roll Copy\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/architecture\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Architecture\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Architecture - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Architecture - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/industries/architecture/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:31+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1708\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/architecture\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/architecture\\/\",\"name\":\"Architecture - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/architecture\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/architecture\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"datePublished\":\"2026-09-21T12:53:26+00:00\",\"dateModified\":\"2026-09-22T04:47:31+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/architecture\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/architecture\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/architecture\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"width\":2560,\"height\":1708,\"caption\":\"Mesh Roll Copy\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/architecture\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Architecture\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Architecture - BVK Hydrotech",
    "robots": {
@@ -57,14 +82,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Architecture - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/industries/architecture/",
+   "og_url": "https://admin.bvkhydrotech.com/industries/architecture/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T04:47:31+00:00",
    "og_image": [
     {
      "width": 2560,
      "height": 1708,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll-copy-scaled.png",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png",
      "type": "image/png"
     }
    ],
@@ -74,30 +99,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/industries/architecture/",
-      "url": "https://dev.bhavcreations.in/industries/architecture/",
+      "@id": "https://admin.bvkhydrotech.com/industries/architecture/",
+      "url": "https://admin.bvkhydrotech.com/industries/architecture/",
       "name": "Architecture - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/industries/architecture/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/architecture/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/industries/architecture/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/architecture/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll-copy-scaled.png",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png",
       "datePublished": "2026-09-21T12:53:26+00:00",
       "dateModified": "2026-09-22T04:47:31+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/industries/architecture/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/industries/architecture/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/industries/architecture/"
+         "https://admin.bvkhydrotech.com/industries/architecture/"
         ]
        }
       ]
@@ -105,28 +130,28 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/industries/architecture/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll-copy-scaled.png",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll-copy-scaled.png",
+      "@id": "https://admin.bvkhydrotech.com/industries/architecture/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png",
       "width": 2560,
       "height": 1708,
       "caption": "Mesh Roll Copy"
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/industries/architecture/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/industries/architecture/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Industries",
-        "item": "https://dev.bhavcreations.in/industries/"
+        "item": "https://admin.bvkhydrotech.com/industries/"
        },
        {
         "@type": "ListItem",
@@ -137,19 +162,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -162,21 +187,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -185,7 +210,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/139",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/139",
      "targetHints": {
       "allow": [
        "GET"
@@ -195,35 +220,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_industry"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_industry"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/139/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/139/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 219,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/139/revisions/219"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/139/revisions/219"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/62"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/62"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=139"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=139"
     }
    ],
    "curies": [
@@ -240,14 +265,14 @@
   "date": "2026-09-21T12:53:25",
   "date_gmt": "2026-09-21T12:53:25",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/industries/electronics/"
+   "rendered": "https://admin.bvkhydrotech.com/industries/electronics/"
   },
   "modified": "2026-09-22T12:13:41",
   "modified_gmt": "2026-09-22T12:13:41",
   "slug": "electronics",
   "status": "publish",
   "type": "bvk_industry",
-  "link": "https://dev.bhavcreations.in/industries/electronics/",
+  "link": "https://admin.bvkhydrotech.com/industries/electronics/",
   "title": {
    "rendered": "Electronics"
   },
@@ -275,12 +300,37 @@
   ],
   "acf": {
    "short_description": "Shielding and precision screening components for electronic assemblies.",
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Shielding and precision screening components for electronic assemblies."
+   },
    "icon_name": "CircuitBoard",
-   "banner_image": null,
+   "icon_name_source": {
+    "label": "Lucide Icon Name",
+    "type": "text",
+    "formatted_value": "CircuitBoard"
+   },
+   "banner_image": false,
+   "banner_image_source": {
+    "label": "Industry Banner Image",
+    "type": "image",
+    "formatted_value": false
+   },
    "applications": "EMI Shielding\nPrecision screening",
-   "sort_order": 9
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "EMI Shielding\nPrecision screening"
+   },
+   "sort_order": 9,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "9"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Electronics - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Electronics - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/industries/electronics/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:41+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/featool-multiphysics-matlab-fem-and-cfd-gui-toolbox-scaled.png\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1867\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/electronics\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/electronics\\/\",\"name\":\"Electronics - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/electronics\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/electronics\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/electronics-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:25+00:00\",\"dateModified\":\"2026-09-22T12:13:41+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/electronics\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/industries\\/electronics\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/electronics\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/electronics-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/electronics-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/electronics\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Electronics\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Electronics - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Electronics - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/industries/electronics/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:41+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/featool-multiphysics-matlab-fem-and-cfd-gui-toolbox-scaled.png\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1867\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/electronics\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/electronics\\/\",\"name\":\"Electronics - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/electronics\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/electronics\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/electronics-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:25+00:00\",\"dateModified\":\"2026-09-22T12:13:41+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/electronics\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/electronics\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/electronics\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/electronics-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/electronics-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/electronics\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Electronics\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Electronics - BVK Hydrotech",
    "robots": {
@@ -293,14 +343,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Electronics - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/industries/electronics/",
+   "og_url": "https://admin.bvkhydrotech.com/industries/electronics/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T12:13:41+00:00",
    "og_image": [
     {
      "width": 2560,
      "height": 1867,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/featool-multiphysics-matlab-fem-and-cfd-gui-toolbox-scaled.png",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/featool-multiphysics-matlab-fem-and-cfd-gui-toolbox-scaled.png",
      "type": "image/png"
     }
    ],
@@ -310,30 +360,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/industries/electronics/",
-      "url": "https://dev.bhavcreations.in/industries/electronics/",
+      "@id": "https://admin.bvkhydrotech.com/industries/electronics/",
+      "url": "https://admin.bvkhydrotech.com/industries/electronics/",
       "name": "Electronics - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/industries/electronics/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/electronics/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/industries/electronics/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/electronics/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/electronics-bvk-hydrotech.webp",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/electronics-bvk-hydrotech.webp",
       "datePublished": "2026-09-21T12:53:25+00:00",
       "dateModified": "2026-09-22T12:13:41+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/industries/electronics/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/industries/electronics/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/industries/electronics/"
+         "https://admin.bvkhydrotech.com/industries/electronics/"
         ]
        }
       ]
@@ -341,27 +391,27 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/industries/electronics/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/electronics-bvk-hydrotech.webp",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/electronics-bvk-hydrotech.webp",
+      "@id": "https://admin.bvkhydrotech.com/industries/electronics/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/electronics-bvk-hydrotech.webp",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/electronics-bvk-hydrotech.webp",
       "width": 1254,
       "height": 1254
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/industries/electronics/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/industries/electronics/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Industries",
-        "item": "https://dev.bhavcreations.in/industries/"
+        "item": "https://admin.bvkhydrotech.com/industries/"
        },
        {
         "@type": "ListItem",
@@ -372,19 +422,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -397,21 +447,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -420,7 +470,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/138",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/138",
      "targetHints": {
       "allow": [
        "GET"
@@ -430,35 +480,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_industry"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_industry"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/138/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/138/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 218,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/138/revisions/218"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/138/revisions/218"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/399"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/399"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=138"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=138"
     }
    ],
    "curies": [
@@ -475,14 +525,14 @@
   "date": "2026-09-21T12:53:24",
   "date_gmt": "2026-09-21T12:53:24",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/industries/food-beverage/"
+   "rendered": "https://admin.bvkhydrotech.com/industries/food-beverage/"
   },
   "modified": "2026-09-22T12:13:44",
   "modified_gmt": "2026-09-22T12:13:44",
   "slug": "food-beverage",
   "status": "publish",
   "type": "bvk_industry",
-  "link": "https://dev.bhavcreations.in/industries/food-beverage/",
+  "link": "https://admin.bvkhydrotech.com/industries/food-beverage/",
   "title": {
    "rendered": "Food &#038; Beverage"
   },
@@ -510,12 +560,37 @@
   ],
   "acf": {
    "short_description": "Juicing and process filtration mesh in food-contact grade alloys.",
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Juicing and process filtration mesh in food-contact grade alloys."
+   },
    "icon_name": "CupSoda",
-   "banner_image": null,
+   "icon_name_source": {
+    "label": "Lucide Icon Name",
+    "type": "text",
+    "formatted_value": "CupSoda"
+   },
+   "banner_image": false,
+   "banner_image_source": {
+    "label": "Industry Banner Image",
+    "type": "image",
+    "formatted_value": false
+   },
    "applications": "Juicing",
-   "sort_order": 8
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Juicing"
+   },
+   "sort_order": 8,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "8"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Food &amp; Beverage - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Food &amp; Beverage - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/industries/food-beverage/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:44+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/closeup-young-clinician-protective-mask-studying-new-virus-bacteria.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"1348\" />\n\t<meta property=\"og:image:height\" content=\"900\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/food-beverage\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/food-beverage\\/\",\"name\":\"Food & Beverage - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/food-beverage\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/food-beverage\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/food-beverage-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:24+00:00\",\"dateModified\":\"2026-09-22T12:13:44+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/food-beverage\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/industries\\/food-beverage\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/food-beverage\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/food-beverage-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/food-beverage-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/food-beverage\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Food &#038; Beverage\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Food &amp; Beverage - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Food &amp; Beverage - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/industries/food-beverage/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:44+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/closeup-young-clinician-protective-mask-studying-new-virus-bacteria.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"1348\" />\n\t<meta property=\"og:image:height\" content=\"900\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/food-beverage\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/food-beverage\\/\",\"name\":\"Food & Beverage - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/food-beverage\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/food-beverage\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/food-beverage-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:24+00:00\",\"dateModified\":\"2026-09-22T12:13:44+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/food-beverage\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/food-beverage\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/food-beverage\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/food-beverage-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/food-beverage-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/food-beverage\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Food &#038; Beverage\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Food & Beverage - BVK Hydrotech",
    "robots": {
@@ -528,14 +603,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Food & Beverage - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/industries/food-beverage/",
+   "og_url": "https://admin.bvkhydrotech.com/industries/food-beverage/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T12:13:44+00:00",
    "og_image": [
     {
      "width": 1348,
      "height": 900,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/closeup-young-clinician-protective-mask-studying-new-virus-bacteria.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/closeup-young-clinician-protective-mask-studying-new-virus-bacteria.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -545,30 +620,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/industries/food-beverage/",
-      "url": "https://dev.bhavcreations.in/industries/food-beverage/",
+      "@id": "https://admin.bvkhydrotech.com/industries/food-beverage/",
+      "url": "https://admin.bvkhydrotech.com/industries/food-beverage/",
       "name": "Food & Beverage - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/industries/food-beverage/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/food-beverage/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/industries/food-beverage/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/food-beverage/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/food-beverage-bvk-hydrotech.webp",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/food-beverage-bvk-hydrotech.webp",
       "datePublished": "2026-09-21T12:53:24+00:00",
       "dateModified": "2026-09-22T12:13:44+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/industries/food-beverage/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/industries/food-beverage/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/industries/food-beverage/"
+         "https://admin.bvkhydrotech.com/industries/food-beverage/"
         ]
        }
       ]
@@ -576,27 +651,27 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/industries/food-beverage/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/food-beverage-bvk-hydrotech.webp",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/food-beverage-bvk-hydrotech.webp",
+      "@id": "https://admin.bvkhydrotech.com/industries/food-beverage/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/food-beverage-bvk-hydrotech.webp",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/food-beverage-bvk-hydrotech.webp",
       "width": 1254,
       "height": 1254
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/industries/food-beverage/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/industries/food-beverage/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Industries",
-        "item": "https://dev.bhavcreations.in/industries/"
+        "item": "https://admin.bvkhydrotech.com/industries/"
        },
        {
         "@type": "ListItem",
@@ -607,19 +682,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -632,21 +707,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -655,7 +730,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/137",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/137",
      "targetHints": {
       "allow": [
        "GET"
@@ -665,35 +740,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_industry"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_industry"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/137/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/137/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 217,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/137/revisions/217"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/137/revisions/217"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/401"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/401"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=137"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=137"
     }
    ],
    "curies": [
@@ -710,14 +785,14 @@
   "date": "2026-09-21T12:53:24",
   "date_gmt": "2026-09-21T12:53:24",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/industries/plastic-polymer/"
+   "rendered": "https://admin.bvkhydrotech.com/industries/plastic-polymer/"
   },
   "modified": "2026-09-22T04:47:30",
   "modified_gmt": "2026-09-22T04:47:30",
   "slug": "plastic-polymer",
   "status": "publish",
   "type": "bvk_industry",
-  "link": "https://dev.bhavcreations.in/industries/plastic-polymer/",
+  "link": "https://admin.bvkhydrotech.com/industries/plastic-polymer/",
   "title": {
    "rendered": "Plastic &#038; Polymer"
   },
@@ -745,12 +820,37 @@
   ],
   "acf": {
    "short_description": "Fibre and filament spinning packs and melt filtration.",
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Fibre and filament spinning packs and melt filtration."
+   },
    "icon_name": "Waves",
-   "banner_image": null,
+   "icon_name_source": {
+    "label": "Lucide Icon Name",
+    "type": "text",
+    "formatted_value": "Waves"
+   },
+   "banner_image": false,
+   "banner_image_source": {
+    "label": "Industry Banner Image",
+    "type": "image",
+    "formatted_value": false
+   },
    "applications": "Fiber & Filaments",
-   "sort_order": 7
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Fiber & Filaments"
+   },
+   "sort_order": 7,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "7"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Plastic &amp; Polymer - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Plastic &amp; Polymer - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/industries/plastic-polymer/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:30+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/slitting-1024x768.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"1024\" />\n\t<meta property=\"og:image:height\" content=\"768\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/plastic-polymer\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/plastic-polymer\\/\",\"name\":\"Plastic & Polymer - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/plastic-polymer\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/plastic-polymer\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/slitting.jpeg\",\"datePublished\":\"2026-09-21T12:53:24+00:00\",\"dateModified\":\"2026-09-22T04:47:30+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/plastic-polymer\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/industries\\/plastic-polymer\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/plastic-polymer\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/slitting.jpeg\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/slitting.jpeg\",\"width\":1500,\"height\":1125,\"caption\":\"Slitting\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/plastic-polymer\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Plastic &#038; Polymer\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Plastic &amp; Polymer - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Plastic &amp; Polymer - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/industries/plastic-polymer/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:30+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/slitting-1024x768.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"1024\" />\n\t<meta property=\"og:image:height\" content=\"768\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/plastic-polymer\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/plastic-polymer\\/\",\"name\":\"Plastic & Polymer - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/plastic-polymer\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/plastic-polymer\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/slitting.jpeg\",\"datePublished\":\"2026-09-21T12:53:24+00:00\",\"dateModified\":\"2026-09-22T04:47:30+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/plastic-polymer\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/plastic-polymer\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/plastic-polymer\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/slitting.jpeg\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/slitting.jpeg\",\"width\":1500,\"height\":1125,\"caption\":\"Slitting\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/plastic-polymer\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Plastic &#038; Polymer\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Plastic & Polymer - BVK Hydrotech",
    "robots": {
@@ -763,14 +863,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Plastic & Polymer - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/industries/plastic-polymer/",
+   "og_url": "https://admin.bvkhydrotech.com/industries/plastic-polymer/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T04:47:30+00:00",
    "og_image": [
     {
      "width": 1024,
      "height": 768,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/slitting-1024x768.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/slitting-1024x768.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -780,30 +880,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/industries/plastic-polymer/",
-      "url": "https://dev.bhavcreations.in/industries/plastic-polymer/",
+      "@id": "https://admin.bvkhydrotech.com/industries/plastic-polymer/",
+      "url": "https://admin.bvkhydrotech.com/industries/plastic-polymer/",
       "name": "Plastic & Polymer - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/industries/plastic-polymer/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/plastic-polymer/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/industries/plastic-polymer/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/plastic-polymer/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/slitting.jpeg",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/slitting.jpeg",
       "datePublished": "2026-09-21T12:53:24+00:00",
       "dateModified": "2026-09-22T04:47:30+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/industries/plastic-polymer/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/industries/plastic-polymer/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/industries/plastic-polymer/"
+         "https://admin.bvkhydrotech.com/industries/plastic-polymer/"
         ]
        }
       ]
@@ -811,28 +911,28 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/industries/plastic-polymer/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/slitting.jpeg",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/slitting.jpeg",
+      "@id": "https://admin.bvkhydrotech.com/industries/plastic-polymer/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/slitting.jpeg",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/slitting.jpeg",
       "width": 1500,
       "height": 1125,
       "caption": "Slitting"
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/industries/plastic-polymer/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/industries/plastic-polymer/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Industries",
-        "item": "https://dev.bhavcreations.in/industries/"
+        "item": "https://admin.bvkhydrotech.com/industries/"
        },
        {
         "@type": "ListItem",
@@ -843,19 +943,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -868,21 +968,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -891,7 +991,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/136",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/136",
      "targetHints": {
       "allow": [
        "GET"
@@ -901,35 +1001,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_industry"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_industry"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/136/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/136/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 216,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/136/revisions/216"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/136/revisions/216"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/66"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/66"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=136"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=136"
     }
    ],
    "curies": [
@@ -946,14 +1046,14 @@
   "date": "2026-09-21T12:53:23",
   "date_gmt": "2026-09-21T12:53:23",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/industries/mining/"
+   "rendered": "https://admin.bvkhydrotech.com/industries/mining/"
   },
   "modified": "2026-09-22T12:13:46",
   "modified_gmt": "2026-09-22T12:13:46",
   "slug": "mining",
   "status": "publish",
   "type": "bvk_industry",
-  "link": "https://dev.bhavcreations.in/industries/mining/",
+  "link": "https://admin.bvkhydrotech.com/industries/mining/",
   "title": {
    "rendered": "Mining"
   },
@@ -981,12 +1081,37 @@
   ],
   "acf": {
    "short_description": "Coal washing, mineral separation, FGD, fertilizers and gypsum screening.",
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Coal washing, mineral separation, FGD, fertilizers and gypsum screening."
+   },
    "icon_name": "Mountain",
-   "banner_image": null,
+   "icon_name_source": {
+    "label": "Lucide Icon Name",
+    "type": "text",
+    "formatted_value": "Mountain"
+   },
+   "banner_image": false,
+   "banner_image_source": {
+    "label": "Industry Banner Image",
+    "type": "image",
+    "formatted_value": false
+   },
    "applications": "Coal washing\nMineral separation\nFGD\nFertilizers\nGypsum",
-   "sort_order": 6
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Coal washing\nMineral separation\nFGD\nFertilizers\nGypsum"
+   },
+   "sort_order": 6,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "6"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Mining - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Mining - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/industries/mining/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:46+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/ss-in-racks.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"738\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/mining\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/mining\\/\",\"name\":\"Mining - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/mining\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/mining\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mining-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:23+00:00\",\"dateModified\":\"2026-09-22T12:13:46+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/mining\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/industries\\/mining\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/mining\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mining-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mining-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/mining\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Mining\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Mining - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Mining - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/industries/mining/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:46+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/ss-in-racks.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"738\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/mining\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/mining\\/\",\"name\":\"Mining - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/mining\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/mining\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mining-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:23+00:00\",\"dateModified\":\"2026-09-22T12:13:46+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/mining\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/mining\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/mining\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mining-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mining-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/mining\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Mining\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Mining - BVK Hydrotech",
    "robots": {
@@ -999,14 +1124,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Mining - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/industries/mining/",
+   "og_url": "https://admin.bvkhydrotech.com/industries/mining/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T12:13:46+00:00",
    "og_image": [
     {
      "width": 1200,
      "height": 738,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/ss-in-racks.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/ss-in-racks.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -1016,30 +1141,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/industries/mining/",
-      "url": "https://dev.bhavcreations.in/industries/mining/",
+      "@id": "https://admin.bvkhydrotech.com/industries/mining/",
+      "url": "https://admin.bvkhydrotech.com/industries/mining/",
       "name": "Mining - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/industries/mining/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/mining/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/industries/mining/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/mining/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/mining-bvk-hydrotech.webp",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/mining-bvk-hydrotech.webp",
       "datePublished": "2026-09-21T12:53:23+00:00",
       "dateModified": "2026-09-22T12:13:46+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/industries/mining/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/industries/mining/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/industries/mining/"
+         "https://admin.bvkhydrotech.com/industries/mining/"
         ]
        }
       ]
@@ -1047,27 +1172,27 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/industries/mining/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/mining-bvk-hydrotech.webp",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/mining-bvk-hydrotech.webp",
+      "@id": "https://admin.bvkhydrotech.com/industries/mining/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mining-bvk-hydrotech.webp",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/mining-bvk-hydrotech.webp",
       "width": 1254,
       "height": 1254
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/industries/mining/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/industries/mining/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Industries",
-        "item": "https://dev.bhavcreations.in/industries/"
+        "item": "https://admin.bvkhydrotech.com/industries/"
        },
        {
         "@type": "ListItem",
@@ -1078,19 +1203,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -1103,21 +1228,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -1126,7 +1251,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/135",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/135",
      "targetHints": {
       "allow": [
        "GET"
@@ -1136,35 +1261,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_industry"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_industry"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/135/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/135/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 215,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/135/revisions/215"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/135/revisions/215"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/402"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/402"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=135"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=135"
     }
    ],
    "curies": [
@@ -1181,14 +1306,14 @@
   "date": "2026-09-21T12:53:23",
   "date_gmt": "2026-09-21T12:53:23",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/industries/chemical/"
+   "rendered": "https://admin.bvkhydrotech.com/industries/chemical/"
   },
   "modified": "2026-09-22T12:13:39",
   "modified_gmt": "2026-09-22T12:13:39",
   "slug": "chemical",
   "status": "publish",
   "type": "bvk_industry",
-  "link": "https://dev.bhavcreations.in/industries/chemical/",
+  "link": "https://admin.bvkhydrotech.com/industries/chemical/",
   "title": {
    "rendered": "Chemical"
   },
@@ -1216,12 +1341,37 @@
   ],
   "acf": {
    "short_description": "Filtration, separation and distillation internals for aggressive process environments.",
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Filtration, separation and distillation internals for aggressive process environments."
+   },
    "icon_name": "FlaskConical",
-   "banner_image": null,
+   "icon_name_source": {
+    "label": "Lucide Icon Name",
+    "type": "text",
+    "formatted_value": "FlaskConical"
+   },
+   "banner_image": false,
+   "banner_image_source": {
+    "label": "Industry Banner Image",
+    "type": "image",
+    "formatted_value": false
+   },
    "applications": "Filtration & Separation\nDistillation",
-   "sort_order": 5
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Filtration & Separation\nDistillation"
+   },
+   "sort_order": 5,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "5"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Chemical - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Chemical - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/industries/chemical/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:39+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/tube2-scaled.png\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1440\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/chemical\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/chemical\\/\",\"name\":\"Chemical - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/chemical\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/chemical\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/chemical-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:23+00:00\",\"dateModified\":\"2026-09-22T12:13:39+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/chemical\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/industries\\/chemical\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/chemical\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/chemical-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/chemical-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/chemical\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Chemical\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Chemical - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Chemical - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/industries/chemical/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:39+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/tube2-scaled.png\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1440\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/chemical\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/chemical\\/\",\"name\":\"Chemical - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/chemical\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/chemical\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/chemical-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:23+00:00\",\"dateModified\":\"2026-09-22T12:13:39+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/chemical\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/chemical\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/chemical\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/chemical-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/chemical-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/chemical\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Chemical\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Chemical - BVK Hydrotech",
    "robots": {
@@ -1234,14 +1384,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Chemical - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/industries/chemical/",
+   "og_url": "https://admin.bvkhydrotech.com/industries/chemical/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T12:13:39+00:00",
    "og_image": [
     {
      "width": 2560,
      "height": 1440,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/tube2-scaled.png",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/tube2-scaled.png",
      "type": "image/png"
     }
    ],
@@ -1251,30 +1401,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/industries/chemical/",
-      "url": "https://dev.bhavcreations.in/industries/chemical/",
+      "@id": "https://admin.bvkhydrotech.com/industries/chemical/",
+      "url": "https://admin.bvkhydrotech.com/industries/chemical/",
       "name": "Chemical - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/industries/chemical/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/chemical/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/industries/chemical/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/chemical/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/chemical-bvk-hydrotech.webp",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/chemical-bvk-hydrotech.webp",
       "datePublished": "2026-09-21T12:53:23+00:00",
       "dateModified": "2026-09-22T12:13:39+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/industries/chemical/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/industries/chemical/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/industries/chemical/"
+         "https://admin.bvkhydrotech.com/industries/chemical/"
         ]
        }
       ]
@@ -1282,27 +1432,27 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/industries/chemical/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/chemical-bvk-hydrotech.webp",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/chemical-bvk-hydrotech.webp",
+      "@id": "https://admin.bvkhydrotech.com/industries/chemical/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/chemical-bvk-hydrotech.webp",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/chemical-bvk-hydrotech.webp",
       "width": 1254,
       "height": 1254
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/industries/chemical/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/industries/chemical/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Industries",
-        "item": "https://dev.bhavcreations.in/industries/"
+        "item": "https://admin.bvkhydrotech.com/industries/"
        },
        {
         "@type": "ListItem",
@@ -1313,19 +1463,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -1338,21 +1488,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -1361,7 +1511,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/134",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/134",
      "targetHints": {
       "allow": [
        "GET"
@@ -1371,35 +1521,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_industry"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_industry"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/134/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/134/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 214,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/134/revisions/214"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/134/revisions/214"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/398"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/398"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=134"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=134"
     }
    ],
    "curies": [
@@ -1416,14 +1566,14 @@
   "date": "2026-09-21T12:53:22",
   "date_gmt": "2026-09-21T12:53:22",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/industries/pulp-paper/"
+   "rendered": "https://admin.bvkhydrotech.com/industries/pulp-paper/"
   },
   "modified": "2026-09-22T12:13:47",
   "modified_gmt": "2026-09-22T12:13:47",
   "slug": "pulp-paper",
   "status": "publish",
   "type": "bvk_industry",
-  "link": "https://dev.bhavcreations.in/industries/pulp-paper/",
+  "link": "https://admin.bvkhydrotech.com/industries/pulp-paper/",
   "title": {
    "rendered": "Pulp &#038; Paper"
   },
@@ -1451,12 +1601,37 @@
   ],
   "acf": {
    "short_description": "Fibre moulding, paper forming, de-watering and security watermark mesh.",
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Fibre moulding, paper forming, de-watering and security watermark mesh."
+   },
    "icon_name": "Layers",
-   "banner_image": null,
+   "icon_name_source": {
+    "label": "Lucide Icon Name",
+    "type": "text",
+    "formatted_value": "Layers"
+   },
+   "banner_image": false,
+   "banner_image_source": {
+    "label": "Industry Banner Image",
+    "type": "image",
+    "formatted_value": false
+   },
    "applications": "Fiber Molding\nPaper Forming\nDe-watering & Filtering\nSecurity Watermark",
-   "sort_order": 4
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Fiber Molding\nPaper Forming\nDe-watering & Filtering\nSecurity Watermark"
+   },
+   "sort_order": 4,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "4"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Pulp &amp; Paper - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Pulp &amp; Paper - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/industries/pulp-paper/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:47+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/warping.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"797\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/pulp-paper\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/pulp-paper\\/\",\"name\":\"Pulp & Paper - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/pulp-paper\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/pulp-paper\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/pulp-paper-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:22+00:00\",\"dateModified\":\"2026-09-22T12:13:47+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/pulp-paper\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/industries\\/pulp-paper\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/pulp-paper\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/pulp-paper-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/pulp-paper-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/pulp-paper\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Pulp &#038; Paper\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Pulp &amp; Paper - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Pulp &amp; Paper - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/industries/pulp-paper/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:47+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/warping.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"797\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/pulp-paper\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/pulp-paper\\/\",\"name\":\"Pulp & Paper - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/pulp-paper\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/pulp-paper\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/pulp-paper-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:22+00:00\",\"dateModified\":\"2026-09-22T12:13:47+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/pulp-paper\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/pulp-paper\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/pulp-paper\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/pulp-paper-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/pulp-paper-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/pulp-paper\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Pulp &#038; Paper\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Pulp & Paper - BVK Hydrotech",
    "robots": {
@@ -1469,14 +1644,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Pulp & Paper - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/industries/pulp-paper/",
+   "og_url": "https://admin.bvkhydrotech.com/industries/pulp-paper/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T12:13:47+00:00",
    "og_image": [
     {
      "width": 1200,
      "height": 797,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/warping.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/warping.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -1486,30 +1661,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/industries/pulp-paper/",
-      "url": "https://dev.bhavcreations.in/industries/pulp-paper/",
+      "@id": "https://admin.bvkhydrotech.com/industries/pulp-paper/",
+      "url": "https://admin.bvkhydrotech.com/industries/pulp-paper/",
       "name": "Pulp & Paper - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/industries/pulp-paper/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/pulp-paper/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/industries/pulp-paper/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/pulp-paper/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/pulp-paper-bvk-hydrotech.webp",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/pulp-paper-bvk-hydrotech.webp",
       "datePublished": "2026-09-21T12:53:22+00:00",
       "dateModified": "2026-09-22T12:13:47+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/industries/pulp-paper/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/industries/pulp-paper/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/industries/pulp-paper/"
+         "https://admin.bvkhydrotech.com/industries/pulp-paper/"
         ]
        }
       ]
@@ -1517,27 +1692,27 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/industries/pulp-paper/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/pulp-paper-bvk-hydrotech.webp",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/pulp-paper-bvk-hydrotech.webp",
+      "@id": "https://admin.bvkhydrotech.com/industries/pulp-paper/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/pulp-paper-bvk-hydrotech.webp",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/pulp-paper-bvk-hydrotech.webp",
       "width": 1254,
       "height": 1254
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/industries/pulp-paper/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/industries/pulp-paper/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Industries",
-        "item": "https://dev.bhavcreations.in/industries/"
+        "item": "https://admin.bvkhydrotech.com/industries/"
        },
        {
         "@type": "ListItem",
@@ -1548,19 +1723,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -1573,21 +1748,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -1596,7 +1771,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/133",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/133",
      "targetHints": {
       "allow": [
        "GET"
@@ -1606,35 +1781,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_industry"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_industry"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/133/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/133/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 213,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/133/revisions/213"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/133/revisions/213"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/403"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/403"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=133"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=133"
     }
    ],
    "curies": [
@@ -1651,14 +1826,14 @@
   "date": "2026-09-21T12:53:21",
   "date_gmt": "2026-09-21T12:53:21",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/industries/aerospace/"
+   "rendered": "https://admin.bvkhydrotech.com/industries/aerospace/"
   },
   "modified": "2026-09-22T12:13:36",
   "modified_gmt": "2026-09-22T12:13:36",
   "slug": "aerospace",
   "status": "publish",
   "type": "bvk_industry",
-  "link": "https://dev.bhavcreations.in/industries/aerospace/",
+  "link": "https://admin.bvkhydrotech.com/industries/aerospace/",
   "title": {
    "rendered": "Aerospace"
   },
@@ -1686,12 +1861,37 @@
   ],
   "acf": {
    "short_description": "EMI shielding mesh manufactured to aerospace quality expectations.",
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "EMI shielding mesh manufactured to aerospace quality expectations."
+   },
    "icon_name": "Plane",
-   "banner_image": null,
+   "icon_name_source": {
+    "label": "Lucide Icon Name",
+    "type": "text",
+    "formatted_value": "Plane"
+   },
+   "banner_image": false,
+   "banner_image_source": {
+    "label": "Industry Banner Image",
+    "type": "image",
+    "formatted_value": false
+   },
    "applications": "EMI Shielding",
-   "sort_order": 3
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "EMI Shielding"
+   },
+   "sort_order": 3,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "3"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Aerospace - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Aerospace - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/industries/aerospace/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:36+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/jets-scaled.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"2552\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/aerospace\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/aerospace\\/\",\"name\":\"Aerospace - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/aerospace\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/aerospace\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/aerospace-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:21+00:00\",\"dateModified\":\"2026-09-22T12:13:36+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/aerospace\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/industries\\/aerospace\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/aerospace\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/aerospace-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/aerospace-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/aerospace\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Aerospace\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Aerospace - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Aerospace - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/industries/aerospace/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:36+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/jets-scaled.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"2552\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/aerospace\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/aerospace\\/\",\"name\":\"Aerospace - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/aerospace\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/aerospace\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/aerospace-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:21+00:00\",\"dateModified\":\"2026-09-22T12:13:36+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/aerospace\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/aerospace\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/aerospace\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/aerospace-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/aerospace-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/aerospace\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Aerospace\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Aerospace - BVK Hydrotech",
    "robots": {
@@ -1704,14 +1904,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Aerospace - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/industries/aerospace/",
+   "og_url": "https://admin.bvkhydrotech.com/industries/aerospace/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T12:13:36+00:00",
    "og_image": [
     {
      "width": 2560,
      "height": 2552,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/jets-scaled.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/jets-scaled.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -1721,30 +1921,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/industries/aerospace/",
-      "url": "https://dev.bhavcreations.in/industries/aerospace/",
+      "@id": "https://admin.bvkhydrotech.com/industries/aerospace/",
+      "url": "https://admin.bvkhydrotech.com/industries/aerospace/",
       "name": "Aerospace - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/industries/aerospace/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/aerospace/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/industries/aerospace/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/aerospace/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/aerospace-bvk-hydrotech.webp",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/aerospace-bvk-hydrotech.webp",
       "datePublished": "2026-09-21T12:53:21+00:00",
       "dateModified": "2026-09-22T12:13:36+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/industries/aerospace/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/industries/aerospace/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/industries/aerospace/"
+         "https://admin.bvkhydrotech.com/industries/aerospace/"
         ]
        }
       ]
@@ -1752,27 +1952,27 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/industries/aerospace/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/aerospace-bvk-hydrotech.webp",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/aerospace-bvk-hydrotech.webp",
+      "@id": "https://admin.bvkhydrotech.com/industries/aerospace/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/aerospace-bvk-hydrotech.webp",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/aerospace-bvk-hydrotech.webp",
       "width": 1254,
       "height": 1254
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/industries/aerospace/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/industries/aerospace/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Industries",
-        "item": "https://dev.bhavcreations.in/industries/"
+        "item": "https://admin.bvkhydrotech.com/industries/"
        },
        {
         "@type": "ListItem",
@@ -1783,19 +1983,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -1808,21 +2008,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -1831,7 +2031,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/132",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/132",
      "targetHints": {
       "allow": [
        "GET"
@@ -1841,35 +2041,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_industry"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_industry"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/132/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/132/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 212,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/132/revisions/212"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/132/revisions/212"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/396"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/396"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=132"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=132"
     }
    ],
    "curies": [
@@ -1886,14 +2086,14 @@
   "date": "2026-09-21T12:53:21",
   "date_gmt": "2026-09-21T12:53:21",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/industries/automotive/"
+   "rendered": "https://admin.bvkhydrotech.com/industries/automotive/"
   },
   "modified": "2026-09-22T12:13:38",
   "modified_gmt": "2026-09-22T12:13:38",
   "slug": "automotive",
   "status": "publish",
   "type": "bvk_industry",
-  "link": "https://dev.bhavcreations.in/industries/automotive/",
+  "link": "https://admin.bvkhydrotech.com/industries/automotive/",
   "title": {
    "rendered": "Automotive"
   },
@@ -1921,12 +2121,37 @@
   ],
   "acf": {
    "short_description": "Drive technology, hydraulic filtration and exhaust gas recirculation components.",
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Drive technology, hydraulic filtration and exhaust gas recirculation components."
+   },
    "icon_name": "Car",
-   "banner_image": null,
+   "icon_name_source": {
+    "label": "Lucide Icon Name",
+    "type": "text",
+    "formatted_value": "Car"
+   },
+   "banner_image": false,
+   "banner_image_source": {
+    "label": "Industry Banner Image",
+    "type": "image",
+    "formatted_value": false
+   },
    "applications": "Drive Technology\nHydraulic Filter\nFilter\nEGR",
-   "sort_order": 2
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Drive Technology\nHydraulic Filter\nFilter\nEGR"
+   },
+   "sort_order": 2,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "2"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Automotive - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Automotive - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/industries/automotive/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:38+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/istock-1352428687.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"675\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/automotive\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/automotive\\/\",\"name\":\"Automotive - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/automotive\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/automotive\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/automotive-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:21+00:00\",\"dateModified\":\"2026-09-22T12:13:38+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/automotive\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/industries\\/automotive\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/automotive\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/automotive-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/automotive-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/automotive\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Automotive\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Automotive - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Automotive - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/industries/automotive/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:38+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/istock-1352428687.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"1200\" />\n\t<meta property=\"og:image:height\" content=\"675\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/automotive\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/automotive\\/\",\"name\":\"Automotive - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/automotive\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/automotive\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/automotive-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:21+00:00\",\"dateModified\":\"2026-09-22T12:13:38+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/automotive\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/automotive\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/automotive\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/automotive-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/automotive-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/automotive\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Automotive\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Automotive - BVK Hydrotech",
    "robots": {
@@ -1939,14 +2164,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Automotive - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/industries/automotive/",
+   "og_url": "https://admin.bvkhydrotech.com/industries/automotive/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T12:13:38+00:00",
    "og_image": [
     {
      "width": 1200,
      "height": 675,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/istock-1352428687.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/istock-1352428687.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -1956,30 +2181,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/industries/automotive/",
-      "url": "https://dev.bhavcreations.in/industries/automotive/",
+      "@id": "https://admin.bvkhydrotech.com/industries/automotive/",
+      "url": "https://admin.bvkhydrotech.com/industries/automotive/",
       "name": "Automotive - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/industries/automotive/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/automotive/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/industries/automotive/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/automotive/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/automotive-bvk-hydrotech.webp",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/automotive-bvk-hydrotech.webp",
       "datePublished": "2026-09-21T12:53:21+00:00",
       "dateModified": "2026-09-22T12:13:38+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/industries/automotive/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/industries/automotive/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/industries/automotive/"
+         "https://admin.bvkhydrotech.com/industries/automotive/"
         ]
        }
       ]
@@ -1987,27 +2212,27 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/industries/automotive/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/automotive-bvk-hydrotech.webp",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/automotive-bvk-hydrotech.webp",
+      "@id": "https://admin.bvkhydrotech.com/industries/automotive/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/automotive-bvk-hydrotech.webp",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/automotive-bvk-hydrotech.webp",
       "width": 1254,
       "height": 1254
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/industries/automotive/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/industries/automotive/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Industries",
-        "item": "https://dev.bhavcreations.in/industries/"
+        "item": "https://admin.bvkhydrotech.com/industries/"
        },
        {
         "@type": "ListItem",
@@ -2018,19 +2243,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -2043,21 +2268,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -2066,7 +2291,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/131",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/131",
      "targetHints": {
       "allow": [
        "GET"
@@ -2076,35 +2301,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_industry"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_industry"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/131/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/131/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 211,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/131/revisions/211"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/131/revisions/211"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/397"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/397"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=131"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=131"
     }
    ],
    "curies": [
@@ -2121,14 +2346,14 @@
   "date": "2026-09-21T12:53:20",
   "date_gmt": "2026-09-21T12:53:20",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/industries/energy/"
+   "rendered": "https://admin.bvkhydrotech.com/industries/energy/"
   },
   "modified": "2026-09-22T12:13:42",
   "modified_gmt": "2026-09-22T12:13:42",
   "slug": "energy",
   "status": "publish",
   "type": "bvk_industry",
-  "link": "https://dev.bhavcreations.in/industries/energy/",
+  "link": "https://admin.bvkhydrotech.com/industries/energy/",
   "title": {
    "rendered": "Energy"
   },
@@ -2156,12 +2381,37 @@
   ],
   "acf": {
    "short_description": "Electrolysis and fuel cell systems across the green hydrogen value chain.",
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Electrolysis and fuel cell systems across the green hydrogen value chain."
+   },
    "icon_name": "Zap",
-   "banner_image": null,
+   "icon_name_source": {
+    "label": "Lucide Icon Name",
+    "type": "text",
+    "formatted_value": "Zap"
+   },
+   "banner_image": false,
+   "banner_image_source": {
+    "label": "Industry Banner Image",
+    "type": "image",
+    "formatted_value": false
+   },
    "applications": "Electrolysis\nFuel Cell",
-   "sort_order": 1
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Electrolysis\nFuel Cell"
+   },
+   "sort_order": 1,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "1"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Energy - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Energy - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/industries/energy/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:42+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/solar-cell-farm-power-station-alternative-energy-from-sun-scaled.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1709\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/energy\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/energy\\/\",\"name\":\"Energy - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/energy\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/energy\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/energy-hydrogen-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:20+00:00\",\"dateModified\":\"2026-09-22T12:13:42+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/energy\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/industries\\/energy\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/energy\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/energy-hydrogen-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/energy-hydrogen-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/energy\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Energy\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Energy - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Energy - BVK Hydrotech\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/industries/energy/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T12:13:42+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/solar-cell-farm-power-station-alternative-energy-from-sun-scaled.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1709\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/energy\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/energy\\/\",\"name\":\"Energy - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/energy\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/energy\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/energy-hydrogen-bvk-hydrotech.webp\",\"datePublished\":\"2026-09-21T12:53:20+00:00\",\"dateModified\":\"2026-09-22T12:13:42+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/energy\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/energy\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/energy\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/energy-hydrogen-bvk-hydrotech.webp\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/energy-hydrogen-bvk-hydrotech.webp\",\"width\":1254,\"height\":1254},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/energy\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Industries\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/industries\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Energy\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Energy - BVK Hydrotech",
    "robots": {
@@ -2174,14 +2424,14 @@
    "og_locale": "en_US",
    "og_type": "article",
    "og_title": "Energy - BVK Hydrotech",
-   "og_url": "https://dev.bhavcreations.in/industries/energy/",
+   "og_url": "https://admin.bvkhydrotech.com/industries/energy/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T12:13:42+00:00",
    "og_image": [
     {
      "width": 2560,
      "height": 1709,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/solar-cell-farm-power-station-alternative-energy-from-sun-scaled.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/solar-cell-farm-power-station-alternative-energy-from-sun-scaled.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -2191,30 +2441,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/industries/energy/",
-      "url": "https://dev.bhavcreations.in/industries/energy/",
+      "@id": "https://admin.bvkhydrotech.com/industries/energy/",
+      "url": "https://admin.bvkhydrotech.com/industries/energy/",
       "name": "Energy - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/industries/energy/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/energy/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/industries/energy/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/industries/energy/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/energy-hydrogen-bvk-hydrotech.webp",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/energy-hydrogen-bvk-hydrotech.webp",
       "datePublished": "2026-09-21T12:53:20+00:00",
       "dateModified": "2026-09-22T12:13:42+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/industries/energy/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/industries/energy/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/industries/energy/"
+         "https://admin.bvkhydrotech.com/industries/energy/"
         ]
        }
       ]
@@ -2222,27 +2472,27 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/industries/energy/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/energy-hydrogen-bvk-hydrotech.webp",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/energy-hydrogen-bvk-hydrotech.webp",
+      "@id": "https://admin.bvkhydrotech.com/industries/energy/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/energy-hydrogen-bvk-hydrotech.webp",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/energy-hydrogen-bvk-hydrotech.webp",
       "width": 1254,
       "height": 1254
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/industries/energy/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/industries/energy/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Industries",
-        "item": "https://dev.bhavcreations.in/industries/"
+        "item": "https://admin.bvkhydrotech.com/industries/"
        },
        {
         "@type": "ListItem",
@@ -2253,19 +2503,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -2278,21 +2528,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -2301,7 +2551,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/130",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/130",
      "targetHints": {
       "allow": [
        "GET"
@@ -2311,35 +2561,35 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_industry"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_industry"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/130/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/130/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 210,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industries/130/revisions/210"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industries/130/revisions/210"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/400"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/400"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=130"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=130"
     }
    ],
    "curies": [

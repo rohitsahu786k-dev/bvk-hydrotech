@@ -4,14 +4,14 @@
   "date": "2026-09-21T12:53:16",
   "date_gmt": "2026-09-21T12:53:16",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/products/knitted-mesh-solutions/"
+   "rendered": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/"
   },
   "modified": "2026-09-22T04:47:23",
   "modified_gmt": "2026-09-22T04:47:23",
   "slug": "knitted-mesh-solutions",
   "status": "publish",
   "type": "bvk_product",
-  "link": "https://dev.bhavcreations.in/products/knitted-mesh-solutions/",
+  "link": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/",
   "title": {
    "rendered": "Knitted Mesh Solutions"
   },
@@ -42,20 +42,217 @@
   ],
   "acf": {
    "short_description": "Single, double and multi-end knitted mesh, tailored to stack-specific or device-specific requirements.",
-   "banner_image": 62,
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Single, double and multi-end knitted mesh, tailored to stack-specific or device-specific requirements."
+   },
+   "banner_image": {
+    "ID": 62,
+    "id": 62,
+    "title": "Mesh Roll Copy",
+    "filename": "mesh-roll-copy-scaled.png",
+    "filesize": 690374,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png",
+    "link": "https://admin.bvkhydrotech.com/resources/mesh-roll-copy/",
+    "alt": "Mesh Roll Copy",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "mesh-roll-copy",
+    "status": "inherit",
+    "uploaded_to": 97,
+    "date": "2026-09-21 12:33:42",
+    "modified": "2026-09-21 12:52:56",
+    "menu_order": 0,
+    "mime_type": "image/png",
+    "type": "image",
+    "subtype": "png",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 2560,
+    "height": 1708,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-150x100.png",
+     "thumbnail-width": 150,
+     "thumbnail-height": 100,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-300x200.png",
+     "medium-width": 300,
+     "medium-height": 200,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-768x512.png",
+     "medium_large-width": 768,
+     "medium_large-height": 512,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-1024x683.png",
+     "large-width": 800,
+     "large-height": 534,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-1536x1025.png",
+     "1536x1536-width": 1536,
+     "1536x1536-height": 1025,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-2048x1366.png",
+     "2048x2048-width": 2048,
+     "2048x2048-height": 1366
+    }
+   },
+   "banner_image_source": {
+    "label": "Product Banner Image",
+    "type": "image",
+    "formatted_value": {
+     "ID": 62,
+     "id": 62,
+     "title": "Mesh Roll Copy",
+     "filename": "mesh-roll-copy-scaled.png",
+     "filesize": 690374,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png",
+     "link": "https://admin.bvkhydrotech.com/resources/mesh-roll-copy/",
+     "alt": "Mesh Roll Copy",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "mesh-roll-copy",
+     "status": "inherit",
+     "uploaded_to": 97,
+     "date": "2026-09-21 12:33:42",
+     "modified": "2026-09-21 12:52:56",
+     "menu_order": 0,
+     "mime_type": "image/png",
+     "type": "image",
+     "subtype": "png",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 2560,
+     "height": 1708,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-150x100.png",
+      "thumbnail-width": 150,
+      "thumbnail-height": 100,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-300x200.png",
+      "medium-width": 300,
+      "medium-height": 200,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-768x512.png",
+      "medium_large-width": 768,
+      "medium_large-height": 512,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-1024x683.png",
+      "large-width": 800,
+      "large-height": 534,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-1536x1025.png",
+      "1536x1536-width": 1536,
+      "1536x1536-height": 1025,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-2048x1366.png",
+      "2048x2048-width": 2048,
+      "2048x2048-height": 1366
+     }
+    }
+   },
    "specifications": "Knit type: Single, double and multi end\nSingle piece sizes: up to 1.5 m diameter standard, 2.2 m for hydrogen applications\nRoll widths: continuous rolls and custom die-cut geometries including laser-cut precision parts\nSurface treatments: degreased, annealed, coated or plated\nFinishing: crimped, corrugated (Herringbone, W, V shapes with variable angles) or flattened",
+   "specifications_source": {
+    "label": "Technical Specifications",
+    "type": "textarea",
+    "formatted_value": "Knit type: Single, double and multi end\nSingle piece sizes: up to 1.5 m diameter standard, 2.2 m for hydrogen applications\nRoll widths: continuous rolls and custom die-cut geometries including laser-cut precision parts\nSurface treatments: degreased, annealed, coated or plated\nFinishing: crimped, corrugated (Herringbone, W, V shapes with variable angles) or flattened"
+   },
    "material": "Nickel (201/202), Copper, Stainless Steel, Titanium, Hastelloy and specialty alloys",
+   "material_source": {
+    "label": "Material",
+    "type": "text",
+    "formatted_value": "Nickel (201/202), Copper, Stainless Steel, Titanium, Hastelloy and specialty alloys"
+   },
    "wire_diameter": "0.05 mm to 0.30 mm",
+   "wire_diameter_source": {
+    "label": "Wire Diameter Range",
+    "type": "text",
+    "formatted_value": "0.05 mm to 0.30 mm"
+   },
    "mesh_count": "Adjustable mesh density",
+   "mesh_count_source": {
+    "label": "Mesh Count / Aperture",
+    "type": "text",
+    "formatted_value": "Adjustable mesh density"
+   },
    "applications": "Electrolyser stacks\nGas diffusion layers\nElastic elements\nBattery cell separation and cooling\nSensor protection and e-mobility components",
-   "datasheet": 36,
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Electrolyser stacks\nGas diffusion layers\nElastic elements\nBattery cell separation and cooling\nSensor protection and e-mobility components"
+   },
+   "datasheet": {
+    "ID": 36,
+    "id": 36,
+    "title": "BVK Knitted Mesh Brochure",
+    "filename": "bvk-knitted-mesh-brochure.pdf",
+    "filesize": 1650110,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-knitted-mesh-brochure.pdf",
+    "link": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/bvk-knitted-mesh-brochure/",
+    "alt": "BVK Knitted Mesh Brochure",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "bvk-knitted-mesh-brochure",
+    "status": "inherit",
+    "uploaded_to": 124,
+    "date": "2026-09-21 12:26:51",
+    "modified": "2026-09-21 12:53:16",
+    "menu_order": 0,
+    "mime_type": "application/pdf",
+    "type": "application",
+    "subtype": "pdf",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+   },
+   "datasheet_source": {
+    "label": "Product Datasheet (PDF)",
+    "type": "file",
+    "formatted_value": {
+     "ID": 36,
+     "id": 36,
+     "title": "BVK Knitted Mesh Brochure",
+     "filename": "bvk-knitted-mesh-brochure.pdf",
+     "filesize": 1650110,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-knitted-mesh-brochure.pdf",
+     "link": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/bvk-knitted-mesh-brochure/",
+     "alt": "BVK Knitted Mesh Brochure",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "bvk-knitted-mesh-brochure",
+     "status": "inherit",
+     "uploaded_to": 124,
+     "date": "2026-09-21 12:26:51",
+     "modified": "2026-09-21 12:53:16",
+     "menu_order": 0,
+     "mime_type": "application/pdf",
+     "type": "application",
+     "subtype": "pdf",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+    }
+   },
    "cta_title": "Request a Quote",
+   "cta_title_source": {
+    "label": "CTA Title",
+    "type": "text",
+    "formatted_value": "Request a Quote"
+   },
    "cta_button_text": "Send Enquiry",
+   "cta_button_text_source": {
+    "label": "CTA Button Text",
+    "type": "text",
+    "formatted_value": "Send Enquiry"
+   },
    "cta_button_url": "/contact",
+   "cta_button_url_source": {
+    "label": "CTA Button URL",
+    "type": "url",
+    "formatted_value": "/contact"
+   },
    "is_featured": true,
-   "sort_order": 5
+   "is_featured_source": {
+    "label": "Featured Product",
+    "type": "true_false",
+    "formatted_value": true
+   },
+   "sort_order": 5,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "5"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Knitted Mesh Solutions - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Knitted Mesh Solutions - BVK Hydrotech\" />\n<meta property=\"og:description\" content=\"Flexible, high-performance, application-driven knitted mesh.\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/products/knitted-mesh-solutions/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:23+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/mesh-roll-copy-scaled.png\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1708\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/knitted-mesh-solutions\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/knitted-mesh-solutions\\/\",\"name\":\"Knitted Mesh Solutions - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/knitted-mesh-solutions\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/knitted-mesh-solutions\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"datePublished\":\"2026-09-21T12:53:16+00:00\",\"dateModified\":\"2026-09-22T04:47:23+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/knitted-mesh-solutions\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/products\\/knitted-mesh-solutions\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/knitted-mesh-solutions\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"width\":2560,\"height\":1708,\"caption\":\"Mesh Roll Copy\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/knitted-mesh-solutions\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Products\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Knitted Mesh Solutions\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Knitted Mesh Solutions - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Knitted Mesh Solutions - BVK Hydrotech\" />\n<meta property=\"og:description\" content=\"Flexible, high-performance, application-driven knitted mesh.\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:23+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1708\" />\n\t<meta property=\"og:image:type\" content=\"image/png\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/knitted-mesh-solutions\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/knitted-mesh-solutions\\/\",\"name\":\"Knitted Mesh Solutions - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/knitted-mesh-solutions\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/knitted-mesh-solutions\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"datePublished\":\"2026-09-21T12:53:16+00:00\",\"dateModified\":\"2026-09-22T04:47:23+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/knitted-mesh-solutions\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/knitted-mesh-solutions\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/knitted-mesh-solutions\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/mesh-roll-copy-scaled.png\",\"width\":2560,\"height\":1708,\"caption\":\"Mesh Roll Copy\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/knitted-mesh-solutions\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Products\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Knitted Mesh Solutions\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Knitted Mesh Solutions - BVK Hydrotech",
    "robots": {
@@ -69,14 +266,14 @@
    "og_type": "article",
    "og_title": "Knitted Mesh Solutions - BVK Hydrotech",
    "og_description": "Flexible, high-performance, application-driven knitted mesh.",
-   "og_url": "https://dev.bhavcreations.in/products/knitted-mesh-solutions/",
+   "og_url": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T04:47:23+00:00",
    "og_image": [
     {
      "width": 2560,
      "height": 1708,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll-copy-scaled.png",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png",
      "type": "image/png"
     }
    ],
@@ -86,30 +283,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/products/knitted-mesh-solutions/",
-      "url": "https://dev.bhavcreations.in/products/knitted-mesh-solutions/",
+      "@id": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/",
+      "url": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/",
       "name": "Knitted Mesh Solutions - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/products/knitted-mesh-solutions/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/products/knitted-mesh-solutions/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll-copy-scaled.png",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png",
       "datePublished": "2026-09-21T12:53:16+00:00",
       "dateModified": "2026-09-22T04:47:23+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/products/knitted-mesh-solutions/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/products/knitted-mesh-solutions/"
+         "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/"
         ]
        }
       ]
@@ -117,28 +314,28 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/products/knitted-mesh-solutions/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll-copy-scaled.png",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll-copy-scaled.png",
+      "@id": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-copy-scaled.png",
       "width": 2560,
       "height": 1708,
       "caption": "Mesh Roll Copy"
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/products/knitted-mesh-solutions/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/products/knitted-mesh-solutions/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Products",
-        "item": "https://dev.bhavcreations.in/products/"
+        "item": "https://admin.bvkhydrotech.com/products/"
        },
        {
         "@type": "ListItem",
@@ -149,19 +346,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -174,21 +371,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -197,7 +394,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/124",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/124",
      "targetHints": {
       "allow": [
        "GET"
@@ -207,52 +404,52 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_product"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_product"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/124/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/124/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 204,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/124/revisions/204"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/124/revisions/204"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/62"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/62"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=124"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=124"
     }
    ],
    "wp:term": [
     {
      "taxonomy": "bvk_product_category",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/product-categories?post=124"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/product-categories?post=124"
     },
     {
      "taxonomy": "bvk_industry_tag",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industry-tags?post=124"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industry-tags?post=124"
     },
     {
      "taxonomy": "bvk_material",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/materials?post=124"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/materials?post=124"
     }
    ],
    "curies": [
@@ -269,14 +466,14 @@
   "date": "2026-09-21T12:53:15",
   "date_gmt": "2026-09-21T12:53:15",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/products/precision-woven-mesh/"
+   "rendered": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/"
   },
   "modified": "2026-09-22T04:47:22",
   "modified_gmt": "2026-09-22T04:47:22",
   "slug": "precision-woven-mesh",
   "status": "publish",
   "type": "bvk_product",
-  "link": "https://dev.bhavcreations.in/products/precision-woven-mesh/",
+  "link": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/",
   "title": {
    "rendered": "Precision Woven Mesh"
   },
@@ -307,20 +504,217 @@
   ],
   "acf": {
    "short_description": "Woven wire mesh for catalyst support, current collection, gas diffusion and electrolyte substrate applications.",
-   "banner_image": 79,
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Woven wire mesh for catalyst support, current collection, gas diffusion and electrolyte substrate applications."
+   },
+   "banner_image": {
+    "ID": 79,
+    "id": 79,
+    "title": "Wire Fence Studio",
+    "filename": "wire-fence-studio-scaled.jpeg",
+    "filesize": 489810,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-scaled.jpeg",
+    "link": "https://admin.bvkhydrotech.com/faqs/wire-fence-in-studio/",
+    "alt": "Wire Fence Studio",
+    "author": "1",
+    "description": "",
+    "caption": "wire fence in front of white background",
+    "name": "wire-fence-in-studio",
+    "status": "inherit",
+    "uploaded_to": 99,
+    "date": "2026-09-21 12:38:58",
+    "modified": "2026-09-21 12:52:57",
+    "menu_order": 0,
+    "mime_type": "image/jpeg",
+    "type": "image",
+    "subtype": "jpeg",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 2560,
+    "height": 1835,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-150x108.jpeg",
+     "thumbnail-width": 150,
+     "thumbnail-height": 108,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-300x215.jpeg",
+     "medium-width": 300,
+     "medium-height": 215,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-768x551.jpeg",
+     "medium_large-width": 768,
+     "medium_large-height": 551,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-1024x734.jpeg",
+     "large-width": 800,
+     "large-height": 573,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-1536x1101.jpeg",
+     "1536x1536-width": 1536,
+     "1536x1536-height": 1101,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-2048x1468.jpeg",
+     "2048x2048-width": 2048,
+     "2048x2048-height": 1468
+    }
+   },
+   "banner_image_source": {
+    "label": "Product Banner Image",
+    "type": "image",
+    "formatted_value": {
+     "ID": 79,
+     "id": 79,
+     "title": "Wire Fence Studio",
+     "filename": "wire-fence-studio-scaled.jpeg",
+     "filesize": 489810,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-scaled.jpeg",
+     "link": "https://admin.bvkhydrotech.com/faqs/wire-fence-in-studio/",
+     "alt": "Wire Fence Studio",
+     "author": "1",
+     "description": "",
+     "caption": "wire fence in front of white background",
+     "name": "wire-fence-in-studio",
+     "status": "inherit",
+     "uploaded_to": 99,
+     "date": "2026-09-21 12:38:58",
+     "modified": "2026-09-21 12:52:57",
+     "menu_order": 0,
+     "mime_type": "image/jpeg",
+     "type": "image",
+     "subtype": "jpeg",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 2560,
+     "height": 1835,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-150x108.jpeg",
+      "thumbnail-width": 150,
+      "thumbnail-height": 108,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-300x215.jpeg",
+      "medium-width": 300,
+      "medium-height": 215,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-768x551.jpeg",
+      "medium_large-width": 768,
+      "medium_large-height": 551,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-1024x734.jpeg",
+      "large-width": 800,
+      "large-height": 573,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-1536x1101.jpeg",
+      "1536x1536-width": 1536,
+      "1536x1536-height": 1101,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-2048x1468.jpeg",
+      "2048x2048-width": 2048,
+      "2048x2048-height": 1468
+     }
+    }
+   },
    "specifications": "Porosity control by weaving parameters\nSurface area coating for hydrogen production and stack efficiency\nLaser cutting to close tolerances\nMicro-structure annealing to alter physical properties\n100% traceability",
+   "specifications_source": {
+    "label": "Technical Specifications",
+    "type": "textarea",
+    "formatted_value": "Porosity control by weaving parameters\nSurface area coating for hydrogen production and stack efficiency\nLaser cutting to close tolerances\nMicro-structure annealing to alter physical properties\n100% traceability"
+   },
    "material": "Carbon Steel, Stainless Steel (304/304L/316/316L/314/904L), Crofer 22H, Hastelloy C-22, Ni 99.6, Copper, Aluminium, Titanium",
+   "material_source": {
+    "label": "Material",
+    "type": "text",
+    "formatted_value": "Carbon Steel, Stainless Steel (304/304L/316/316L/314/904L), Crofer 22H, Hastelloy C-22, Ni 99.6, Copper, Aluminium, Titanium"
+   },
    "wire_diameter": "Application specific",
+   "wire_diameter_source": {
+    "label": "Wire Diameter Range",
+    "type": "text",
+    "formatted_value": "Application specific"
+   },
    "mesh_count": "Porosity controlled by weaving parameters",
+   "mesh_count_source": {
+    "label": "Mesh Count / Aperture",
+    "type": "text",
+    "formatted_value": "Porosity controlled by weaving parameters"
+   },
    "applications": "Catalyst support\nCurrent collector\nGas diffusion and dispersion\nElectrolyte substrate / slurry holder\nEMI shielding",
-   "datasheet": 48,
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Catalyst support\nCurrent collector\nGas diffusion and dispersion\nElectrolyte substrate / slurry holder\nEMI shielding"
+   },
+   "datasheet": {
+    "ID": 48,
+    "id": 48,
+    "title": "Green Energy Brochure",
+    "filename": "green-energy-brochure.pdf",
+    "filesize": 5511397,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-energy-brochure.pdf",
+    "link": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/green-energy-brochure/",
+    "alt": "Green Energy Brochure",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "green-energy-brochure",
+    "status": "inherit",
+    "uploaded_to": 123,
+    "date": "2026-09-21 12:29:43",
+    "modified": "2026-09-21 12:53:15",
+    "menu_order": 0,
+    "mime_type": "application/pdf",
+    "type": "application",
+    "subtype": "pdf",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+   },
+   "datasheet_source": {
+    "label": "Product Datasheet (PDF)",
+    "type": "file",
+    "formatted_value": {
+     "ID": 48,
+     "id": 48,
+     "title": "Green Energy Brochure",
+     "filename": "green-energy-brochure.pdf",
+     "filesize": 5511397,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-energy-brochure.pdf",
+     "link": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/green-energy-brochure/",
+     "alt": "Green Energy Brochure",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "green-energy-brochure",
+     "status": "inherit",
+     "uploaded_to": 123,
+     "date": "2026-09-21 12:29:43",
+     "modified": "2026-09-21 12:53:15",
+     "menu_order": 0,
+     "mime_type": "application/pdf",
+     "type": "application",
+     "subtype": "pdf",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+    }
+   },
    "cta_title": "Request a Quote",
+   "cta_title_source": {
+    "label": "CTA Title",
+    "type": "text",
+    "formatted_value": "Request a Quote"
+   },
    "cta_button_text": "Send Enquiry",
+   "cta_button_text_source": {
+    "label": "CTA Button Text",
+    "type": "text",
+    "formatted_value": "Send Enquiry"
+   },
    "cta_button_url": "/contact",
+   "cta_button_url_source": {
+    "label": "CTA Button URL",
+    "type": "url",
+    "formatted_value": "/contact"
+   },
    "is_featured": true,
-   "sort_order": 4
+   "is_featured_source": {
+    "label": "Featured Product",
+    "type": "true_false",
+    "formatted_value": true
+   },
+   "sort_order": 4,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "4"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Precision Woven Mesh - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Precision Woven Mesh - BVK Hydrotech\" />\n<meta property=\"og:description\" content=\"Catalyst support, current collector and gas diffusion woven mesh.\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/products/precision-woven-mesh/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:22+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/wire-fence-studio-scaled.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1835\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/precision-woven-mesh\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/precision-woven-mesh\\/\",\"name\":\"Precision Woven Mesh - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/precision-woven-mesh\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/precision-woven-mesh\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/wire-fence-studio-scaled.jpeg\",\"datePublished\":\"2026-09-21T12:53:15+00:00\",\"dateModified\":\"2026-09-22T04:47:22+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/precision-woven-mesh\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/products\\/precision-woven-mesh\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/precision-woven-mesh\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/wire-fence-studio-scaled.jpeg\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/wire-fence-studio-scaled.jpeg\",\"width\":2560,\"height\":1835,\"caption\":\"wire fence in front of white background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/precision-woven-mesh\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Products\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Precision Woven Mesh\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Precision Woven Mesh - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Precision Woven Mesh - BVK Hydrotech\" />\n<meta property=\"og:description\" content=\"Catalyst support, current collector and gas diffusion woven mesh.\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/products/precision-woven-mesh/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:22+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-scaled.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"2560\" />\n\t<meta property=\"og:image:height\" content=\"1835\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/precision-woven-mesh\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/precision-woven-mesh\\/\",\"name\":\"Precision Woven Mesh - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/precision-woven-mesh\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/precision-woven-mesh\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/wire-fence-studio-scaled.jpeg\",\"datePublished\":\"2026-09-21T12:53:15+00:00\",\"dateModified\":\"2026-09-22T04:47:22+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/precision-woven-mesh\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/precision-woven-mesh\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/precision-woven-mesh\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/wire-fence-studio-scaled.jpeg\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/wire-fence-studio-scaled.jpeg\",\"width\":2560,\"height\":1835,\"caption\":\"wire fence in front of white background\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/precision-woven-mesh\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Products\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Precision Woven Mesh\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Precision Woven Mesh - BVK Hydrotech",
    "robots": {
@@ -334,14 +728,14 @@
    "og_type": "article",
    "og_title": "Precision Woven Mesh - BVK Hydrotech",
    "og_description": "Catalyst support, current collector and gas diffusion woven mesh.",
-   "og_url": "https://dev.bhavcreations.in/products/precision-woven-mesh/",
+   "og_url": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/",
    "og_site_name": "BVK Hydrotech",
    "article_modified_time": "2026-09-22T04:47:22+00:00",
    "og_image": [
     {
      "width": 2560,
      "height": 1835,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/wire-fence-studio-scaled.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-scaled.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -351,30 +745,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/products/precision-woven-mesh/",
-      "url": "https://dev.bhavcreations.in/products/precision-woven-mesh/",
+      "@id": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/",
+      "url": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/",
       "name": "Precision Woven Mesh - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/products/precision-woven-mesh/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/products/precision-woven-mesh/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/wire-fence-studio-scaled.jpeg",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-scaled.jpeg",
       "datePublished": "2026-09-21T12:53:15+00:00",
       "dateModified": "2026-09-22T04:47:22+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/products/precision-woven-mesh/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/products/precision-woven-mesh/"
+         "https://admin.bvkhydrotech.com/products/precision-woven-mesh/"
         ]
        }
       ]
@@ -382,28 +776,28 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/products/precision-woven-mesh/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/wire-fence-studio-scaled.jpeg",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/wire-fence-studio-scaled.jpeg",
+      "@id": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-scaled.jpeg",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/wire-fence-studio-scaled.jpeg",
       "width": 2560,
       "height": 1835,
       "caption": "wire fence in front of white background"
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/products/precision-woven-mesh/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/products/precision-woven-mesh/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Products",
-        "item": "https://dev.bhavcreations.in/products/"
+        "item": "https://admin.bvkhydrotech.com/products/"
        },
        {
         "@type": "ListItem",
@@ -414,19 +808,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -439,21 +833,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -462,7 +856,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/123",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/123",
      "targetHints": {
       "allow": [
        "GET"
@@ -472,52 +866,52 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_product"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_product"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/123/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/123/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 203,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/123/revisions/203"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/123/revisions/203"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/79"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/79"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=123"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=123"
     }
    ],
    "wp:term": [
     {
      "taxonomy": "bvk_product_category",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/product-categories?post=123"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/product-categories?post=123"
     },
     {
      "taxonomy": "bvk_industry_tag",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industry-tags?post=123"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industry-tags?post=123"
     },
     {
      "taxonomy": "bvk_material",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/materials?post=123"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/materials?post=123"
     }
    ],
    "curies": [
@@ -534,14 +928,14 @@
   "date": "2026-09-21T12:53:14",
   "date_gmt": "2026-09-21T12:53:14",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/products/voltra-max/"
+   "rendered": "https://admin.bvkhydrotech.com/products/voltra-max/"
   },
-  "modified": "2026-09-22T04:47:21",
-  "modified_gmt": "2026-09-22T04:47:21",
+  "modified": "2026-10-15T18:59:40",
+  "modified_gmt": "2026-10-15T18:59:40",
   "slug": "voltra-max",
   "status": "publish",
   "type": "bvk_product",
-  "link": "https://dev.bhavcreations.in/products/voltra-max/",
+  "link": "https://admin.bvkhydrotech.com/products/voltra-max/",
   "title": {
    "rendered": "Voltra Max — High Density Multi-End Knitted Mesh"
   },
@@ -553,7 +947,7 @@
    "rendered": "<p>Dense GDL and electrode-support mesh for maximum surface area.</p>\n",
    "protected": false
   },
-  "featured_media": 19,
+  "featured_media": 669,
   "template": "",
   "meta": {
    "_acf_changed": false,
@@ -572,20 +966,217 @@
   ],
   "acf": {
    "short_description": "High-density multi-end knitted mesh for dense gas diffusion layers and electrode supports where surface area dominates.",
-   "banner_image": 19,
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "High-density multi-end knitted mesh for dense gas diffusion layers and electrode supports where surface area dominates."
+   },
+   "banner_image": {
+    "ID": 19,
+    "id": 19,
+    "title": "Black Mesh Copy",
+    "filename": "black-mesh-copy.jpeg",
+    "filesize": 733362,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
+    "link": "https://admin.bvkhydrotech.com/products/voltra-max/black-mesh-copy/",
+    "alt": "Black Mesh Copy",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "black-mesh-copy",
+    "status": "inherit",
+    "uploaded_to": 122,
+    "date": "2026-09-21 12:19:45",
+    "modified": "2026-09-21 12:53:14",
+    "menu_order": 0,
+    "mime_type": "image/jpeg",
+    "type": "image",
+    "subtype": "jpeg",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 399,
+    "height": 264,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy-150x99.jpeg",
+     "thumbnail-width": 150,
+     "thumbnail-height": 99,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy-300x198.jpeg",
+     "medium-width": 300,
+     "medium-height": 198,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
+     "medium_large-width": 399,
+     "medium_large-height": 264,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
+     "large-width": 399,
+     "large-height": 264,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
+     "1536x1536-width": 399,
+     "1536x1536-height": 264,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
+     "2048x2048-width": 399,
+     "2048x2048-height": 264
+    }
+   },
+   "banner_image_source": {
+    "label": "Product Banner Image",
+    "type": "image",
+    "formatted_value": {
+     "ID": 19,
+     "id": 19,
+     "title": "Black Mesh Copy",
+     "filename": "black-mesh-copy.jpeg",
+     "filesize": 733362,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
+     "link": "https://admin.bvkhydrotech.com/products/voltra-max/black-mesh-copy/",
+     "alt": "Black Mesh Copy",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "black-mesh-copy",
+     "status": "inherit",
+     "uploaded_to": 122,
+     "date": "2026-09-21 12:19:45",
+     "modified": "2026-09-21 12:53:14",
+     "menu_order": 0,
+     "mime_type": "image/jpeg",
+     "type": "image",
+     "subtype": "jpeg",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 399,
+     "height": 264,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy-150x99.jpeg",
+      "thumbnail-width": 150,
+      "thumbnail-height": 99,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy-300x198.jpeg",
+      "medium-width": 300,
+      "medium-height": 198,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
+      "medium_large-width": 399,
+      "medium_large-height": 264,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
+      "large-width": 399,
+      "large-height": 264,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
+      "1536x1536-width": 399,
+      "1536x1536-height": 264,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
+      "2048x2048-width": 399,
+      "2048x2048-height": 264
+     }
+    }
+   },
    "specifications": "Knit type: Multi end\nWires per needle: 3+\nNeedle gauge: 3+\nSingle-piece diameter: up to 2.2 m\nSurface treatments: Degreased, annealed, coated or plated",
+   "specifications_source": {
+    "label": "Technical Specifications",
+    "type": "textarea",
+    "formatted_value": "Knit type: Multi end\nWires per needle: 3+\nNeedle gauge: 3+\nSingle-piece diameter: up to 2.2 m\nSurface treatments: Degreased, annealed, coated or plated"
+   },
    "material": "Nickel 201/202, Titanium, Stainless Steel, specialty alloys",
+   "material_source": {
+    "label": "Material",
+    "type": "text",
+    "formatted_value": "Nickel 201/202, Titanium, Stainless Steel, specialty alloys"
+   },
    "wire_diameter": "0.05 mm to 0.30 mm",
+   "wire_diameter_source": {
+    "label": "Wire Diameter Range",
+    "type": "text",
+    "formatted_value": "0.05 mm to 0.30 mm"
+   },
    "mesh_count": "Three or more wires per needle, needle gauge 3+",
+   "mesh_count_source": {
+    "label": "Mesh Count / Aperture",
+    "type": "text",
+    "formatted_value": "Three or more wires per needle, needle gauge 3+"
+   },
    "applications": "Dense gas diffusion layers\nElectrode supports\nCatalyst loading surfaces\nHydrogen purification and drying skids",
-   "datasheet": 49,
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Dense gas diffusion layers\nElectrode supports\nCatalyst loading surfaces\nHydrogen purification and drying skids"
+   },
+   "datasheet": {
+    "ID": 49,
+    "id": 49,
+    "title": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+    "filename": "green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+    "filesize": 711276,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+    "link": "https://admin.bvkhydrotech.com/products/voltra-lite/green-hydrogen-knitted-mesh-solutions-leaflet/",
+    "alt": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "green-hydrogen-knitted-mesh-solutions-leaflet",
+    "status": "inherit",
+    "uploaded_to": 120,
+    "date": "2026-09-21 12:29:48",
+    "modified": "2026-09-21 12:53:13",
+    "menu_order": 0,
+    "mime_type": "application/pdf",
+    "type": "application",
+    "subtype": "pdf",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+   },
+   "datasheet_source": {
+    "label": "Product Datasheet (PDF)",
+    "type": "file",
+    "formatted_value": {
+     "ID": 49,
+     "id": 49,
+     "title": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+     "filename": "green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+     "filesize": 711276,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+     "link": "https://admin.bvkhydrotech.com/products/voltra-lite/green-hydrogen-knitted-mesh-solutions-leaflet/",
+     "alt": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "green-hydrogen-knitted-mesh-solutions-leaflet",
+     "status": "inherit",
+     "uploaded_to": 120,
+     "date": "2026-09-21 12:29:48",
+     "modified": "2026-09-21 12:53:13",
+     "menu_order": 0,
+     "mime_type": "application/pdf",
+     "type": "application",
+     "subtype": "pdf",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+    }
+   },
    "cta_title": "Request a Quote",
+   "cta_title_source": {
+    "label": "CTA Title",
+    "type": "text",
+    "formatted_value": "Request a Quote"
+   },
    "cta_button_text": "Send Enquiry",
+   "cta_button_text_source": {
+    "label": "CTA Button Text",
+    "type": "text",
+    "formatted_value": "Send Enquiry"
+   },
    "cta_button_url": "/contact",
+   "cta_button_url_source": {
+    "label": "CTA Button URL",
+    "type": "url",
+    "formatted_value": "/contact"
+   },
    "is_featured": true,
-   "sort_order": 3
+   "is_featured_source": {
+    "label": "Featured Product",
+    "type": "true_false",
+    "formatted_value": true
+   },
+   "sort_order": 3,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "3"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Voltra Max — High Density Multi-End Knitted Mesh - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Voltra Max — High Density Multi-End Knitted Mesh - BVK Hydrotech\" />\n<meta property=\"og:description\" content=\"Dense GDL and electrode-support mesh for maximum surface area.\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/products/voltra-max/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:21+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/black-mesh-copy.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"399\" />\n\t<meta property=\"og:image:height\" content=\"264\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-max\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-max\\/\",\"name\":\"Voltra Max — High Density Multi-End Knitted Mesh - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-max\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-max\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/black-mesh-copy.jpeg\",\"datePublished\":\"2026-09-21T12:53:14+00:00\",\"dateModified\":\"2026-09-22T04:47:21+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-max\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-max\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-max\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/black-mesh-copy.jpeg\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/black-mesh-copy.jpeg\",\"width\":399,\"height\":264,\"caption\":\"Black Mesh Copy\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-max\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Products\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Voltra Max — High Density Multi-End Knitted Mesh\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Voltra Max — High Density Multi-End Knitted Mesh - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Voltra Max — High Density Multi-End Knitted Mesh - BVK Hydrotech\" />\n<meta property=\"og:description\" content=\"Dense GDL and electrode-support mesh for maximum surface area.\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/products/voltra-max/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-10-15T18:59:40+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"399\" />\n\t<meta property=\"og:image:height\" content=\"264\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-max\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-max\\/\",\"name\":\"Voltra Max — High Density Multi-End Knitted Mesh - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-max\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-max\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/bvk-voltra-max-multi-end-knitted-mesh-hd.jpg\",\"datePublished\":\"2026-09-21T12:53:14+00:00\",\"dateModified\":\"2026-10-15T18:59:40+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-max\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-max\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-max\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/bvk-voltra-max-multi-end-knitted-mesh-hd.jpg\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/bvk-voltra-max-multi-end-knitted-mesh-hd.jpg\",\"width\":1200,\"height\":896,\"caption\":\"BVK Voltra Max — High Density Multi-End Knitted Mesh HD\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-max\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Products\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Voltra Max — High Density Multi-End Knitted Mesh\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Voltra Max — High Density Multi-End Knitted Mesh - BVK Hydrotech",
    "robots": {
@@ -599,14 +1190,14 @@
    "og_type": "article",
    "og_title": "Voltra Max — High Density Multi-End Knitted Mesh - BVK Hydrotech",
    "og_description": "Dense GDL and electrode-support mesh for maximum surface area.",
-   "og_url": "https://dev.bhavcreations.in/products/voltra-max/",
+   "og_url": "https://admin.bvkhydrotech.com/products/voltra-max/",
    "og_site_name": "BVK Hydrotech",
-   "article_modified_time": "2026-09-22T04:47:21+00:00",
+   "article_modified_time": "2026-10-15T18:59:40+00:00",
    "og_image": [
     {
      "width": 399,
      "height": 264,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/black-mesh-copy.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/black-mesh-copy.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -616,30 +1207,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/products/voltra-max/",
-      "url": "https://dev.bhavcreations.in/products/voltra-max/",
+      "@id": "https://admin.bvkhydrotech.com/products/voltra-max/",
+      "url": "https://admin.bvkhydrotech.com/products/voltra-max/",
       "name": "Voltra Max — High Density Multi-End Knitted Mesh - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/products/voltra-max/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/products/voltra-max/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/products/voltra-max/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/products/voltra-max/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/black-mesh-copy.jpeg",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-voltra-max-multi-end-knitted-mesh-hd.jpg",
       "datePublished": "2026-09-21T12:53:14+00:00",
-      "dateModified": "2026-09-22T04:47:21+00:00",
+      "dateModified": "2026-10-15T18:59:40+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/products/voltra-max/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/products/voltra-max/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/products/voltra-max/"
+         "https://admin.bvkhydrotech.com/products/voltra-max/"
         ]
        }
       ]
@@ -647,28 +1238,28 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/products/voltra-max/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/black-mesh-copy.jpeg",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/black-mesh-copy.jpeg",
-      "width": 399,
-      "height": 264,
-      "caption": "Black Mesh Copy"
+      "@id": "https://admin.bvkhydrotech.com/products/voltra-max/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-voltra-max-multi-end-knitted-mesh-hd.jpg",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-voltra-max-multi-end-knitted-mesh-hd.jpg",
+      "width": 1200,
+      "height": 896,
+      "caption": "BVK Voltra Max — High Density Multi-End Knitted Mesh HD"
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/products/voltra-max/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/products/voltra-max/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Products",
-        "item": "https://dev.bhavcreations.in/products/"
+        "item": "https://admin.bvkhydrotech.com/products/"
        },
        {
         "@type": "ListItem",
@@ -679,19 +1270,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -704,21 +1295,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -727,7 +1318,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/122",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/122",
      "targetHints": {
       "allow": [
        "GET"
@@ -737,52 +1328,52 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_product"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_product"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/122/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/122/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 202,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/122/revisions/202"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/122/revisions/202"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/19"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/669"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=122"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=122"
     }
    ],
    "wp:term": [
     {
      "taxonomy": "bvk_product_category",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/product-categories?post=122"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/product-categories?post=122"
     },
     {
      "taxonomy": "bvk_industry_tag",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industry-tags?post=122"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industry-tags?post=122"
     },
     {
      "taxonomy": "bvk_material",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/materials?post=122"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/materials?post=122"
     }
    ],
    "curies": [
@@ -799,14 +1390,14 @@
   "date": "2026-09-21T12:53:14",
   "date_gmt": "2026-09-21T12:53:14",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/products/voltra-plus/"
+   "rendered": "https://admin.bvkhydrotech.com/products/voltra-plus/"
   },
-  "modified": "2026-09-22T04:47:21",
-  "modified_gmt": "2026-09-22T04:47:21",
+  "modified": "2026-10-15T18:59:39",
+  "modified_gmt": "2026-10-15T18:59:39",
   "slug": "voltra-plus",
   "status": "publish",
   "type": "bvk_product",
-  "link": "https://dev.bhavcreations.in/products/voltra-plus/",
+  "link": "https://admin.bvkhydrotech.com/products/voltra-plus/",
   "title": {
    "rendered": "Voltra + — Medium Density Double-Wire Knitted Mesh"
   },
@@ -818,7 +1409,7 @@
    "rendered": "<p>Separator-grade knitted mesh balancing porosity against conductivity.</p>\n",
    "protected": false
   },
-  "featured_media": 70,
+  "featured_media": 668,
   "template": "",
   "meta": {
    "_acf_changed": false,
@@ -837,20 +1428,217 @@
   ],
   "acf": {
    "short_description": "Medium-density double-wire knitted mesh used as a separator layer, balancing porosity against conductivity.",
-   "banner_image": 70,
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Medium-density double-wire knitted mesh used as a separator layer, balancing porosity against conductivity."
+   },
+   "banner_image": {
+    "ID": 70,
+    "id": 70,
+    "title": "Stainless Steel Mesh Copy",
+    "filename": "stainless-steel-mesh-copy.jpeg",
+    "filesize": 636367,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+    "link": "https://admin.bvkhydrotech.com/?attachment_id=70",
+    "alt": "Stainless Steel Mesh Copy",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "stainless-steel-mesh-copy",
+    "status": "inherit",
+    "uploaded_to": 109,
+    "date": "2026-09-21 12:35:56",
+    "modified": "2026-09-21 12:53:05",
+    "menu_order": 0,
+    "mime_type": "image/jpeg",
+    "type": "image",
+    "subtype": "jpeg",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 414,
+    "height": 273,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy-150x99.jpeg",
+     "thumbnail-width": 150,
+     "thumbnail-height": 99,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy-300x198.jpeg",
+     "medium-width": 300,
+     "medium-height": 198,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+     "medium_large-width": 414,
+     "medium_large-height": 273,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+     "large-width": 414,
+     "large-height": 273,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+     "1536x1536-width": 414,
+     "1536x1536-height": 273,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+     "2048x2048-width": 414,
+     "2048x2048-height": 273
+    }
+   },
+   "banner_image_source": {
+    "label": "Product Banner Image",
+    "type": "image",
+    "formatted_value": {
+     "ID": 70,
+     "id": 70,
+     "title": "Stainless Steel Mesh Copy",
+     "filename": "stainless-steel-mesh-copy.jpeg",
+     "filesize": 636367,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+     "link": "https://admin.bvkhydrotech.com/?attachment_id=70",
+     "alt": "Stainless Steel Mesh Copy",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "stainless-steel-mesh-copy",
+     "status": "inherit",
+     "uploaded_to": 109,
+     "date": "2026-09-21 12:35:56",
+     "modified": "2026-09-21 12:53:05",
+     "menu_order": 0,
+     "mime_type": "image/jpeg",
+     "type": "image",
+     "subtype": "jpeg",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 414,
+     "height": 273,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy-150x99.jpeg",
+      "thumbnail-width": 150,
+      "thumbnail-height": 99,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy-300x198.jpeg",
+      "medium-width": 300,
+      "medium-height": 198,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+      "medium_large-width": 414,
+      "medium_large-height": 273,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+      "large-width": 414,
+      "large-height": 273,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+      "1536x1536-width": 414,
+      "1536x1536-height": 273,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+      "2048x2048-width": 414,
+      "2048x2048-height": 273
+     }
+    }
+   },
    "specifications": "Knit type: Double end\nWires per needle: Double\nNeedle gauge: 2\nSingle-piece diameter: up to 2.2 m\nFinishing: Crimped, corrugated (Herringbone, W, V), or flattened",
+   "specifications_source": {
+    "label": "Technical Specifications",
+    "type": "textarea",
+    "formatted_value": "Knit type: Double end\nWires per needle: Double\nNeedle gauge: 2\nSingle-piece diameter: up to 2.2 m\nFinishing: Crimped, corrugated (Herringbone, W, V), or flattened"
+   },
    "material": "Nickel 201/202, Titanium, Stainless Steel, Hastelloy",
+   "material_source": {
+    "label": "Material",
+    "type": "text",
+    "formatted_value": "Nickel 201/202, Titanium, Stainless Steel, Hastelloy"
+   },
    "wire_diameter": "0.05 mm to 0.30 mm",
+   "wire_diameter_source": {
+    "label": "Wire Diameter Range",
+    "type": "text",
+    "formatted_value": "0.05 mm to 0.30 mm"
+   },
    "mesh_count": "Double wire per needle, needle gauge 2",
+   "mesh_count_source": {
+    "label": "Mesh Count / Aperture",
+    "type": "text",
+    "formatted_value": "Double wire per needle, needle gauge 2"
+   },
    "applications": "Separator layers\nAlkaline and PEM electrolyser stacks\nGas and liquid permeability control\nElectrode supports",
-   "datasheet": 49,
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Separator layers\nAlkaline and PEM electrolyser stacks\nGas and liquid permeability control\nElectrode supports"
+   },
+   "datasheet": {
+    "ID": 49,
+    "id": 49,
+    "title": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+    "filename": "green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+    "filesize": 711276,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+    "link": "https://admin.bvkhydrotech.com/products/voltra-lite/green-hydrogen-knitted-mesh-solutions-leaflet/",
+    "alt": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "green-hydrogen-knitted-mesh-solutions-leaflet",
+    "status": "inherit",
+    "uploaded_to": 120,
+    "date": "2026-09-21 12:29:48",
+    "modified": "2026-09-21 12:53:13",
+    "menu_order": 0,
+    "mime_type": "application/pdf",
+    "type": "application",
+    "subtype": "pdf",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+   },
+   "datasheet_source": {
+    "label": "Product Datasheet (PDF)",
+    "type": "file",
+    "formatted_value": {
+     "ID": 49,
+     "id": 49,
+     "title": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+     "filename": "green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+     "filesize": 711276,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+     "link": "https://admin.bvkhydrotech.com/products/voltra-lite/green-hydrogen-knitted-mesh-solutions-leaflet/",
+     "alt": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "green-hydrogen-knitted-mesh-solutions-leaflet",
+     "status": "inherit",
+     "uploaded_to": 120,
+     "date": "2026-09-21 12:29:48",
+     "modified": "2026-09-21 12:53:13",
+     "menu_order": 0,
+     "mime_type": "application/pdf",
+     "type": "application",
+     "subtype": "pdf",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+    }
+   },
    "cta_title": "Request a Quote",
+   "cta_title_source": {
+    "label": "CTA Title",
+    "type": "text",
+    "formatted_value": "Request a Quote"
+   },
    "cta_button_text": "Send Enquiry",
+   "cta_button_text_source": {
+    "label": "CTA Button Text",
+    "type": "text",
+    "formatted_value": "Send Enquiry"
+   },
    "cta_button_url": "/contact",
+   "cta_button_url_source": {
+    "label": "CTA Button URL",
+    "type": "url",
+    "formatted_value": "/contact"
+   },
    "is_featured": true,
-   "sort_order": 2
+   "is_featured_source": {
+    "label": "Featured Product",
+    "type": "true_false",
+    "formatted_value": true
+   },
+   "sort_order": 2,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "2"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Voltra + — Medium Density Double-Wire Knitted Mesh - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Voltra + — Medium Density Double-Wire Knitted Mesh - BVK Hydrotech\" />\n<meta property=\"og:description\" content=\"Separator-grade knitted mesh balancing porosity against conductivity.\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/products/voltra-plus/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:21+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/stainless-steel-mesh-copy.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"414\" />\n\t<meta property=\"og:image:height\" content=\"273\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-plus\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-plus\\/\",\"name\":\"Voltra + — Medium Density Double-Wire Knitted Mesh - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-plus\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-plus\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/stainless-steel-mesh-copy.jpeg\",\"datePublished\":\"2026-09-21T12:53:14+00:00\",\"dateModified\":\"2026-09-22T04:47:21+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-plus\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-plus\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-plus\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/stainless-steel-mesh-copy.jpeg\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/stainless-steel-mesh-copy.jpeg\",\"width\":414,\"height\":273,\"caption\":\"Stainless Steel Mesh Copy\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-plus\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Products\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Voltra + — Medium Density Double-Wire Knitted Mesh\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Voltra + — Medium Density Double-Wire Knitted Mesh - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Voltra + — Medium Density Double-Wire Knitted Mesh - BVK Hydrotech\" />\n<meta property=\"og:description\" content=\"Separator-grade knitted mesh balancing porosity against conductivity.\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/products/voltra-plus/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-10-15T18:59:39+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"414\" />\n\t<meta property=\"og:image:height\" content=\"273\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-plus\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-plus\\/\",\"name\":\"Voltra + — Medium Density Double-Wire Knitted Mesh - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-plus\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-plus\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/bvk-voltra-plus-double-wire-knitted-mesh-hd.jpg\",\"datePublished\":\"2026-09-21T12:53:14+00:00\",\"dateModified\":\"2026-10-15T18:59:39+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-plus\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-plus\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-plus\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/bvk-voltra-plus-double-wire-knitted-mesh-hd.jpg\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/bvk-voltra-plus-double-wire-knitted-mesh-hd.jpg\",\"width\":1200,\"height\":896,\"caption\":\"BVK Voltra + — Medium Density Double-Wire Knitted Mesh HD\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-plus\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Products\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Voltra + — Medium Density Double-Wire Knitted Mesh\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Voltra + — Medium Density Double-Wire Knitted Mesh - BVK Hydrotech",
    "robots": {
@@ -864,14 +1652,14 @@
    "og_type": "article",
    "og_title": "Voltra + — Medium Density Double-Wire Knitted Mesh - BVK Hydrotech",
    "og_description": "Separator-grade knitted mesh balancing porosity against conductivity.",
-   "og_url": "https://dev.bhavcreations.in/products/voltra-plus/",
+   "og_url": "https://admin.bvkhydrotech.com/products/voltra-plus/",
    "og_site_name": "BVK Hydrotech",
-   "article_modified_time": "2026-09-22T04:47:21+00:00",
+   "article_modified_time": "2026-10-15T18:59:39+00:00",
    "og_image": [
     {
      "width": 414,
      "height": 273,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -881,30 +1669,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/products/voltra-plus/",
-      "url": "https://dev.bhavcreations.in/products/voltra-plus/",
+      "@id": "https://admin.bvkhydrotech.com/products/voltra-plus/",
+      "url": "https://admin.bvkhydrotech.com/products/voltra-plus/",
       "name": "Voltra + — Medium Density Double-Wire Knitted Mesh - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/products/voltra-plus/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/products/voltra-plus/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/products/voltra-plus/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/products/voltra-plus/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-voltra-plus-double-wire-knitted-mesh-hd.jpg",
       "datePublished": "2026-09-21T12:53:14+00:00",
-      "dateModified": "2026-09-22T04:47:21+00:00",
+      "dateModified": "2026-10-15T18:59:39+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/products/voltra-plus/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/products/voltra-plus/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/products/voltra-plus/"
+         "https://admin.bvkhydrotech.com/products/voltra-plus/"
         ]
        }
       ]
@@ -912,28 +1700,28 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/products/voltra-plus/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/stainless-steel-mesh-copy.jpeg",
-      "width": 414,
-      "height": 273,
-      "caption": "Stainless Steel Mesh Copy"
+      "@id": "https://admin.bvkhydrotech.com/products/voltra-plus/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-voltra-plus-double-wire-knitted-mesh-hd.jpg",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-voltra-plus-double-wire-knitted-mesh-hd.jpg",
+      "width": 1200,
+      "height": 896,
+      "caption": "BVK Voltra + — Medium Density Double-Wire Knitted Mesh HD"
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/products/voltra-plus/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/products/voltra-plus/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Products",
-        "item": "https://dev.bhavcreations.in/products/"
+        "item": "https://admin.bvkhydrotech.com/products/"
        },
        {
         "@type": "ListItem",
@@ -944,19 +1732,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -969,21 +1757,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -992,7 +1780,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/121",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/121",
      "targetHints": {
       "allow": [
        "GET"
@@ -1002,52 +1790,52 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_product"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_product"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/121/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/121/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 201,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/121/revisions/201"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/121/revisions/201"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/70"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/668"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=121"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=121"
     }
    ],
    "wp:term": [
     {
      "taxonomy": "bvk_product_category",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/product-categories?post=121"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/product-categories?post=121"
     },
     {
      "taxonomy": "bvk_industry_tag",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industry-tags?post=121"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industry-tags?post=121"
     },
     {
      "taxonomy": "bvk_material",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/materials?post=121"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/materials?post=121"
     }
    ],
    "curies": [
@@ -1064,14 +1852,14 @@
   "date": "2026-09-21T12:53:13",
   "date_gmt": "2026-09-21T12:53:13",
   "guid": {
-   "rendered": "https://dev.bhavcreations.in/products/voltra-lite/"
+   "rendered": "https://admin.bvkhydrotech.com/products/voltra-lite/"
   },
-  "modified": "2026-09-22T04:47:20",
-  "modified_gmt": "2026-09-22T04:47:20",
+  "modified": "2026-10-15T18:59:39",
+  "modified_gmt": "2026-10-15T18:59:39",
   "slug": "voltra-lite",
   "status": "publish",
   "type": "bvk_product",
-  "link": "https://dev.bhavcreations.in/products/voltra-lite/",
+  "link": "https://admin.bvkhydrotech.com/products/voltra-lite/",
   "title": {
    "rendered": "Voltra Lite — Low Density Single-Wire Knitted Mesh"
   },
@@ -1083,7 +1871,7 @@
    "rendered": "<p>Open GDL and elastic-element knitted mesh for alkaline electrolyser stacks.</p>\n",
    "protected": false
   },
-  "featured_media": 63,
+  "featured_media": 667,
   "template": "",
   "meta": {
    "_acf_changed": false,
@@ -1102,20 +1890,217 @@
   ],
   "acf": {
    "short_description": "Low-density single-wire knitted mesh for open gas diffusion layers and elastic elements in alkaline electrolyser stacks.",
-   "banner_image": 63,
+   "short_description_source": {
+    "label": "Short Description",
+    "type": "textarea",
+    "formatted_value": "Low-density single-wire knitted mesh for open gas diffusion layers and elastic elements in alkaline electrolyser stacks."
+   },
+   "banner_image": {
+    "ID": 63,
+    "id": 63,
+    "title": "Mesh Roll",
+    "filename": "mesh-roll.jpeg",
+    "filesize": 12761,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+    "link": "https://admin.bvkhydrotech.com/precision-mesh-solutions/mesh-roll/",
+    "alt": "Mesh Roll",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "mesh-roll",
+    "status": "inherit",
+    "uploaded_to": 91,
+    "date": "2026-09-21 12:34:13",
+    "modified": "2026-09-21 12:52:52",
+    "menu_order": 0,
+    "mime_type": "image/jpeg",
+    "type": "image",
+    "subtype": "jpeg",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+    "width": 630,
+    "height": 420,
+    "sizes": {
+     "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-150x100.jpeg",
+     "thumbnail-width": 150,
+     "thumbnail-height": 100,
+     "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-300x200.jpeg",
+     "medium-width": 300,
+     "medium-height": 200,
+     "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+     "medium_large-width": 630,
+     "medium_large-height": 420,
+     "large": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+     "large-width": 630,
+     "large-height": 420,
+     "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+     "1536x1536-width": 630,
+     "1536x1536-height": 420,
+     "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+     "2048x2048-width": 630,
+     "2048x2048-height": 420
+    }
+   },
+   "banner_image_source": {
+    "label": "Product Banner Image",
+    "type": "image",
+    "formatted_value": {
+     "ID": 63,
+     "id": 63,
+     "title": "Mesh Roll",
+     "filename": "mesh-roll.jpeg",
+     "filesize": 12761,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+     "link": "https://admin.bvkhydrotech.com/precision-mesh-solutions/mesh-roll/",
+     "alt": "Mesh Roll",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "mesh-roll",
+     "status": "inherit",
+     "uploaded_to": 91,
+     "date": "2026-09-21 12:34:13",
+     "modified": "2026-09-21 12:52:52",
+     "menu_order": 0,
+     "mime_type": "image/jpeg",
+     "type": "image",
+     "subtype": "jpeg",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/default.png",
+     "width": 630,
+     "height": 420,
+     "sizes": {
+      "thumbnail": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-150x100.jpeg",
+      "thumbnail-width": 150,
+      "thumbnail-height": 100,
+      "medium": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll-300x200.jpeg",
+      "medium-width": 300,
+      "medium-height": 200,
+      "medium_large": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+      "medium_large-width": 630,
+      "medium_large-height": 420,
+      "large": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+      "large-width": 630,
+      "large-height": 420,
+      "1536x1536": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+      "1536x1536-width": 630,
+      "1536x1536-height": 420,
+      "2048x2048": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
+      "2048x2048-width": 630,
+      "2048x2048-height": 420
+     }
+    }
+   },
    "specifications": "Knit type: Single end\nWires per needle: Single\nNeedle gauge: 1\nSingle-piece diameter: up to 2.2 m\nCorrugation: 4-10 mm\nStandards: ASTM B164, ISO 9044, DSIR-RDI, ISO 22734-ready QMS",
+   "specifications_source": {
+    "label": "Technical Specifications",
+    "type": "textarea",
+    "formatted_value": "Knit type: Single end\nWires per needle: Single\nNeedle gauge: 1\nSingle-piece diameter: up to 2.2 m\nCorrugation: 4-10 mm\nStandards: ASTM B164, ISO 9044, DSIR-RDI, ISO 22734-ready QMS"
+   },
    "material": "Nickel 201/202, Titanium, Stainless Steel",
+   "material_source": {
+    "label": "Material",
+    "type": "text",
+    "formatted_value": "Nickel 201/202, Titanium, Stainless Steel"
+   },
    "wire_diameter": "0.05 mm to 0.30 mm",
+   "wire_diameter_source": {
+    "label": "Wire Diameter Range",
+    "type": "text",
+    "formatted_value": "0.05 mm to 0.30 mm"
+   },
    "mesh_count": "Single wire per needle, needle gauge 1",
+   "mesh_count_source": {
+    "label": "Mesh Count / Aperture",
+    "type": "text",
+    "formatted_value": "Single wire per needle, needle gauge 1"
+   },
    "applications": "Open gas diffusion layer (GDL) / PTL\nNickel elastic elements\nAlkaline electrolyser stack core\nBalance-of-plant filter elements",
-   "datasheet": 49,
+   "applications_source": {
+    "label": "Applications",
+    "type": "textarea",
+    "formatted_value": "Open gas diffusion layer (GDL) / PTL\nNickel elastic elements\nAlkaline electrolyser stack core\nBalance-of-plant filter elements"
+   },
+   "datasheet": {
+    "ID": 49,
+    "id": 49,
+    "title": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+    "filename": "green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+    "filesize": 711276,
+    "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+    "link": "https://admin.bvkhydrotech.com/products/voltra-lite/green-hydrogen-knitted-mesh-solutions-leaflet/",
+    "alt": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+    "author": "1",
+    "description": "",
+    "caption": "",
+    "name": "green-hydrogen-knitted-mesh-solutions-leaflet",
+    "status": "inherit",
+    "uploaded_to": 120,
+    "date": "2026-09-21 12:29:48",
+    "modified": "2026-09-21 12:53:13",
+    "menu_order": 0,
+    "mime_type": "application/pdf",
+    "type": "application",
+    "subtype": "pdf",
+    "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+   },
+   "datasheet_source": {
+    "label": "Product Datasheet (PDF)",
+    "type": "file",
+    "formatted_value": {
+     "ID": 49,
+     "id": 49,
+     "title": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+     "filename": "green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+     "filesize": 711276,
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/green-hydrogen-knitted-mesh-solutions-leaflet.pdf",
+     "link": "https://admin.bvkhydrotech.com/products/voltra-lite/green-hydrogen-knitted-mesh-solutions-leaflet/",
+     "alt": "Green Hydrogen Knitted Mesh Solutions Leaflet",
+     "author": "1",
+     "description": "",
+     "caption": "",
+     "name": "green-hydrogen-knitted-mesh-solutions-leaflet",
+     "status": "inherit",
+     "uploaded_to": 120,
+     "date": "2026-09-21 12:29:48",
+     "modified": "2026-09-21 12:53:13",
+     "menu_order": 0,
+     "mime_type": "application/pdf",
+     "type": "application",
+     "subtype": "pdf",
+     "icon": "https://admin.bvkhydrotech.com/wp-includes/images/media/document.png"
+    }
+   },
    "cta_title": "Request a Quote",
+   "cta_title_source": {
+    "label": "CTA Title",
+    "type": "text",
+    "formatted_value": "Request a Quote"
+   },
    "cta_button_text": "Send Enquiry",
+   "cta_button_text_source": {
+    "label": "CTA Button Text",
+    "type": "text",
+    "formatted_value": "Send Enquiry"
+   },
    "cta_button_url": "/contact",
+   "cta_button_url_source": {
+    "label": "CTA Button URL",
+    "type": "url",
+    "formatted_value": "/contact"
+   },
    "is_featured": true,
-   "sort_order": 1
+   "is_featured_source": {
+    "label": "Featured Product",
+    "type": "true_false",
+    "formatted_value": true
+   },
+   "sort_order": 1,
+   "sort_order_source": {
+    "label": "Sort Order",
+    "type": "number",
+    "formatted_value": "1"
+   }
   },
-  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Voltra Lite — Low Density Single-Wire Knitted Mesh - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Voltra Lite — Low Density Single-Wire Knitted Mesh - BVK Hydrotech\" />\n<meta property=\"og:description\" content=\"Open GDL and elastic-element knitted mesh for alkaline electrolyser stacks.\" />\n<meta property=\"og:url\" content=\"https://dev.bhavcreations.in/products/voltra-lite/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-09-22T04:47:20+00:00\" />\n<meta property=\"og:image\" content=\"https://dev.bhavcreations.in/wp-content/uploads/mesh-roll.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"630\" />\n\t<meta property=\"og:image:height\" content=\"420\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-lite\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-lite\\/\",\"name\":\"Voltra Lite — Low Density Single-Wire Knitted Mesh - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-lite\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-lite\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll.jpeg\",\"datePublished\":\"2026-09-21T12:53:13+00:00\",\"dateModified\":\"2026-09-22T04:47:20+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-lite\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-lite\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-lite\\/#primaryimage\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll.jpeg\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/mesh-roll.jpeg\",\"width\":630,\"height\":420,\"caption\":\"Mesh Roll\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/voltra-lite\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Products\",\"item\":\"https:\\/\\/dev.bhavcreations.in\\/products\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Voltra Lite — Low Density Single-Wire Knitted Mesh\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#website\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev.bhavcreations.in\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/dev.bhavcreations.in\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/dev.bhavcreations.in\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
+  "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v28.5 - https://yoast.com/product/yoast-seo-wordpress/ -->\n<title>Voltra Lite — Low Density Single-Wire Knitted Mesh - BVK Hydrotech</title>\n<meta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" />\n<meta property=\"og:locale\" content=\"en_US\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"og:title\" content=\"Voltra Lite — Low Density Single-Wire Knitted Mesh - BVK Hydrotech\" />\n<meta property=\"og:description\" content=\"Open GDL and elastic-element knitted mesh for alkaline electrolyser stacks.\" />\n<meta property=\"og:url\" content=\"https://admin.bvkhydrotech.com/products/voltra-lite/\" />\n<meta property=\"og:site_name\" content=\"BVK Hydrotech\" />\n<meta property=\"article:modified_time\" content=\"2026-10-15T18:59:39+00:00\" />\n<meta property=\"og:image\" content=\"https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg\" />\n\t<meta property=\"og:image:width\" content=\"630\" />\n\t<meta property=\"og:image:height\" content=\"420\" />\n\t<meta property=\"og:image:type\" content=\"image/jpeg\" />\n<meta name=\"twitter:card\" content=\"summary_large_image\" />\n<script type=\"application/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-lite\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-lite\\/\",\"name\":\"Voltra Lite — Low Density Single-Wire Knitted Mesh - BVK Hydrotech\",\"isPartOf\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-lite\\/#primaryimage\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-lite\\/#primaryimage\"},\"thumbnailUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/bvk-voltra-lite-single-wire-knitted-mesh-hd.jpg\",\"datePublished\":\"2026-09-21T12:53:13+00:00\",\"dateModified\":\"2026-10-15T18:59:39+00:00\",\"breadcrumb\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-lite\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-lite\\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-lite\\/#primaryimage\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/bvk-voltra-lite-single-wire-knitted-mesh-hd.jpg\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/bvk-voltra-lite-single-wire-knitted-mesh-hd.jpg\",\"width\":1200,\"height\":896,\"caption\":\"BVK Voltra Lite — Low Density Single-Wire Knitted Mesh HD\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/voltra-lite\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Products\",\"item\":\"https:\\/\\/admin.bvkhydrotech.com\\/products\\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Voltra Lite — Low Density Single-Wire Knitted Mesh\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#website\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"name\":\"BVK Hydrotech\",\"description\":\"Precision mesh for electrolysers, fuel cells and industrial filtration\",\"publisher\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\"},\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/admin.bvkhydrotech.com\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#organization\",\"name\":\"BVK Hydrotech\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"contentUrl\":\"https:\\/\\/admin.bvkhydrotech.com\\/wp-content\\/uploads\\/BVK-Hydrotech-White-Logo.png\",\"width\":1774,\"height\":887,\"caption\":\"BVK Hydrotech\"},\"image\":{\"@id\":\"https:\\/\\/admin.bvkhydrotech.com\\/#\\/schema\\/logo\\/image\\/\"}}]}</script>\n<!-- / Yoast SEO plugin. -->",
   "yoast_head_json": {
    "title": "Voltra Lite — Low Density Single-Wire Knitted Mesh - BVK Hydrotech",
    "robots": {
@@ -1129,14 +2114,14 @@
    "og_type": "article",
    "og_title": "Voltra Lite — Low Density Single-Wire Knitted Mesh - BVK Hydrotech",
    "og_description": "Open GDL and elastic-element knitted mesh for alkaline electrolyser stacks.",
-   "og_url": "https://dev.bhavcreations.in/products/voltra-lite/",
+   "og_url": "https://admin.bvkhydrotech.com/products/voltra-lite/",
    "og_site_name": "BVK Hydrotech",
-   "article_modified_time": "2026-09-22T04:47:20+00:00",
+   "article_modified_time": "2026-10-15T18:59:39+00:00",
    "og_image": [
     {
      "width": 630,
      "height": 420,
-     "url": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll.jpeg",
+     "url": "https://admin.bvkhydrotech.com/wp-content/uploads/mesh-roll.jpeg",
      "type": "image/jpeg"
     }
    ],
@@ -1146,30 +2131,30 @@
     "@graph": [
      {
       "@type": "WebPage",
-      "@id": "https://dev.bhavcreations.in/products/voltra-lite/",
-      "url": "https://dev.bhavcreations.in/products/voltra-lite/",
+      "@id": "https://admin.bvkhydrotech.com/products/voltra-lite/",
+      "url": "https://admin.bvkhydrotech.com/products/voltra-lite/",
       "name": "Voltra Lite — Low Density Single-Wire Knitted Mesh - BVK Hydrotech",
       "isPartOf": {
-       "@id": "https://dev.bhavcreations.in/#website"
+       "@id": "https://admin.bvkhydrotech.com/#website"
       },
       "primaryImageOfPage": {
-       "@id": "https://dev.bhavcreations.in/products/voltra-lite/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/products/voltra-lite/#primaryimage"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/products/voltra-lite/#primaryimage"
+       "@id": "https://admin.bvkhydrotech.com/products/voltra-lite/#primaryimage"
       },
-      "thumbnailUrl": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll.jpeg",
+      "thumbnailUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-voltra-lite-single-wire-knitted-mesh-hd.jpg",
       "datePublished": "2026-09-21T12:53:13+00:00",
-      "dateModified": "2026-09-22T04:47:20+00:00",
+      "dateModified": "2026-10-15T18:59:39+00:00",
       "breadcrumb": {
-       "@id": "https://dev.bhavcreations.in/products/voltra-lite/#breadcrumb"
+       "@id": "https://admin.bvkhydrotech.com/products/voltra-lite/#breadcrumb"
       },
       "inLanguage": "en-US",
       "potentialAction": [
        {
         "@type": "ReadAction",
         "target": [
-         "https://dev.bhavcreations.in/products/voltra-lite/"
+         "https://admin.bvkhydrotech.com/products/voltra-lite/"
         ]
        }
       ]
@@ -1177,28 +2162,28 @@
      {
       "@type": "ImageObject",
       "inLanguage": "en-US",
-      "@id": "https://dev.bhavcreations.in/products/voltra-lite/#primaryimage",
-      "url": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll.jpeg",
-      "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/mesh-roll.jpeg",
-      "width": 630,
-      "height": 420,
-      "caption": "Mesh Roll"
+      "@id": "https://admin.bvkhydrotech.com/products/voltra-lite/#primaryimage",
+      "url": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-voltra-lite-single-wire-knitted-mesh-hd.jpg",
+      "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/bvk-voltra-lite-single-wire-knitted-mesh-hd.jpg",
+      "width": 1200,
+      "height": 896,
+      "caption": "BVK Voltra Lite — Low Density Single-Wire Knitted Mesh HD"
      },
      {
       "@type": "BreadcrumbList",
-      "@id": "https://dev.bhavcreations.in/products/voltra-lite/#breadcrumb",
+      "@id": "https://admin.bvkhydrotech.com/products/voltra-lite/#breadcrumb",
       "itemListElement": [
        {
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://dev.bhavcreations.in/"
+        "item": "https://admin.bvkhydrotech.com/"
        },
        {
         "@type": "ListItem",
         "position": 2,
         "name": "Products",
-        "item": "https://dev.bhavcreations.in/products/"
+        "item": "https://admin.bvkhydrotech.com/products/"
        },
        {
         "@type": "ListItem",
@@ -1209,19 +2194,19 @@
      },
      {
       "@type": "WebSite",
-      "@id": "https://dev.bhavcreations.in/#website",
-      "url": "https://dev.bhavcreations.in/",
+      "@id": "https://admin.bvkhydrotech.com/#website",
+      "url": "https://admin.bvkhydrotech.com/",
       "name": "BVK Hydrotech",
       "description": "Precision mesh for electrolysers, fuel cells and industrial filtration",
       "publisher": {
-       "@id": "https://dev.bhavcreations.in/#organization"
+       "@id": "https://admin.bvkhydrotech.com/#organization"
       },
       "potentialAction": [
        {
         "@type": "SearchAction",
         "target": {
          "@type": "EntryPoint",
-         "urlTemplate": "https://dev.bhavcreations.in/?s={search_term_string}"
+         "urlTemplate": "https://admin.bvkhydrotech.com/?s={search_term_string}"
         },
         "query-input": {
          "@type": "PropertyValueSpecification",
@@ -1234,21 +2219,21 @@
      },
      {
       "@type": "Organization",
-      "@id": "https://dev.bhavcreations.in/#organization",
+      "@id": "https://admin.bvkhydrotech.com/#organization",
       "name": "BVK Hydrotech",
-      "url": "https://dev.bhavcreations.in/",
+      "url": "https://admin.bvkhydrotech.com/",
       "logo": {
        "@type": "ImageObject",
        "inLanguage": "en-US",
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/",
-       "url": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
-       "contentUrl": "https://dev.bhavcreations.in/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/",
+       "url": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
+       "contentUrl": "https://admin.bvkhydrotech.com/wp-content/uploads/BVK-Hydrotech-White-Logo.png",
        "width": 1774,
        "height": 887,
        "caption": "BVK Hydrotech"
       },
       "image": {
-       "@id": "https://dev.bhavcreations.in/#/schema/logo/image/"
+       "@id": "https://admin.bvkhydrotech.com/#/schema/logo/image/"
       }
      }
     ]
@@ -1257,7 +2242,7 @@
   "_links": {
    "self": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/120",
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/120",
      "targetHints": {
       "allow": [
        "GET"
@@ -1267,52 +2252,52 @@
    ],
    "collection": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products"
     }
    ],
    "about": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/types/bvk_product"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/types/bvk_product"
     }
    ],
    "version-history": [
     {
      "count": 1,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/120/revisions"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/120/revisions"
     }
    ],
    "predecessor-version": [
     {
      "id": 200,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/products/120/revisions/200"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/products/120/revisions/200"
     }
    ],
    "wp:featuredmedia": [
     {
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media/63"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media/667"
     }
    ],
    "wp:attachment": [
     {
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/media?parent=120"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/media?parent=120"
     }
    ],
    "wp:term": [
     {
      "taxonomy": "bvk_product_category",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/product-categories?post=120"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/product-categories?post=120"
     },
     {
      "taxonomy": "bvk_industry_tag",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/industry-tags?post=120"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/industry-tags?post=120"
     },
     {
      "taxonomy": "bvk_material",
      "embeddable": true,
-     "href": "https://dev.bhavcreations.in/wp-json/wp/v2/materials?post=120"
+     "href": "https://admin.bvkhydrotech.com/wp-json/wp/v2/materials?post=120"
     }
    ],
    "curies": [
