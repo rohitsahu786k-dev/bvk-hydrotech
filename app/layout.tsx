@@ -3,7 +3,9 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import MotionObserver from "@/components/ui/MotionObserver";
+import PopupManager from "@/components/popups/PopupManager";
 import { getChrome } from "@/lib/wordpress/home";
+import { getPopups } from "@/lib/wordpress/popups";
 import { OG_DEFAULT } from "@/lib/seo/defaults";
 import { JsonLd, organisationSchema, websiteSchema } from "@/lib/seo/jsonLd";
 
@@ -78,7 +80,7 @@ export default async function RootLayout({
 }) {
   // Navigation and contact details are authored in WordPress, so the chrome is
   // fetched once here rather than in every route.
-  const { menus, settings } = await getChrome();
+  const [{ menus, settings }, popups] = await Promise.all([getChrome(), getPopups()]);
 
   return (
     <html lang="en-IN">
@@ -112,6 +114,7 @@ export default async function RootLayout({
         <main id="main-content">{children}</main>
         <Footer menus={menus} settings={settings} />
         <MotionObserver />
+        <PopupManager popups={popups} />
       </body>
     </html>
   );

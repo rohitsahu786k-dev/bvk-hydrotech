@@ -1,0 +1,178 @@
+/*
+ * Homepage banner carousel.
+ *
+ * Shape and size come from the Carousel Settings in WordPress, passed in as
+ * CSS variables: --ar-m / --ar-d are the mobile and desktop aspect ratios,
+ * --max-h the tallest the banner may be (percent of the screen), --speed the
+ * transition length.
+ */
+
+.frame {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-ink);
+  aspect-ratio: var(--ar-m);
+  max-height: calc(var(--max-h) * 1svh);
+}
+
+@media (min-width: 768px) {
+  .frame {
+    aspect-ratio: var(--ar-d);
+  }
+}
+
+.stage {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  overflow: hidden;
+  touch-action: pan-y;
+}
+
+.slide {
+  grid-area: 1 / 1;
+  position: relative;
+  min-width: 0;
+  transition:
+    opacity var(--speed) ease,
+    transform var(--speed) cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+
+/* ---- Arrows ------------------------------------------------------------- */
+
+.arrow {
+  position: absolute;
+  z-index: 3;
+  width: 2.25rem;
+  height: 2.25rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition:
+    background-color 200ms ease,
+    transform 200ms ease,
+    opacity 200ms ease;
+}
+
+/* On a phone the banner's own words sit mid-picture, so the arrows live in the
+   bottom corners, level with the dots, instead of covering them. */
+.arrow {
+  bottom: 0.5rem;
+}
+
+.arrow:hover:not(:disabled) {
+  transform: scale(1.07);
+}
+
+.arrow:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.arrow:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+.arrow[data-shape="circle"] {
+  border-radius: 999px;
+}
+
+.arrow[data-shape="square"] {
+  border-radius: var(--radius-sm);
+}
+
+.arrow[data-theme="dark"] {
+  background: rgb(11 13 12 / 0.55);
+  border-color: rgb(255 255 255 / 0.22);
+  color: #fff;
+}
+.arrow[data-theme="dark"]:hover:not(:disabled) {
+  background: rgb(11 13 12 / 0.8);
+}
+
+.arrow[data-theme="light"] {
+  background: rgb(255 255 255 / 0.85);
+  color: var(--color-ink);
+}
+.arrow[data-theme="light"]:hover:not(:disabled) {
+  background: #fff;
+}
+
+.arrow[data-theme="green"] {
+  background: var(--color-brand-deep);
+  color: #fff;
+}
+.arrow[data-theme="green"]:hover:not(:disabled) {
+  background: var(--color-brand-dim);
+}
+
+.prev {
+  left: 0.75rem;
+}
+
+.next {
+  right: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .prev {
+    left: 1.5rem;
+  }
+  .next {
+    right: 1.5rem;
+  }
+  .arrow {
+    top: 50%;
+    bottom: auto;
+    width: 3.25rem;
+    height: 3.25rem;
+    transform: translateY(-50%);
+  }
+  .arrow:hover:not(:disabled) {
+    transform: translateY(-50%) scale(1.07);
+  }
+}
+
+/* ---- Dots --------------------------------------------------------------- */
+
+.dot {
+  position: relative;
+  width: 0.625rem;
+  height: 0.625rem;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: rgb(255 255 255 / 0.55);
+  cursor: pointer;
+  transition:
+    width 250ms ease,
+    background-color 250ms ease;
+}
+
+/* A larger invisible target than the dot itself. */
+.dot::after {
+  content: "";
+  position: absolute;
+  inset: -0.5rem -0.25rem;
+}
+
+.dot[aria-current="true"] {
+  width: 1.75rem;
+  background: var(--color-brand);
+}
+
+.dot:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .slide,
+  .arrow,
+  .dot {
+    transition: none;
+  }
+}

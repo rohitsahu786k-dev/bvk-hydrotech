@@ -1,0 +1,348 @@
+/*
+ * Popup shell.
+ *
+ * Everything an editor can change in WordPress arrives as a CSS variable on
+ * .root (colours, widths, radius, timing) or as a data attribute (position,
+ * size, layout, animation), so this file holds no per-popup values.
+ *
+ * Layers, bottom to top:
+ *   .overlay     dims the page and catches outside clicks (only when enabled)
+ *   .positioner  full-screen flex box that places the popup; lets clicks through
+ *   .frame       the popup itself; carries the animation and the close button
+ *   .panel       scrolls when the content is taller than the screen
+ */
+
+.root {
+  position: fixed;
+  inset: 0;
+  z-index: var(--bvk-z, 200);
+  pointer-events: none;
+}
+
+/* Rendered but invisible while its artwork downloads, so it never pops in half drawn. */
+.root[data-state="loading"] {
+  visibility: hidden;
+}
+
+/* ---- Overlay ------------------------------------------------------------ */
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--bvk-overlay);
+  pointer-events: auto;
+}
+
+.root[data-state="open"] .overlay {
+  animation: overlay-in var(--bvk-dur) ease both;
+}
+
+.root[data-state="closed"] .overlay {
+  animation: overlay-out var(--bvk-dur) ease both;
+}
+
+/* ---- Placement ---------------------------------------------------------- */
+
+.positioner {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  padding: 1rem;
+  pointer-events: none;
+}
+
+.root[data-v="top"] .positioner { align-items: flex-start; }
+.root[data-v="middle"] .positioner { align-items: center; }
+.root[data-v="bottom"] .positioner { align-items: flex-end; }
+
+.root[data-h="left"] .positioner { justify-content: flex-start; }
+.root[data-h="center"] .positioner { justify-content: center; }
+.root[data-h="right"] .positioner { justify-content: flex-end; }
+
+/* Bars and fullscreen sit flush against the screen edges. */
+.root[data-size="full_width"] .positioner,
+.root[data-size="fullscreen"] .positioner {
+  padding: 0;
+}
+
+/* ---- Frame -------------------------------------------------------------- */
+
+.frame {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: min(var(--bvk-w-d), 100%);
+  max-width: 100%;
+  max-height: 100%;
+  color: var(--bvk-fg);
+  pointer-events: auto;
+}
+
+.root[data-size="full_width"] .frame {
+  width: 100%;
+}
+
+.root[data-size="fullscreen"] .frame {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .frame {
+    width: min(calc(var(--bvk-w-m) * 1vw), 100%);
+  }
+  .root[data-size="full_width"] .frame,
+  .root[data-size="fullscreen"] .frame {
+    width: 100%;
+  }
+}
+
+.panel {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border-radius: var(--bvk-radius);
+  background: var(--bvk-bg);
+  box-shadow: 0 24px 64px -16px rgb(0 0 0 / 0.45), 0 4px 16px rgb(0 0 0 / 0.18);
+  outline: none;
+}
+
+.root[data-size="full_width"] .panel,
+.root[data-size="fullscreen"] .panel {
+  border-radius: 0;
+}
+
+/* ---- Close button ------------------------------------------------------- */
+
+.close {
+  position: absolute;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.close:hover {
+  transform: scale(1.08);
+}
+
+.close:focus-visible {
+  outline: 2px solid var(--color-brand, #1db053);
+  outline-offset: 2px;
+}
+
+.close[data-placement="inside"] {
+  top: 0.75rem;
+  right: 0.75rem;
+  background: rgb(11 13 12 / 0.62);
+  color: #fff;
+}
+
+.close[data-placement="inside"]:hover {
+  background: rgb(11 13 12 / 0.85);
+}
+
+.close[data-placement="outside"] {
+  top: -0.875rem;
+  right: -0.875rem;
+  background: #fff;
+  color: #0b0d0c;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.3);
+}
+
+/* The corner outside the popup would fall off a phone screen. */
+@media (max-width: 767px) {
+  .close[data-placement="outside"] {
+    top: 0.75rem;
+    right: 0.75rem;
+    background: rgb(11 13 12 / 0.62);
+    color: #fff;
+    box-shadow: none;
+  }
+}
+
+.root[data-size="full_width"] .close[data-placement="outside"],
+.root[data-size="fullscreen"] .close[data-placement="outside"] {
+  top: 0.75rem;
+  right: 0.75rem;
+  background: rgb(11 13 12 / 0.62);
+  color: #fff;
+  box-shadow: none;
+}
+
+/* ---- Layouts ------------------------------------------------------------ */
+
+.body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.media {
+  position: relative;
+  display: block;
+  line-height: 0;
+  background: color-mix(in srgb, var(--bvk-bg) 92%, #000);
+}
+
+.media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+a.media {
+  cursor: pointer;
+}
+
+a.media:focus-visible {
+  outline: 3px solid var(--color-brand, #1db053);
+  outline-offset: -3px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.875rem;
+  padding: var(--bvk-pad);
+}
+
+/* Fullscreen: the artwork fills the screen instead of keeping its own shape. */
+.root[data-size="fullscreen"] .body[data-layout="image_only"] .media {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+.root[data-size="fullscreen"] .body[data-layout="image_only"] .media picture,
+.root[data-size="fullscreen"] .body[data-layout="image_only"] .media img {
+  height: 100%;
+}
+.root[data-size="fullscreen"] .body[data-layout="image_only"] .media img {
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .body[data-layout="image_left"],
+  .body[data-layout="image_right"] {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: stretch;
+  }
+
+  .body[data-layout="image_right"] .media {
+    order: 2;
+  }
+
+  /* Side-by-side: the picture covers its column rather than leaving gaps. */
+  .body[data-layout="image_left"] .media,
+  .body[data-layout="image_right"] .media {
+    min-height: 100%;
+  }
+  .body[data-layout="image_left"] .media picture,
+  .body[data-layout="image_right"] .media picture {
+    display: block;
+    height: 100%;
+  }
+  .body[data-layout="image_left"] .media img,
+  .body[data-layout="image_right"] .media img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* ---- Text --------------------------------------------------------------- */
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-brand-deep, #147b3a);
+}
+
+.heading {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: var(--weight-heading, 500);
+  font-size: clamp(1.5rem, 1.1rem + 1.4vw, 2.125rem);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.rich {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+.rich > :first-child { margin-top: 0; }
+.rich > :last-child { margin-bottom: 0; }
+.rich p { margin: 0 0 0.75rem; }
+.rich ul, .rich ol { margin: 0 0 0.75rem; padding-left: 1.25rem; }
+.rich ul { list-style: disc; }
+.rich ol { list-style: decimal; }
+.rich li { margin-bottom: 0.25rem; }
+.rich a { color: var(--color-brand-deep, #147b3a); text-decoration: underline; text-underline-offset: 3px; }
+.rich strong { font-weight: 600; }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding-top: 0.25rem;
+}
+
+/* ---- Animation ---------------------------------------------------------- */
+
+.root[data-state="open"][data-in="fade"] .frame { animation: fade-in var(--bvk-dur) var(--ease-out-soft, ease-out) both; }
+.root[data-state="open"][data-in="zoom"] .frame { animation: zoom-in var(--bvk-dur) var(--ease-out-soft, ease-out) both; }
+.root[data-state="open"][data-in="slide-up"] .frame { animation: slide-up-in var(--bvk-dur) var(--ease-out-soft, ease-out) both; }
+.root[data-state="open"][data-in="slide-down"] .frame { animation: slide-down-in var(--bvk-dur) var(--ease-out-soft, ease-out) both; }
+.root[data-state="open"][data-in="slide-left"] .frame { animation: slide-left-in var(--bvk-dur) var(--ease-out-soft, ease-out) both; }
+.root[data-state="open"][data-in="slide-right"] .frame { animation: slide-right-in var(--bvk-dur) var(--ease-out-soft, ease-out) both; }
+
+.root[data-state="closed"][data-out="fade"] .frame { animation: fade-out var(--bvk-dur) ease-in both; }
+.root[data-state="closed"][data-out="zoom"] .frame { animation: zoom-out var(--bvk-dur) ease-in both; }
+.root[data-state="closed"][data-out="slide-up"] .frame { animation: slide-up-out var(--bvk-dur) ease-in both; }
+.root[data-state="closed"][data-out="slide-down"] .frame { animation: slide-down-out var(--bvk-dur) ease-in both; }
+.root[data-state="closed"][data-out="slide-left"] .frame { animation: slide-left-out var(--bvk-dur) ease-in both; }
+.root[data-state="closed"][data-out="slide-right"] .frame { animation: slide-right-out var(--bvk-dur) ease-in both; }
+
+/* "none" has no animation, so a closing popup would otherwise wait around. */
+.root[data-state="closed"][data-out="none"] .frame { visibility: hidden; }
+
+@keyframes overlay-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes overlay-out { from { opacity: 1; } to { opacity: 0; } }
+
+@keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fade-out { from { opacity: 1; } to { opacity: 0; } }
+
+@keyframes zoom-in { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: none; } }
+@keyframes zoom-out { from { opacity: 1; transform: none; } to { opacity: 0; transform: scale(0.9); } }
+
+@keyframes slide-up-in { from { opacity: 0; transform: translateY(2.5rem); } to { opacity: 1; transform: none; } }
+@keyframes slide-down-in { from { opacity: 0; transform: translateY(-2.5rem); } to { opacity: 1; transform: none; } }
+@keyframes slide-left-in { from { opacity: 0; transform: translateX(2.5rem); } to { opacity: 1; transform: none; } }
+@keyframes slide-right-in { from { opacity: 0; transform: translateX(-2.5rem); } to { opacity: 1; transform: none; } }
+
+@keyframes slide-up-out { from { opacity: 1; transform: none; } to { opacity: 0; transform: translateY(-2.5rem); } }
+@keyframes slide-down-out { from { opacity: 1; transform: none; } to { opacity: 0; transform: translateY(2.5rem); } }
+@keyframes slide-left-out { from { opacity: 1; transform: none; } to { opacity: 0; transform: translateX(-2.5rem); } }
+@keyframes slide-right-out { from { opacity: 1; transform: none; } to { opacity: 0; transform: translateX(2.5rem); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay,
+  .frame {
+    animation: none !important;
+  }
+  .close {
+    transition: none;
+  }
+}

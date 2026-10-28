@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { getHomeData } from "@/lib/wordpress/home";
 import HeroCarousel from "@/components/sections/HeroCarousel";
+import HeroBannerCarousel from "@/components/sections/HeroBannerCarousel";
+import { getHomeBanners } from "@/lib/wordpress/home-banners";
 import StatsBand from "@/components/sections/StatsBand";
 import HomeSolutionsDuo from "@/components/sections/HomeSolutionsDuo";
 import HomeMaterials from "@/components/sections/HomeMaterials";
@@ -35,7 +37,11 @@ export const metadata: Metadata = {
 };
 
 export default async function HomePage() {
-  const data = await getHomeData();
+  const [data, bannerData] = await Promise.all([getHomeData(), getHomeBanners()]);
+
+  // Editor-managed banner carousel when there are live banners; otherwise the
+  // previous text-and-button hero, so the homepage always has a hero.
+  const useBanners = bannerData.settings.enabled && bannerData.banners.length > 0;
 
   // Organization and WebSite are declared once in the root layout. The home
   // page adds the question-led markup answer engines read, built from the same
@@ -46,7 +52,11 @@ export default async function HomePage() {
     <>
       {schema && <JsonLd data={schema} />}
 
-      <HeroCarousel slides={data.slides} />
+      {useBanners ? (
+        <HeroBannerCarousel banners={bannerData.banners} settings={bannerData.settings} />
+      ) : (
+        <HeroCarousel slides={data.slides} />
+      )}
       <StatsBand stats={data.stats} />
       <HomeSolutionsDuo />
       <AboutSection about={data.about} />

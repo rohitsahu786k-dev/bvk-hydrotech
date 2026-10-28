@@ -1,0 +1,134 @@
+/* Moving text strip under the header on the Fairs & Events pages. */
+
+.strip {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.track {
+  display: flex;
+  width: max-content;
+  animation: marquee var(--dur, 40s) linear infinite;
+}
+
+/* Hovering or focusing inside stops it, so a line can be read and clicked. */
+.strip:hover .track,
+.strip:focus-within .track {
+  animation-play-state: paused;
+}
+
+.list {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-inline: 1.25rem;
+}
+
+.item::after {
+  content: "";
+  width: 0.3125rem;
+  height: 0.3125rem;
+  margin-left: 1.25rem;
+  border-radius: 999px;
+  background: var(--color-brand);
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Reduced motion: no scrolling; the first lines are simply shown. */
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    animation: none;
+    width: auto;
+  }
+  .list[aria-hidden="true"] {
+    display: none;
+  }
+}
+
+/* Pulsing dot on a "Live now" badge. */
+.live {
+  position: relative;
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 999px;
+  background: #fff;
+}
+
+.live::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: #fff;
+  animation: live 1.6s ease-out infinite;
+}
+
+@keyframes live {
+  from { transform: scale(1); opacity: 0.7; }
+  to { transform: scale(3); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .live::after {
+    animation: none;
+  }
+}
+
+/* Dialog (quick view and gallery viewer). */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: rgb(11 13 12 / 0.7);
+  animation: fade-in 200ms ease both;
+}
+
+.dialog {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: 301;
+  width: min(44rem, calc(100vw - 2rem));
+  max-height: calc(100dvh - 2rem);
+  overflow-y: auto;
+  transform: translate(-50%, -50%);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: 0 30px 80px -20px rgb(0 0 0 / 0.5);
+  animation: pop-in 220ms var(--ease-out-soft) both;
+}
+
+.dialog:focus {
+  outline: none;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes pop-in {
+  from { opacity: 0; transform: translate(-50%, -48%) scale(0.97); }
+  to { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .overlay,
+  .dialog {
+    animation: none;
+  }
+}

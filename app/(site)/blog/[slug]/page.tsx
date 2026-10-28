@@ -88,7 +88,11 @@ export default async function BlogPostPage({ params }: PageProps) {
   if (!post) notFound();
 
   const others = all.filter((p) => p.id !== post.id);
-  const related = others.slice(0, 9);
+  // Articles that share a category come first, then the rest, newest first.
+  const mine = new Set(post.categories.map((c) => c.slug));
+  const shares = (p: (typeof all)[number]) => p.categories.some((c) => mine.has(c.slug));
+  const related = [...others.filter(shares), ...others.filter((p) => !shares(p))].slice(0, 9);
+  const updated = new Date(post.modified).getTime() - new Date(post.date).getTime() > 86_400_000;
 
   const schema: Record<string, unknown>[] = [
     {
@@ -109,7 +113,13 @@ export default async function BlogPostPage({ params }: PageProps) {
       dateModified: post.modified,
       image: post.image ? [post.image.src] : undefined,
       mainEntityOfPage: `${siteUrl}/blog/${post.slug}`,
-      author: { "@id": organisationId },
+      articleSection: post.category?.name,
+      keywords: post.tags.length ? post.tags.map((t) => t.name).join(", ") : undefined,
+      wordCount: post.minutes * 200,
+      inLanguage: "en-IN",
+      author: post.author
+        ? { "@type": "Person", name: post.author, worksFor: { "@id": organisationId } }
+        : { "@id": organisationId },
       publisher: { "@id": organisationId },
     },
   ];
@@ -123,9 +133,17 @@ export default async function BlogPostPage({ params }: PageProps) {
 
       <BlogHero eyebrow={post.category?.name ?? "Article"} title={post.title}>
         <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-on-dark-muted">
-          <span>BVK Hydrotech engineering</span>
+          <span>{post.author ?? "BVK Hydrotech engineering"}</span>
           <span aria-hidden className="h-1 w-1 rounded-full bg-ink-line" />
           <time dateTime={post.date}>{formatPostDate(post.date)}</time>
+          {updated && (
+            <>
+              <span aria-hidden className="h-1 w-1 rounded-full bg-ink-line" />
+              <span>
+                Updated <time dateTime={post.modified}>{formatPostDate(post.modified)}</time>
+              </span>
+            </>
+          )}
           <span aria-hidden className="h-1 w-1 rounded-full bg-ink-line" />
           <span>{post.minutes} min read</span>
         </div>
@@ -173,7 +191,27 @@ export default async function BlogPostPage({ params }: PageProps) {
               ),
             )}
 
-            <div className="mt-12 flex flex-wrap items-center justify-between gap-4 border-t border-hairline pt-6">
+            {(post.categories.length > 0 || post.tags.length > 0) && (
+              <ul aria-label="Topics" className="mt-10 flex flex-wrap gap-2">
+                {post.categories.map((c) => (
+                  <li key={c.slug}>
+                    <Link
+                      href={`/blog/category/${c.slug}`}
+                      className="rounded-full bg-brand-wash px-3 py-1 text-xs font-semibold text-brand-deep transition-colors hover:bg-brand-deep hover:text-white"
+                    >
+                      {c.name}
+                    </Link>
+                  </li>
+                ))}
+                {post.tags.map((t) => (
+                  <li key={t.slug} className="rounded-full border border-hairline px-3 py-1 text-xs text-grey">
+                    #{t.name}
+                  </li>
+                ))}
+              </ul>
+            )}
+
+            <div className="mt-8 flex flex-wrap items-center justify-between gap-4 border-t border-hairline pt-6">
               <PostMeta post={post} />
               <Link
                 href="/blog"
@@ -194,8 +232,8 @@ export default async function BlogPostPage({ params }: PageProps) {
               <p className="mt-2 text-[0.8125rem] leading-relaxed text-on-dark-muted">
                 Send your drawing, material and duty. We reply with a mesh route and lead time.
               </p>
-              <Link href="/contact#enquiry" className="btn btn-green mt-5 w-full">
-                Request technical RFQ
+              <Link href="/contact#enquiry-general" className="btn btn-green mt-5 w-full">
+                Contact our engineers
                 <ArrowUpRight aria-hidden className="h-4 w-4" />
               </Link>
             </div>
@@ -251,7 +289,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         eyebrow="Ask the engineers"
         title="Have a question this article doesn't answer?"
         body="Send the application, the duty and the envelope. Our application engineers reply with a material recommendation and an indicative lead time."
-        primary={{ label: "Request technical RFQ", href: "/contact#enquiry" }}
+        primary={{ label: "Contact our engineers", href: "/contact#enquiry-general" }}
       />
     </>
   );

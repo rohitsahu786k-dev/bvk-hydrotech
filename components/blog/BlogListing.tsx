@@ -5,14 +5,15 @@ import BlogHero from "@/components/blog/BlogHero";
 import CtaBand from "@/components/sections/CtaBand";
 import Pagination from "@/components/blog/Pagination";
 import { JsonLd, breadcrumbSchema } from "@/lib/seo/jsonLd";
-import { getPostsPage } from "@/lib/wordpress/blog";
+import CategoryNav from "@/components/blog/CategoryNav";
+import { getCategories, getPostsPage } from "@/lib/wordpress/blog";
 
 /**
  * The blog index. Page 1 leads with the newest article as a featured card;
  * later pages are a plain grid. Twenty articles a page.
  */
 export default async function BlogListing({ page }: { page: number }) {
-  const { posts, totalPages } = await getPostsPage(page);
+  const [{ posts, totalPages }, categories] = await Promise.all([getPostsPage(page), getCategories()]);
   const featured = page === 1 ? posts[0] : undefined;
   const rest = page === 1 ? posts.slice(1) : posts;
 
@@ -28,6 +29,7 @@ export default async function BlogListing({ page }: { page: number }) {
 
       <section className="bg-surface py-12 lg:py-14">
         <div className="shell">
+          <CategoryNav categories={categories} />
           {posts.length > 0 ? (
             <>
               {featured && (
@@ -118,7 +120,7 @@ export default async function BlogListing({ page }: { page: number }) {
         eyebrow="Ask the engineers"
         title="Have a question the articles don't answer?"
         body="Send the application, the duty and the envelope. Our application engineers reply with a material recommendation and an indicative lead time."
-        primary={{ label: "Request technical RFQ", href: "/contact#enquiry" }}
+        primary={{ label: "Contact our engineers", href: "/contact#enquiry-general" }}
       />
     </>
   );

@@ -1,6 +1,7 @@
 import type { LucideIcon } from "lucide-react";
 import {
   Building2,
+  CalendarDays,
   CircleHelp,
   Droplets,
   Factory,
@@ -202,6 +203,14 @@ export const navigation: NavItem[] = [
             spec: "50%+ renewable energy · ISO 14001 · ISO 50001",
             description: "More than half of our energy already comes from renewables.",
             icon: Leaf,
+          },
+          {
+            label: "Fairs & Events",
+            href: "/events",
+            tagline: "Meet us at the next fair",
+            spec: "Trade fairs · conferences · book an appointment",
+            description: "Where BVK Hydrotech exhibits next, and how to book a time with our engineers.",
+            icon: CalendarDays,
           },
         ],
       },

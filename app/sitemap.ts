@@ -2,7 +2,8 @@ import type { MetadataRoute } from "next";
 import { getPageSlugs } from "@/lib/wordpress/pages";
 import { contentSlugs } from "@/content";
 import { noindexSlugs } from "@/content/seo";
-import { getPosts, getPostsPage } from "@/lib/wordpress/blog";
+import { getCategories, getPosts, getPostsPage } from "@/lib/wordpress/blog";
+import { getEventsData } from "@/lib/wordpress/events";
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bvkhydrotech.com";
 
@@ -31,7 +32,13 @@ const PRIORITY: Record<string, number> = {
 };
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [cmsPages, posts, firstPage] = await Promise.all([getPageSlugs(), getPosts(100), getPostsPage(1)]);
+  const [cmsPages, posts, firstPage, categories, events] = await Promise.all([
+    getPageSlugs(),
+    getPosts(100),
+    getPostsPage(1),
+    getCategories(),
+    getEventsData(),
+  ]);
   const modified = new Map(cmsPages.map((p) => [p.slug, p.modified]));
 
   // The designed pages always appear, whether or not the CMS responded.
@@ -48,11 +55,29 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.9,
     },
     {
+      url: `${siteUrl}/events`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.6,
+    },
+    ...events.events.map((event) => ({
+      url: `${siteUrl}/events/${event.slug}`,
+      lastModified: event.modified ? new Date(event.modified) : new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.5,
+    })),
+    {
       url: `${siteUrl}/blog`,
       lastModified: posts[0] ? new Date(posts[0].modified) : new Date(),
       changeFrequency: "weekly",
       priority: 0.6,
     },
+    ...categories.map((category) => ({
+      url: `${siteUrl}/blog/category/${category.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.5,
+    })),
     ...Array.from({ length: Math.max(0, firstPage.totalPages - 1) }, (_, i) => ({
       url: `${siteUrl}/blog/page/${i + 2}`,
       lastModified: new Date(),
