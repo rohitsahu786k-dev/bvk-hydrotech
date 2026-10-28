@@ -16,6 +16,8 @@ interface CtaBandProps {
   email?: string | null;
   id?: string;
   className?: string;
+  /** A slim one-row strip (used in the footer): smaller type, no eyebrow. */
+  compact?: boolean;
 }
 
 function CtaLink({ action, variant }: { action: LinkAction; variant: "green" | "outline" }) {
@@ -60,6 +62,7 @@ export default function CtaBand({
   email,
   id,
   className = "",
+  compact = false,
 }: CtaBandProps) {
   if (!title) return null;
 
@@ -76,20 +79,28 @@ export default function CtaBand({
         className="-z-10 object-cover object-left md:object-fill"
       />
 
-      <div className="shell py-10 lg:py-12">
+      <div className={compact ? "shell py-6" : "shell py-10 lg:py-12"}>
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
-        <div className="w-full lg:w-[55%]">
-          {eyebrow ? (
+        <div className={compact ? "w-full lg:w-[70%]" : "w-full lg:w-[55%]"}>
+          {compact ? null : eyebrow ? (
             <p className="eyebrow text-brand">{eyebrow}</p>
           ) : (
             <span aria-hidden className="rule-green block" />
           )}
-          <h2 className="display-section mt-4 whitespace-pre-line text-balance text-white">
+          <h2
+            className={`whitespace-pre-line text-balance text-white ${
+              compact ? "font-display text-lg leading-snug lg:text-xl" : "display-section mt-4"
+            }`}
+          >
             {title}
           </h2>
 
           {body && (
-            <p className="mt-3 text-sm leading-relaxed text-on-dark-muted lg:text-base">{body}</p>
+            <p
+              className={`leading-relaxed text-on-dark-muted ${
+                compact ? "mt-1 text-xs lg:text-sm" : "mt-3 text-sm lg:text-base"
+              }`}
+            >{body}</p>
           )}
 
           {(phone || email) && (

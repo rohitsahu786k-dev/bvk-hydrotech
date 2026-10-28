@@ -31,21 +31,19 @@ export default function HomeSolutionsDuo() {
           {solutionsDuo.map((card) => (
             <article
               key={card.title}
-              className="group relative isolate flex min-h-[34rem] flex-col justify-end overflow-hidden lg:min-h-[30rem] lg:justify-center rounded-lg border border-hairline bg-surface transition-colors duration-300 hover:border-brand-deep/40"
+              className="group flex flex-col overflow-hidden rounded-lg border border-hairline bg-surface transition-colors duration-300 hover:border-brand-deep/40"
             >
-              <Image
-                src={card.image}
-                alt={card.title}
-                fill
-                sizes="(min-width: 1024px) 46vw, 100vw"
-                className="-z-10 object-cover object-top transition-transform duration-[1400ms] ease-out group-hover:scale-105 lg:object-[60%_50%]"
-              />
-              <div
-                aria-hidden
-                className="absolute inset-0 -z-10 bg-gradient-to-t from-surface from-56% via-surface/95 via-68% to-transparent lg:bg-gradient-to-r lg:from-surface lg:from-48% lg:via-surface/85 lg:via-54% lg:to-transparent lg:to-62%"
-              />
+              <div className="relative h-64 w-full overflow-hidden lg:h-72">
+                <Image
+                  src={card.image}
+                  alt={card.title}
+                  fill
+                  sizes="(min-width: 1024px) 46vw, 100vw"
+                  className="object-cover object-[60%_50%] transition-transform duration-[1400ms] ease-out group-hover:scale-105"
+                />
+              </div>
 
-              <div className="p-8 lg:w-[54%] lg:p-8">
+              <div className="p-8">
                 <p className="eyebrow text-brand-deep">{card.eyebrow}</p>
                 <h3 className="pt-3 font-display text-2xl leading-tight text-ink">
                   {card.title}

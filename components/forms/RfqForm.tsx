@@ -171,8 +171,8 @@ export default function RfqForm({ mode = "technical" }: { mode?: EnquiryMode }) 
         <Field id="rfq-company" label="Company Name" required={technical}>
           <input id="rfq-company" name="company" required={technical} autoComplete="organization" className="field" placeholder="Company name" />
         </Field>
-        <Field id="rfq-email" label={technical ? "Work Email" : "Email"} required>
-          <input id="rfq-email" name="email" type="email" required autoComplete="email" className="field" placeholder="you@company.com" />
+        <Field id="rfq-email" label={technical ? "Work Email" : "Email"}>
+          <input id="rfq-email" name="email" type="email" autoComplete="email" className="field" placeholder="you@company.com" />
         </Field>
         <Field id="rfq-phone" label="Phone" required>
           <input id="rfq-phone" name="phone" type="tel" required autoComplete="tel" className="field" placeholder="+91 …" />

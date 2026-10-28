@@ -16,8 +16,8 @@ import { NextResponse } from "next/server";
  * enquirer always gets a clean result.
  */
 
-const REQUIRED_TECHNICAL = ["name", "company", "email", "phone", "application", "message", "consent"] as const;
-const REQUIRED_GENERAL = ["name", "email", "phone", "message", "consent"] as const;
+const REQUIRED_TECHNICAL = ["name", "company", "phone", "application", "message", "consent"] as const;
+const REQUIRED_GENERAL = ["name", "phone", "message", "consent"] as const;
 
 /** Mirrors the client rules in components/forms/RfqForm.tsx. */
 const ALLOWED_EXTENSIONS = new Set(["pdf", "step", "stp", "dwg", "dxf", "xlsx", "jpg", "jpeg", "png"]);
@@ -51,7 +51,7 @@ export async function POST(request: Request) {
   }
 
   const email = str(form, "email");
-  if (!EMAIL_RE.test(email)) {
+  if (email && !EMAIL_RE.test(email)) {
     return NextResponse.json(
       { ok: false, error: "That email address does not look right." },
       { status: 400 }

@@ -100,6 +100,7 @@ export default function Footer({ menus, settings }: FooterProps) {
           The technical RFQ form is not public; first contact is the general enquiry. */}
       <CtaBand
         className="footer-cta"
+        compact
         eyebrow="B2B technical enquiry"
         title="Need precision mesh matched to your stack, filter or industrial component?"
         body="Tell us about your application and our engineers will get back to you."
