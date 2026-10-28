@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Check } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { solutionsDuo } from "@/content/home";
+import { getIcon } from "@/lib/content/icons";
 import SectionHeading from "./SectionHeading";
 
 /**
@@ -30,7 +31,7 @@ export default function HomeSolutionsDuo() {
           {solutionsDuo.map((card) => (
             <article
               key={card.title}
-              className="group relative isolate flex min-h-[34rem] flex-col justify-end overflow-hidden lg:min-h-[24rem] lg:justify-center rounded-lg border border-hairline bg-surface transition-colors duration-300 hover:border-brand-deep/40"
+              className="group relative isolate flex min-h-[34rem] flex-col justify-end overflow-hidden lg:min-h-[30rem] lg:justify-center rounded-lg border border-hairline bg-surface transition-colors duration-300 hover:border-brand-deep/40"
             >
               <Image
                 src={card.image}
@@ -41,23 +42,28 @@ export default function HomeSolutionsDuo() {
               />
               <div
                 aria-hidden
-                className="absolute inset-0 -z-10 bg-gradient-to-t from-surface from-56% via-surface/95 via-68% to-transparent lg:bg-gradient-to-r lg:from-surface lg:from-32% lg:via-surface/85 lg:via-37% lg:to-transparent lg:to-46%"
+                className="absolute inset-0 -z-10 bg-gradient-to-t from-surface from-56% via-surface/95 via-68% to-transparent lg:bg-gradient-to-r lg:from-surface lg:from-48% lg:via-surface/85 lg:via-54% lg:to-transparent lg:to-62%"
               />
 
-              <div className="p-8 lg:w-[34%] lg:min-w-[15rem] lg:p-6">
+              <div className="p-8 lg:w-[54%] lg:p-8">
                 <p className="eyebrow text-brand-deep">{card.eyebrow}</p>
-                <h3 className="pt-3 font-display text-xl leading-tight text-ink">
+                <h3 className="pt-3 font-display text-2xl leading-tight text-ink">
                   {card.title}
                 </h3>
-                <p className="pt-2 text-xs leading-relaxed text-grey">{card.text}</p>
+                <p className="pt-2 text-sm leading-relaxed text-grey">{card.text}</p>
 
-                <ul className="mt-4 grid gap-y-1.5">
-                  {card.points.map((point) => (
-                    <li key={point} className="flex gap-1.5 text-[0.6875rem] leading-snug text-ink">
-                      <Check aria-hidden className="mt-px h-3.5 w-3.5 shrink-0 text-brand-deep" />
-                      {point}
-                    </li>
-                  ))}
+                <ul className="mt-5 divide-y divide-hairline">
+                  {card.points.map((point) => {
+                    const Icon = getIcon(point.icon);
+                    return (
+                      <li key={point.text} className="flex items-center gap-3 py-2.5 text-sm leading-snug text-ink">
+                        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-deep/10 text-brand-deep">
+                          <Icon aria-hidden className="h-[1.1rem] w-[1.1rem]" />
+                        </span>
+                        {point.text}
+                      </li>
+                    );
+                  })}
                 </ul>
 
                 <Link href={card.href} className="btn btn-green mt-6 w-fit whitespace-nowrap">

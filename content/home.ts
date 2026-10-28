@@ -6,11 +6,13 @@
  * content/pages — nothing is estimated. Images are in public/bvk-assets.
  */
 
+import type { IconName } from "@/lib/content/icons";
+
 export interface DuoCard {
   eyebrow: string;
   title: string;
   text: string;
-  points: string[];
+  points: { text: string; icon: IconName }[];
   href: string;
   cta: string;
   image: string;
@@ -22,10 +24,10 @@ export const solutionsDuo: DuoCard[] = [
     title: "Electrolyser Solutions",
     text: "Precision woven and knitted mesh for alkaline and PEM electrolyser stacks.",
     points: [
-      "Catalyst support and electrode substrates",
-      "Gas diffusion and porous transport layers (GDL / PTL)",
-      "Current collection and distribution",
-      "Nickel elastic elements and separators",
+      { text: "Catalyst support and electrode substrates", icon: "layers" },
+      { text: "Gas diffusion and porous transport layers (GDL / PTL)", icon: "wind" },
+      { text: "Current collection and distribution", icon: "zap" },
+      { text: "Nickel elastic elements and separators", icon: "atom" },
     ],
     href: "/electrolyser-solutions",
     cta: "Explore electrolysers",
@@ -36,10 +38,10 @@ export const solutionsDuo: DuoCard[] = [
     title: "Fuel Cell Solutions",
     text: "Woven and knitted mesh for gas diffusion, current collection and electrode support in AFC, SOFC and PEM stacks.",
     points: [
-      "Gas diffusion layers (GDL)",
-      "Current collection and distribution",
-      "Electrode supports",
-      "Resistance to deformation under stack load",
+      { text: "Gas diffusion layers (GDL)", icon: "layers" },
+      { text: "Current collection and distribution", icon: "network" },
+      { text: "Electrode supports", icon: "shield" },
+      { text: "Resistance to deformation under stack load", icon: "settings" },
     ],
     href: "/fuel-cell-solutions",
     cta: "Explore fuel cells",
