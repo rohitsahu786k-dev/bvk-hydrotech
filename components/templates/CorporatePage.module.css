@@ -13,6 +13,7 @@
 
 .hero {
   position: relative;
+  isolation: isolate;
   display: flex;
   align-items: flex-end;
   min-height: 34rem;
@@ -21,16 +22,13 @@
   overflow: hidden;
 }
 
-.hero :global(img) {
-  opacity: 0.42;
-}
 
 .heroScrim {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(to top, var(--color-ink) 2%, rgb(11 13 12 / 0.55) 55%, rgb(11 13 12 / 0.75)),
-    linear-gradient(to right, rgb(11 13 12 / 0.85), transparent 70%);
+    linear-gradient(to top, var(--color-ink) 2%, rgb(11 13 12 / 0.25) 55%, rgb(11 13 12 / 0.35)),
+    linear-gradient(to right, rgb(11 13 12 / 0.7), transparent 70%);
 }
 
 .heroInner {

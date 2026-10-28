@@ -1,4 +1,3 @@
-import Image from "next/image";
 import {
   BANNER_DESKTOP_WIDTHS,
   BANNER_MOBILE_WIDTHS,
@@ -6,9 +5,8 @@ import {
   srcSetFor,
 } from "@/lib/responsive-image";
 import type { EventBanner } from "@/lib/events/types";
+import InnerHeroImage from "@/components/sections/InnerHeroImage";
 import HeroVideo from "./HeroVideo";
-
-const PATTERN_BG = "/media/bg-pattern-scaled.webp";
 
 /**
  * The picture (or video) behind a banner, plus the darkening that keeps white
@@ -16,8 +14,8 @@ const PATTERN_BG = "/media/bg-pattern-scaled.webp";
  *
  * Desktop and mobile pictures are separate crops. A <picture> with a
  * media-scoped <source> lets the browser pick before it downloads anything, so
- * a phone only ever fetches the mobile one. With no picture at all the brand
- * wave pattern shows, like every other inner-page hero.
+ * a phone only ever fetches the mobile one. With no picture at all the shared
+ * inner-page hero shows.
  */
 export default function BannerMedia({ banner, priority = true }: { banner: EventBanner; priority?: boolean }) {
   const desktop = banner.desktop ?? banner.mobile;
@@ -26,7 +24,7 @@ export default function BannerMedia({ banner, priority = true }: { banner: Event
 
   return (
     <>
-      <Image src={PATTERN_BG} alt="" fill priority={priority} sizes="100vw" className="-z-30 object-cover" />
+      {!desktop && <InnerHeroImage priority={priority} />}
 
       {desktop && mobile && (
         <picture>

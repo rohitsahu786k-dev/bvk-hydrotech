@@ -1,48 +1,27 @@
-import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { SitePage } from "@/lib/wordpress/pages";
-
-const PATTERN_BG = "/media/bg-pattern-scaled.webp";
+import InnerHeroImage from "./InnerHeroImage";
 
 /**
  * Inner-page hero — a shorter, quieter relative of the homepage carousel.
  * The top padding clears the fixed header, which sits over the artwork.
  *
- * The brand wave pattern is always the base layer, so a page with no
- * per-page hero photo still gets a finished backdrop instead of flat black;
- * a page's own hero image (when authored in the CMS) sits on top of it.
+ * Every inner page shares the same backdrop (wide on desktop, square on
+ * mobile), so the pages read as one family.
  */
 export default function PageHero({ hero, title }: { hero: SitePage["hero"]; title: string }) {
   const heading = hero.title || title;
 
   return (
     <section className="on-ink relative isolate flex min-h-[52vh] items-end overflow-hidden bg-ink pb-16 pt-36 lg:min-h-[60vh] lg:pb-20 lg:pt-44">
-      <Image
-        src={PATTERN_BG}
-        alt=""
-        fill
-        priority
-        sizes="100vw"
-        className="-z-20 object-cover"
-      />
-
-      {hero.image?.sourceUrl && (
-        <Image
-          src={hero.image.sourceUrl}
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="-z-10 object-cover"
-        />
-      )}
+      <InnerHeroImage />
 
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-gradient-to-r from-ink/94 via-ink/80 to-ink/45"
+        className="absolute inset-0 -z-10 bg-gradient-to-r from-ink/70 via-ink/35 to-transparent"
       />
-      <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-t from-ink to-transparent" />
+      <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-t from-ink/80 via-transparent to-transparent" />
 
       <div className="shell">
         <div className="max-w-3xl">

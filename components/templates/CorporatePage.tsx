@@ -6,6 +6,7 @@ import type { LinkAction, SolutionPageContent } from "@/lib/content/types";
 import CtaBand from "@/components/sections/CtaBand";
 import GroupCompanies from "@/components/sections/GroupCompanies";
 import LeadershipTeam from "@/components/sections/LeadershipTeam";
+import InnerHeroImage from "@/components/sections/InnerHeroImage";
 import styles from "./CorporatePage.module.css";
 
 /**
@@ -62,14 +63,7 @@ export default function CorporatePage({ content }: { content: SolutionPageConten
     <div className={styles.page}>
       {/* HERO — full-bleed ink panel, photograph behind a scrim. */}
       <section className={styles.hero}>
-        <Image
-          src={hero.image.src}
-          alt={hero.image.alt}
-          fill
-          preload
-          sizes="100vw"
-          className="object-cover"
-        />
+        <InnerHeroImage />
         <div aria-hidden className={styles.heroScrim} />
 
         <div className={`shell ${styles.heroInner}`}>

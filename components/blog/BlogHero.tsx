@@ -1,7 +1,5 @@
-import Image from "next/image";
 import type { ReactNode } from "react";
-
-const PATTERN_BG = "/media/bg-pattern-scaled.webp";
+import InnerHeroImage from "@/components/sections/InnerHeroImage";
 
 /**
  * The compact dark hero shared by the blog index and every article. Same
@@ -21,10 +19,10 @@ export default function BlogHero({
 }) {
   return (
     <section className="on-ink relative isolate overflow-hidden bg-ink pb-12 pt-32 lg:pb-14 lg:pt-36">
-      <Image src={PATTERN_BG} alt="" fill priority sizes="100vw" className="-z-20 object-cover" />
+      <InnerHeroImage />
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-gradient-to-r from-ink/90 via-ink/70 to-ink/30"
+        className="absolute inset-0 -z-10 bg-gradient-to-r from-ink/75 via-ink/40 to-transparent"
       />
       <div className="shell">
         <div className="max-w-3xl">

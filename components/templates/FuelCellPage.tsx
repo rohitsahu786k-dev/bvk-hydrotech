@@ -4,6 +4,7 @@ import type { ReactNode } from "react";
 import { ArrowRight, ArrowUpRight, Check, Download } from "lucide-react";
 import { getIcon } from "@/lib/content/icons";
 import CtaBand from "@/components/sections/CtaBand";
+import InnerHeroImage from "@/components/sections/InnerHeroImage";
 import { fuelCell as c } from "@/content/fuel-cell";
 
 /**
@@ -82,14 +83,7 @@ export default function FuelCellPage() {
     <div>
       {/* ============ HERO ============ */}
       <section className="on-ink relative isolate overflow-hidden bg-ink pt-[5.5rem]">
-        <Image
-          src={c.hero.image}
-          alt={c.hero.alt}
-          fill
-          priority
-          sizes="100vw"
-          className="-z-20 object-cover object-[70%_50%]"
-        />
+        <InnerHeroImage />
         <div aria-hidden className="absolute inset-0 -z-10 bg-gradient-to-r from-ink from-30% via-ink/80 via-48% to-ink/10" />
         <div aria-hidden className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-ink to-transparent" />
 
