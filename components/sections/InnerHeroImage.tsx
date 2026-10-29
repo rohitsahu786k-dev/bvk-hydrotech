@@ -17,7 +17,7 @@ export default function InnerHeroImage({ priority = true }: { priority?: boolean
         fetchPriority={priority ? "high" : "auto"}
         loading={priority ? "eager" : "lazy"}
         decoding="async"
-        className="absolute left-0 top-0 -z-20 h-auto w-full"
+        className="absolute inset-0 -z-20 h-full w-full object-cover object-[78%_50%] md:object-right"
       />
     </picture>
   );
