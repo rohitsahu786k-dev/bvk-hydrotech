@@ -16,12 +16,18 @@
   isolation: isolate;
   display: flex;
   align-items: flex-end;
-  min-height: 34rem;
-  padding-block: 7.5rem 4rem;
+  min-height: calc(100vw + 4.5rem);
+  padding-block: 5rem 3rem;
   background: var(--color-ink);
   overflow: hidden;
 }
 
+@media (min-width: 768px) {
+  .hero {
+    min-height: calc(23.82vw + 4.5rem);
+    padding-block: 6rem 3rem;
+  }
+}
 
 .heroScrim {
   position: absolute;

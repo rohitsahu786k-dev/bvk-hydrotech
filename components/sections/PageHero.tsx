@@ -14,7 +14,7 @@ export default function PageHero({ hero, title }: { hero: SitePage["hero"]; titl
   const heading = hero.title || title;
 
   return (
-    <section className="on-ink relative isolate flex min-h-[52vh] items-end overflow-hidden bg-ink pb-16 pt-36 lg:min-h-[60vh] lg:pb-20 lg:pt-44">
+    <section className="on-ink relative isolate flex min-h-[calc(100vw+4.5rem)] items-end overflow-hidden bg-ink pb-10 pt-24 md:min-h-[calc(23.82vw+4.5rem)] lg:pb-12 lg:pt-28">
       <InnerHeroImage />
 
       <div
