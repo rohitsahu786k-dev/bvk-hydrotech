@@ -1,28 +1,31 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Layers } from "lucide-react";
 import { materials } from "@/content/home";
-import SectionHeading from "./SectionHeading";
 
 /** The material families: illustration on the left, four cards on the right. */
 export default function HomeMaterials() {
   return (
     <section id="materials" className="section scroll-mt-24 bg-surface">
       <div className="shell">
-        <SectionHeading
-          tone="light"
-          eyebrow="Materials & engineering capabilities"
-          title="Advanced materials. Engineered for performance."
-          description="Woven and knitted mesh in nickel, stainless steel, titanium and specialty alloys, matched to the application."
-          action={
-            <Link href="/engineering-manufacturing" className="btn btn-outline-dark">
-              Our engineering capabilities
-            </Link>
-          }
-        />
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <p className="eyebrow text-brand-deep">Materials &amp; engineering capabilities</p>
+            <h2 className="pt-5 font-display text-4xl font-bold leading-[1.1] tracking-tight text-balance text-ink lg:text-[3.25rem]">
+              Advanced materials. Engineered for performance.
+            </h2>
+            <p className="pt-4 text-base leading-relaxed text-grey lg:text-lg">
+              Woven and knitted mesh in nickel, stainless steel, titanium and specialty alloys, matched to the application.
+            </p>
+          </div>
+          <Link href="/engineering-manufacturing" className="btn btn-outline-dark shrink-0 gap-2 self-start lg:self-end">
+            Our engineering capabilities
+            <ArrowRight aria-hidden className="h-4 w-4" />
+          </Link>
+        </div>
 
         <div className="mt-14 grid gap-6 lg:grid-cols-[5fr_7fr]">
-          <figure className="group relative min-h-[20rem] overflow-hidden rounded-lg border border-hairline bg-surface-raised">
+          <figure className="group relative min-h-[20rem] overflow-hidden rounded-xl border border-hairline bg-surface-raised">
             <Image
               src="/bvk-assets/04-materials-engineering-capabilities.webp"
               alt="Illustration: rolls, sheets and tubes of woven metal mesh"
@@ -57,16 +60,20 @@ export default function HomeMaterials() {
           </ul>
         </div>
 
-        <p className="pt-8 text-sm text-grey">
-          Fourteen catalogued alloys with AISI/UNS designations.{" "}
-          <Link
-            href="/precision-mesh-solutions"
-            className="inline-flex items-center gap-1.5 font-semibold text-brand-deep hover:text-brand-dim"
-          >
-            See the full material range
-            <ArrowRight aria-hidden className="h-4 w-4" />
-          </Link>
-        </p>
+        <div className="flex items-center gap-4 pt-8 text-sm text-grey">
+          <Layers aria-hidden className="h-6 w-6 shrink-0 text-brand-deep" />
+          <p className="shrink-0">
+            Fourteen catalogued alloys with AISI/UNS designations.{" "}
+            <Link
+              href="/precision-mesh-solutions"
+              className="inline-flex items-center gap-1.5 font-semibold text-brand-deep hover:text-brand-dim"
+            >
+              See the full material range
+              <ArrowRight aria-hidden className="h-4 w-4" />
+            </Link>
+          </p>
+          <span aria-hidden className="hidden h-px flex-1 bg-hairline lg:block" />
+        </div>
       </div>
     </section>
   );
