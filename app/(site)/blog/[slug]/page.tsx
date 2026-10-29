@@ -11,7 +11,14 @@ import ScrollCarousel from "@/components/ui/ScrollCarousel";
 import FaqAccordion from "@/components/sections/FaqAccordion";
 import PostCta from "@/components/blog/PostCta";
 import { JsonLd, faqSchema, organisationId } from "@/lib/seo/jsonLd";
-import { formatPostDate, getPost, getPosts, type PostCta as PostCtaData } from "@/lib/wordpress/blog";
+import { withCtas } from "@/lib/wordpress/blog-cta";
+import {
+  formatPostDate,
+  getBlogSettings,
+  getPost,
+  getPosts,
+  type PostBlock,
+} from "@/lib/wordpress/blog";
 
 export const revalidate = 900;
 
@@ -19,29 +26,21 @@ type PageProps = { params: Promise<{ slug: string }> };
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bvkhydrotech.com";
 
-type Segment = { html: string } | { cta: PostCtaData };
-
-/**
- * Cuts the article body after the paragraph each call to action asks for. A
- * call to action that asks for a paragraph beyond the end lands at the end.
- */
-function withCtas(html: string, ctas: PostCtaData[]): Segment[] {
-  if (ctas.length === 0) return [{ html }];
-  const ends: number[] = [];
-  const close = /<\/p>/gi;
-  let hit: RegExpExecArray | null;
-  while ((hit = close.exec(html))) ends.push(hit.index + hit[0].length);
-
-  const segments: Segment[] = [];
-  let cursor = 0;
-  for (const cta of ctas) {
-    const cut = ends[Math.min(cta.after, ends.length) - 1] ?? html.length;
-    if (cut > cursor) segments.push({ html: html.slice(cursor, cut) });
-    segments.push({ cta });
-    cursor = Math.max(cursor, cut);
+/** A custom block (side or bottom) wins over the site-wide one when the article asks for it. */
+function pickBlock(mode: "default" | "custom" | "hide", custom: PostBlock, site: PostBlock): PostBlock | null {
+  if (mode === "hide") return null;
+  if (mode === "custom" && custom.title) {
+    return {
+      eyebrow: custom.eyebrow,
+      title: custom.title,
+      text: custom.text || site.text,
+      label: custom.label || site.label,
+      url: custom.url || site.url,
+      label2: custom.label2,
+      url2: custom.url2,
+    };
   }
-  if (cursor < html.length) segments.push({ html: html.slice(cursor) });
-  return segments;
+  return site;
 }
 
 export async function generateStaticParams() {
@@ -84,7 +83,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function BlogPostPage({ params }: PageProps) {
   const { slug } = await params;
-  const [post, all] = await Promise.all([getPost(slug), getPosts()]);
+  const [post, all, settings] = await Promise.all([getPost(slug), getPosts(), getBlogSettings()]);
   if (!post) notFound();
 
   const others = all.filter((p) => p.id !== post.id);
@@ -106,7 +105,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     },
     {
       "@context": "https://schema.org",
-      "@type": "Article",
+      "@type": post.options.schemaType || settings.schemaType || "Article",
       headline: post.title,
       description: post.excerpt || undefined,
       datePublished: post.date,
@@ -117,23 +116,34 @@ export default async function BlogPostPage({ params }: PageProps) {
       keywords: post.tags.length ? post.tags.map((t) => t.name).join(", ") : undefined,
       wordCount: post.minutes * 200,
       inLanguage: "en-IN",
-      author: post.author
-        ? { "@type": "Person", name: post.author, worksFor: { "@id": organisationId } }
-        : { "@id": organisationId },
+      author:
+        post.options.schemaAuthor || post.author
+          ? {
+              "@type": "Person",
+              name: post.options.schemaAuthor || post.author,
+              worksFor: { "@id": organisationId },
+            }
+          : { "@id": organisationId },
       publisher: { "@id": organisationId },
     },
   ];
 
-  const faqLd = faqSchema(post.faqs);
+  const faqLd = post.options.schemaFaqOff ? null : faqSchema(post.faqs);
   if (faqLd) schema.push(faqLd);
+  // Schema the editor pasted into the article's own custom field.
+  schema.push(...post.options.schemaCustom);
+
+  const sideBlock = pickBlock(post.options.side, post.options.sideBlock, settings.side);
+  const bottomBlock = pickBlock(post.options.bottom, post.options.bottomBlock, settings.bottom);
+  const byline = post.options.byline || post.author || "BVK Hydrotech engineering";
 
   return (
     <>
       <JsonLd data={schema} />
 
-      <BlogHero eyebrow={post.category?.name ?? "Article"} title={post.title}>
+      <BlogHero eyebrow={post.options.heroLabel || post.category?.name || "Article"} title={post.title}>
         <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-on-dark-muted">
-          <span>{post.author ?? "BVK Hydrotech engineering"}</span>
+          <span>{byline}</span>
           <span aria-hidden className="h-1 w-1 rounded-full bg-ink-line" />
           <time dateTime={post.date}>{formatPostDate(post.date)}</time>
           {updated && (
@@ -160,7 +170,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               All articles
             </Link>
 
-            {post.image && (
+            {post.image && !post.options.hideImage && (
               <div className="relative mb-8 aspect-[16/8] overflow-hidden rounded-xl bg-ink">
                 <Image
                   src={post.image.src}
@@ -173,7 +183,7 @@ export default async function BlogPostPage({ params }: PageProps) {
               </div>
             )}
 
-            {post.excerpt && (
+            {post.excerpt && !post.options.hideExcerpt && (
               <p className="mb-8 border-l-2 border-brand pl-5 text-lg leading-relaxed text-ink">
                 {post.excerpt}
               </p>
@@ -224,19 +234,21 @@ export default async function BlogPostPage({ params }: PageProps) {
           </article>
 
           <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
-            <div className="rounded-xl bg-ink p-6 text-on-dark">
-              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-brand/15 text-brand">
-                <MessagesSquare aria-hidden className="h-5 w-5" />
-              </span>
-              <h2 className="mt-4 font-display text-white">Talk to an engineer</h2>
-              <p className="mt-2 text-[0.8125rem] leading-relaxed text-on-dark-muted">
-                Send your drawing, material and duty. We reply with a mesh route and lead time.
-              </p>
-              <Link href="/contact#enquiry-general" className="btn btn-green mt-5 w-full">
-                Contact our engineers
-                <ArrowUpRight aria-hidden className="h-4 w-4" />
-              </Link>
-            </div>
+            {sideBlock && (
+              <div className="rounded-xl bg-ink p-6 text-on-dark">
+                <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-brand/15 text-brand">
+                  <MessagesSquare aria-hidden className="h-5 w-5" />
+                </span>
+                <h2 className="mt-4 font-display text-white">{sideBlock.title}</h2>
+                {sideBlock.text && (
+                  <p className="mt-2 text-[0.8125rem] leading-relaxed text-on-dark-muted">{sideBlock.text}</p>
+                )}
+                <Link href={sideBlock.url} className="btn btn-green mt-5 w-full">
+                  {sideBlock.label}
+                  <ArrowUpRight aria-hidden className="h-4 w-4" />
+                </Link>
+              </div>
+            )}
 
             {others.length > 0 && (
               <div className="rounded-xl border border-hairline p-6">
@@ -264,12 +276,12 @@ export default async function BlogPostPage({ params }: PageProps) {
       {post.faqs.length > 0 && (
         <FaqAccordion
           faqs={post.faqs}
-          title="Frequently asked questions"
-          description="Quick answers on the topic of this article."
+          title={post.options.faqTitle || settings.faq.title}
+          description={post.options.faqText || settings.faq.text}
         />
       )}
 
-      {related.length > 0 && (
+      {related.length > 0 && !post.options.hideRelated && (
         <section className="border-t border-hairline bg-surface-raised py-12 lg:py-14">
           <div className="shell">
             <div className="mb-6 flex items-center gap-4">
@@ -285,12 +297,19 @@ export default async function BlogPostPage({ params }: PageProps) {
         </section>
       )}
 
-      <CtaBand
-        eyebrow="Ask the engineers"
-        title="Have a question this article doesn't answer?"
-        body="Send the application, the duty and the envelope. Our application engineers reply with a material recommendation and an indicative lead time."
-        primary={{ label: "Contact our engineers", href: "/contact#enquiry-general" }}
-      />
+      {bottomBlock && (
+        <CtaBand
+          eyebrow={bottomBlock.eyebrow}
+          title={bottomBlock.title}
+          body={bottomBlock.text}
+          primary={{ label: bottomBlock.label, href: bottomBlock.url }}
+          secondary={
+            bottomBlock.label2 && bottomBlock.url2
+              ? { label: bottomBlock.label2, href: bottomBlock.url2 }
+              : undefined
+          }
+        />
+      )}
     </>
   );
 }

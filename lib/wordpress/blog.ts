@@ -18,6 +18,8 @@ export interface PostFaq {
 
 /** An in-article call to action authored in the "Blog Post CTAs" custom fields. */
 export interface PostCta {
+  /** Its row number in the "Blog Post CTAs" box, so [cta-1] in the body finds it. */
+  index: number;
   after: number;
   eyebrow: string;
   title: string;
@@ -26,6 +28,46 @@ export interface PostCta {
   url: string;
   label2: string;
   url2: string;
+}
+
+/** One block of copy with up to two buttons (side box, bottom band). */
+export interface PostBlock {
+  eyebrow: string;
+  title: string;
+  text: string;
+  label: string;
+  url: string;
+  label2: string;
+  url2: string;
+}
+
+/** Per-article options from the "Blog Article Settings" custom fields. */
+export interface PostOptions {
+  schemaType: string;
+  schemaFaqOff: boolean;
+  schemaAuthor: string;
+  /** Parsed, validated JSON-LD authored by the editor; empty when none. */
+  schemaCustom: Record<string, unknown>[];
+  side: "default" | "custom" | "hide";
+  sideBlock: PostBlock;
+  bottom: "default" | "custom" | "hide";
+  bottomBlock: PostBlock;
+  heroLabel: string;
+  byline: string;
+  faqTitle: string;
+  faqText: string;
+  hideImage: boolean;
+  hideExcerpt: boolean;
+  hideRelated: boolean;
+}
+
+/** Site-wide blog copy from Posts → Blog Settings. */
+export interface BlogSettings {
+  index: { eyebrow: string; title: string; lead: string; seoTitle: string; seoDesc: string };
+  side: PostBlock;
+  bottom: PostBlock;
+  faq: { title: string; text: string };
+  schemaType: string;
 }
 
 export interface BlogPost {
@@ -48,6 +90,7 @@ export interface BlogPost {
   /** From the "Page FAQs" custom fields, in the editor's sort order. */
   faqs: PostFaq[];
   ctas: PostCta[];
+  options: PostOptions;
   /** Straight from the Yoast SEO plugin. */
   seo: { title: string | null; description: string | null; image: string | null };
 }
@@ -76,6 +119,25 @@ function decode(text: string) {
 
 const text = (value: unknown) => (typeof value === "string" ? value.trim() : "");
 
+/**
+ * The editor's extra schema. The CMS already rejects invalid JSON on save; this
+ * guards the page against anything that slipped in another way. Only objects
+ * that declare a schema.org @type are kept.
+ */
+function parseJsonLd(source: string): Record<string, unknown>[] {
+  if (!source) return [];
+  try {
+    const parsed = JSON.parse(source);
+    const list: unknown[] = Array.isArray(parsed) ? parsed : [parsed];
+    return list.filter(
+      (item): item is Record<string, unknown> =>
+        Boolean(item) && typeof item === "object" && !Array.isArray(item) && "@type" in (item as object),
+    );
+  } catch {
+    return [];
+  }
+}
+
 function toPost(raw: any): BlogPost {
   const media = raw._embedded?.["wp:featuredmedia"]?.[0];
   const terms: any[] = raw._embedded?.["wp:term"]?.[0] ?? [];
@@ -94,8 +156,10 @@ function toPost(raw: any): BlogPost {
     .map((row: any) => ({ question: text(row.question), answer: text(row.answer) }));
 
   const ctas: PostCta[] = (Array.isArray(acf.post_ctas) ? acf.post_ctas : [])
-    .filter((row: any) => text(row?.title) && text(row?.button_url))
-    .map((row: any) => ({
+    .map((row: any, position: number) => ({ row, index: position + 1 }))
+    .filter(({ row }: any) => text(row?.title) && text(row?.button_url))
+    .map(({ row, index }: any) => ({
+      index,
       after: Math.max(1, Number(row.after_paragraph) || 3),
       eyebrow: text(row.eyebrow),
       title: text(row.title),
@@ -106,6 +170,46 @@ function toPost(raw: any): BlogPost {
       url2: text(row.secondary_url),
     }))
     .sort((a: PostCta, b: PostCta) => a.after - b.after);
+
+  const mode = (value: unknown): "default" | "custom" | "hide" =>
+    value === "custom" || value === "hide" ? value : "default";
+  const flag = (value: unknown) => value === true || value === 1 || value === "1";
+
+  const options: PostOptions = {
+    schemaType: ["Article", "BlogPosting", "TechArticle", "NewsArticle"].includes(text(acf.blog_schema_type))
+      ? text(acf.blog_schema_type)
+      : "",
+    schemaFaqOff: flag(acf.blog_schema_faq_off),
+    schemaAuthor: text(acf.blog_schema_author),
+    schemaCustom: parseJsonLd(text(acf.blog_schema_custom)),
+    side: mode(acf.blog_side_mode),
+    sideBlock: {
+      eyebrow: "",
+      title: text(acf.blog_side_title),
+      text: text(acf.blog_side_text),
+      label: text(acf.blog_side_label),
+      url: text(acf.blog_side_url),
+      label2: "",
+      url2: "",
+    },
+    bottom: mode(acf.blog_bottom_mode),
+    bottomBlock: {
+      eyebrow: text(acf.blog_bottom_eyebrow),
+      title: text(acf.blog_bottom_title),
+      text: text(acf.blog_bottom_body),
+      label: text(acf.blog_bottom_label),
+      url: text(acf.blog_bottom_url),
+      label2: text(acf.blog_bottom_label2),
+      url2: text(acf.blog_bottom_url2),
+    },
+    heroLabel: text(acf.blog_hero_label),
+    byline: text(acf.blog_byline),
+    faqTitle: text(acf.blog_faq_title),
+    faqText: text(acf.blog_faq_text),
+    hideImage: flag(acf.blog_hide_image),
+    hideExcerpt: flag(acf.blog_hide_excerpt),
+    hideRelated: flag(acf.blog_hide_related),
+  };
 
   return {
     id: raw.id,
@@ -125,6 +229,7 @@ function toPost(raw: any): BlogPost {
     author: authorName && !authorName.includes("@") ? authorName : null,
     faqs,
     ctas,
+    options,
     seo: {
       title: text(yoast.title) || null,
       description: text(yoast.description) || text(yoast.og_description) || null,
@@ -228,6 +333,74 @@ export async function getPostsByCategory(slug: string): Promise<{ category: Blog
   } catch (error) {
     console.error(`getPostsByCategory(${slug}) failed:`, error);
     return { category, posts: [] };
+  }
+}
+
+const BLOG_SETTINGS_FALLBACK: BlogSettings = {
+  index: {
+    eyebrow: "Blog",
+    title: "Insights from the plant floor",
+    lead: "How mesh decisions are made: alloy, construction, treatment and validation, written by the engineers who make it.",
+    seoTitle: "",
+    seoDesc: "",
+  },
+  side: {
+    eyebrow: "",
+    title: "Talk to an engineer",
+    text: "Send your drawing, material and duty. We reply with a mesh route and lead time.",
+    label: "Contact our engineers",
+    url: "/contact#enquiry-general",
+    label2: "",
+    url2: "",
+  },
+  bottom: {
+    eyebrow: "Ask the engineers",
+    title: "Have a question this article doesn't answer?",
+    text: "Send the application, the duty and the envelope. Our application engineers reply with a material recommendation and an indicative lead time.",
+    label: "Contact our engineers",
+    url: "/contact#enquiry-general",
+    label2: "",
+    url2: "",
+  },
+  faq: { title: "Frequently asked questions", text: "Quick answers on the topic of this article." },
+  schemaType: "Article",
+};
+
+/** Posts → Blog Settings. Anything left empty falls back to the built-in copy. */
+export async function getBlogSettings(): Promise<BlogSettings> {
+  const fb = BLOG_SETTINGS_FALLBACK;
+  try {
+    const response = await fetch(`${base()}/wp-json/bvk/v1/blog-settings`, {
+      next: { revalidate: 900, tags: ["wp-posts"] },
+    });
+    if (!response.ok) return fb;
+    const raw: any = await readJson(response);
+    const pick = (value: unknown, fallback: string) => text(value) || fallback;
+    const block = (r: any, f: PostBlock): PostBlock => ({
+      eyebrow: pick(r?.eyebrow, f.eyebrow),
+      title: pick(r?.title, f.title),
+      text: pick(r?.text ?? r?.body, f.text),
+      label: pick(r?.label, f.label),
+      url: pick(r?.url, f.url),
+      label2: text(r?.label2),
+      url2: text(r?.url2),
+    });
+    return {
+      index: {
+        eyebrow: pick(raw?.index?.eyebrow, fb.index.eyebrow),
+        title: pick(raw?.index?.title, fb.index.title),
+        lead: pick(raw?.index?.lead, fb.index.lead),
+        seoTitle: text(raw?.index?.seoTitle),
+        seoDesc: text(raw?.index?.seoDesc),
+      },
+      side: block(raw?.side, fb.side),
+      bottom: block(raw?.bottom, fb.bottom),
+      faq: { title: pick(raw?.faq?.title, fb.faq.title), text: pick(raw?.faq?.text, fb.faq.text) },
+      schemaType: pick(raw?.schemaType, fb.schemaType),
+    };
+  } catch (error) {
+    console.error("getBlogSettings failed:", error);
+    return fb;
   }
 }
 

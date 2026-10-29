@@ -6,14 +6,18 @@ import CtaBand from "@/components/sections/CtaBand";
 import Pagination from "@/components/blog/Pagination";
 import { JsonLd, breadcrumbSchema } from "@/lib/seo/jsonLd";
 import CategoryNav from "@/components/blog/CategoryNav";
-import { getCategories, getPostsPage } from "@/lib/wordpress/blog";
+import { getBlogSettings, getCategories, getPostsPage } from "@/lib/wordpress/blog";
 
 /**
  * The blog index. Page 1 leads with the newest article as a featured card;
  * later pages are a plain grid. Twenty articles a page.
  */
 export default async function BlogListing({ page }: { page: number }) {
-  const [{ posts, totalPages }, categories] = await Promise.all([getPostsPage(page), getCategories()]);
+  const [{ posts, totalPages }, categories, settings] = await Promise.all([
+    getPostsPage(page),
+    getCategories(),
+    getBlogSettings(),
+  ]);
   const featured = page === 1 ? posts[0] : undefined;
   const rest = page === 1 ? posts.slice(1) : posts;
 
@@ -22,9 +26,9 @@ export default async function BlogListing({ page }: { page: number }) {
       <JsonLd data={breadcrumbSchema("Blog", page === 1 ? "blog" : `blog/page/${page}`)} />
 
       <BlogHero
-        eyebrow="Blog"
-        title="Insights from the plant floor"
-        lead="How mesh decisions are made: alloy, construction, treatment and validation, written by the engineers who make it."
+        eyebrow={settings.index.eyebrow}
+        title={settings.index.title}
+        lead={settings.index.lead}
       />
 
       <section className="bg-surface py-12 lg:py-14">
@@ -117,10 +121,15 @@ export default async function BlogListing({ page }: { page: number }) {
       </section>
 
       <CtaBand
-        eyebrow="Ask the engineers"
-        title="Have a question the articles don't answer?"
-        body="Send the application, the duty and the envelope. Our application engineers reply with a material recommendation and an indicative lead time."
-        primary={{ label: "Contact our engineers", href: "/contact#enquiry-general" }}
+        eyebrow={settings.bottom.eyebrow}
+        title={settings.bottom.title}
+        body={settings.bottom.text}
+        primary={{ label: settings.bottom.label, href: settings.bottom.url }}
+        secondary={
+          settings.bottom.label2 && settings.bottom.url2
+            ? { label: settings.bottom.label2, href: settings.bottom.url2 }
+            : undefined
+        }
       />
     </>
   );
