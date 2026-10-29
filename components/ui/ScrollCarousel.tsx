@@ -4,10 +4,10 @@ import { Children, useCallback, useEffect, useRef, useState, type ReactNode } fr
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 /**
- * A swipeable carousel with previous/next controls. The active slide sits in
- * the middle with part of its neighbours showing on both sides, so it is clear
- * there is more either way. Native scroll-snap does the work, so touch, trackpad
- * and keyboard scrolling all behave as the browser's own.
+ * A swipeable carousel with previous/next controls. Slides start at the left
+ * edge and the next one peeks in on the right, so it is clear there is more.
+ * Native scroll-snap does the work, so touch, trackpad and keyboard scrolling
+ * all behave as the browser's own.
  */
 export default function ScrollCarousel({
   children,
@@ -63,7 +63,7 @@ export default function ScrollCarousel({
       role="region"
       aria-roledescription="carousel"
       aria-label={label}
-      className="relative [--slide:80%] sm:[--slide:46%] lg:[--slide:31%]"
+      className="relative [--slide:82%] sm:[--slide:48%] lg:[--slide:32%]"
     >
       <button
         type="button"
@@ -88,20 +88,17 @@ export default function ScrollCarousel({
         ref={track}
         className="flex snap-x snap-mandatory gap-6 overflow-x-auto pb-6 pt-3 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
       >
-        {/* Spacers let the first and last slide sit in the middle too. */}
-        <li aria-hidden className="w-[calc((100%-var(--slide))/2-1.5rem)] shrink-0" />
         {slides.map((slide, index) => (
           <li
             key={index}
             data-slide
             aria-roledescription="slide"
             aria-label={`${index + 1} of ${slides.length}`}
-            className="w-[var(--slide)] shrink-0 snap-center"
+            className="w-[var(--slide)] shrink-0 snap-start"
           >
             {slide}
           </li>
         ))}
-        <li aria-hidden className="w-[calc((100%-var(--slide))/2-1.5rem)] shrink-0" />
       </ul>
     </div>
   );
