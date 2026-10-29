@@ -10,17 +10,21 @@ import { navCredentials, navStandards, navigation, type NavItem } from "@/conten
 /**
  * The one header for the whole site.
  *
- * Always on the white surface: the brand guidelines only permit the wordmark
- * on white or very light neutral grounds, so a single light header is both the
- * compliant and the consistent choice across every page template.
+ * Over a dark hero it starts transparent (white wordmark and links on a soft
+ * top shadow) and fades to the white surface as soon as the page scrolls. Over
+ * a light page, or with a menu open, it stays on white: the brand guidelines
+ * only permit the coloured wordmark on white or very light grounds.
  */
 
 const LOGO = "/bvk-assets/bvk-hydrotech-logo-line.png";
+const LOGO_WHITE = "/bvk-assets/bvk-hydrotech-logo-line-white.png";
+const DARK_HERO = ".on-ink, [data-header='dark']";
 const HOVER_CLOSE_MS = 140;
 
 export default function Header() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
+  const [overDark, setOverDark] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mobileSection, setMobileSection] = useState<string | null>(null);
 
@@ -53,6 +57,26 @@ export default function Header() {
     };
   }, []);
 
+  // Is the page's first block under the header a dark hero? Checked at the top
+  // of every page, once things have laid out, and again on resize.
+  useEffect(() => {
+    const check = () => {
+      const header = document.querySelector("header");
+      const hit = document
+        .elementsFromPoint(window.innerWidth / 2, 110)
+        .find((el) => !header?.contains(el) && el !== document.documentElement && el !== document.body);
+      setOverDark(Boolean(hit?.closest(DARK_HERO)));
+    };
+    const raf = requestAnimationFrame(check);
+    const timer = setTimeout(check, 400);
+    window.addEventListener("resize", check);
+    return () => {
+      cancelAnimationFrame(raf);
+      clearTimeout(timer);
+      window.removeEventListener("resize", check);
+    };
+  }, [pathname]);
+
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "";
     return () => {
@@ -82,12 +106,15 @@ export default function Header() {
     setMobileSection(null);
   };
 
+  const solid = scrolled || Boolean(openItem) || mobileOpen || !overDark;
+  const linkTone = solid ? "text-black hover:text-brand-deep" : "text-white hover:text-white/80";
+
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 bg-surface transition-shadow duration-300 ${
-        scrolled || openItem || mobileOpen
-          ? "border-b border-hairline shadow-[0_8px_24px_-18px_rgb(0_0_0/0.35)]"
-          : "border-b border-hairline"
+      className={`fixed inset-x-0 top-0 z-50 border-b transition-[box-shadow,border-color] duration-500 ${
+        solid
+          ? "border-hairline shadow-[0_8px_24px_-18px_rgb(0_0_0/0.35)]"
+          : "border-transparent shadow-none"
       }`}
       onKeyDown={(event) => {
         if (event.key === "Escape") {
@@ -96,17 +123,42 @@ export default function Header() {
         }
       }}
     >
+      {/* White surface, faded in on scroll. */}
+      <div
+        aria-hidden
+        className={`pointer-events-none absolute inset-0 bg-surface transition-opacity duration-500 ${
+          solid ? "opacity-100" : "opacity-0"
+        }`}
+      />
+      {/* Soft shadow from the top edge so white text reads over any picture. */}
+      <div
+        aria-hidden
+        className={`pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/60 via-black/25 to-transparent transition-opacity duration-500 ${
+          solid ? "opacity-0" : "opacity-100"
+        }`}
+      />
       <div ref={wrapRef} className="relative" onPointerLeave={(e) => e.pointerType === "mouse" && scheduleClose()}>
         <div className="shell flex h-16 items-center justify-between gap-6 lg:h-[4.5rem]">
           <Link href="/" className="shrink-0" aria-label="BVK Hydrotech — home" onClick={closeMobile}>
-            <Image
-              src={LOGO}
-              alt="BVK Hydrotech, a BVK Group company"
-              width={577}
-              height={285}
-              priority
-              className="h-11 w-auto lg:h-12"
-            />
+            <span className="relative block">
+              <Image
+                src={LOGO}
+                alt="BVK Hydrotech, a BVK Group company"
+                width={577}
+                height={285}
+                priority
+                className={`h-11 w-auto transition-opacity duration-500 lg:h-12 ${solid ? "opacity-100" : "opacity-0"}`}
+              />
+              <Image
+                src={LOGO_WHITE}
+                alt=""
+                width={577}
+                height={285}
+                priority
+                aria-hidden
+                className={`absolute inset-0 h-11 w-auto transition-opacity duration-500 lg:h-12 ${solid ? "opacity-0" : "opacity-100"}`}
+              />
+            </span>
           </Link>
 
           <nav aria-label="Primary" className="hidden items-center gap-1 xl:flex">
@@ -129,7 +181,7 @@ export default function Header() {
                     aria-controls={`mega-${item.key}`}
                     onClick={() => setOpenKey(open ? null : item.key)}
                     className={`group relative inline-flex items-center gap-1.5 rounded-sm px-3.5 py-2.5 text-[0.9375rem] font-semibold transition-colors ${
-                      open || active ? "text-brand-deep" : "text-black hover:text-brand-deep"
+                      open || active ? (solid ? "text-brand-deep" : "text-white") : linkTone
                     }`}
                   >
                     {item.label}
@@ -151,7 +203,7 @@ export default function Header() {
               href="/contact"
               aria-current={pathname === "/contact" ? "page" : undefined}
               className={`rounded-sm px-3.5 py-2.5 text-[0.9375rem] font-semibold transition-colors ${
-                pathname === "/contact" ? "text-brand-deep" : "text-black hover:text-brand-deep"
+                pathname === "/contact" ? (solid ? "text-brand-deep" : "text-white") : linkTone
               }`}
             >
               Contact
@@ -170,7 +222,11 @@ export default function Header() {
               aria-expanded={mobileOpen}
               aria-controls="mobile-nav"
               aria-label={mobileOpen ? "Close menu" : "Open menu"}
-              className="flex h-11 w-11 items-center justify-center rounded-md border border-hairline text-black transition hover:border-brand-deep hover:text-brand-deep xl:hidden"
+              className={`flex h-11 w-11 items-center justify-center rounded-md border transition xl:hidden ${
+                solid
+                  ? "border-hairline text-black hover:border-brand-deep hover:text-brand-deep"
+                  : "border-white/50 text-white hover:border-white"
+              }`}
             >
               {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </button>

@@ -62,7 +62,7 @@ export default function CorporatePage({ content }: { content: SolutionPageConten
   return (
     <div className={styles.page}>
       {/* HERO — full-bleed ink panel, photograph behind a scrim. */}
-      <section className={styles.hero}>
+      <section className={styles.hero} data-header="dark">
         <InnerHeroImage />
         <div aria-hidden className={styles.heroScrim} />
 

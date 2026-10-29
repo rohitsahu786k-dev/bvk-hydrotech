@@ -18,7 +18,7 @@ export default function BlogHero({
   lead?: string;
 }) {
   return (
-    <section className="on-ink relative isolate flex min-h-[calc(75vw+4.5rem)] items-end overflow-hidden bg-ink pb-10 pt-24 md:min-h-[calc(23.82vw+4.5rem)] lg:pb-12 lg:pt-28">
+    <section className="on-ink relative isolate flex min-h-[75vw] items-end overflow-hidden bg-ink pb-10 pt-24 md:min-h-[23.82vw] lg:pb-12 lg:pt-28">
       <InnerHeroImage />
       <div
         aria-hidden

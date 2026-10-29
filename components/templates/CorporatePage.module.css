@@ -16,7 +16,7 @@
   isolation: isolate;
   display: flex;
   align-items: flex-end;
-  min-height: calc(100vw + 4.5rem);
+  min-height: 100vw;
   padding-block: 5rem 3rem;
   background: var(--color-ink);
   overflow: hidden;
@@ -24,7 +24,7 @@
 
 @media (min-width: 768px) {
   .hero {
-    min-height: calc(23.82vw + 4.5rem);
+    min-height: 23.82vw;
     padding-block: 6rem 3rem;
   }
 }

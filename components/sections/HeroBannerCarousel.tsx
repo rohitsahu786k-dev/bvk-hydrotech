@@ -169,7 +169,8 @@ export default function HeroBannerCarousel({
     <section
       aria-roledescription="carousel"
       aria-label="Featured solutions"
-      className="bg-ink pt-[calc(4rem+1px)] lg:pt-[calc(4.5rem+1px)]"
+      data-header="dark"
+      className="bg-ink"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       onFocusCapture={() => setHovered(true)}
@@ -281,7 +282,7 @@ export default function HeroBannerCarousel({
             onClick={() => setUserPaused((p) => !p)}
             aria-pressed={userPaused}
             aria-label={userPaused ? "Start automatic banner change" : "Pause automatic banner change"}
-            className="absolute right-3 top-3 z-[3] flex h-9 w-9 items-center justify-center rounded-full border border-white/25 bg-ink/55 text-white backdrop-blur transition-colors hover:bg-ink/80 md:bottom-5 md:right-5 md:top-auto"
+            className="absolute right-3 top-[4.75rem] z-[3] flex h-9 w-9 items-center justify-center rounded-full border border-white/25 bg-ink/55 text-white backdrop-blur transition-colors hover:bg-ink/80 md:bottom-5 md:right-5 md:top-auto"
           >
             {userPaused ? <Play aria-hidden className="h-4 w-4" /> : <Pause aria-hidden className="h-4 w-4" />}
           </button>
