@@ -613,7 +613,7 @@ a > svg.lucide-download,
 /* =============================================================================
    TYPE SCALE OVERRIDE
    Headings are weight 500 everywhere; every other piece of text is 14px on
-   desktop. Declared last with !important so it wins over per-component size
+   mobile and desktop. Declared last with !important so it wins over per-component size
    and weight utilities. Elements inside a heading inherit the heading's size.
    .font-display marks display figures (stats, step numbers), which keep their
    own size but take the same weight.
@@ -640,33 +640,31 @@ h6 * {
   font-weight: inherit !important;
 }
 
-@media (min-width: 1024px) {
-  :is(
-      p,
-      li,
-      a,
-      span,
-      label,
-      dt,
-      dd,
-      td,
-      th,
-      caption,
-      figcaption,
-      address,
-      blockquote,
-      small,
-      strong,
-      em,
-      button,
-      input,
-      select,
-      textarea,
-      summary
-    ):not(:is(h1, h2, h3, h4, h5, h6) *):not(.font-display):not(.font-display *):not(svg *) {
-    font-size: 14px !important;
-    line-height: 1.6 !important;
-  }
+:is(
+    p,
+    li,
+    a,
+    span,
+    label,
+    dt,
+    dd,
+    td,
+    th,
+    caption,
+    figcaption,
+    address,
+    blockquote,
+    small,
+    strong,
+    em,
+    button,
+    input,
+    select,
+    textarea,
+    summary
+  ):not(:is(h1, h2, h3, h4, h5, h6) *):not(.font-display):not(.font-display *):not(svg *) {
+  font-size: 14px !important;
+  line-height: 1.6 !important;
 }
 
 /* One closing CTA for the whole site: the footer's. Page-level bands are hidden. */
