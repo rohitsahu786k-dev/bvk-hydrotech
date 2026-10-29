@@ -90,7 +90,7 @@ export default async function EventsPage() {
     <>
       <JsonLd data={schemas} />
 
-      <section className="on-ink relative isolate flex min-h-[56vh] items-end overflow-hidden bg-ink pb-24 pt-40 lg:min-h-[64vh] lg:pb-28 lg:pt-52">
+      <section className="on-ink relative isolate flex min-h-[56vh] flex-col justify-end overflow-hidden bg-ink pt-40 lg:min-h-[64vh] lg:pt-52">
         <BannerMedia banner={hero.banner} />
 
         {marquee.length > 0 && <EventsMarquee items={marquee} className="absolute inset-x-0 top-16 z-10 lg:top-[4.5rem]" />}
@@ -122,9 +122,9 @@ export default async function EventsPage() {
             )}
           </div>
         </div>
-      </section>
 
-      <EventsStats stats={settings.stats} />
+        <EventsStats stats={settings.stats} />
+      </section>
 
       {spotlight && <EventSpotlight event={toCard(spotlight, today)} />}
 

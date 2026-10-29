@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
   for (const tag of [
     "wp-posts", "wp-pages", "wp-front-page", "wp-home", "wp-all", "wp-menus", "wp-settings",
     "wp-faqs", "wp-certifications", "wp-downloads", "wp-industries", "wp-products",
-    "wp-services", "wp-team", "wp-testimonials", "wp-case-studies", "wp-popups", "wp-events", "wp-home-banners",
+    "wp-services", "wp-team", "wp-testimonials", "wp-case-studies", "wp-popups", "wp-events", "wp-home-banners", "wp-announcement",
   ]) revalidateTag(tag, "max");
   revalidatePath("/", "layout");
   if (slug) {

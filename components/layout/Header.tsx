@@ -111,7 +111,8 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 border-b transition-[box-shadow,border-color] duration-500 ${
+      style={{ top: "var(--announce-offset, 0px)" }}
+      className={`fixed inset-x-0 z-50 border-b transition-[box-shadow,border-color] duration-500 ${
         solid
           ? "border-hairline shadow-[0_8px_24px_-18px_rgb(0_0_0/0.35)]"
           : "border-transparent shadow-none"
@@ -139,7 +140,19 @@ export default function Header() {
       />
       <div ref={wrapRef} className="relative" onPointerLeave={(e) => e.pointerType === "mouse" && scheduleClose()}>
         <div className="shell flex h-16 items-center justify-between gap-6 lg:h-[4.5rem]">
-          <Link href="/" className="shrink-0" aria-label="BVK Hydrotech — home" onClick={closeMobile}>
+          <Link
+            href="/"
+            className="shrink-0"
+            aria-label="BVK Hydrotech — home"
+            onClick={(event) => {
+              closeMobile();
+              // Already on the homepage Next does not scroll, so go to the top ourselves.
+              if (pathname === "/") {
+                event.preventDefault();
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }
+            }}
+          >
             <span className="relative block">
               <Image
                 src={LOGO}

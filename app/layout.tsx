@@ -6,6 +6,8 @@ import MotionObserver from "@/components/ui/MotionObserver";
 import PopupManager from "@/components/popups/PopupManager";
 import { getChrome } from "@/lib/wordpress/home";
 import { getPopups } from "@/lib/wordpress/popups";
+import { getAnnouncement } from "@/lib/wordpress/announcement";
+import AnnouncementBar from "@/components/layout/AnnouncementBar";
 import { OG_DEFAULT } from "@/lib/seo/defaults";
 import { JsonLd, organisationSchema, websiteSchema } from "@/lib/seo/jsonLd";
 
@@ -80,7 +82,11 @@ export default async function RootLayout({
 }) {
   // Navigation and contact details are authored in WordPress, so the chrome is
   // fetched once here rather than in every route.
-  const [{ menus, settings }, popups] = await Promise.all([getChrome(), getPopups()]);
+  const [{ menus, settings }, popups, announcement] = await Promise.all([
+    getChrome(),
+    getPopups(),
+    getAnnouncement(),
+  ]);
 
   return (
     <html lang="en-IN">
@@ -110,6 +116,7 @@ export default async function RootLayout({
         </a>
 
         <div aria-hidden className="scroll-progress" />
+        {announcement && <AnnouncementBar data={announcement} />}
         <Header />
         <main id="main-content">{children}</main>
         <Footer menus={menus} settings={settings} />

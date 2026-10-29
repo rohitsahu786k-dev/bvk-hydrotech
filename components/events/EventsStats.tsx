@@ -2,12 +2,12 @@ import { Activity, Flag, Globe2, Users } from "lucide-react";
 
 const ICONS = [Flag, Globe2, Users, Activity];
 
-/** Up to four headline numbers, overlapping the lower edge of the banner. */
+/** Up to four headline numbers, sitting at the foot of the banner. */
 export default function EventsStats({ stats }: { stats: { number: string; label: string }[] }) {
   if (stats.length === 0) return null;
 
   return (
-    <section aria-label="Events at a glance" className="relative z-10 -mt-10">
+    <section aria-label="Events at a glance" className="relative z-10 pb-8 pt-12 lg:pb-10 lg:pt-14">
       <ul className="shell grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {stats.map((stat, i) => {
           const Icon = ICONS[i % ICONS.length];
