@@ -68,8 +68,12 @@ export default function AnnouncementBar({ data }: { data: Announcement }) {
 
   if (closed) return null;
 
-  const length = data.messages.reduce((sum, m) => sum + m.text.length + m.label.length + 12, 0);
-  const seconds = Math.max(18, Math.round((length * 9 + 600) / PIXELS_PER_SECOND[data.speed]));
+  // Each copy of the list must be wider than the screen or the loop shows a
+  // gap, so a short list is repeated until it is.
+  const chars = data.messages.reduce((sum, m) => sum + m.text.length + m.label.length + 8, 0);
+  const repeat = Math.max(1, Math.ceil(300 / Math.max(chars, 1)));
+  const loop = Array.from({ length: repeat }, () => data.messages).flat();
+  const seconds = Math.max(18, Math.round((chars * repeat * 9 + 600) / PIXELS_PER_SECOND[data.speed]));
 
   const close = () => {
     setClosedNow(true);
@@ -88,7 +92,7 @@ export default function AnnouncementBar({ data }: { data: Announcement }) {
         <div className={styles.track} style={{ "--dur": `${seconds}s` } as React.CSSProperties}>
           {[false, true].map((copy) => (
             <ul key={String(copy)} className={styles.list} aria-hidden={copy || undefined}>
-              {data.messages.map((m, i) => (
+              {loop.map((m, i) => (
                 <li key={`${i}-${m.text}`} className={styles.item}>
                   <span>{m.text}</span>
                   {m.url &&
