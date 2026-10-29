@@ -33,7 +33,7 @@ export default function HomeSolutionsDuo() {
               key={card.title}
               className="group flex flex-col overflow-hidden rounded-lg border border-hairline bg-surface transition-colors duration-300 hover:border-brand-deep/40"
             >
-              <div className="relative h-64 w-full overflow-hidden lg:h-72">
+              <div className="relative h-72 w-full overflow-hidden sm:h-80 lg:h-[26rem]">
                 <Image
                   src={card.image}
                   alt={card.title}
