@@ -688,6 +688,15 @@ h2:not(.uppercase) {
   letter-spacing: -0.015em;
 }
 
+/* The manufacturing-process showcase heading is deliberately larger than the
+   standard H2 scale, matching the approved design. */
+h2.process-title:not(.uppercase) {
+  font-size: clamp(2.75rem, 5.6vw, 4.75rem) !important;
+  line-height: 0.98 !important;
+  letter-spacing: -0.035em;
+  font-weight: 700 !important;
+}
+
 /* Article body: headings step down so a long post reads as prose, not as a
    stack of page titles. */
 .article-body h2:not(.uppercase) {

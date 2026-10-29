@@ -53,7 +53,7 @@ import { OG_DEFAULT } from "@/lib/seo/defaults";
 import { JsonLd, faqSchema } from "@/lib/seo/jsonLd";
 import { assertEventsAvailable, getEvent, getEventsData } from "@/lib/wordpress/events";
 
-export const revalidate = 300;
+export const revalidate = 60;
 
 type PageProps = { params: Promise<{ slug: string }> };
 

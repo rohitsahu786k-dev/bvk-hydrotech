@@ -242,7 +242,7 @@ export async function getPosts(limit = 24): Promise<BlogPost[]> {
   try {
     const response = await fetch(
       `${base()}/wp-json/wp/v2/posts?per_page=${limit}&status=publish&_embed=wp:featuredmedia,wp:term,author`,
-      { next: { revalidate: 900, tags: ["wp-posts"] } },
+      { next: { revalidate: 120, tags: ["wp-posts"] } },
     );
     if (!response.ok) return [];
     const rows: any[] = await readJson(response);
@@ -263,7 +263,7 @@ export async function getPostsPage(
   try {
     const response = await fetch(
       `${base()}/wp-json/wp/v2/posts?per_page=${perPage}&page=${page}&status=publish&_embed=wp:featuredmedia,wp:term,author`,
-      { next: { revalidate: 900, tags: ["wp-posts"] } },
+      { next: { revalidate: 120, tags: ["wp-posts"] } },
     );
     if (!response.ok) return { posts: [], totalPages: 1 };
     const rows: any[] = await readJson(response);
@@ -282,7 +282,7 @@ export async function getPost(slug: string): Promise<BlogPost | null> {
   try {
     const response = await fetch(
       `${base()}/wp-json/wp/v2/posts?slug=${encodeURIComponent(slug)}&status=publish&_embed=wp:featuredmedia,wp:term,author`,
-      { next: { revalidate: 900, tags: ["wp-posts", `wp-post-${slug}`] } },
+      { next: { revalidate: 120, tags: ["wp-posts", `wp-post-${slug}`] } },
     );
     if (!response.ok) return null;
     const rows: any[] = await readJson(response);
@@ -305,7 +305,7 @@ export async function getCategories(): Promise<BlogCategory[]> {
   try {
     const response = await fetch(
       `${base()}/wp-json/wp/v2/categories?per_page=100&hide_empty=true&orderby=count&order=desc`,
-      { next: { revalidate: 900, tags: ["wp-posts"] } },
+      { next: { revalidate: 120, tags: ["wp-posts"] } },
     );
     if (!response.ok) return [];
     const rows: any[] = await readJson(response);
@@ -325,7 +325,7 @@ export async function getPostsByCategory(slug: string): Promise<{ category: Blog
   try {
     const response = await fetch(
       `${base()}/wp-json/wp/v2/posts?categories=${category.id}&per_page=50&status=publish&_embed=wp:featuredmedia,wp:term,author`,
-      { next: { revalidate: 900, tags: ["wp-posts"] } },
+      { next: { revalidate: 120, tags: ["wp-posts"] } },
     );
     if (!response.ok) return { category, posts: [] };
     const rows: any[] = await readJson(response);
@@ -371,7 +371,7 @@ export async function getBlogSettings(): Promise<BlogSettings> {
   const fb = BLOG_SETTINGS_FALLBACK;
   try {
     const response = await fetch(`${base()}/wp-json/bvk/v1/blog-settings`, {
-      next: { revalidate: 900, tags: ["wp-posts"] },
+      next: { revalidate: 120, tags: ["wp-posts"] },
     });
     if (!response.ok) return fb;
     const raw: any = await readJson(response);

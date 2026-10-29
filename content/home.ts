@@ -86,32 +86,47 @@ export const materials: MaterialCard[] = [
 export interface ProcessStep {
   title: string;
   text: string;
+  /** Photo kept in the WordPress media library, served from /media. */
+  image: string;
+  imageAlt: string;
 }
 
 export const processSteps: ProcessStep[] = [
   {
     title: "Requirement Analysis",
     text: "Drawings, cell chemistry, operating conditions and expected volume.",
+    image: "/media/bvk-process-01-requirement-analysis.webp",
+    imageAlt: "Mesh filter element on engineering drawings",
   },
   {
     title: "Material Selection",
     text: "A material recommendation from fourteen catalogued alloys.",
+    image: "/media/bvk-process-02-material-selection.webp",
+    imageAlt: "Woven mesh sheets and metal strips",
   },
   {
     title: "Mesh Engineering",
     text: "CFD, simulation, prototyping and mesh design optimisation.",
+    image: "/media/bvk-process-03-mesh-engineering.webp",
+    imageAlt: "Mesh cylinder with flow simulation streamlines",
   },
   {
     title: "Manufacturing",
     text: "Weaving or knitting on German-origin equipment, then annealing, coating, forming and cutting.",
+    image: "/media/bvk-process-04-manufacturing.webp",
+    imageAlt: "Close-up of woven stainless steel mesh",
   },
   {
     title: "Inspection",
     text: "Light-box and video inspection against process and quality control plans.",
+    image: "/media/bvk-process-05-inspection.webp",
+    imageAlt: "Vision inspection of a mesh filter element",
   },
   {
     title: "Delivery",
     text: "Reusable, recyclable packaging with full traceability, exported to 25+ countries.",
+    image: "/media/bvk-process-06-delivery.webp",
+    imageAlt: "Packaged mesh rolls and filter elements for export",
   },
 ];
 

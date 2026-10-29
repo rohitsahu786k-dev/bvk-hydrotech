@@ -21,7 +21,7 @@ export async function getHomeBanners(): Promise<HomeBannersData> {
   try {
     const response = await fetch(ENDPOINT, {
       headers: { Accept: "application/json" },
-      next: { revalidate: 300, tags: ["wp-home-banners", "wp-home", "wp-all"] },
+      next: { revalidate: 60, tags: ["wp-home-banners", "wp-home", "wp-all"] },
     });
     if (response.status === 404) return EMPTY;
     if (!response.ok) throw new Error(`Home banners request failed: ${response.status}`);

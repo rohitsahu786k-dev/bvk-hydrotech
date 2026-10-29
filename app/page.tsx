@@ -19,7 +19,7 @@ import CtaSection from "@/components/sections/CtaSection";
 import { OG_DEFAULT } from "@/lib/seo/defaults";
 import { JsonLd, faqSchema } from "@/lib/seo/jsonLd";
 
-export const revalidate = 300;
+export const revalidate = 60;
 
 export const metadata: Metadata = {
   title: { absolute: "BVK Hydrotech | Precision Mesh for Electrolysers & Fuel Cells" },

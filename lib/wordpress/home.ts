@@ -482,7 +482,7 @@ const EMPTY: HomeData = {
 export async function getHomeData(): Promise<HomeData> {
   try {
     const data = await fetchGraphQL(HOME_QUERY, {
-      revalidate: 300,
+      revalidate: 60,
       tags: ["wp-home", "wp-all"],
     });
     return normalise(data);

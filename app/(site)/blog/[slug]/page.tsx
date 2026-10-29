@@ -20,7 +20,7 @@ import {
   type PostBlock,
 } from "@/lib/wordpress/blog";
 
-export const revalidate = 900;
+export const revalidate = 120;
 
 type PageProps = { params: Promise<{ slug: string }> };
 

@@ -16,7 +16,7 @@ export async function getPopups(): Promise<Popup[]> {
   try {
     const response = await fetch(ENDPOINT, {
       headers: { Accept: "application/json" },
-      next: { revalidate: 300, tags: ["wp-popups", "wp-all"] },
+      next: { revalidate: 60, tags: ["wp-popups", "wp-all"] },
     });
     if (!response.ok) return [];
 

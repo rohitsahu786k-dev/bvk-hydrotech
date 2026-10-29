@@ -23,7 +23,7 @@ export async function getEventsData(): Promise<EventsData> {
   try {
     const response = await fetch(ENDPOINT, {
       headers: { Accept: "application/json" },
-      next: { revalidate: 300, tags: ["wp-events", "wp-all"] },
+      next: { revalidate: 60, tags: ["wp-events", "wp-all"] },
     });
 
     // The endpoint does not exist until the BVK Events plugin is active. That

@@ -12,7 +12,7 @@ import { OG_DEFAULT } from "@/lib/seo/defaults";
 import { JsonLd, breadcrumbSchema } from "@/lib/seo/jsonLd";
 import { assertEventsAvailable, getEventsData } from "@/lib/wordpress/events";
 
-export const revalidate = 300;
+export const revalidate = 60;
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://bvkhydrotech.com";
 

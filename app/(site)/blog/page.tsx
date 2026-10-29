@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import BlogListing from "@/components/blog/BlogListing";
 import { getBlogSettings } from "@/lib/wordpress/blog";
 
-export const revalidate = 900;
+export const revalidate = 120;
 
 export async function generateMetadata(): Promise<Metadata> {
   const { index } = await getBlogSettings();
