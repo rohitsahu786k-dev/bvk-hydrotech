@@ -178,7 +178,7 @@ export default function FuelCellPage() {
       </section>
 
       {/* ============ FUEL CELL TYPES ============ */}
-      <section id="types" className="section scroll-mt-24 bg-surface-raised">
+      <section id="types" className="section scroll-mt-24 bg-surface">
         <div className="shell">
           <Heading eyebrow={c.types.eyebrow} title={c.types.title} intro={c.types.intro} />
 
@@ -186,13 +186,13 @@ export default function FuelCellPage() {
             {c.types.cards.map((card) => (
               <li key={card.title}>
                 <article className={`flex h-full flex-col overflow-hidden rounded-lg border border-hairline bg-surface ${cardHover}`}>
-                  <div className="relative aspect-[4/3] bg-surface-raised">
+                  <div className="relative aspect-[4/3] bg-white">
                     <Image
                       src={card.image}
                       alt=""
                       fill
                       sizes="(min-width: 1024px) 22vw, (min-width: 640px) 45vw, 100vw"
-                      className="object-contain p-3"
+                      className="object-cover"
                     />
                   </div>
                   <div className="flex flex-1 flex-col p-5">
