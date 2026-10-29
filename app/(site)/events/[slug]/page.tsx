@@ -26,6 +26,16 @@ import EventGallery from "@/components/events/EventGallery";
 import EventsCtaBand from "@/components/events/EventsCtaBand";
 import EventStatusBadge from "@/components/events/EventStatusBadge";
 import {
+  EventAbout,
+  EventAwaits,
+  EventClients,
+  EventFaqs,
+  EventPrevious,
+  EventSolutions,
+  EventTeam,
+  EventVideo,
+} from "@/components/events/EventSections";
+import {
   BOOKING_CLOSED_TEXT,
   bookingDates,
   bookingState,
@@ -40,7 +50,7 @@ import {
 import { eventSchema } from "@/lib/events/schema";
 import type { EventBanner } from "@/lib/events/types";
 import { OG_DEFAULT } from "@/lib/seo/defaults";
-import { JsonLd } from "@/lib/seo/jsonLd";
+import { JsonLd, faqSchema } from "@/lib/seo/jsonLd";
 import { assertEventsAvailable, getEvent, getEventsData } from "@/lib/wordpress/events";
 
 export const revalidate = 300;
@@ -92,7 +102,7 @@ export default async function EventPage({ params }: PageProps) {
   const status = eventStatus(event, today);
   const state = bookingState(event, today);
   const dates = state.open ? bookingDates(event, today) : [];
-  const { booking, contact, venue } = event;
+  const { booking, contact, venue, sections } = event;
 
   // The banner falls back to the card photo, then to the brand pattern.
   const banner: EventBanner = {
@@ -121,6 +131,10 @@ export default async function EventPage({ params }: PageProps) {
     { icon: Building2, label: "Organiser", value: event.organizer, note: "" },
   ].filter((f) => f.value);
 
+  const faqLd = sections.faq.show
+    ? faqSchema(sections.faq.items.map((item) => ({ question: item.question, answer: item.answer })))
+    : null;
+
   const schemas = [
     eventSchema(event, status),
     {
@@ -132,6 +146,7 @@ export default async function EventPage({ params }: PageProps) {
         { "@type": "ListItem", position: 3, name: event.title, item: `${siteUrl}/events/${event.slug}` },
       ],
     },
+    ...(faqLd ? [faqLd] : []),
   ];
 
   return (
@@ -225,7 +240,7 @@ export default async function EventPage({ params }: PageProps) {
       </section>
 
       {/* Key facts */}
-      {facts.length > 0 && (
+      {sections.factsShow && facts.length > 0 && (
         <section aria-label="Event details" className="relative z-10 -mt-10">
           <ul className="shell grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {facts.map(({ icon: Icon, label, value, note }) => (
@@ -248,10 +263,10 @@ export default async function EventPage({ params }: PageProps) {
       <section className="section bg-surface">
         <div className="shell grid gap-12 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-16">
           <div className="min-w-0 space-y-14">
-            {(event.descriptionHtml.trim() || event.summary) && (
+            {sections.overview.show && (event.descriptionHtml.trim() || event.summary) && (
               <div>
-                <p className="eyebrow text-brand-deep">About this event</p>
-                <h2 className="display-section pt-3 text-ink">What to expect</h2>
+                <p className="eyebrow text-brand-deep">{sections.overview.eyebrow}</p>
+                <h2 className="display-section pt-3 text-ink">{sections.overview.heading}</h2>
                 {event.descriptionHtml.trim() ? (
                   <div className="rich-text mt-6" dangerouslySetInnerHTML={{ __html: event.descriptionHtml }} />
                 ) : (
@@ -260,10 +275,10 @@ export default async function EventPage({ params }: PageProps) {
               </div>
             )}
 
-            {event.highlights.length > 0 && (
+            {sections.stall.show && event.highlights.length > 0 && (
               <div>
-                <p className="eyebrow text-brand-deep">At our stall</p>
-                <h2 className="display-section pt-3 text-ink">What we are showcasing</h2>
+                <p className="eyebrow text-brand-deep">{sections.stall.eyebrow}</p>
+                <h2 className="display-section pt-3 text-ink">{sections.stall.heading}</h2>
                 <ul className="mt-6 grid gap-3 sm:grid-cols-2">
                   {event.highlights.map((item) => (
                     <li key={item} className="flex items-start gap-3 rounded-md border border-hairline bg-surface-raised p-4">
@@ -277,10 +292,10 @@ export default async function EventPage({ params }: PageProps) {
               </div>
             )}
 
-            {event.agenda.length > 0 && (
+            {sections.agenda.show && event.agenda.length > 0 && (
               <div>
-                <p className="eyebrow text-brand-deep">Schedule</p>
-                <h2 className="display-section pt-3 text-ink">Programme</h2>
+                <p className="eyebrow text-brand-deep">{sections.agenda.eyebrow}</p>
+                <h2 className="display-section pt-3 text-ink">{sections.agenda.heading}</h2>
                 <ol className="mt-6 space-y-0 border-l-2 border-hairline">
                   {event.agenda.map((item, i) => (
                     <li key={`${item.time}-${item.title}-${i}`} className="relative pb-7 pl-7 last:pb-0">
@@ -294,20 +309,20 @@ export default async function EventPage({ params }: PageProps) {
               </div>
             )}
 
-            {event.gallery.length > 0 && (
+            {sections.photos.show && event.gallery.length > 0 && (
               <div>
-                <p className="eyebrow text-brand-deep">Photos</p>
-                <h2 className="display-section pt-3 text-ink">Gallery</h2>
+                <p className="eyebrow text-brand-deep">{sections.photos.eyebrow}</p>
+                <h2 className="display-section pt-3 text-ink">{sections.photos.heading}</h2>
                 <div className="mt-6">
                   <EventGallery images={event.gallery} title={event.title} />
                 </div>
               </div>
             )}
 
-            {(venue.address || venue.mapEmbed) && (
+            {sections.location.show && (venue.address || venue.mapEmbed) && (
               <div>
-                <p className="eyebrow text-brand-deep">Location</p>
-                <h2 className="display-section pt-3 text-ink">How to find us</h2>
+                <p className="eyebrow text-brand-deep">{sections.location.eyebrow}</p>
+                <h2 className="display-section pt-3 text-ink">{sections.location.heading}</h2>
                 {venue.address && <p className="pt-5 whitespace-pre-line text-grey">{[venue.name, venue.address].filter(Boolean).join("\n")}</p>}
                 {venue.mapEmbed && (
                   <div className="mt-6 h-[22rem] overflow-hidden rounded-lg border border-hairline">
@@ -333,6 +348,7 @@ export default async function EventPage({ params }: PageProps) {
 
           {/* Sidebar */}
           <aside className="space-y-5 lg:sticky lg:top-28 lg:self-start">
+            {sections.glanceShow && (
             <div className="rounded-lg border border-hairline bg-surface-raised p-6">
               <h2 className="font-display text-xl text-ink">At a glance</h2>
               <ul className="mt-4 space-y-3 text-sm text-grey">
@@ -375,8 +391,9 @@ export default async function EventPage({ params }: PageProps) {
                 )}
               </div>
             </div>
+            )}
 
-            {(contact.phone || contact.email || contact.whatsapp) && (
+            {sections.contactShow && (contact.phone || contact.email || contact.whatsapp) && (
               <div className="rounded-lg border border-hairline bg-surface p-6">
                 <h2 className="font-display text-xl text-ink">{contact.name ? `Talk to ${contact.name}` : "Talk to our team"}</h2>
                 <ul className="mt-4 space-y-3 text-sm">
@@ -404,6 +421,14 @@ export default async function EventPage({ params }: PageProps) {
           </aside>
         </div>
       </section>
+
+      <EventAwaits section={sections.awaits} />
+      <EventSolutions section={sections.solutions} />
+      <EventVideo section={sections.video} />
+      <EventAbout section={sections.about} />
+      <EventPrevious section={sections.previous} title={event.title} />
+      <EventClients section={sections.clients} />
+      <EventTeam section={sections.team} />
 
       {/* Booking */}
       {hasBookingSection && (
@@ -478,14 +503,16 @@ export default async function EventPage({ params }: PageProps) {
         </section>
       )}
 
+      <EventFaqs section={sections.faq} />
+
       {/* More events */}
-      {more.length > 0 && (
+      {sections.more.show && more.length > 0 && (
         <section aria-labelledby="more-heading" className="section bg-surface">
           <div className="shell">
             <div className="flex flex-wrap items-end justify-between gap-4">
               <div>
-                <p className="eyebrow text-brand-deep">Keep exploring</p>
-                <h2 id="more-heading" className="display-section pt-3 text-ink">More fairs &amp; events</h2>
+                <p className="eyebrow text-brand-deep">{sections.more.eyebrow}</p>
+                <h2 id="more-heading" className="display-section pt-3 text-ink">{sections.more.heading}</h2>
               </div>
               <Link href="/events" className="group inline-flex items-center gap-1.5 font-semibold text-brand-deep">
                 View all events

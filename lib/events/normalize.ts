@@ -1,3 +1,4 @@
+import { normalizeSections } from "./sections";
 import type {
   EventAgendaItem,
   EventBanner,
@@ -235,6 +236,7 @@ export function normalizeEvent(input: unknown): EventItem | null {
       .filter((v): v is EventImage => v !== null),
     media: { card: image(media.card), banner: banner(media.banner) },
     booking: booking(r.booking),
+    sections: normalizeSections(r.sections),
     contact: {
       name: str(contact.name, "", 80),
       phone: str(contact.phone, "", 40),

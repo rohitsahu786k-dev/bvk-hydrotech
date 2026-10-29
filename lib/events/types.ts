@@ -75,6 +75,66 @@ export interface EventBooking {
   externalUrl: string;
 }
 
+/** The words and visibility of a section. */
+export interface EventBasicSection {
+  show: boolean;
+  eyebrow: string;
+  heading: string;
+}
+
+export interface EventCardItem {
+  image: EventImage | null;
+  title: string;
+  text: string;
+}
+
+export interface EventSolutionItem extends EventCardItem {
+  linkLabel: string;
+  linkUrl: string;
+}
+
+export interface EventPerson {
+  image: EventImage | null;
+  name: string;
+  role: string;
+  phone: string;
+  email: string;
+}
+
+/**
+ * Section-by-section layout of the event page, authored in "Event Page
+ * Sections". WordPress has already applied the site-wide defaults and the
+ * {{event}} placeholder; `show` is false for a hidden or empty section.
+ */
+export interface EventSections {
+  factsShow: boolean;
+  glanceShow: boolean;
+  contactShow: boolean;
+  overview: EventBasicSection;
+  stall: EventBasicSection;
+  agenda: EventBasicSection;
+  photos: EventBasicSection;
+  location: EventBasicSection;
+  more: EventBasicSection;
+  awaits: EventBasicSection & { intro: string; items: EventCardItem[] };
+  solutions: EventBasicSection & { intro: string; items: EventSolutionItem[] };
+  about: {
+    show: boolean;
+    eyebrow: string;
+    heading: string;
+    textHtml: string;
+    image: EventImage | null;
+    linkLabel: string;
+    linkUrl: string;
+    stats: { number: string; label: string }[];
+  };
+  previous: EventBasicSection & { intro: string; images: EventImage[] };
+  clients: EventBasicSection & { intro: string; images: EventImage[] };
+  video: EventBasicSection & { intro: string; video: (EventVideo & { id: string }) | null };
+  team: EventBasicSection & { intro: string; people: EventPerson[] };
+  faq: EventBasicSection & { intro: string; items: { question: string; answer: string }[] };
+}
+
 export interface EventItem {
   id: number;
   slug: string;
@@ -106,6 +166,7 @@ export interface EventItem {
   gallery: EventImage[];
   media: { card: EventImage | null; banner: EventBanner };
   booking: EventBooking;
+  sections: EventSections;
   contact: { name: string; phone: string; email: string; whatsapp: string };
   seo: { title: string; description: string };
   modified: string;
