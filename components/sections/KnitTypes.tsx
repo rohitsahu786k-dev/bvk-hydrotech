@@ -1,27 +1,48 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import type { KnitType } from "@/lib/wordpress/home";
 import ScrollCarousel from "@/components/ui/ScrollCarousel";
 import SectionHeading from "./SectionHeading";
 
 /**
- * The technology block the PO asks for: the product families themselves, with
- * the specification an engineer actually screens on — material, wire diameter
- * and construction. Driven by the Products content type.
+ * The three mesh product families, the same three the Solutions menu lists:
+ * precision, woven and knitted. Each card carries the one-line specification an
+ * engineer screens on.
  */
-export default function KnitTypes({ products }: { products: KnitType[] }) {
-  if (!products.length) return null;
+const FAMILIES = [
+  {
+    title: "Precision Mesh Solutions",
+    href: "/precision-mesh-solutions",
+    image: "/bvk-assets/precision-mesh/01_precision_mesh_hero_transparent_1920x1080.webp",
+    description: "Woven and knitted mesh engineered around your application.",
+    specs: [
+      ["Material", "14 catalogued alloys"],
+      ["Forms", "Woven and knitted, cut to drawing"],
+    ],
+  },
+  {
+    title: "Woven Mesh Solutions",
+    href: "/woven-mesh-solutions",
+    image: "/bvk-assets/woven-mesh/woven-roll.webp",
+    description: "A stable, repeatable opening for rated filtration and electrode support.",
+    specs: [
+      ["Material", "Stainless steel 304 to 904L, Hastelloy C-22"],
+      ["Build", "Controlled aperture"],
+    ],
+  },
+  {
+    title: "Knitted Mesh Solutions",
+    href: "/knitted-mesh-solutions",
+    image: "/bvk-assets/precision-mesh/11_knitted_mesh_solutions_card_1200x800.webp",
+    description: "Single, double and multi-end knits for stacks, GDLs and elastic elements.",
+    specs: [
+      ["Wire Ø", "0.05 mm to 0.30 mm"],
+      ["Build", "Single, double and multi-end, large single-piece diameters"],
+    ],
+  },
+];
 
-  const productHref = (slug: string) =>
-    slug.includes("woven") ? "/woven-mesh-solutions" : "/knitted-mesh-solutions";
-
-  // Card artwork for the two product families, used when the CMS record has no picture.
-  const familyImage = (slug: string) =>
-    slug.includes("woven")
-      ? "/bvk-assets/woven-mesh/woven-wave-sheet.webp"
-      : "/bvk-assets/precision-mesh/11_knitted_mesh_solutions_card_1200x800.webp";
-
+export default function KnitTypes() {
   return (
     <section className="section bg-surface-raised">
       <div className="shell">
@@ -34,16 +55,16 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
 
         <div className="mt-14">
           <ScrollCarousel label="Mesh products">
-            {products.map((product) => (
+            {FAMILIES.map((family) => (
               <Link
-                key={product.slug}
-                href={productHref(product.slug)}
+                key={family.href}
+                href={family.href}
                 className="card-light group flex h-full flex-col overflow-hidden"
               >
                 <div className="relative aspect-16/10 w-full overflow-hidden bg-white">
                   <Image
-                    src={product.image?.sourceUrl || familyImage(product.slug)}
-                    alt={product.image?.altText || product.title}
+                    src={family.image}
+                    alt={family.title}
                     fill
                     sizes="(min-width: 1024px) 30vw, (min-width: 640px) 46vw, 80vw"
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
@@ -51,34 +72,17 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
                 </div>
 
                 <div className="flex flex-1 flex-col p-7">
-                  <h3 className="font-display text-lg tracking-tight text-ink">{product.title}</h3>
+                  <h3 className="font-display text-lg tracking-tight text-ink">{family.title}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-grey">{family.description}</p>
 
-                  {product.description && (
-                    <p className="mt-3 text-sm leading-relaxed text-grey">{product.description}</p>
-                  )}
-
-                  {(product.material || product.wireDiameter || product.meshCount) && (
-                    <dl className="mt-6 space-y-3 border-t border-hairline pt-6 text-[0.8125rem]">
-                      {product.material && (
-                        <div className="flex gap-4">
-                          <dt className="w-24 shrink-0 font-semibold text-grey-soft">Material</dt>
-                          <dd className="text-grey">{product.material}</dd>
-                        </div>
-                      )}
-                      {product.wireDiameter && (
-                        <div className="flex gap-4">
-                          <dt className="w-24 shrink-0 font-semibold text-grey-soft">Wire Ø</dt>
-                          <dd className="text-grey">{product.wireDiameter}</dd>
-                        </div>
-                      )}
-                      {product.meshCount && (
-                        <div className="flex gap-4">
-                          <dt className="w-24 shrink-0 font-semibold text-grey-soft">Build</dt>
-                          <dd className="text-grey">{product.meshCount}</dd>
-                        </div>
-                      )}
-                    </dl>
-                  )}
+                  <dl className="mt-6 space-y-3 border-t border-hairline pt-6 text-[0.8125rem]">
+                    {family.specs.map(([term, value]) => (
+                      <div key={term} className="flex gap-4">
+                        <dt className="w-24 shrink-0 font-semibold text-grey-soft">{term}</dt>
+                        <dd className="text-grey">{value}</dd>
+                      </div>
+                    ))}
+                  </dl>
 
                   <span className="mt-auto flex items-center gap-2 pt-7 text-[0.8125rem] font-semibold text-brand-deep">
                     View product range

@@ -60,7 +60,7 @@ export default async function HomePage() {
       <StatsBand stats={data.stats} />
       <HomeSolutionsDuo />
       <AboutSection about={data.about} />
-      <KnitTypes products={data.knitTypes} />
+      <KnitTypes />
       <HomeMaterials />
       <HomeProcess />
       <HomeRnd />
