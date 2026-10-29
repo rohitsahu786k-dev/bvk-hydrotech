@@ -46,7 +46,7 @@ export default function KnitTypes({ products }: { products: KnitType[] }) {
                     alt={product.image?.altText || product.title}
                     fill
                     sizes="(min-width: 1024px) 30vw, (min-width: 640px) 46vw, 80vw"
-                    className="object-contain p-4 transition-transform duration-700 group-hover:scale-105"
+                    className="object-cover transition-transform duration-700 group-hover:scale-105"
                   />
                 </div>
 
