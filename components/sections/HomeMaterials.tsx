@@ -60,9 +60,9 @@ export default function HomeMaterials() {
           </ul>
         </div>
 
-        <div className="flex items-center gap-4 pt-8 text-sm text-grey">
+        <div className="flex items-start gap-4 pt-8 text-sm text-grey lg:items-center">
           <Layers aria-hidden className="h-6 w-6 shrink-0 text-brand-deep" />
-          <p className="shrink-0">
+          <p className="min-w-0 lg:shrink-0">
             Fourteen catalogued alloys with AISI/UNS designations.{" "}
             <Link
               href="/precision-mesh-solutions"
