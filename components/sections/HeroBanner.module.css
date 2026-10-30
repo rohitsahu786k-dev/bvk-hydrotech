@@ -10,6 +10,9 @@
 .frame {
   position: relative;
   overflow: hidden;
+  /* Explicit width: without it, max-height shrinks the width through the
+     aspect ratio on short, wide screens and leaves a blank strip on the right. */
+  width: 100%;
   background: var(--color-ink);
   aspect-ratio: var(--ar-m);
   max-height: calc(var(--max-h) * 1svh);
