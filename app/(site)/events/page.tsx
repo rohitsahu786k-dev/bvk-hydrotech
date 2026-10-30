@@ -150,9 +150,7 @@ export default async function EventsPage() {
         </section>
       )}
 
-      <div className="pt-4">
-        <EventsCtaBand cta={settings.cta} />
-      </div>
+      <EventsCtaBand cta={settings.cta} />
     </>
   );
 }

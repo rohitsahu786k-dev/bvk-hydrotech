@@ -252,7 +252,8 @@ export default function Header() {
           <>
             <div
               aria-hidden
-              className="pointer-events-none fixed inset-x-0 top-[4.5rem] bottom-0 hidden bg-ink/35 backdrop-blur-[2px] xl:block"
+              style={{ top: "calc(var(--announce-offset, 0px) + 4.5rem)" }}
+              className="pointer-events-none fixed inset-x-0 bottom-0 hidden bg-ink/35 backdrop-blur-[2px] xl:block"
             />
             <div
               id={`mega-${openItem.key}`}
@@ -393,7 +394,8 @@ export default function Header() {
       <div
         id="mobile-nav"
         hidden={!mobileOpen}
-        className="fixed inset-x-0 top-16 bottom-0 overflow-y-auto border-t border-hairline bg-surface xl:hidden"
+        style={{ top: "calc(var(--announce-offset, 0px) + 4rem)" }}
+        className="fixed inset-x-0 bottom-0 overflow-y-auto border-t border-hairline bg-surface xl:hidden"
       >
         <nav aria-label="Primary (mobile)" className="shell flex flex-col py-4">
           {navigation.map((item) => {
